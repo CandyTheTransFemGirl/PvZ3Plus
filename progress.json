@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 58,
+  "revision": 59,
   "level": 11,
   "stars": 33,
   "wins": 11,
@@ -632,6 +632,22 @@
         "startsOnClaim": true
       },
       "claimedAt": "2026-11-25T22:45:55.610Z"
+    },
+    {
+      "id": "candy-1795646944865-kc8yttf6oj",
+      "sender": "candy",
+      "recipient": "assistant-player",
+      "type": "custom",
+      "title": "Early Access: Frostroot",
+      "body": "How CHILLY!",
+      "deliverAt": "2026-11-25T22:49:04.412Z",
+      "read": false,
+      "claimed": false,
+      "temporaryPlantAccess": {
+        "plantId": "frostroot",
+        "durationMs": 10800000,
+        "startsOnClaim": true
+      }
     }
   ],
   "temporaryPlantAccess": [
