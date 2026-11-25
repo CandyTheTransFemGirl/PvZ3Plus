@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 27,
+  "revision": 28,
   "level": 8,
   "stars": 24,
   "wins": 8,
@@ -207,7 +207,8 @@
     "Level 7 roster correction: Athlete Batter Zombie encountered.",
     "Level 7 finalized: 3-star illustrative victory, electrical strategy, Water Spiller and Athletic Batter mechanics confirmed. No duplicate rewards.",
     "Level 8 illustrative 3-star victory. Unlocked Tangle Kelp and Wrangle-Kelp; duplicate Lightning Reed reward pending. Disco and backup dancer encountered.",
-    "Level 8 reward correction: Torchwood unlocked."
+    "Level 8 reward correction: Torchwood unlocked.",
+    "Level 8 illustrative 3-star victory; unlocked Torchwood, Tangle Kelp and Wrangle-Kelp; encountered Disco Zombie. XP pending."
   ],
   "xp": {
     "peashooter": 260,
