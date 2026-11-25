@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 32,
+  "revision": 33,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -407,5 +407,17 @@
   ],
   "customZombiePlan": {
     "perZone": 2
+  },
+  "tower": {
+    "furthestFloor": 0,
+    "totalRuns": 0,
+    "personalBest": null,
+    "bestScore": 0,
+    "latestRun": null,
+    "runs": [],
+    "leaderboard": [],
+    "secretAchievement": {
+      "unlocked": false
+    }
   }
 }
