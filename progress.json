@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 14,
+  "revision": 15,
   "level": 5,
   "stars": 15,
   "wins": 5,
@@ -246,6 +246,12 @@
         "10": 40,
         "19": 80
       }
-    }
+    },
+    "exclusiveUnlock": true,
+    "seedUnlockAllowed": false
+  },
+  "plantPassRules": {
+    "featuredPlantUnlock": "pass-only",
+    "wildSeedUnlockAllowed": false
   }
 }
