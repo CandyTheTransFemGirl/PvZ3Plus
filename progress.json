@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 49,
+  "revision": 50,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -2419,5 +2419,973 @@
       "simulated": true,
       "allowReplies": true
     }
+  },
+  "spectate": {
+    "format": "PvZ3PlusSpectateV1",
+    "sessions": {
+      "generated-0-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-0-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-0-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-0-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-0-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-0-5": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-0-6": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-0-7": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-0-8": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-0-9": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-0-10": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-0-11": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-0-12": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-0-13": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-0-14": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-1-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-1-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-1-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-1-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-1-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-1-5": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-1-6": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-1-7": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-2-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-2-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-2-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-2-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-2-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-2-5": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-2-6": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-3-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-3-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-3-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-3-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-3-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-4-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-4-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-4-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-4-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-4-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-4-5": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-4-6": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-4-7": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-4-8": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-4-9": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "assistant-player": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-5-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-5-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-5-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-5-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-5-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-5-5": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-6-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-6-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-6-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-6-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-7-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-7-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-7-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-7-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-7-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-7-5": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-7-6": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-7-7": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-7-8": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-7-9": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-7-10": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-7-11": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-7-12": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-8-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-8-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-8-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-8-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-8-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-8-5": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-8-6": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-8-7": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-8-8": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-8-9": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-8-10": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-8-11": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-8-12": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-8-13": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-9-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-9-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-9-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-9-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-9-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-9-5": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-9-6": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-9-7": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-9-8": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-9-9": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-10-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-10-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-10-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-10-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-10-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-10-5": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-10-6": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-10-7": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-10-8": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-11-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-11-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-11-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-11-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-11-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-11-5": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-11-6": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-11-7": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-11-8": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-12-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-12-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-12-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-12-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-12-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-12-5": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-12-6": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-12-7": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-12-8": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-12-9": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-13-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-13-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-13-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-13-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-13-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-13-5": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-14-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-14-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-14-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-14-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-14-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-14-5": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-15-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-15-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-15-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-16-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-16-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-16-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-16-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-16-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-17-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-17-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-18-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-18-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-18-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-18-3": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-18-4": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-18-5": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-18-6": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-18-7": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-18-8": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-18-9": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-18-10": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-18-11": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-18-12": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-18-13": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-19-0": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-19-1": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      },
+      "generated-19-2": {
+        "status": "idle",
+        "level": null,
+        "events": []
+      }
+    },
+    "chats": {
+      "generated-0-0": [],
+      "generated-0-1": [],
+      "generated-0-2": [],
+      "generated-0-3": [],
+      "generated-0-4": [],
+      "generated-0-5": [],
+      "generated-0-6": [],
+      "generated-0-7": [],
+      "generated-0-8": [],
+      "generated-0-9": [],
+      "generated-0-10": [],
+      "generated-0-11": [],
+      "generated-0-12": [],
+      "generated-0-13": [],
+      "generated-0-14": [],
+      "generated-1-0": [],
+      "generated-1-1": [],
+      "generated-1-2": [],
+      "generated-1-3": [],
+      "generated-1-4": [],
+      "generated-1-5": [],
+      "generated-1-6": [],
+      "generated-1-7": [],
+      "generated-2-0": [],
+      "generated-2-1": [],
+      "generated-2-2": [],
+      "generated-2-3": [],
+      "generated-2-4": [],
+      "generated-2-5": [],
+      "generated-2-6": [],
+      "generated-3-0": [],
+      "generated-3-1": [],
+      "generated-3-2": [],
+      "generated-3-3": [],
+      "generated-3-4": [],
+      "generated-4-0": [],
+      "generated-4-1": [],
+      "generated-4-2": [],
+      "generated-4-3": [],
+      "generated-4-4": [],
+      "generated-4-5": [],
+      "generated-4-6": [],
+      "generated-4-7": [],
+      "generated-4-8": [],
+      "generated-4-9": [],
+      "assistant-player": [],
+      "generated-5-0": [],
+      "generated-5-1": [],
+      "generated-5-2": [],
+      "generated-5-3": [],
+      "generated-5-4": [],
+      "generated-5-5": [],
+      "generated-6-0": [],
+      "generated-6-1": [],
+      "generated-6-2": [],
+      "generated-6-3": [],
+      "generated-7-0": [],
+      "generated-7-1": [],
+      "generated-7-2": [],
+      "generated-7-3": [],
+      "generated-7-4": [],
+      "generated-7-5": [],
+      "generated-7-6": [],
+      "generated-7-7": [],
+      "generated-7-8": [],
+      "generated-7-9": [],
+      "generated-7-10": [],
+      "generated-7-11": [],
+      "generated-7-12": [],
+      "generated-8-0": [],
+      "generated-8-1": [],
+      "generated-8-2": [],
+      "generated-8-3": [],
+      "generated-8-4": [],
+      "generated-8-5": [],
+      "generated-8-6": [],
+      "generated-8-7": [],
+      "generated-8-8": [],
+      "generated-8-9": [],
+      "generated-8-10": [],
+      "generated-8-11": [],
+      "generated-8-12": [],
+      "generated-8-13": [],
+      "generated-9-0": [],
+      "generated-9-1": [],
+      "generated-9-2": [],
+      "generated-9-3": [],
+      "generated-9-4": [],
+      "generated-9-5": [],
+      "generated-9-6": [],
+      "generated-9-7": [],
+      "generated-9-8": [],
+      "generated-9-9": [],
+      "generated-10-0": [],
+      "generated-10-1": [],
+      "generated-10-2": [],
+      "generated-10-3": [],
+      "generated-10-4": [],
+      "generated-10-5": [],
+      "generated-10-6": [],
+      "generated-10-7": [],
+      "generated-10-8": [],
+      "generated-11-0": [],
+      "generated-11-1": [],
+      "generated-11-2": [],
+      "generated-11-3": [],
+      "generated-11-4": [],
+      "generated-11-5": [],
+      "generated-11-6": [],
+      "generated-11-7": [],
+      "generated-11-8": [],
+      "generated-12-0": [],
+      "generated-12-1": [],
+      "generated-12-2": [],
+      "generated-12-3": [],
+      "generated-12-4": [],
+      "generated-12-5": [],
+      "generated-12-6": [],
+      "generated-12-7": [],
+      "generated-12-8": [],
+      "generated-12-9": [],
+      "generated-13-0": [],
+      "generated-13-1": [],
+      "generated-13-2": [],
+      "generated-13-3": [],
+      "generated-13-4": [],
+      "generated-13-5": [],
+      "generated-14-0": [],
+      "generated-14-1": [],
+      "generated-14-2": [],
+      "generated-14-3": [],
+      "generated-14-4": [],
+      "generated-14-5": [],
+      "generated-15-0": [],
+      "generated-15-1": [],
+      "generated-15-2": [],
+      "generated-16-0": [],
+      "generated-16-1": [],
+      "generated-16-2": [],
+      "generated-16-3": [],
+      "generated-16-4": [],
+      "generated-17-0": [],
+      "generated-17-1": [],
+      "generated-18-0": [],
+      "generated-18-1": [],
+      "generated-18-2": [],
+      "generated-18-3": [],
+      "generated-18-4": [],
+      "generated-18-5": [],
+      "generated-18-6": [],
+      "generated-18-7": [],
+      "generated-18-8": [],
+      "generated-18-9": [],
+      "generated-18-10": [],
+      "generated-18-11": [],
+      "generated-18-12": [],
+      "generated-18-13": [],
+      "generated-19-0": [],
+      "generated-19-1": [],
+      "generated-19-2": []
+    },
+    "typing": {}
   }
 }
