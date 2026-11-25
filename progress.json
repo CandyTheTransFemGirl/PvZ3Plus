@@ -1,17 +1,17 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 25,
-  "level": 7,
-  "stars": 21,
-  "wins": 7,
+  "revision": 26,
+  "level": 8,
+  "stars": 24,
+  "wins": 8,
   "losses": 0,
-  "coins": 1365,
-  "wild": 35,
+  "coins": 1560,
+  "wild": 45,
   "potion": 1,
   "wanted": "cinderwood",
   "seeds": {
     "iceberglettuce": 10,
-    "cinderwood": 20
+    "cinderwood": 30
   },
   "records": {
     "cabbagepult": {
@@ -177,6 +177,22 @@
     "athletebatter": {
       "owned": true,
       "seen": true
+    },
+    "tanglekelp": {
+      "owned": true,
+      "seen": false
+    },
+    "wranglekelp": {
+      "owned": true,
+      "seen": false
+    },
+    "disco": {
+      "owned": true,
+      "seen": true
+    },
+    "backupdancer": {
+      "owned": true,
+      "seen": true
     }
   },
   "history": [
@@ -185,23 +201,24 @@
     "Level 6: illustrative 3-star victory; first encounters Batter Zombie, Imp and Gargantuar. XP estimated. Pass progression pending rules.",
     "Level 7 illustrative 3-star victory; Goalie and Water Spiller encountered; custom ability and XP provisional.",
     "Level 7 roster correction: Athlete Batter Zombie encountered.",
-    "Level 7 finalized: 3-star illustrative victory, electrical strategy, Water Spiller and Athletic Batter mechanics confirmed. No duplicate rewards."
+    "Level 7 finalized: 3-star illustrative victory, electrical strategy, Water Spiller and Athletic Batter mechanics confirmed. No duplicate rewards.",
+    "Level 8 illustrative 3-star victory. Unlocked Tangle Kelp and Wrangle-Kelp; duplicate Lightning Reed reward pending. Disco and backup dancer encountered."
   ],
   "xp": {
-    "peashooter": 235,
-    "sunflower": 286,
-    "wallnut": 69,
+    "peashooter": 260,
+    "sunflower": 326,
+    "wallnut": 81,
     "cabbagepult": 220,
-    "tallnut": 236,
+    "tallnut": 266,
     "spikeweed": 45,
-    "repeater": 115,
-    "gatlingpea": 230,
-    "twinsunflower": 249,
+    "repeater": 145,
+    "gatlingpea": 320,
+    "twinsunflower": 329,
     "potatomine": 115,
     "slawslinger": 75,
     "firepeashooter": 225,
-    "lightningreed": 310,
-    "zaptail": 70,
+    "lightningreed": 490,
+    "zaptail": 105,
     "cinderwood": 155
   },
   "upcomingUpdates": [
