@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 37,
+  "revision": 38,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -479,7 +479,11 @@
     "source": "github",
     "deliverWhenDue": true,
     "notification": "There is a new message in your mailbox.",
-    "revealBodyOnOpen": true
+    "revealBodyOnOpen": true,
+    "recipient": "assistant-player",
+    "notifyOnDue": true,
+    "openAfterNotification": true,
+    "checkOnGameplay": true
   },
   "mailbox": [
     {
@@ -488,7 +492,8 @@
       "version": "Beta 1.6",
       "title": "The Big Update",
       "deliverAt": "2027-02-02T17:00:00Z",
-      "body": "What the.. that's alot of plants! And zombies too!\nWell I cant count them but.. there's alot!\nI guess you'll have to wait and see!"
+      "body": "What the.. that's alot of plants! And zombies too!\nWell I cant count them but.. there's alot!\nI guess you'll have to wait and see!",
+      "recipient": "assistant-player"
     },
     {
       "id": "beta11-teaser",
@@ -497,7 +502,8 @@
       "title": "Something chilly",
       "body": "Brrr! Something's growing beneath the frost! I hope its roots packed a scarf.",
       "type": "updateTeaser",
-      "read": false
+      "read": false,
+      "recipient": "assistant-player"
     },
     {
       "id": "beta12-teaser",
@@ -506,7 +512,8 @@
       "title": "Growing collection",
       "body": "I counted the leaves. Then I counted them again. Then I lost count! Something big is growing in the garden.",
       "type": "updateTeaser",
-      "read": false
+      "read": false,
+      "recipient": "assistant-player"
     },
     {
       "id": "beta13-teaser",
@@ -515,7 +522,8 @@
       "title": "Cold roots",
       "body": "Ever had cold feet? Imagine having cold roots! Those zombies might want to bring a spare pair of socks.",
       "type": "updateTeaser",
-      "read": false
+      "read": false,
+      "recipient": "assistant-player"
     },
     {
       "id": "beta14-teaser",
@@ -524,7 +532,8 @@
       "title": "A shocking discovery",
       "body": "I heard thunder coming from the garden. Funny thing is, there wasn't a cloud in sight! Something's practising its punches.",
       "type": "updateTeaser",
-      "read": false
+      "read": false,
+      "recipient": "assistant-player"
     },
     {
       "id": "beta15-teaser",
@@ -533,7 +542,8 @@
       "title": "More cowbell",
       "body": "Ding! Dong! The garden's getting rather noisy. I wonder if zombies have sensitive ears?",
       "type": "updateTeaser",
-      "read": false
+      "read": false,
+      "recipient": "assistant-player"
     }
   ]
 }
