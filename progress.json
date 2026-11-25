@@ -1,16 +1,17 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 20,
-  "level": 5,
-  "stars": 15,
-  "wins": 5,
+  "revision": 21,
+  "level": 6,
+  "stars": 18,
+  "wins": 6,
   "losses": 0,
-  "coins": 975,
-  "wild": 15,
+  "coins": 1170,
+  "wild": 25,
   "potion": 1,
   "wanted": "cinderwood",
   "seeds": {
-    "iceberglettuce": 10
+    "iceberglettuce": 10,
+    "cinderwood": 10
   },
   "records": {
     "cabbagepult": {
@@ -43,7 +44,7 @@
     },
     "zaptail": {
       "owned": true,
-      "seen": false
+      "seen": true
     },
     "aloevera": {
       "owned": true,
@@ -55,7 +56,7 @@
     },
     "cinderwood": {
       "owned": true,
-      "seen": false
+      "seen": true
     },
     "bambooshoots": {
       "owned": true,
@@ -67,7 +68,7 @@
     },
     "lightningreed": {
       "owned": true,
-      "seen": false
+      "seen": true
     },
     "peanut": {
       "owned": true,
@@ -107,7 +108,7 @@
     },
     "firepeashooter": {
       "owned": true,
-      "seen": false
+      "seen": true
     },
     "gatlingpea": {
       "owned": true,
@@ -152,24 +153,41 @@
     "polevaulter": {
       "owned": true,
       "seen": true
+    },
+    "batter": {
+      "owned": true,
+      "seen": true
+    },
+    "imp": {
+      "owned": true,
+      "seen": true
+    },
+    "gargantuar": {
+      "owned": true,
+      "seen": true
     }
   },
   "history": [
     "Level 5 cleared",
-    "Unlocked Cinderwood, Fire Peashooter and Lightning Reed"
+    "Unlocked Cinderwood, Fire Peashooter and Lightning Reed",
+    "Level 6: illustrative 3-star victory; first encounters Batter Zombie, Imp and Gargantuar. XP estimated. Pass progression pending rules."
   ],
   "xp": {
-    "peashooter": 160,
-    "sunflower": 181,
-    "wallnut": 34,
+    "peashooter": 200,
+    "sunflower": 241,
+    "wallnut": 49,
     "cabbagepult": 220,
-    "tallnut": 176,
+    "tallnut": 201,
     "spikeweed": 45,
-    "repeater": 70,
-    "gatlingpea": 105,
-    "twinsunflower": 84,
+    "repeater": 115,
+    "gatlingpea": 230,
+    "twinsunflower": 174,
     "potatomine": 75,
-    "slawslinger": 75
+    "slawslinger": 75,
+    "firepeashooter": 180,
+    "lightningreed": 100,
+    "zaptail": 30,
+    "cinderwood": 120
   },
   "upcomingUpdates": [
     {
