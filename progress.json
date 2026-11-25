@@ -1,17 +1,17 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 54,
-  "level": 10,
-  "stars": 30,
-  "wins": 10,
+  "revision": 55,
+  "level": 11,
+  "stars": 33,
+  "wins": 11,
   "losses": 0,
-  "coins": 1950,
-  "wild": 65,
+  "coins": 2145,
+  "wild": 50,
   "potion": 1,
   "wanted": "cinderwood",
   "seeds": {
     "iceberglettuce": 10,
-    "cinderwood": 50
+    "cinderwood": 60
   },
   "records": {
     "cabbagepult": {
@@ -221,6 +221,22 @@
     "zombiechicken": {
       "owned": true,
       "seen": true
+    },
+    "bopchoy": {
+      "owned": true,
+      "seen": true
+    },
+    "blazeleaf": {
+      "owned": false,
+      "seen": true
+    },
+    "rocknrollinimp": {
+      "seen": true,
+      "owned": false
+    },
+    "digginzombie": {
+      "seen": true,
+      "owned": false
     }
   },
   "history": [
@@ -234,27 +250,30 @@
     "Level 8 reward correction: Torchwood unlocked.",
     "Level 8 illustrative 3-star victory; unlocked Torchwood, Tangle Kelp and Wrangle-Kelp; encountered Disco Zombie. XP pending.",
     "Level 9 illustrative 3-star victory; Ducky Tube Horde encountered; water tiles double attack and production frequency and apply Soaked.",
-    "Level 10 illustrative 3-star victory; Bowling Zombie, Chicken Wrangler and Chicken encountered. XP pending."
+    "Level 10 illustrative 3-star victory; Bowling Zombie, Chicken Wrangler and Chicken encountered. XP pending.",
+    "Level 11 simulated 3-star victory in 5:24; Bop Choy unlocked for 25 Wild Seeds; temporary Blaze Leaf planted; Rock’n’Rollin’ Imp and Diggin’ Zombie encountered."
   ],
   "xp": {
-    "peashooter": 260,
-    "sunflower": 376,
-    "wallnut": 91,
+    "peashooter": 300,
+    "sunflower": 421,
+    "wallnut": 106,
     "cabbagepult": 220,
-    "tallnut": 301,
+    "tallnut": 346,
     "spikeweed": 45,
     "repeater": 145,
     "gatlingpea": 320,
-    "twinsunflower": 419,
+    "twinsunflower": 504,
     "potatomine": 115,
     "slawslinger": 75,
     "firepeashooter": 225,
-    "lightningreed": 740,
-    "zaptail": 145,
-    "cinderwood": 155,
+    "lightningreed": 960,
+    "zaptail": 180,
+    "cinderwood": 165,
     "tanglekelp": 75,
     "wranglekelp": 150,
-    "blover": 20
+    "blover": 20,
+    "bopchoy": 20,
+    "blazeleaf": 160
   },
   "upcomingUpdates": [
     {
@@ -2673,9 +2692,35 @@
         "events": []
       },
       "assistant-player": {
-        "status": "idle",
-        "level": null,
-        "events": []
+        "status": "finished",
+        "level": 11,
+        "result": "victory",
+        "stars": 3,
+        "elapsedSeconds": 324,
+        "wave": 5,
+        "events": [
+          {
+            "time": "0:00",
+            "body": "Battle started"
+          },
+          {
+            "time": "1:00",
+            "body": "Lightning Reed counters Batter Zombies"
+          },
+          {
+            "time": "2:00",
+            "body": "Blaze Leaf protects rear against Diggin’ Zombie"
+          },
+          {
+            "time": "3:00",
+            "body": "Tall-nuts stall rolling Imps"
+          },
+          {
+            "time": "5:24",
+            "body": "Three-star victory!"
+          }
+        ],
+        "simulated": true
       },
       "generated-5-0": {
         "status": "idle",
