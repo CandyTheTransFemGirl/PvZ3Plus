@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 34,
+  "revision": 35,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -259,7 +259,7 @@
   "upcomingUpdates": [
     {
       "id": "frostroot",
-      "releaseDate": "2026-12-05",
+      "releaseDate": "2026-12-12",
       "releaseTime": "18:00",
       "content": [
         "Frostroot",
@@ -271,12 +271,19 @@
         "Snow stage zombies",
         "Snow event"
       ],
-      "releaseAt": "2026-12-05T18:00:00Z",
-      "zombie": "Swiss Stallion"
+      "releaseAt": "2026-12-12T18:00:00Z",
+      "zombie": "Swiss Stallion",
+      "previewAt": "2026-12-05T18:00:00Z",
+      "passStartAt": "2026-12-12T18:00:00Z",
+      "passEndAt": "2026-12-26T17:59:00Z",
+      "previewOnly": true,
+      "plantObtainableAt": "2026-12-12T18:00:00Z",
+      "zombieEncounterableAt": "2026-12-12T18:00:00Z",
+      "snowEventStartAt": "2026-12-12T18:00:00Z"
     },
     {
       "id": "thunderchoy",
-      "releaseDate": "2026-12-20",
+      "releaseDate": "2026-12-27",
       "releaseTime": "22:00",
       "zombie": "Strongman Zombie",
       "content": [
@@ -289,7 +296,10 @@
         "19:00"
       ],
       "timezone": "Europe/London",
-      "releaseAt": "2026-12-20T22:00:00Z"
+      "releaseAt": "2026-12-27T22:00:00Z",
+      "previewAt": "2026-12-27T22:00:00Z",
+      "passStartAt": "2026-12-27T22:00:00Z",
+      "passEndAt": "2027-01-10T21:59:00Z"
     },
     {
       "id": "cowbell",
@@ -317,7 +327,10 @@
         "19:00"
       ],
       "timezone": "Europe/London",
-      "releaseAt": "2027-01-12T20:00:00Z"
+      "releaseAt": "2027-01-12T20:00:00Z",
+      "previewAt": "2027-01-12T20:00:00Z",
+      "passStartAt": "2027-01-12T20:00:00Z",
+      "passEndAt": "2027-01-26T19:59:00Z"
     },
     {
       "id": "mystery20270205",
@@ -326,7 +339,10 @@
       "releaseAt": "2027-02-05T17:00:00Z",
       "content": [
         "???"
-      ]
+      ],
+      "previewAt": "2027-02-05T17:00:00Z",
+      "passStartAt": "2027-02-05T17:00:00Z",
+      "passEndAt": null
     }
   ],
   "plantPass": {
@@ -392,7 +408,7 @@
     "exclusiveUnlock": true,
     "seedUnlockAllowed": false,
     "seedUnlockAllowedAfterExpiry": true,
-    "endAt": "2026-12-05T18:00:00Z"
+    "endAt": "2026-12-08T16:59:00Z"
   },
   "plantPassRules": {
     "featuredPlantUnlock": "pass-only while featured pass active",
@@ -434,10 +450,10 @@
     }
   },
   "plantExpansionUpdate": {
-    "releaseTime": "15:00",
-    "releaseDate": null,
+    "releaseTime": "17:00",
+    "releaseDate": "2026-12-08",
     "trigger": "After Snow-Bellista Plant Pass ends",
-    "datePendingConfirmation": true,
+    "datePendingConfirmation": false,
     "rename": {
       "Aloe Vera": "Aloe"
     },
@@ -450,6 +466,7 @@
       "Electrician",
       "Diverpult"
     ],
-    "additionalIssues": 2
+    "additionalIssues": 2,
+    "releaseAt": "2026-12-08T17:00:00Z"
   }
 }
