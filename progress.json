@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 60,
+  "revision": 61,
   "level": 11,
   "stars": 33,
   "wins": 11,
@@ -665,6 +665,25 @@
       "temporaryPlantAccess": {
         "plantId": "cowbell",
         "durationMs": 600000,
+        "startsOnClaim": true
+      }
+    },
+    {
+      "id": "candy-1795647046380-c465mpe7ywf",
+      "sender": "candy",
+      "recipient": "assistant-player",
+      "type": "custom",
+      "title": "More MORE!!",
+      "body": "Hehe!!",
+      "deliverAt": "2026-11-25T22:50:45.922Z",
+      "read": false,
+      "claimed": false,
+      "rewards": {
+        "wild": 100
+      },
+      "temporaryPlantAccess": {
+        "plantId": "boomboxwood",
+        "durationMs": 420000,
         "startsOnClaim": true
       }
     }
