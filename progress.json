@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 61,
+  "revision": 62,
   "level": 11,
   "stars": 33,
   "wins": 11,
@@ -683,6 +683,27 @@
       },
       "temporaryPlantAccess": {
         "plantId": "boomboxwood",
+        "durationMs": 420000,
+        "startsOnClaim": true
+      }
+    },
+    {
+      "id": "candy-1795647089027-v8p6bstidd8",
+      "sender": "candy",
+      "recipient": "assistant-player",
+      "type": "custom",
+      "title": "Uhh.. title.",
+      "body": "Having fun?",
+      "deliverAt": "2026-11-25T22:51:28.548Z",
+      "read": false,
+      "claimed": false,
+      "rewards": {
+        "seeds": {
+          "aloevera": 65
+        }
+      },
+      "temporaryPlantAccess": {
+        "plantId": "echopea",
         "durationMs": 420000,
         "startsOnClaim": true
       }
