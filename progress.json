@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 35,
+  "revision": 36,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -342,7 +342,9 @@
       ],
       "previewAt": "2027-02-05T17:00:00Z",
       "passStartAt": "2027-02-05T17:00:00Z",
-      "passEndAt": null
+      "passEndAt": null,
+      "version": "Beta 1.6",
+      "updateName": "The Big Update"
     }
   ],
   "plantPass": {
@@ -468,5 +470,23 @@
     ],
     "additionalIssues": 2,
     "releaseAt": "2026-12-08T17:00:00Z"
-  }
+  },
+  "mailboxRules": {
+    "teaserLeadDays": [
+      2,
+      3
+    ],
+    "source": "github",
+    "deliverWhenDue": true
+  },
+  "mailbox": [
+    {
+      "id": "beta16-teaser",
+      "type": "updateTeaser",
+      "version": "Beta 1.6",
+      "title": "The Big Update",
+      "deliverAt": "2027-02-02T17:00:00Z",
+      "body": "What the.. that's alot of plants! And zombies too!\nWell I cant count them but.. there's alot!\nI guess you'll have to wait and see!"
+    }
+  ]
 }
