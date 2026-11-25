@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 46,
+  "revision": 47,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -2378,7 +2378,13 @@
       }
     ],
     "membership": null,
-    "requests": [],
+    "requests": [
+      {
+        "groupId": "generated-3",
+        "player": "assistant-player",
+        "status": "pending"
+      }
+    ],
     "communication": {
       "typing": true,
       "typingFields": [
