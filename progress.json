@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 40,
+  "revision": 41,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -561,6 +561,22 @@
       "type": "updateTeaser",
       "read": false,
       "recipient": "assistant-player"
+    },
+    {
+      "id": "candy-1795643701217-rpm0n7lvkh",
+      "sender": "candy",
+      "recipient": "assistant-player",
+      "type": "custom",
+      "title": "Hi Buddy!",
+      "body": "Take this! Have fun for an hour!",
+      "deliverAt": "2026-11-25T21:55:00.745Z",
+      "read": false,
+      "claimed": false,
+      "temporaryPlantAccess": {
+        "plantId": "blazeleaf",
+        "durationMs": 3600000,
+        "startsOnClaim": true
+      }
     }
   ],
   "temporaryPlantAccess": []
