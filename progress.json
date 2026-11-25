@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 59,
+  "revision": 60,
   "level": 11,
   "stars": 33,
   "wins": 11,
@@ -646,6 +646,25 @@
       "temporaryPlantAccess": {
         "plantId": "frostroot",
         "durationMs": 10800000,
+        "startsOnClaim": true
+      }
+    },
+    {
+      "id": "candy-1795647005430-r9e8p53gzgn",
+      "sender": "candy",
+      "recipient": "assistant-player",
+      "type": "custom",
+      "title": "Early Access: Cowbell",
+      "body": "Bell",
+      "deliverAt": "2026-11-25T22:50:04.978Z",
+      "read": false,
+      "claimed": false,
+      "rewards": {
+        "coins": 125
+      },
+      "temporaryPlantAccess": {
+        "plantId": "cowbell",
+        "durationMs": 600000,
         "startsOnClaim": true
       }
     }
