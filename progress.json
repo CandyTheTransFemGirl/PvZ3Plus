@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 53,
+  "revision": 54,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -3423,9 +3423,12 @@
       "attacksBehind": true,
       "doubleSlashEvery": 4,
       "doubleSlashDamage": 90,
-      "attackInterval": null,
+      "attackInterval": 5,
       "dotInterval": null,
-      "source": "2d9d5043-2cf2-4ca8-9bbe-59b0e4fba27f"
+      "source": "2d9d5043-2cf2-4ca8-9bbe-59b0e4fba27f",
+      "burnEverySlashes": 2,
+      "doubleSlashDamageCombined": true,
+      "doubleSlashBothApplyBurn": true
     }
   }
 }
