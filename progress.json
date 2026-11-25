@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 36,
+  "revision": 37,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -477,7 +477,9 @@
       3
     ],
     "source": "github",
-    "deliverWhenDue": true
+    "deliverWhenDue": true,
+    "notification": "There is a new message in your mailbox.",
+    "revealBodyOnOpen": true
   },
   "mailbox": [
     {
@@ -487,6 +489,51 @@
       "title": "The Big Update",
       "deliverAt": "2027-02-02T17:00:00Z",
       "body": "What the.. that's alot of plants! And zombies too!\nWell I cant count them but.. there's alot!\nI guess you'll have to wait and see!"
+    },
+    {
+      "id": "beta11-teaser",
+      "version": "Beta 1.1",
+      "deliverAt": "2026-12-02T18:00:00Z",
+      "title": "Something chilly",
+      "body": "Brrr! Something's growing beneath the frost! I hope its roots packed a scarf.",
+      "type": "updateTeaser",
+      "read": false
+    },
+    {
+      "id": "beta12-teaser",
+      "version": "Beta 1.2",
+      "deliverAt": "2026-12-06T17:00:00Z",
+      "title": "Growing collection",
+      "body": "I counted the leaves. Then I counted them again. Then I lost count! Something big is growing in the garden.",
+      "type": "updateTeaser",
+      "read": false
+    },
+    {
+      "id": "beta13-teaser",
+      "version": "Beta 1.3",
+      "deliverAt": "2026-12-09T18:00:00Z",
+      "title": "Cold roots",
+      "body": "Ever had cold feet? Imagine having cold roots! Those zombies might want to bring a spare pair of socks.",
+      "type": "updateTeaser",
+      "read": false
+    },
+    {
+      "id": "beta14-teaser",
+      "version": "Beta 1.4",
+      "deliverAt": "2026-12-24T22:00:00Z",
+      "title": "A shocking discovery",
+      "body": "I heard thunder coming from the garden. Funny thing is, there wasn't a cloud in sight! Something's practising its punches.",
+      "type": "updateTeaser",
+      "read": false
+    },
+    {
+      "id": "beta15-teaser",
+      "version": "Beta 1.5",
+      "deliverAt": "2027-01-09T20:00:00Z",
+      "title": "More cowbell",
+      "body": "Ding! Dong! The garden's getting rather noisy. I wonder if zombies have sensitive ears?",
+      "type": "updateTeaser",
+      "read": false
     }
   ]
 }
