@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 12,
+  "revision": 13,
   "level": 5,
   "stars": 15,
   "wins": 5,
@@ -194,7 +194,7 @@
     "maxRank": 20,
     "rank": 0,
     "xpRewardRule": "Shards replaced with XP for Snow-Bellista ingredients",
-    "xpAllocation": null,
+    "xpAllocation": "Individual ingredient-specific XP rewards scattered across pass ranks; exact assignments pending",
     "claimed": [],
     "chunkRewardRule": "Meteorite chunks replaced one-for-one with Wild Seeds",
     "chunkReplacements": {
