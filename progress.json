@@ -1,17 +1,17 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 29,
-  "level": 9,
-  "stars": 27,
-  "wins": 9,
+  "revision": 30,
+  "level": 10,
+  "stars": 30,
+  "wins": 10,
   "losses": 0,
-  "coins": 1755,
-  "wild": 55,
+  "coins": 1950,
+  "wild": 65,
   "potion": 1,
   "wanted": "cinderwood",
   "seeds": {
     "iceberglettuce": 10,
-    "cinderwood": 40
+    "cinderwood": 50
   },
   "records": {
     "cabbagepult": {
@@ -209,6 +209,18 @@
     "duckytubebuckethead": {
       "owned": true,
       "seen": true
+    },
+    "bowling": {
+      "owned": true,
+      "seen": true
+    },
+    "chickenwrangler": {
+      "owned": true,
+      "seen": true
+    },
+    "chicken": {
+      "owned": true,
+      "seen": true
     }
   },
   "history": [
@@ -221,7 +233,8 @@
     "Level 8 illustrative 3-star victory. Unlocked Tangle Kelp and Wrangle-Kelp; duplicate Lightning Reed reward pending. Disco and backup dancer encountered.",
     "Level 8 reward correction: Torchwood unlocked.",
     "Level 8 illustrative 3-star victory; unlocked Torchwood, Tangle Kelp and Wrangle-Kelp; encountered Disco Zombie. XP pending.",
-    "Level 9 illustrative 3-star victory; Ducky Tube Horde encountered; water tiles double attack and production frequency and apply Soaked."
+    "Level 9 illustrative 3-star victory; Ducky Tube Horde encountered; water tiles double attack and production frequency and apply Soaked.",
+    "Level 10 illustrative 3-star victory; Bowling Zombie, Chicken Wrangler and Chicken encountered. XP pending."
   ],
   "xp": {
     "peashooter": 260,
