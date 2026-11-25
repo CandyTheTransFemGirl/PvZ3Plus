@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 45,
+  "revision": 46,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -578,6 +578,17 @@
         "startsOnClaim": true
       },
       "claimedAt": "2026-11-25T21:55:28.163Z"
+    },
+    {
+      "id": "candy-1795645164403-83izj7e5tiy",
+      "sender": "candy",
+      "recipient": "assistant-player",
+      "type": "custom",
+      "title": "Hello!",
+      "body": "Let's chat!",
+      "deliverAt": "2026-11-25T22:19:23.981Z",
+      "read": false,
+      "claimed": false
     }
   ],
   "temporaryPlantAccess": [
