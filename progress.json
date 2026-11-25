@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 48,
+  "revision": 49,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -587,7 +587,7 @@
       "title": "Hello!",
       "body": "Let's chat!",
       "deliverAt": "2026-11-25T22:19:23.981Z",
-      "read": false,
+      "read": true,
       "claimed": false
     }
   ],
@@ -601,7 +601,18 @@
     }
   ],
   "playerCommunication": {
-    "messages": [],
+    "messages": [
+      {
+        "id": "player-reply-candy-1795645164403-83izj7e5tiy",
+        "sender": "assistant-player",
+        "recipient": "candy",
+        "title": "Hello Candy!",
+        "body": "Hiii! The mailbox works! By the way, what are Blaze Leaf's abilities? I'd love to try it before my early access expires!",
+        "createdAt": "2026-11-25T22:20:20.583Z",
+        "replyTo": "candy-1795645164403-83izj7e5tiy",
+        "read": false
+      }
+    ],
     "requests": [],
     "rules": {
       "playerSender": "assistant-player",
