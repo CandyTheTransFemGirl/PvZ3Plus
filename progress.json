@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 33,
+  "revision": 34,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -266,7 +266,10 @@
         "Snowy content",
         "Frostroot Plant Pass",
         "New plants",
-        "Swiss Stallion"
+        "Swiss Stallion",
+        "Snow stage",
+        "Snow stage zombies",
+        "Snow event"
       ],
       "releaseAt": "2026-12-05T18:00:00Z",
       "zombie": "Swiss Stallion"
@@ -296,7 +299,17 @@
       "content": [
         "Cowbell",
         "Stealth Imp",
-        "New stage"
+        "New stage",
+        "Alarm Bells",
+        "Slay Bells",
+        "Echo Pea",
+        "Clap Choy",
+        "Bass Bristle",
+        "Snapper-pult",
+        "Sonic-Shroom",
+        "Waveshooter",
+        "Sonic-pult",
+        "Boombox Wood"
       ],
       "possibleReleaseTimes": [
         "17:00",
@@ -419,5 +432,24 @@
     "secretAchievement": {
       "unlocked": false
     }
+  },
+  "plantExpansionUpdate": {
+    "releaseTime": "15:00",
+    "releaseDate": null,
+    "trigger": "After Snow-Bellista Plant Pass ends",
+    "datePendingConfirmation": true,
+    "rename": {
+      "Aloe Vera": "Aloe"
+    },
+    "plants": [
+      "4-Leaf Blover",
+      "56-Leaf Blover",
+      "Inferno"
+    ],
+    "zombies": [
+      "Electrician",
+      "Diverpult"
+    ],
+    "additionalIssues": 2
   }
 }
