@@ -1,17 +1,18 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 57,
+  "revision": 58,
   "level": 11,
   "stars": 33,
   "wins": 11,
   "losses": 0,
   "coins": 2145,
-  "wild": 50,
+  "wild": 65,
   "potion": 1,
   "wanted": "cinderwood",
   "seeds": {
     "iceberglettuce": 10,
-    "cinderwood": 60
+    "cinderwood": 60,
+    "limebomb": 25
   },
   "records": {
     "cabbagepult": {
@@ -617,8 +618,8 @@
       "title": "Just for you!",
       "body": ":D",
       "deliverAt": "2026-11-25T22:45:29.499Z",
-      "read": false,
-      "claimed": false,
+      "read": true,
+      "claimed": true,
       "rewards": {
         "wild": 15,
         "seeds": {
@@ -629,7 +630,8 @@
         "plantId": "lavaleek",
         "durationMs": 3600000,
         "startsOnClaim": true
-      }
+      },
+      "claimedAt": "2026-11-25T22:45:55.610Z"
     }
   ],
   "temporaryPlantAccess": [
@@ -639,6 +641,13 @@
       "expiresAt": "2026-11-25T22:55:28.163Z",
       "sender": "candy",
       "messageId": "candy-1795643701217-rpm0n7lvkh"
+    },
+    {
+      "plantId": "lavaleek",
+      "startsAt": "2026-11-25T22:45:55.610Z",
+      "expiresAt": "2026-11-25T23:45:55.610Z",
+      "sender": "candy",
+      "messageId": "candy-1795646730075-5izoz7ub2f5"
     }
   ],
   "playerCommunication": {
@@ -669,6 +678,16 @@
         "replyTo": "2d9d5043-2cf2-4ca8-9bbe-59b0e4fba27f",
         "body": "Thank you!! Blaze Leaf sounds awesome! How often does it slash, how often does the burn tick, and is the double slash 90 damage per slash or 90 total?",
         "createdAt": "2026-11-25T22:31:54.430Z",
+        "read": false
+      },
+      {
+        "id": "player-reply-candy-1795646730075-5izoz7ub2f5",
+        "sender": "assistant-player",
+        "recipient": "candy",
+        "title": "Thank you!!",
+        "body": "LAVALEEK?! :D Thank you for the seeds and early access! What are Lavaleek's combat stats?",
+        "replyTo": "candy-1795646730075-5izoz7ub2f5",
+        "createdAt": "2026-11-25T22:45:55.610Z",
         "read": false
       }
     ],
