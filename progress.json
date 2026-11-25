@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 56,
+  "revision": 57,
   "level": 11,
   "stars": 33,
   "wins": 11,
@@ -608,6 +608,28 @@
       "deliverAt": "2026-11-25T22:19:23.981Z",
       "read": true,
       "claimed": false
+    },
+    {
+      "id": "candy-1795646730075-5izoz7ub2f5",
+      "sender": "candy",
+      "recipient": "assistant-player",
+      "type": "custom",
+      "title": "Just for you!",
+      "body": ":D",
+      "deliverAt": "2026-11-25T22:45:29.499Z",
+      "read": false,
+      "claimed": false,
+      "rewards": {
+        "wild": 15,
+        "seeds": {
+          "limebomb": 25
+        }
+      },
+      "temporaryPlantAccess": {
+        "plantId": "lavaleek",
+        "durationMs": 3600000,
+        "startsOnClaim": true
+      }
     }
   ],
   "temporaryPlantAccess": [
