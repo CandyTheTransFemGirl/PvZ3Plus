@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 43,
+  "revision": 44,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -610,5 +610,1265 @@
       "mailbox"
     ],
     "deriveRemainingFromTimestamp": true
+  },
+  "groups": {
+    "list": [
+      {
+        "id": "generated-0",
+        "name": "Pea Patrol",
+        "description": "Share fusion ideas and strange strategies.",
+        "joinMode": "open",
+        "members": [
+          {
+            "id": "generated-0-0",
+            "name": "NutMuffin40",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-0-1",
+            "name": "PuddleMuffin37",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-0-2",
+            "name": "NutBug1",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-0-3",
+            "name": "MoonCake62",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-0-4",
+            "name": "CloudKnight63",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-0-5",
+            "name": "ToastBug65",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-0-6",
+            "name": "BerryPop63",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-0-7",
+            "name": "ZapBee6",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-0-8",
+            "name": "CloudStar61",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-0-9",
+            "name": "PuddleKnight29",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-0-10",
+            "name": "SproutFox46",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-0-11",
+            "name": "CloudBean18",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-0-12",
+            "name": "FrostBug2",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-0-13",
+            "name": "MelonCake6",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-0-14",
+            "name": "PeaCake12",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "NutMuffin40",
+            "body": "Welcome to Pea Patrol!",
+            "createdAt": "2026-11-25T22:04:41.427Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-1",
+        "name": "Lawn Legends",
+        "description": "Adventure tips and friendly competition.",
+        "joinMode": "approval",
+        "members": [
+          {
+            "id": "generated-1-0",
+            "name": "ToastBug73",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-1-1",
+            "name": "CloudBug6",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-1-2",
+            "name": "CloverBean22",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-1-3",
+            "name": "CloudMuffin67",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-1-4",
+            "name": "FernBug27",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-1-5",
+            "name": "PeaPuff60",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-1-6",
+            "name": "CloudWizard31",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-1-7",
+            "name": "ZapBloom41",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "ToastBug73",
+            "body": "Welcome to Lawn Legends!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-2",
+        "name": "The Compost Club",
+        "description": "Climbing the Tower one floor at a time.",
+        "joinMode": "approval",
+        "members": [
+          {
+            "id": "generated-2-0",
+            "name": "BrambleScout14",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-2-1",
+            "name": "PeaPop3",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-2-2",
+            "name": "CloverKnight23",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-2-3",
+            "name": "MelonScout14",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-2-4",
+            "name": "LunarStar29",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-2-5",
+            "name": "PixelBee74",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-2-6",
+            "name": "ZapMuffin79",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "BrambleScout14",
+            "body": "Welcome to The Compost Club!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-3",
+        "name": "Sunflower Society",
+        "description": "New players welcome! No pressure.",
+        "joinMode": "approval",
+        "members": [
+          {
+            "id": "generated-3-0",
+            "name": "LunarCake81",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-3-1",
+            "name": "MossFox61",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-3-2",
+            "name": "MoonSpark95",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-3-3",
+            "name": "FrostKnight66",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-3-4",
+            "name": "MossDash2",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "LunarCake81",
+            "body": "Welcome to Sunflower Society!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-4",
+        "name": "Buckethead Bonkers",
+        "description": "New players welcome! No pressure.",
+        "joinMode": "open",
+        "members": [
+          {
+            "id": "generated-4-0",
+            "name": "NutBug74",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-4-1",
+            "name": "MossPop72",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-4-2",
+            "name": "CloverStar29",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-4-3",
+            "name": "PuddleBloom22",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-4-4",
+            "name": "PeaPuff5",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-4-5",
+            "name": "SunnyBug1",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-4-6",
+            "name": "SunnyByte63",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-4-7",
+            "name": "SproutFox28",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-4-8",
+            "name": "MossStar91",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-4-9",
+            "name": "LeafFox93",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "NutBug74",
+            "body": "Welcome to Buckethead Bonkers!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-5",
+        "name": "Midnight Garden",
+        "description": "Casual gardening and friendly chats.",
+        "joinMode": "open",
+        "members": [
+          {
+            "id": "generated-5-0",
+            "name": "BrambleScout52",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-5-1",
+            "name": "MintBug50",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-5-2",
+            "name": "PixelScout16",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-5-3",
+            "name": "ToastByte76",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-5-4",
+            "name": "ZapByte31",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-5-5",
+            "name": "BrambleWizard19",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "BrambleScout52",
+            "body": "Welcome to Midnight Garden!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-6",
+        "name": "The Wild Seeders",
+        "description": "We love experimenting with unusual plants.",
+        "joinMode": "open",
+        "members": [
+          {
+            "id": "generated-6-0",
+            "name": "SproutWizard16",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-6-1",
+            "name": "PuddleBug37",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-6-2",
+            "name": "NutStar63",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-6-3",
+            "name": "NutBloom22",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "SproutWizard16",
+            "body": "Welcome to The Wild Seeders!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-7",
+        "name": "Neighborville Ninjas",
+        "description": "Adventure tips and friendly competition.",
+        "joinMode": "open",
+        "members": [
+          {
+            "id": "generated-7-0",
+            "name": "LeafBloom5",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-7-1",
+            "name": "ToastMuffin61",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-7-2",
+            "name": "BerryBean42",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-7-3",
+            "name": "PuddleBean95",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-7-4",
+            "name": "MelonBug79",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-7-5",
+            "name": "PeaScout96",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-7-6",
+            "name": "CloudSpark19",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-7-7",
+            "name": "LeafDash52",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-7-8",
+            "name": "FrostByte89",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-7-9",
+            "name": "ToastMuffin46",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-7-10",
+            "name": "MintSpark83",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-7-11",
+            "name": "FernDash84",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-7-12",
+            "name": "BerryStar60",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "LeafBloom5",
+            "body": "Welcome to Neighborville Ninjas!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-8",
+        "name": "Frosty Friends",
+        "description": "Climbing the Tower one floor at a time.",
+        "joinMode": "open",
+        "members": [
+          {
+            "id": "generated-8-0",
+            "name": "ZapMuffin57",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-8-1",
+            "name": "LeafRoot48",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-8-2",
+            "name": "PeaSpark33",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-8-3",
+            "name": "PeaPop58",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-8-4",
+            "name": "PixelRoot57",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-8-5",
+            "name": "FernBee87",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-8-6",
+            "name": "MelonMuffin19",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-8-7",
+            "name": "MintFox3",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-8-8",
+            "name": "PixelScout63",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-8-9",
+            "name": "PixelScout5",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-8-10",
+            "name": "NutStar37",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-8-11",
+            "name": "CloverMuffin86",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-8-12",
+            "name": "SproutScout20",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-8-13",
+            "name": "PixelByte1",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "ZapMuffin57",
+            "body": "Welcome to Frosty Friends!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-9",
+        "name": "The Fusion Lab",
+        "description": "We love experimenting with unusual plants.",
+        "joinMode": "open",
+        "members": [
+          {
+            "id": "generated-9-0",
+            "name": "FrostBug70",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-9-1",
+            "name": "LunarByte49",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-9-2",
+            "name": "NutMuffin0",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-9-3",
+            "name": "FernBean8",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-9-4",
+            "name": "FrostPuff30",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-9-5",
+            "name": "CloudByte26",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-9-6",
+            "name": "MintWizard79",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-9-7",
+            "name": "PixelScout70",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-9-8",
+            "name": "MoonCake17",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-9-9",
+            "name": "MoonBug65",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "FrostBug70",
+            "body": "Welcome to The Fusion Lab!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-10",
+        "name": "Garden Gremlins",
+        "description": "For collectors chasing every plant.",
+        "joinMode": "open",
+        "members": [
+          {
+            "id": "generated-10-0",
+            "name": "SunnyKnight54",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-10-1",
+            "name": "MoonKnight97",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-10-2",
+            "name": "FrostPop11",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-10-3",
+            "name": "BerryStar88",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-10-4",
+            "name": "MossByte96",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-10-5",
+            "name": "NutDash23",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-10-6",
+            "name": "MintFox72",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-10-7",
+            "name": "FernScout13",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-10-8",
+            "name": "LunarScout38",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "SunnyKnight54",
+            "body": "Welcome to Garden Gremlins!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-11",
+        "name": "Zomboss Rejects",
+        "description": "For collectors chasing every plant.",
+        "joinMode": "open",
+        "members": [
+          {
+            "id": "generated-11-0",
+            "name": "CloudWizard24",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-11-1",
+            "name": "MintPop11",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-11-2",
+            "name": "PixelPuff10",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-11-3",
+            "name": "MelonWizard17",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-11-4",
+            "name": "MoonSpark83",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-11-5",
+            "name": "MossBloom85",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-11-6",
+            "name": "FernFox20",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-11-7",
+            "name": "ZapScout25",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-11-8",
+            "name": "ZapBug47",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "CloudWizard24",
+            "body": "Welcome to Zomboss Rejects!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-12",
+        "name": "Chill and Grow",
+        "description": "Casual gardening and friendly chats.",
+        "joinMode": "open",
+        "members": [
+          {
+            "id": "generated-12-0",
+            "name": "PixelBee12",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-12-1",
+            "name": "NutBee90",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-12-2",
+            "name": "BrambleBean34",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-12-3",
+            "name": "PuddlePop90",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-12-4",
+            "name": "LunarFox29",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-12-5",
+            "name": "BramblePop0",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-12-6",
+            "name": "NutSpark74",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-12-7",
+            "name": "PeaWizard58",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-12-8",
+            "name": "BramblePop67",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-12-9",
+            "name": "PixelBug11",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "PixelBee12",
+            "body": "Welcome to Chill and Grow!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-13",
+        "name": "Tower Climbers",
+        "description": "We love experimenting with unusual plants.",
+        "joinMode": "approval",
+        "members": [
+          {
+            "id": "generated-13-0",
+            "name": "PuddlePuff86",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-13-1",
+            "name": "PixelPuff35",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-13-2",
+            "name": "CloudKnight67",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-13-3",
+            "name": "MoonBee91",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-13-4",
+            "name": "CloverPop73",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-13-5",
+            "name": "NutKnight21",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "PuddlePuff86",
+            "body": "Welcome to Tower Climbers!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-14",
+        "name": "The Last Lawn",
+        "description": "Climbing the Tower one floor at a time.",
+        "joinMode": "open",
+        "members": [
+          {
+            "id": "generated-14-0",
+            "name": "BrambleFox34",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-14-1",
+            "name": "CloudRoot32",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-14-2",
+            "name": "BerryCake92",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-14-3",
+            "name": "BrambleSpark16",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-14-4",
+            "name": "FrostByte94",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-14-5",
+            "name": "FernBloom54",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "BrambleFox34",
+            "body": "Welcome to The Last Lawn!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-15",
+        "name": "Blover Brigade",
+        "description": "Adventure tips and friendly competition.",
+        "joinMode": "open",
+        "members": [
+          {
+            "id": "generated-15-0",
+            "name": "NutStar8",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-15-1",
+            "name": "CloudBean0",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-15-2",
+            "name": "MoonRoot53",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "NutStar8",
+            "body": "Welcome to Blover Brigade!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-16",
+        "name": "Sprout Squad",
+        "description": "Adventure tips and friendly competition.",
+        "joinMode": "open",
+        "members": [
+          {
+            "id": "generated-16-0",
+            "name": "BerryPot37",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-16-1",
+            "name": "FrostStar60",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-16-2",
+            "name": "MelonPuff14",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-16-3",
+            "name": "SunnyFox24",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-16-4",
+            "name": "SproutStar85",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "BerryPot37",
+            "body": "Welcome to Sprout Squad!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-17",
+        "name": "The Nut House",
+        "description": "For collectors chasing every plant.",
+        "joinMode": "approval",
+        "members": [
+          {
+            "id": "generated-17-0",
+            "name": "CloudDash66",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-17-1",
+            "name": "LeafBug62",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "CloudDash66",
+            "body": "Welcome to The Nut House!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-18",
+        "name": "Electric Garden",
+        "description": "Climbing the Tower one floor at a time.",
+        "joinMode": "approval",
+        "members": [
+          {
+            "id": "generated-18-0",
+            "name": "PeaPop22",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-18-1",
+            "name": "PuddleBug26",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-18-2",
+            "name": "CloverFox4",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-18-3",
+            "name": "MossCake2",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-18-4",
+            "name": "MossScout30",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-18-5",
+            "name": "PixelBee69",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-18-6",
+            "name": "FernMuffin70",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-18-7",
+            "name": "BrambleCake28",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-18-8",
+            "name": "ToastBee33",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-18-9",
+            "name": "LunarStar92",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-18-10",
+            "name": "NutWizard77",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-18-11",
+            "name": "MossBloom73",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-18-12",
+            "name": "SproutDash76",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-18-13",
+            "name": "NutMuffin72",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "PeaPop22",
+            "body": "Welcome to Electric Garden!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      },
+      {
+        "id": "generated-19",
+        "name": "Tiny Terracotta",
+        "description": "A cozy corner of Neighborville.",
+        "joinMode": "approval",
+        "members": [
+          {
+            "id": "generated-19-0",
+            "name": "PixelBloom3",
+            "role": "leader",
+            "fictional": true
+          },
+          {
+            "id": "generated-19-1",
+            "name": "ZapBee13",
+            "role": "member",
+            "fictional": true
+          },
+          {
+            "id": "generated-19-2",
+            "name": "BerryKnight11",
+            "role": "member",
+            "fictional": true
+          }
+        ],
+        "messages": [
+          {
+            "sender": "PixelBloom3",
+            "body": "Welcome to Tiny Terracotta!",
+            "createdAt": "2026-11-25T22:04:41.496Z"
+          }
+        ]
+      }
+    ],
+    "membership": null,
+    "requests": []
   }
 }
