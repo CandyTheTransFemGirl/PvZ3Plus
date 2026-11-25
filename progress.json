@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 62,
+  "revision": 63,
   "level": 11,
   "stars": 33,
   "wins": 11,
@@ -641,13 +641,14 @@
       "title": "Early Access: Frostroot",
       "body": "How CHILLY!",
       "deliverAt": "2026-11-25T22:49:04.412Z",
-      "read": false,
-      "claimed": false,
+      "read": true,
+      "claimed": true,
       "temporaryPlantAccess": {
         "plantId": "frostroot",
         "durationMs": 10800000,
         "startsOnClaim": true
-      }
+      },
+      "claimedAt": "2026-11-25T22:52:13.124Z"
     },
     {
       "id": "candy-1795647005430-r9e8p53gzgn",
@@ -657,7 +658,7 @@
       "title": "Early Access: Cowbell",
       "body": "Bell",
       "deliverAt": "2026-11-25T22:50:04.978Z",
-      "read": false,
+      "read": true,
       "claimed": false,
       "rewards": {
         "coins": 125
@@ -676,7 +677,7 @@
       "title": "More MORE!!",
       "body": "Hehe!!",
       "deliverAt": "2026-11-25T22:50:45.922Z",
-      "read": false,
+      "read": true,
       "claimed": false,
       "rewards": {
         "wild": 100
@@ -695,7 +696,7 @@
       "title": "Uhh.. title.",
       "body": "Having fun?",
       "deliverAt": "2026-11-25T22:51:28.548Z",
-      "read": false,
+      "read": true,
       "claimed": false,
       "rewards": {
         "seeds": {
@@ -723,6 +724,13 @@
       "expiresAt": "2026-11-25T23:45:55.610Z",
       "sender": "candy",
       "messageId": "candy-1795646730075-5izoz7ub2f5"
+    },
+    {
+      "plantId": "frostroot",
+      "startsAt": "2026-11-25T22:52:13.124Z",
+      "expiresAt": "2026-11-26T01:52:13.124Z",
+      "sender": "candy",
+      "messageId": "candy-1795646944865-kc8yttf6oj"
     }
   ],
   "playerCommunication": {
@@ -763,6 +771,15 @@
         "body": "LAVALEEK?! :D Thank you for the seeds and early access! What are Lavaleek's combat stats?",
         "replyTo": "candy-1795646730075-5izoz7ub2f5",
         "createdAt": "2026-11-25T22:45:55.610Z",
+        "read": false
+      },
+      {
+        "id": "player-gift-reply-62",
+        "sender": "assistant-player",
+        "recipient": "candy",
+        "title": "FOUR MORE?!",
+        "body": "Hehe!! Thank you! I claimed Frostroot and am saving the short early access gifts until I can play. What are Frostroot, Cowbell, Boombox Wood and Echo Pea's abilities?",
+        "createdAt": "2026-11-25T22:52:13.124Z",
         "read": false
       }
     ],
