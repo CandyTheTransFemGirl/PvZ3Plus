@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 47,
+  "revision": 48,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -1085,6 +1085,10 @@
             "fictional": true,
             "personality": "dry humor",
             "interest": "Tower"
+          },
+          {
+            "id": "assistant-player",
+            "name": "Player"
           }
         ],
         "messages": [
@@ -2377,7 +2381,7 @@
         }
       }
     ],
-    "membership": null,
+    "membership": "generated-4",
     "requests": [
       {
         "groupId": "generated-3",
