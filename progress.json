@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 38,
+  "revision": 39,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -483,7 +483,16 @@
     "recipient": "assistant-player",
     "notifyOnDue": true,
     "openAfterNotification": true,
-    "checkOnGameplay": true
+    "checkOnGameplay": true,
+    "customSender": {
+      "id": "candy",
+      "displayName": "Candy",
+      "outline": "#a855f7",
+      "notification": "There is a new message from Candy in your mailbox.",
+      "allowRewards": true,
+      "claimOnce": true,
+      "recipient": "assistant-player"
+    }
   },
   "mailbox": [
     {
