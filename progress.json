@@ -1,17 +1,17 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 28,
-  "level": 8,
-  "stars": 24,
-  "wins": 8,
+  "revision": 29,
+  "level": 9,
+  "stars": 27,
+  "wins": 9,
   "losses": 0,
-  "coins": 1560,
-  "wild": 45,
+  "coins": 1755,
+  "wild": 55,
   "potion": 1,
   "wanted": "cinderwood",
   "seeds": {
     "iceberglettuce": 10,
-    "cinderwood": 30
+    "cinderwood": 40
   },
   "records": {
     "cabbagepult": {
@@ -52,7 +52,7 @@
     },
     "blover": {
       "owned": true,
-      "seen": false
+      "seen": true
     },
     "cinderwood": {
       "owned": true,
@@ -180,11 +180,11 @@
     },
     "tanglekelp": {
       "owned": true,
-      "seen": false
+      "seen": true
     },
     "wranglekelp": {
       "owned": true,
-      "seen": false
+      "seen": true
     },
     "disco": {
       "owned": true,
@@ -197,6 +197,18 @@
     "torchwood": {
       "owned": true,
       "seen": false
+    },
+    "duckytube": {
+      "owned": true,
+      "seen": true
+    },
+    "duckytubeconehead": {
+      "owned": true,
+      "seen": true
+    },
+    "duckytubebuckethead": {
+      "owned": true,
+      "seen": true
     }
   },
   "history": [
@@ -208,24 +220,28 @@
     "Level 7 finalized: 3-star illustrative victory, electrical strategy, Water Spiller and Athletic Batter mechanics confirmed. No duplicate rewards.",
     "Level 8 illustrative 3-star victory. Unlocked Tangle Kelp and Wrangle-Kelp; duplicate Lightning Reed reward pending. Disco and backup dancer encountered.",
     "Level 8 reward correction: Torchwood unlocked.",
-    "Level 8 illustrative 3-star victory; unlocked Torchwood, Tangle Kelp and Wrangle-Kelp; encountered Disco Zombie. XP pending."
+    "Level 8 illustrative 3-star victory; unlocked Torchwood, Tangle Kelp and Wrangle-Kelp; encountered Disco Zombie. XP pending.",
+    "Level 9 illustrative 3-star victory; Ducky Tube Horde encountered; water tiles double attack and production frequency and apply Soaked."
   ],
   "xp": {
     "peashooter": 260,
-    "sunflower": 326,
-    "wallnut": 81,
+    "sunflower": 376,
+    "wallnut": 91,
     "cabbagepult": 220,
-    "tallnut": 266,
+    "tallnut": 301,
     "spikeweed": 45,
     "repeater": 145,
     "gatlingpea": 320,
-    "twinsunflower": 329,
+    "twinsunflower": 419,
     "potatomine": 115,
     "slawslinger": 75,
     "firepeashooter": 225,
-    "lightningreed": 490,
-    "zaptail": 105,
-    "cinderwood": 155
+    "lightningreed": 740,
+    "zaptail": 145,
+    "cinderwood": 155,
+    "tanglekelp": 75,
+    "wranglekelp": 150,
+    "blover": 20
   },
   "upcomingUpdates": [
     {
