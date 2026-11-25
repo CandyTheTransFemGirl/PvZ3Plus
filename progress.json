@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 55,
+  "revision": 56,
   "level": 11,
   "stars": 33,
   "wins": 11,
@@ -230,11 +230,11 @@
       "owned": false,
       "seen": true
     },
-    "rocknrollinimp": {
+    "digger": {
       "seen": true,
       "owned": false
     },
-    "digginzombie": {
+    "acrobatimp": {
       "seen": true,
       "owned": false
     }
