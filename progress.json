@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 30,
+  "revision": 31,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -198,10 +198,6 @@
       "owned": true,
       "seen": false
     },
-    "duckytube": {
-      "owned": true,
-      "seen": true
-    },
     "duckytubeconehead": {
       "owned": true,
       "seen": true
@@ -210,15 +206,19 @@
       "owned": true,
       "seen": true
     },
-    "bowling": {
-      "owned": true,
-      "seen": true
-    },
     "chickenwrangler": {
       "owned": true,
       "seen": true
     },
     "chicken": {
+      "owned": true,
+      "seen": true
+    },
+    "bowlingzombie": {
+      "owned": true,
+      "seen": true
+    },
+    "duckytubezombie": {
       "owned": true,
       "seen": true
     }
