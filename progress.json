@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 50,
+  "revision": 51,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -1100,6 +1100,11 @@
           {
             "id": "assistant-player",
             "name": "Player"
+          },
+          {
+            "id": "candy",
+            "name": "Candy",
+            "role": "owner"
           }
         ],
         "messages": [
@@ -2418,7 +2423,8 @@
       "controller": "assistant-player",
       "simulated": true,
       "allowReplies": true
-    }
+    },
+    "candyMembership": "generated-4"
   },
   "spectate": {
     "format": "PvZ3PlusSpectateV1",
