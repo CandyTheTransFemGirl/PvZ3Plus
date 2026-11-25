@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 39,
+  "revision": 40,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -492,6 +492,14 @@
       "allowRewards": true,
       "claimOnce": true,
       "recipient": "assistant-player"
+    },
+    "temporaryPlantAccess": {
+      "sender": "candy",
+      "eligible": "any locked plant including upcoming and pass-exclusive plants",
+      "requiresExpiry": true,
+      "permanentOwnership": false,
+      "outline": "#a855f7",
+      "revokeOnExpiry": true
     }
   },
   "mailbox": [
@@ -554,5 +562,6 @@
       "read": false,
       "recipient": "assistant-player"
     }
-  ]
+  ],
+  "temporaryPlantAccess": []
 }
