@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 23,
+  "revision": 24,
   "level": 7,
   "stars": 21,
   "wins": 7,
@@ -184,7 +184,8 @@
     "Unlocked Cinderwood, Fire Peashooter and Lightning Reed",
     "Level 6: illustrative 3-star victory; first encounters Batter Zombie, Imp and Gargantuar. XP estimated. Pass progression pending rules.",
     "Level 7 illustrative 3-star victory; Goalie and Water Spiller encountered; custom ability and XP provisional.",
-    "Level 7 roster correction: Athlete Batter Zombie encountered."
+    "Level 7 roster correction: Athlete Batter Zombie encountered.",
+    "Level 7 finalized: 3-star illustrative victory, electrical strategy, Water Spiller and Athletic Batter mechanics confirmed. No duplicate rewards."
   ],
   "xp": {
     "peashooter": 235,
