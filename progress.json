@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 42,
+  "revision": 43,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -588,5 +588,27 @@
       "sender": "candy",
       "messageId": "candy-1795643701217-rpm0n7lvkh"
     }
-  ]
+  ],
+  "playerCommunication": {
+    "messages": [],
+    "requests": [],
+    "rules": {
+      "playerSender": "assistant-player",
+      "adminSender": "candy",
+      "allowReplies": true,
+      "plantRequestsRequireApproval": true
+    }
+  },
+  "timerSync": {
+    "source": "github",
+    "clock": "UTC",
+    "sources": [
+      "temporaryPlantAccess",
+      "upcomingUpdates",
+      "plantPass",
+      "plantExpansionUpdate",
+      "mailbox"
+    ],
+    "deriveRemainingFromTimestamp": true
+  }
 }
