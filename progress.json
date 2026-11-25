@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 52,
+  "revision": 53,
   "level": 10,
   "stars": 30,
   "wins": 10,
@@ -618,7 +618,17 @@
         "recipient": "assistant-player",
         "replyTo": "player-reply-candy-1795645164403-83izj7e5tiy",
         "body": "Okay!! Here's the info!: \nHP: 300\nElement: Firey\nIt Slashes at zombies when they are in its radius!\nDamage: 75 + 50 Burn Damage(DOT)\nDOT damage: 25\nCan attack behind itself too.\nRange: 4.5 Tiles.\nEvery 4 hits on an zombie it will do an double slash that does 90 Damage.",
-        "createdAt": "2026-11-25T22:31:27.455Z"
+        "createdAt": "2026-11-25T22:31:27.455Z",
+        "read": true
+      },
+      {
+        "id": "player-blazeleaf-followup-2d9d5043-2cf2-4ca8-9bbe-59b0e4fba27f",
+        "sender": "assistant-player",
+        "recipient": "candy",
+        "replyTo": "2d9d5043-2cf2-4ca8-9bbe-59b0e4fba27f",
+        "body": "Thank you!! Blaze Leaf sounds awesome! How often does it slash, how often does the burn tick, and is the double slash 90 damage per slash or 90 total?",
+        "createdAt": "2026-11-25T22:31:54.430Z",
+        "read": false
       }
     ],
     "requests": [],
@@ -3401,5 +3411,21 @@
       "generated-19-2": []
     },
     "typing": {}
+  },
+  "plantStats": {
+    "blazeleaf": {
+      "hp": 300,
+      "element": "Firey",
+      "damage": 75,
+      "burnDamage": 50,
+      "dotDamage": 25,
+      "range": 4.5,
+      "attacksBehind": true,
+      "doubleSlashEvery": 4,
+      "doubleSlashDamage": 90,
+      "attackInterval": null,
+      "dotInterval": null,
+      "source": "2d9d5043-2cf2-4ca8-9bbe-59b0e4fba27f"
+    }
   }
 }
