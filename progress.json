@@ -1,17 +1,17 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 21,
-  "level": 6,
-  "stars": 18,
-  "wins": 6,
+  "revision": 22,
+  "level": 7,
+  "stars": 21,
+  "wins": 7,
   "losses": 0,
-  "coins": 1170,
-  "wild": 25,
+  "coins": 1365,
+  "wild": 35,
   "potion": 1,
   "wanted": "cinderwood",
   "seeds": {
     "iceberglettuce": 10,
-    "cinderwood": 10
+    "cinderwood": 20
   },
   "records": {
     "cabbagepult": {
@@ -165,29 +165,38 @@
     "gargantuar": {
       "owned": true,
       "seen": true
+    },
+    "goalie": {
+      "owned": true,
+      "seen": true
+    },
+    "waterspiller": {
+      "owned": true,
+      "seen": true
     }
   },
   "history": [
     "Level 5 cleared",
     "Unlocked Cinderwood, Fire Peashooter and Lightning Reed",
-    "Level 6: illustrative 3-star victory; first encounters Batter Zombie, Imp and Gargantuar. XP estimated. Pass progression pending rules."
+    "Level 6: illustrative 3-star victory; first encounters Batter Zombie, Imp and Gargantuar. XP estimated. Pass progression pending rules.",
+    "Level 7 illustrative 3-star victory; Goalie and Water Spiller encountered; custom ability and XP provisional."
   ],
   "xp": {
-    "peashooter": 200,
-    "sunflower": 241,
-    "wallnut": 49,
+    "peashooter": 235,
+    "sunflower": 286,
+    "wallnut": 69,
     "cabbagepult": 220,
-    "tallnut": 201,
+    "tallnut": 236,
     "spikeweed": 45,
     "repeater": 115,
     "gatlingpea": 230,
-    "twinsunflower": 174,
-    "potatomine": 75,
+    "twinsunflower": 249,
+    "potatomine": 115,
     "slawslinger": 75,
-    "firepeashooter": 180,
-    "lightningreed": 100,
-    "zaptail": 30,
-    "cinderwood": 120
+    "firepeashooter": 225,
+    "lightningreed": 310,
+    "zaptail": 70,
+    "cinderwood": 155
   },
   "upcomingUpdates": [
     {
