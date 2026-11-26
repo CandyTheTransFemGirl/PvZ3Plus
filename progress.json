@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 86,
+  "revision": 87,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4070,6 +4070,22 @@
         "otherReward": "You get rewards for every level! :D\nRewards:\n5 wild seeds(first clear + needs to be 3 stars)\n15 snow balls(special shop currency)\n20 Coins",
         "startAt": "2026-12-12T18:00:00.000Z",
         "endAt": "2026-12-24T17:59:00.000Z"
+      },
+      {
+        "id": "candy-1795696587360-34bue2h5do3",
+        "title": "Crazy Dave's Tasks",
+        "description": "Help Dave Do his tasks!",
+        "createdAt": "2026-11-26T12:36:27.360Z",
+        "creator": "candy",
+        "status": "pending",
+        "rewards": {
+          "coins": 0,
+          "wild": 0,
+          "plantPassPoints": 0
+        },
+        "otherReward": "There is 3 days of quests! Completing each one gives you points towards an reward track for this event. The final reward is an plant!",
+        "startAt": "2026-11-26T01:00:00.000Z",
+        "endAt": "2026-11-27T15:25:00.000Z"
       }
     ]
   }
