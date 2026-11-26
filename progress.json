@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 179,
+  "revision": 180,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3497,6 +3497,14 @@
             "body": "We should wait for more evidence before calling this a confirmed release.",
             "createdAt": "2026-11-26T22:36:41.524Z",
             "replyTo": "datamine-result-candy-1795732601524-zil6c31anqq"
+          },
+          {
+            "id": "datamine-live-candy-1795732609540-ew43ge77ymg",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-26T22:36:49.540Z",
+            "replyTo": null
           }
         ],
         "typing": [],
@@ -3519,7 +3527,12 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5
+        "maxMembers": 5,
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795732609540-ew43ge77ymg",
+          "memberId": "generated-4-1",
+          "endsAt": "2026-11-26T22:36:58.427Z"
+        }
       }
     ],
     "membership": "generated-4",
