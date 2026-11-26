@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 201,
+  "revision": 202,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3785,6 +3785,14 @@
             "body": "Technically speaking, Before panicking, remember that a ban message isn't evidence of an active ban system.",
             "createdAt": "2026-11-26T22:46:22.471Z",
             "replyTo": "datamine-result-candy-1795733182471-ry810lm8pj"
+          },
+          {
+            "id": "datamine-live-candy-1795733188017-o3g1t7ln9ii",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-26T22:46:28.017Z",
+            "replyTo": null
           }
         ],
         "typing": [],
@@ -3807,7 +3815,12 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5
+        "maxMembers": 5,
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795733188017-o3g1t7ln9ii",
+          "memberId": "generated-4-1",
+          "endsAt": "2026-11-26T22:46:33.901Z"
+        }
       }
     ],
     "membership": "generated-4",
