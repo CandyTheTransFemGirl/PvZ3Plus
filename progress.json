@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 213,
+  "revision": 214,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4019,7 +4019,17 @@
             "sender": "LunarStar29",
             "body": "PlantLoc.json has ID_PLANT_PVZ1_IMITATER_NAME = Imitater and ID_PLANT_PVZ1_IMITATER_GROUP = N/A. That tier is unusual. Could be a special seed-packet mechanic like PvZ1, but the strings alone don't prove it.",
             "createdAt": "2026-11-26T23:15:05.802Z",
-            "replyTo": null
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_AUTO_1795734905802_XGZCRJV5V8"
+          },
+          {
+            "id": "datamine-live-candy-1795734932356-42myxz900hz",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-26T23:15:32.356Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795734932356_42MYXZ900HZ"
           }
         ],
         "typing": [],
@@ -4042,7 +4052,12 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5
+        "maxMembers": 5,
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795734932356-42myxz900hz",
+          "memberId": "generated-2-4",
+          "endsAt": "2026-11-26T23:15:49.635Z"
+        }
       }
     ],
     "membership": "generated-4",
