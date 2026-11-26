@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 244,
+  "revision": 245,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4548,6 +4548,42 @@
             "createdAt": "2026-11-26T23:44:06.240Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_B1504A78B65E1DD1D59DDA89D297B1793341A3EF"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736651069-q73wl8umjrk",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_PLANTPASS_CHUNKREWARDRULE = Meteorite chunks replaced one-for-one with Wild Seeds\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:44:11.069Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736651069_Q73WL8UMJRK"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736651069-uotq9osxyc",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_PLANTPASS_FEATURED_UPNEXT = Frostroot\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:44:11.069Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736651069_UOTQ9OSXYC"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736651069-nmzeev4cu9",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_UI_WEBSITE_UPDATE_AVAILABLE_RELOAD = Website update available — Reload\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:44:11.069Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736651069_NMZEEV4CU9"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736651069-ilrrm3nq2pt",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_DOWNTIME_WARNING = Downtime in fuction_time_countdown\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:44:11.069Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736651069_ILRRM3NQ2PT"
           }
         ],
         "typing": [],
@@ -4608,77 +4644,6 @@
           ],
           "queue": [
             {
-              "sha": "8a312d2cc223e919214a399e75f72afcc2538da1",
-              "at": "2026-11-26T23:13:02Z",
-              "files": [
-                "PlantLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_PLANT_PVZ1_IMITATER_NAME",
-                  "value": "Imitater",
-                  "file": "PlantLoc.json"
-                }
-              ]
-            },
-            {
-              "sha": "e4fc6b1adf139e4132e099be46887f36a01043b3",
-              "at": "2026-11-26T23:13:18Z",
-              "files": [
-                "PlantLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_PLANT_PVZ1_IMITATER_NAME",
-                  "value": "Imitater",
-                  "file": "PlantLoc.json"
-                },
-                {
-                  "key": "ID_PLANT_PVZ1_IMITATER_GROUP",
-                  "value": "N/A",
-                  "file": "PlantLoc.json"
-                }
-              ]
-            },
-            {
-              "sha": "61713cddf5da684147380a7101af01d0cf12ae87",
-              "at": "2026-11-26T23:16:10Z",
-              "files": [
-                "PlantPassLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_PLANTPASS_CHUNKREWARDRULE",
-                  "value": "Meteorite chunks replaced one-for-one with Wild Seeds",
-                  "file": "PlantPassLoc.json"
-                },
-                {
-                  "key": "ID_PLANTPASS_FEATURED_UPNEXT",
-                  "value": "Frostroot",
-                  "file": "PlantPassLoc.json"
-                }
-              ]
-            },
-            {
-              "sha": "c83a055a2eae41e1a943bf59717779df84bfd914",
-              "at": "2026-11-26T23:17:12Z",
-              "files": [
-                "UpdateLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_UI_WEBSITE_UPDATE_AVAILABLE_RELOAD",
-                  "value": "Website update available — Reload",
-                  "file": "UpdateLoc.json"
-                },
-                {
-                  "key": "ID_DOWNTIME_WARNING",
-                  "value": "Downtime in fuction_time_countdown",
-                  "file": "UpdateLoc.json"
-                }
-              ]
-            },
-            {
               "sha": "37e0db470bd61016f13a4c3e27595f9363697d43",
               "at": "2026-11-26T23:18:18Z",
               "files": [
@@ -4734,22 +4699,6 @@
                   "file": "EventLoc.json"
                 }
               ]
-            },
-            {
-              "sha": "5dce8755db38837ab5370a2fda263b732272295d",
-              "at": "2026-11-26T23:22:29Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "8b9668b44fe4d93870828e2bf8ebb69d4cf3a901",
-              "at": "2026-11-26T23:02:49Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
             },
             {
               "sha": "b193eec0ddb5204f030d57bd266a60c64a2bef85",
@@ -4862,29 +4811,8 @@
                   "key": "ID_OWNERDEBUG_LOC_COUNT",
                   "value": "Matching strings",
                   "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_DUPLICATE",
-                  "value": "This identifier exists in another catalogue. Edit that catalogue instead.",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
                 }
               ]
-            },
-            {
-              "sha": "6f4d06a5445cc0194c7b7a583325b7b334940d0a",
-              "at": "2026-11-26T23:05:55Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "136ccfb82d4fb39c360d574ec5863c9725ed8f68",
-              "at": "2026-11-26T23:07:46Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
             },
             {
               "sha": "86ec6cadc7075b68c94291e0ee9afc775db5a455",
@@ -4944,49 +4872,12 @@
               ]
             },
             {
-              "sha": "372985259d4a8d1e2fb995e64b2117cdf7b06a01",
-              "at": "2026-11-26T23:26:03Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "46f1f1c3b365eb3475cf56bdea9097f0b4b7687c",
-              "at": "2026-11-26T23:27:33Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "682d4d4be0627520a849bd3fb7c977ca3e851ebe",
-              "at": "2026-11-26T23:33:33Z",
-              "files": [
-                "progress.json"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "9cf98fa8c949706de9a35eeaf78fe12880849de4",
-              "at": "2026-11-26T23:33:44Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
               "sha": "700f16c96ae6fedf6e8b666293aaf9093be3718b",
               "at": "2026-11-26T23:35:01Z",
               "files": [
                 "UpdateLoc.json"
               ],
               "clues": [
-                {
-                  "key": "ID_DOWNTIME_WARNING",
-                  "value": "Downtime in fuction_time_countdown",
-                  "file": "UpdateLoc.json"
-                },
                 {
                   "key": "ID_DOWNTIME_ACTIVE",
                   "value": "Scheduled maintenance — Thanksgiving Update",
@@ -5029,14 +4920,6 @@
               ]
             },
             {
-              "sha": "59226f35e3fd720fc443a7a8227820a5d288cf1c",
-              "at": "2026-11-26T23:38:53Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
               "sha": "b1504a78b65e1dd1d59dda89d297b1793341a3ef",
               "at": "2026-11-26T23:40:53Z",
               "files": [
@@ -5044,24 +4927,11 @@
               ],
               "clues": [
                 {
-                  "key": "ID_OWNERDEBUG_LOC_DUPLICATE",
-                  "value": "This identifier exists in another catalogue. Edit that catalogue instead.",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
                   "key": "ID_MANAGER_LOC",
                   "value": "- Community Manager",
                   "file": "PeopleLocalisationPvz3Plus.Json"
                 }
               ]
-            },
-            {
-              "sha": "9ab5031bfd59c25dd60a97c66140d6b12784453c",
-              "at": "2026-11-26T23:41:06Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
             },
             {
               "sha": "72adf4d5cd911827fd27f40a05eb81e546078629",
@@ -5081,14 +4951,6 @@
                   "file": "PeopleLocalisationPvz3Plus.Json"
                 }
               ]
-            },
-            {
-              "sha": "68385f86b024ad78bb5ec60e518075ec4b35843d",
-              "at": "2026-11-26T23:42:11Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
             },
             {
               "sha": "5094d921dfe1cc7e169c84eca49b3ba09361a203",
@@ -5113,21 +4975,8 @@
                   "file": "PeopleLocalisationPvz3Plus.Json"
                 }
               ]
-            },
-            {
-              "sha": "ac53b34c0a8c905dd5254b25530a90d640f9755c",
-              "at": "2026-11-26T23:43:03Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
             }
           ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795735777587-9b3lqqsq4yw",
-          "memberId": "generated-4-1",
-          "endsAt": "2026-11-26T23:29:40.587Z"
         }
       }
     ],
