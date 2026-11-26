@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 251,
+  "revision": 252,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4764,6 +4764,42 @@
             "createdAt": "2026-11-26T23:45:12.428Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736712428_BKYUISW23CI"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736717678-9uukk8ggvtm",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_OWNERDEBUG_LOC_SAVED = Localisation saved.\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:17.678Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736717678_9UUKK8GGVTM"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736717678-zwx0fqxzh9",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_OWNERDEBUG_LOC_FAILED = Localisation request failed\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:17.678Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736717678_ZWX0FQXZH9"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736717678-tqxuah6w7pi",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_OWNERDEBUG_LOC_CONFLICT = The catalogue changed. Reload it before saving again.\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:17.678Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736717678_TQXUAH6W7PI"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736717678-jk7zeo72gnr",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_OWNERDEBUG_LOC_PUBLIC = Catalogue text is repository-visible. Never enter credentials, private information or personal messages.\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:17.678Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736717678_JK7ZEO72GNR"
           }
         ],
         "typing": [],
@@ -4830,26 +4866,6 @@
                 "PeopleLocalisationPvz3Plus.Json"
               ],
               "clues": [
-                {
-                  "key": "ID_OWNERDEBUG_LOC_SAVED",
-                  "value": "Localisation saved.",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_FAILED",
-                  "value": "Localisation request failed",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_CONFLICT",
-                  "value": "The catalogue changed. Reload it before saving again.",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_PUBLIC",
-                  "value": "Catalogue text is repository-visible. Never enter credentials, private information or personal messages.",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
                 {
                   "key": "ID_OWNERDEBUG_LOC_RELOAD",
                   "value": "Reload catalogue",
