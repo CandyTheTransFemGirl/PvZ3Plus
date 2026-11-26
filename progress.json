@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 104,
+  "revision": 105,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4255,6 +4255,23 @@
             "xp": 0,
             "currency": 0,
             "seedId": "cinderwood",
+            "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795698334333-6s7pkre7zys",
+          "title": "Reward 4",
+          "threshold": 1500,
+          "plantId": "",
+          "reward": {
+            "coins": 1000,
+            "wild": 25,
+            "gems": 30,
+            "points": 0,
+            "seeds": 0,
+            "xp": 0,
+            "currency": 0,
+            "seedId": "",
             "xpId": ""
           }
         }
