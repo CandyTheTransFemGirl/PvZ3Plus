@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 131,
+  "revision": 132,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -16596,6 +16596,13 @@
       "senderName": "Sprout :3",
       "body": "Claimed my celebration gift! Thank you, PvZ3+ Team!! :D",
       "createdAt": "2026-11-26T17:30:00.000Z"
+    },
+    {
+      "id": "candy-1795716024523-y0b997vf7l",
+      "senderId": "candy",
+      "senderName": "Candy :3",
+      "body": "Check your mailbox everyone the devs send us an update!",
+      "createdAt": "2026-11-26T18:00:24.523Z"
     }
   ],
   "seedUnlockRules": {
