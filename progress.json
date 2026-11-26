@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 210,
+  "revision": 211,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3967,6 +3967,24 @@
             "createdAt": "2026-11-26T23:09:46.534Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795734586534_EXIM5CQEWY5"
+          },
+          {
+            "id": "datamine-result-candy-1795734605851-n28cqbihnj",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_OWNERDEBUG_PUBLISH_CHALLENGE = Publish challenge\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-26T23:10:05.851Z",
+            "replyTo": "datamine-live-candy-1795734586534-exim5cqewy5",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795734605851_N28CQBIHNJ"
+          },
+          {
+            "id": "datamine-reaction-candy-1795734605851-00il5puih1hp",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "As a longtime PvZ fan, here's what stands out: We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-26T23:10:05.851Z",
+            "replyTo": "datamine-result-candy-1795734605851-n28cqbihnj",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795734605851_00IL5PUIH1HP"
           }
         ],
         "typing": [],
@@ -3989,12 +4007,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795734586534-exim5cqewy5",
-          "memberId": "generated-4-1",
-          "endsAt": "2026-11-26T23:10:04.576Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
