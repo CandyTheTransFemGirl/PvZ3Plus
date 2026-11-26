@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 98,
+  "revision": 99,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4167,6 +4167,14 @@
         {
           "id": "candy-1795697472402-j05tqsfvxr",
           "title": "Merge an Lavaleek in an victorious Level",
+          "description": "",
+          "day": 3,
+          "points": 65,
+          "completed": false
+        },
+        {
+          "id": "candy-1795697524645-vwlvs7e2q6",
+          "title": "Win with 3 firey element plant used in an victorious level",
           "description": "",
           "day": 3,
           "points": 65,
