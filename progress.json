@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 119,
+  "revision": 120,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -1664,6 +1664,14 @@
             "createdAt": "2026-11-25T22:04:41.496Z",
             "id": "generated-4-intro-0",
             "senderId": "generated-4-0",
+            "replyTo": null
+          },
+          {
+            "id": "candy-1795707969823-q8nsjloqn",
+            "senderId": "candy",
+            "sender": "Candy",
+            "body": "How is everyone doing and yes I'm the owner. Hi.",
+            "createdAt": "2026-11-26T15:46:09.823Z",
             "replyTo": null
           }
         ],
@@ -4720,5 +4728,17 @@
       "rewardTrack": [],
       "rewardClaims": []
     }
-  }
+  },
+  "npcResponseQueue": [
+    {
+      "id": "candy-1795707969830-hlgep7pdh",
+      "channel": "group",
+      "groupId": "generated-4",
+      "messageId": "candy-1795707969823-q8nsjloqn",
+      "body": "How is everyone doing and yes I'm the owner. Hi.",
+      "replyTo": null,
+      "status": "pending",
+      "createdAt": "2026-11-26T15:46:09.823Z"
+    }
+  ]
 }
