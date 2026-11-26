@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 79,
+  "revision": 80,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3974,6 +3974,20 @@
         "title": "3 star 3 Adventure Levels",
         "description": "",
         "createdAt": "2026-11-26T12:18:22.874Z",
+        "creator": "candy",
+        "status": "pending",
+        "rewards": {
+          "coins": 0,
+          "wild": 0,
+          "plantPassPoints": 25
+        },
+        "otherReward": ""
+      },
+      {
+        "id": "candy-1795695531235-swuchnbc3jo",
+        "title": "Plant Cabbage-pult in an victorious lawn patrol level",
+        "description": "",
+        "createdAt": "2026-11-26T12:18:51.235Z",
         "creator": "candy",
         "status": "pending",
         "rewards": {
