@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 156,
+  "revision": 157,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -20526,7 +20526,30 @@
     "candy": "owner"
   },
   "shop": {
-    "offers": [],
+    "offers": [
+      {
+        "id": "candy-1795729889624-wsx0hweqv3",
+        "title": "Premium Plant Pass",
+        "description": "Unlocks the premium Reward Path! And immediately unlocks Snow-Bellista!",
+        "section": "pass",
+        "currency": "gems",
+        "price": 500,
+        "limit": 1,
+        "limited": false,
+        "endAt": null,
+        "passId": "snowbellista",
+        "passEndAt": "2026-12-08T16:59:00Z",
+        "rewards": {
+          "coins": 0,
+          "gems": 0,
+          "wild": 0,
+          "potion": 0,
+          "seeds": 0,
+          "seedId": "",
+          "plantId": "snowbellista"
+        }
+      }
+    ],
     "purchases": [],
     "rules": {
       "visibility": "all players",
