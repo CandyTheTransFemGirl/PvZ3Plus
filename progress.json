@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 70,
+  "revision": 71,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -754,6 +754,18 @@
         }
       },
       "claimedAt": "2026-11-26T10:12:08.044Z"
+    },
+    {
+      "id": "candy-1795689632218-ur2wacjwfv",
+      "sender": "candy",
+      "recipient": "assistant-player",
+      "type": "custom",
+      "title": "Dirt Sheet(for everyone!)",
+      "body": "This slimy cocky plant loves to hit zombies with her acid cupcakes! Works quite well \nIt seems that this zombie has an tire and uses it as an shield! But luckily she can just lob over it! \nCome back on December 22nd to see who this plant and zombie are!",
+      "deliverAt": "2026-11-26T10:40:31.509Z",
+      "read": false,
+      "claimed": false,
+      "rewards": {}
     }
   ],
   "temporaryPlantAccess": [
