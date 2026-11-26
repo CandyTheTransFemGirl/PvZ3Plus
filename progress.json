@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 199,
+  "revision": 200,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3761,6 +3761,14 @@
             "body": "WAIT, this is interesting!! That suggests the text isn't finalized, not necessarily that the lawn is playable.",
             "createdAt": "2026-11-26T22:46:03.904Z",
             "replyTo": "datamine-result-candy-1795733163904-2mrv2ltsx8c"
+          },
+          {
+            "id": "datamine-live-candy-1795733170269-rljj86wt8pk",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-26T22:46:10.269Z",
+            "replyTo": null
           }
         ],
         "typing": [],
@@ -3783,7 +3791,12 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5
+        "maxMembers": 5,
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795733170269-rljj86wt8pk",
+          "memberId": "generated-0-14",
+          "endsAt": "2026-11-26T22:46:21.380Z"
+        }
       }
     ],
     "membership": "generated-4",
