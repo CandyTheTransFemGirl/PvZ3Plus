@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 137,
+  "revision": 138,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -1037,6 +1037,19 @@
       "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
       "deliverAt": "2026-11-26T17:52:52.438Z",
       "read": true,
+      "claimed": false,
+      "rewards": {},
+      "broadcast": true
+    },
+    {
+      "id": "candy-1795717425444-y9fhk7rsd9q",
+      "sender": "pvz3plus-team",
+      "recipient": "assistant-player",
+      "type": "custom",
+      "title": "PvZ3+ — The Road to Version 1.0!",
+      "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+      "deliverAt": "2026-11-26T18:23:44.337Z",
+      "read": false,
       "claimed": false,
       "rewards": {},
       "broadcast": true
@@ -5065,6 +5078,19 @@
             "claimed": false,
             "rewards": {},
             "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-0",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
           }
         ],
         "gems": 0,
@@ -5306,6 +5332,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-1",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -5580,6 +5619,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-2",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -5896,6 +5948,19 @@
             "claimed": false,
             "rewards": {},
             "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-3",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
           }
         ],
         "gems": 0,
@@ -6116,6 +6181,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-4",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -6381,6 +6459,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-5",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -6679,6 +6770,19 @@
             "claimed": false,
             "rewards": {},
             "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-6",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
           }
         ],
         "gems": 0,
@@ -6887,6 +6991,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-7",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -7131,6 +7248,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-8",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -7416,6 +7546,19 @@
             "title": "Dirt Sheet Update",
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-9",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
             "read": false,
             "claimed": false,
             "rewards": {},
@@ -7733,6 +7876,19 @@
             "claimed": false,
             "rewards": {},
             "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-0",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
           }
         ],
         "gems": 0,
@@ -7962,6 +8118,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-1",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -8226,6 +8395,19 @@
             "title": "Dirt Sheet Update",
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-2",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
             "read": false,
             "claimed": false,
             "rewards": {},
@@ -8534,6 +8716,19 @@
             "claimed": false,
             "rewards": {},
             "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-3",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
           }
         ],
         "gems": 0,
@@ -8742,6 +8937,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-4",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -8994,6 +9202,19 @@
             "title": "Dirt Sheet Update",
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-5",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
             "read": false,
             "claimed": false,
             "rewards": {},
@@ -9281,6 +9502,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-6",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -9606,6 +9840,19 @@
             "claimed": false,
             "rewards": {},
             "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-7",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
           }
         ],
         "gems": 0,
@@ -9834,6 +10081,19 @@
             "title": "Dirt Sheet Update",
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-8",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
             "read": false,
             "claimed": false,
             "rewards": {},
@@ -10109,6 +10369,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-9",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -10416,6 +10689,19 @@
             "claimed": false,
             "rewards": {},
             "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-10",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
           }
         ],
         "gems": 0,
@@ -10635,6 +10921,19 @@
             "title": "Dirt Sheet Update",
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-11",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
             "read": false,
             "claimed": false,
             "rewards": {},
@@ -10889,6 +11188,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-12",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -11187,6 +11499,19 @@
             "claimed": false,
             "rewards": {},
             "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-13",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
           }
         ],
         "gems": 0,
@@ -11385,6 +11710,19 @@
             "title": "Dirt Sheet Update",
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-14",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
             "read": false,
             "claimed": false,
             "rewards": {},
@@ -11630,6 +11968,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-0",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -11904,6 +12255,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-1",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -12220,6 +12584,19 @@
             "claimed": false,
             "rewards": {},
             "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-2",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
           }
         ],
         "gems": 0,
@@ -12440,6 +12817,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-3",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -12705,6 +13095,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-4",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -13003,6 +13406,19 @@
             "claimed": false,
             "rewards": {},
             "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-5",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
           }
         ],
         "gems": 0,
@@ -13211,6 +13627,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-6",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -13455,6 +13884,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-7",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -13740,6 +14182,19 @@
             "title": "Dirt Sheet Update",
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-2-0",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
             "read": false,
             "claimed": false,
             "rewards": {},
@@ -14057,6 +14512,19 @@
             "claimed": false,
             "rewards": {},
             "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-2-1",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
           }
         ],
         "gems": 0,
@@ -14286,6 +14754,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-2-2",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -14550,6 +15031,19 @@
             "title": "Dirt Sheet Update",
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-2-3",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
             "read": false,
             "claimed": false,
             "rewards": {},
@@ -14858,6 +15352,19 @@
             "claimed": false,
             "rewards": {},
             "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-2-4",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
           }
         ],
         "gems": 0,
@@ -15066,6 +15573,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-2-5",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -15318,6 +15838,19 @@
             "title": "Dirt Sheet Update",
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-2-6",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
             "read": false,
             "claimed": false,
             "rewards": {},
@@ -15605,6 +16138,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-3-0",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
@@ -15930,6 +16476,19 @@
             "claimed": false,
             "rewards": {},
             "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-3-1",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
           }
         ],
         "gems": 0,
@@ -16158,6 +16717,19 @@
             "title": "Dirt Sheet Update",
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-3-2",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
             "read": false,
             "claimed": false,
             "rewards": {},
@@ -16433,6 +17005,19 @@
             "body": "Key Lye Pie And Tire Zombie Are coming soon! Stay Tuned! \nThe date will be revealed later or Sprout will confirm it! - Pvz3+ Team",
             "deliverAt": "2026-11-26T17:52:52.438Z",
             "read": true,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true
+          },
+          {
+            "id": "candy-1795717425444-y9fhk7rsd9q",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-3-3",
+            "type": "custom",
+            "title": "PvZ3+ — The Road to Version 1.0!",
+            "body": "The beta era is coming to an end, and we're getting ready for the biggest milestone in PvZ3+ history!\n\nOn December 22, 2026, at 22:00 GMT, the Sewer Expansion Update will officially mark the end of Beta and the beginning of our Release Candidate (RC) phase!\n\nWhat's next?\n\n- December 22 — RC 1: Sewer Expansion Update\n- December 27 — RC 2: Thunder Choy Update\n- January 12 — RC 3: Cowbell Update\n- February 5 — Version 1.0: THE BIG UPDATE!\n\n🎉 The Big Update\n\nLaunching on February 5, 2027, at 17:00 GMT, The Big Update will mark the official full release of PvZ3+!\n\nGet ready for:\n\n- 16 announced new plants!\n- 4 announced new zombies!\n- Brand-new fusion combinations!\n- Familiar faces returning to the lawn!\n- The introduction of Sneak Stalk, a custom plant!\n- And potentially even more surprises!\n\n🎁 A special thank-you!\n\nTo celebrate the official launch, every player who joined PvZ3+ before Version 1.0 will receive a special reward when The Big Update releases!\n\nThis is our way of thanking everyone who has supported, played and been part of PvZ3+ throughout its development.\n\nWhat is the reward? Well... that would ruin the surprise, wouldn't it? ;)\n\nThank you for being part of this journey. We're only getting started!\n\nStay tuned for more Dirt Sheet teasers and announcements!\n\n— The PvZ3+ Team",
+            "deliverAt": "2026-11-26T18:23:44.337Z",
+            "read": false,
             "claimed": false,
             "rewards": {},
             "broadcast": true
