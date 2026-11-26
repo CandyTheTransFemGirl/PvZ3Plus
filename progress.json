@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 102,
+  "revision": 103,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4216,6 +4216,23 @@
             "coins": 500,
             "wild": 0,
             "gems": 0,
+            "points": 0,
+            "seeds": 0,
+            "xp": 0,
+            "currency": 0,
+            "seedId": "",
+            "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795698147002-n6cg0he7z8r",
+          "title": "Reward 2",
+          "threshold": 950,
+          "plantId": "",
+          "reward": {
+            "coins": 0,
+            "wild": 0,
+            "gems": 75,
             "points": 0,
             "seeds": 0,
             "xp": 0,
