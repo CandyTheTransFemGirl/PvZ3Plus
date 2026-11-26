@@ -1,0 +1,47 @@
+name: Apply owner command
+on:
+  push:
+    branches: [main]
+    paths: ['admin-commands/*.json']
+permissions:
+  contents: write
+concurrency:
+  group: admin-command
+  cancel-in-progress: false
+jobs:
+  apply:
+    if: github.actor == 'CandyTheTransFemGirl'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          python - <<'PY'
+          import json, subprocess, os, pathlib
+          p=pathlib.Path('progress.json')
+          v=json.loads(p.read_text())
+          files=subprocess.check_output(['git','diff','--name-only','--diff-filter=A',os.environ['BEFORE'],os.environ['AFTER']],text=True).splitlines()
+          for name in files:
+              if not name.startswith('admin-commands/') or not name.endswith('.json'): continue
+              c=json.loads(pathlib.Path(name).read_text())
+              if c['revision']!=v['revision']: raise ValueError('Save changed; reopen Almanac and retry')
+              for op in c['changes']:
+                  k=op['key']
+                  if k in ('revision','__proto__','constructor'): raise ValueError('Invalid key')
+                  if op['remove']: v.pop(k,None)
+                  else: v[k]=op['value']
+              v['revision']+=1
+              pathlib.Path(name).unlink()
+          p.write_text(json.dumps(v,ensure_ascii=False,indent=2))
+          PY
+          git config user.name github-actions
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add progress.json admin-commands/
+          if ! git diff --cached --quiet; then
+            git commit -m "Apply approved admin command"
+            git push origin HEAD:main
+          fi
