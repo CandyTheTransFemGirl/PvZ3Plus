@@ -220,6 +220,27 @@ ID_ANTICHEAT_BAN:["Sweet Anticheat V1.0? Is Candy actually planning an anti-chea
 ID_WOW:["CANDY. The message literally asks whether those two names scared us!","Could be a prank, or Candy could be teasing a real anti-cheat. We still don't know."],
 ID_SECRET_PLANT:["Candy left a message specifically for people snooping through the files.","Looks like the hidden references were deliberately planted."]
 };
+
+let pushPolling=false,pushCursor=null;
+async function pollDataPushes(){
+ if(pushPolling||!ownerCredential||!data)return;pushPolling=true;
+ try{
+ const headers={Authorization:'Bearer '+ownerCredential,Accept:'application/vnd.github+json'};
+ const base='https://api.github.com/repos/CandyTheTransFemGirl/PvZ3Plus';
+ const r=await fetch(base+'/commits?sha=main&per_page=30',{headers,cache:'no-store'});if(!r.ok)return;
+ const commits=await r.json();const group=data.groups?.list?.find(g=>g.id==='dataminer-group');if(!group)return;
+ const seen=new Set(group.dataPushes?.seen||[]);const pending=commits.filter(c=>!seen.has(c.sha)&&!/^Update PvZ3Plus social data|^Append private fictional dataminer discovery|^Dataminer/i.test(c.commit.message)).reverse();
+ const batch=pending.slice(-12);if(!batch.length)return;
+ const pushes=[];
+ for(const c of batch){const rr=await fetch(base+'/commits/'+c.sha,{headers,cache:'no-store'});if(!rr.ok)continue;const detail=await rr.json();const files=(detail.files||[]).filter(f=>!/^\.github\/|^scripts\//.test(f.filename));if(!files.length)continue;const clues=[];
+ for(const f of files){if(!/(?:Loc\.json|LocalisedStringsPvZ3Plus\.Json|PeopleLocalisationPvz3Plus\.Json)$/i.test(f.filename))continue;for(const line of (f.patch||'').split('\n')){const m=line.match(/^\+\s*"(ID_[^"]+)"\s*:\s*("(?:[^"\\]|\\.)*")/);if(m)try{clues.push({key:m[1],value:JSON.parse(m[2]),file:f.filename});}catch{}}}
+ pushes.push({sha:c.sha,at:c.commit.author.date,files:files.map(f=>f.filename),clues});}
+ if(!pushes.length)return;
+ await mutateSave(v=>{const g=v.groups.list.find(x=>x.id==='dataminer-group');const state=g.dataPushes??={seen:[],queue:[]};for(const p of pushes){if(state.seen.includes(p.sha))continue;state.seen.push(p.sha);state.queue.push(p);const m=g.members.find(x=>x.id==='generated-4-1')||g.members[0];g.messages.push({id:'data-push-'+p.sha,senderId:m.id,sender:m.name,body:'Data Push detected: '+p.files.join(', ')+'. Checking what changed.',createdAt:new Date().toISOString(),replyTo:null});}state.seen=state.seen.slice(-300);},true);
+ }catch(e){console.warn('Data Push monitor:',e.message);}finally{pushPolling=false;}
+}
+setInterval(pollDataPushes,8000);
+
 function liveMinerSchedule(){setTimeout(liveMinerRun,90000+Math.floor(Math.random()*90001));}
 async function liveMinerRun(){
  let session=null;
@@ -243,7 +264,7 @@ async function liveMinerRun(){
  for(const section of Object.values(v.hiddenReferences||{}))for(const [key,value] of Object.entries(section.strings||{}))if(!history.includes(key))clues.push({key,value});
  for(const goal of v.activities?.goals||[])if(goal.title?.startsWith('ID_')&&!history.includes(goal.title))clues.push({key:goal.title,value:'Level requirement: '+goal.minLevel});
  for(const [key,value] of Object.entries(minerLocale))if(/^ID_(REALPERSON|OWNERDEBUG|WHATSWRONG|MAIL_2026|PREMIUMQUESTPATH|TOFUTUKEY|BABYTOFU|MASTERTURKEY|AGENTLAWN|ANTICHEAT|WOW|SECRET|THANGSGIVING|THANKSGIVING)/.test(key)&&!history.includes(key)&&!clues.some(c=>c.key===key))clues.push({key,value});
- const clue=minerPick(clues),id='datamine-result-'+newMessageId();
+ const queued=g.dataPushes?.queue||[];while(queued.length&&!queued[0].clues.length)queued.shift();const pushed=queued[0]?.clues.shift();if(queued.length&&!queued[0].clues.length)queued.shift();const clue=pushed||minerPick(clues),id='datamine-result-'+newMessageId();
  const notes=clue&&(minerNotes[clue.key]||["This identifier has a stored value, but we don't know whether the content is active.","We should wait for more evidence before calling this a confirmed release."]);
  g.messages.push({id,senderId:m.id,sender:m.name,body:clue?clue.key+' = '+clue.value+'\n'+(m.id==='generated-0-14'&&/TURKEY|TOFU|AGENTLAWN/.test(clue.key)?'NEW CONTENT?! ': '')+notes[0]:"I've compared the hidden strings with our notes. Nothing new in this batch.",createdAt:new Date().toISOString(),replyTo:session.id});
  if(clue){const other=minerPick(g.members.filter(x=>x.id!==m.id));g.messages.push({id:'datamine-reaction-'+newMessageId(),senderId:other.id,sender:other.name,body:(minerVoices[other.id]?.react||'')+notes[1],createdAt:new Date().toISOString(),replyTo:id});}
