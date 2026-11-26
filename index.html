@@ -232,7 +232,7 @@ dialog.candyDashboard{width:min(94vw,760px)!important;max-width:94vw;max-height:
 .candyDashboard .adminPage select[multiple]{min-height:130px}
 .candyDashboard .adminHead h2{margin:0 0 8px}
 `;document.head.append(adminStyle);admin.classList.add('candyDashboard');
-const adminHead=el('div');adminHead.className='adminHead';adminHead.append(closeTop,el('h2','Candy Control Centre'));const adminTabs=el('div');adminTabs.className='adminTabs';adminHead.append(adminTabs);admin.prepend(adminHead);
+const adminHead=el('div');adminHead.className='adminHead';adminHead.append(closeTop,el('h2','Candy Control Centre · v51'));const adminTabs=el('div');adminTabs.className='adminTabs';adminHead.append(adminTabs);admin.prepend(adminHead);
 const adminPages={};function adminPage(key,title){const p=el('section');p.className='adminPage';p.append(el('h3',title));admin.append(p);adminPages[key]=p;const b=el('button',title);b.type='button';b.onclick=()=>switchAdmin(key);b.dataset.tab=key;adminTabs.append(b);return p}
 function switchAdmin(key){for(const [k,p] of Object.entries(adminPages))p.hidden=k!==key;for(const b of adminTabs.children)b.setAttribute('aria-selected',String(b.dataset.tab===key));admin.scrollTop=0}
 const overview=adminPage('overview','Overview'),mail=adminPage('mail','Mailbox'),gifts=adminPage('gifts','Rewards'),access=adminPage('access','Access'),adventure=adminPage('adventure','Adventure'),auth=adminPage('auth','Connection');
@@ -241,7 +241,7 @@ const intro=Array.from(admin.children).find(x=>x.tagName==='P'&&x.textContent.st
 const tokenHelp=Array.from(admin.children).find(x=>x.tagName==='P'&&x.querySelector('a'));if(tokenHelp)auth.append(tokenHelp);
 function moveFields(page,ids){for(const id of ids){const x=ca(id);if(x)page.append(x.closest('label')||x)}}
 moveFields(auth,['Token']);moveFields(mail,['Title','Body','Delivery']);moveFields(gifts,['Coins','Wild','SeedPlant','Seeds','Unlock','XPPlant','XP']);moveFields(access,['Plant','Zombie','Duration','Unit']);
-const footer=el('div');footer.style.cssText='position:sticky;bottom:0;background:#282034;padding:12px;border-top:1px solid #745493;z-index:25';footer.append(ca('Status'),ca('Send'));ca('Send').textContent='Send message & rewards';ca('Close').remove();admin.append(footer);
+const sendControl=ca('Send'),statusControl=ca('Status'),closeControl=ca('Close');const footer=el('div');footer.style.cssText='position:sticky;bottom:0;background:#282034;padding:12px;border-top:1px solid #745493;z-index:25';footer.append(statusControl,sendControl);sendControl.textContent='Send message & rewards';closeControl.remove();mail.append(footer);footer.style.position='static';
 const launch=el('button','Edit current Adventure level');launch.onclick=()=>{admin.close();advButton.click()};adventure.append(launch,challengeBox);
 const summary=el('p');overview.append(summary,el('p','Manage the player, compose gifts and publish challenges. Mailbox, Rewards and Access share one draft. Nothing is sent until you press Send.'));
 for(const [key,label] of [['mail','Compose message'],['gifts','Configure rewards'],['access','Grant early access'],['auth','Manage GitHub connection']]){const b=el('button',label);b.onclick=()=>switchAdmin(key);overview.append(b)}
