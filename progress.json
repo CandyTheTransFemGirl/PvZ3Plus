@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 149,
+  "revision": 150,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -19924,5 +19924,36 @@
       "improvedAbilityBonus": 0.55,
       "requiredForSimulatedCombat": true
     }
+  },
+  "bugReports": [],
+  "bugReportRules": {
+    "playerSubmission": true,
+    "owner": "candy",
+    "ownerControlsStatus": true,
+    "statuses": [
+      "Open",
+      "Investigating",
+      "Confirmed",
+      "Fix in progress",
+      "Hotfix scheduled",
+      "Fixed",
+      "Cannot reproduce",
+      "Closed"
+    ],
+    "requiredFields": [
+      "id",
+      "title",
+      "description",
+      "area",
+      "reporter",
+      "status",
+      "createdAt",
+      "updatedAt"
+    ],
+    "optionalFields": [
+      "ownerNote",
+      "hotfix"
+    ],
+    "simulatedPlayersMaySubmit": true
   }
 }
