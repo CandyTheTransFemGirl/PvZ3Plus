@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 73,
+  "revision": 74,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -892,7 +892,17 @@
         "recipient": "assistant-player",
         "replyTo": "player-reply-candy-1795689632218-ur2wacjwfv",
         "body": "If you check the web you might find potential matches. And also check the upcoming zombie list too lol.",
-        "createdAt": "2026-11-26T10:44:38.264Z"
+        "createdAt": "2026-11-26T10:44:38.264Z",
+        "read": true
+      },
+      {
+        "id": "player-reply-candy-1795689878264-fea6fkd5rnf",
+        "sender": "assistant-player",
+        "recipient": "candy",
+        "replyTo": "candy-1795689878264-fea6fkd5rnf",
+        "body": "I FOUND THEM!! Key Lye Pie and Tire Zombie! Both match the upcoming content wiki perfectly. :D",
+        "createdAt": "2026-11-26T10:45:38.090Z",
+        "read": false
       }
     ],
     "requests": [],
