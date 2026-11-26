@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 167,
+  "revision": 168,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4849,6 +4849,25 @@
         ],
         "zombies": [],
         "minLevel": 0
+      },
+      {
+        "id": "candy-1795730560753-sr6t5nxfkzi",
+        "title": "ID_REWARD_FROSTROOT_UNLOCK_REWARD",
+        "description": "",
+        "createdAt": "2026-11-26T22:02:40.753Z",
+        "creator": "candy",
+        "status": "pending",
+        "rewards": {
+          "coins": 650,
+          "wild": 50,
+          "plantPassPoints": 1000
+        },
+        "otherReward": "",
+        "plants": [
+          "frostroot"
+        ],
+        "zombies": [],
+        "minLevel": 9999999999
       }
     ]
   },
