@@ -1,11 +1,11 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 153,
+  "revision": 154,
   "level": 12,
   "stars": 36,
   "wins": 12,
   "losses": 0,
-  "coins": 2640,
+  "coins": 2890,
   "wild": 5,
   "potion": 1,
   "wanted": "cinderwood",
@@ -1152,8 +1152,8 @@
       "title": "Happy Thanksgiving!",
       "body": "Stay Tuned! An new tier 1 T2 and T3 are coming! Their limited so get online!\nAlso enjoy your thanksgiving if you celebrate it! Pvz3+ Team",
       "deliverAt": "2026-11-26T21:45:42.082Z",
-      "read": false,
-      "claimed": false,
+      "read": true,
+      "claimed": true,
       "rewards": {
         "coins": 250
       },
