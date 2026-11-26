@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 113,
+  "revision": 114,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -775,7 +775,7 @@
       "title": "A little help.",
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
-      "read": false,
+      "read": true,
       "claimed": false,
       "rewards": {},
       "temporaryPlantAccess": {
@@ -792,7 +792,7 @@
       "title": "A little help. · flambeleaf",
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
-      "read": false,
+      "read": true,
       "claimed": false,
       "rewards": {},
       "temporaryPlantAccess": {
@@ -809,7 +809,7 @@
       "title": "A little help. · flamethrower",
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
-      "read": false,
+      "read": true,
       "claimed": false,
       "rewards": {},
       "temporaryPlantAccess": {
@@ -826,7 +826,7 @@
       "title": "A little help. · kernelcorn",
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
-      "read": false,
+      "read": true,
       "claimed": false,
       "rewards": {},
       "temporaryPlantAccess": {
@@ -843,7 +843,7 @@
       "title": "A little help. · puffpult",
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
-      "read": false,
+      "read": true,
       "claimed": false,
       "rewards": {},
       "temporaryPlantAccess": {
@@ -860,7 +860,7 @@
       "title": "A little help. · quillshot",
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
-      "read": false,
+      "read": true,
       "claimed": false,
       "rewards": {},
       "temporaryPlantAccess": {
@@ -877,7 +877,7 @@
       "title": "A little help. · quillerqueen",
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
-      "read": false,
+      "read": true,
       "claimed": false,
       "rewards": {},
       "temporaryPlantAccess": {
@@ -894,7 +894,7 @@
       "title": "A little help. · scorchwood",
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
-      "read": false,
+      "read": true,
       "claimed": false,
       "rewards": {},
       "temporaryPlantAccess": {
@@ -911,7 +911,7 @@
       "title": "A little help. · sulfurshroom",
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
-      "read": false,
+      "read": true,
       "claimed": false,
       "rewards": {},
       "temporaryPlantAccess": {
@@ -1055,6 +1055,16 @@
         "replyTo": "candy-1795689878264-fea6fkd5rnf",
         "body": "I FOUND THEM!! Key Lye Pie and Tire Zombie! Both match the upcoming content wiki perfectly. :D",
         "createdAt": "2026-11-26T10:45:38.090Z",
+        "read": false
+      },
+      {
+        "id": "player-reply-candy-1795699869391",
+        "sender": "assistant-player",
+        "recipient": "candy",
+        "title": "Thank you for the help!",
+        "body": "Ten hours of access! :D This will help with Dave's quests. I'll save the claims until gameplay starts so the timers don't run down while we prepare.",
+        "createdAt": "2026-11-26T13:31:50.704Z",
+        "replyTo": "candy-1795699869391-ccqwf6bzmmg",
         "read": false
       }
     ],
