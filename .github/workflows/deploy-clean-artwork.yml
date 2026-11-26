@@ -1,0 +1,37 @@
+name: Deploy clean artwork
+on:
+  push:
+    paths:
+      - '.github/workflows/deploy-clean-artwork.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: clean-artwork
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare clean Almanac
+        run: |
+          python - <<'PY'
+          import pathlib,re
+          p=pathlib.Path('almanac-external-preview.html')
+          s=p.read_text()
+          assets=pathlib.Path('assets')
+          assets.mkdir(exist_ok=True)
+          (assets/'artwork-pending.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160"><rect x="5" y="5" width="150" height="150" rx="8" fill="#284b40" stroke="#c6bd88" stroke-width="3"/><text x="80" y="72" text-anchor="middle" fill="#eee" font-size="14">Artwork</text><text x="80" y="92" text-anchor="middle" fill="#eee" font-size="14">pending</text></svg>')
+          s,n=re.subn(r'data:image/(?:png|jpeg|webp|gif);base64,[A-Za-z0-9+/=]+','./assets/artwork-pending.svg',s)
+          for path in re.findall(r'\./assets/[a-f0-9]{64}\.[a-z]+',s):
+              assert pathlib.Path(path).is_file(),path
+          pathlib.Path('index.html').write_text(s)
+          print(f'Quarantined {n} invalid image entries')
+          PY
+      - name: Commit clean site
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html assets/artwork-pending.svg
+          git diff --cached --quiet || git commit -m "Deploy external artwork with explicit missing-image placeholders"
+          git push
