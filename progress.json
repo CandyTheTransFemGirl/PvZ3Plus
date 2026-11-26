@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 93,
+  "revision": 94,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4130,6 +4130,14 @@
           "description": "",
           "day": 1,
           "points": 65,
+          "completed": false
+        },
+        {
+          "id": "candy-1795697304948-e4w04o48d1a",
+          "title": "Merge Scorchwood In an victorious Level",
+          "description": "",
+          "day": 2,
+          "points": 200,
           "completed": false
         }
       ],
