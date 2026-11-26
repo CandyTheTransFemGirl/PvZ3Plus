@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 64,
+  "revision": 65,
   "level": 11,
   "stars": 33,
   "wins": 11,
@@ -717,7 +717,7 @@
       "title": "I have an challenge for you",
       "body": "Win one level without sunflower for 100 wild seeds and unlock blaze leaf",
       "deliverAt": "2026-11-26T03:22:45.371Z",
-      "read": false,
+      "read": true,
       "claimed": false
     }
   ],
@@ -791,6 +791,15 @@
         "title": "FOUR MORE?!",
         "body": "Hehe!! Thank you! I claimed Frostroot and am saving the short early access gifts until I can play. What are Frostroot, Cowbell, Boombox Wood and Echo Pea's abilities?",
         "createdAt": "2026-11-25T22:52:13.124Z",
+        "read": false
+      },
+      {
+        "id": "player-reply-candy-1795663365838-6uphc9xowh9",
+        "sender": "assistant-player",
+        "recipient": "candy",
+        "replyTo": "candy-1795663365838-6uphc9xowh9",
+        "body": "Challenge accepted! I'll attempt Level 12 without Sunflower or its fusions. No rewards claimed until I win!",
+        "createdAt": "2026-11-26T03:23:13.917Z",
         "read": false
       }
     ],
