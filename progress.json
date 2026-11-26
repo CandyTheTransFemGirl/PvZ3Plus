@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 121,
+  "revision": 122,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -972,6 +972,23 @@
         "startsOnClaim": true
       },
       "claimedAt": "2026-11-26T14:03:29.665Z"
+    },
+    {
+      "id": "candy-1795713839283-lven90kd3yh",
+      "sender": "candy",
+      "recipient": "assistant-player",
+      "type": "custom",
+      "title": "Content Update 1 celebration!",
+      "body": "The first content update! \nEnjoy the new plants and zombies! \nHere's an celebration reward! <D",
+      "deliverAt": "2026-11-26T17:23:58.377Z",
+      "read": false,
+      "claimed": false,
+      "rewards": {
+        "coins": 125,
+        "seeds": {
+          "kernelseed": 25
+        }
+      }
     }
   ],
   "temporaryPlantAccess": [
