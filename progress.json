@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 177,
+  "revision": 178,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3473,6 +3473,14 @@
             "body": "Found a reference in upcomingUpdates.0.id: contentupdate1. Not an official announcement.",
             "createdAt": "2026-11-26T22:36:21.420Z",
             "replyTo": null
+          },
+          {
+            "id": "datamine-live-candy-1795732591106-7mbgxxxvny8",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-26T22:36:31.106Z",
+            "replyTo": null
           }
         ],
         "typing": [],
@@ -3495,7 +3503,12 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5
+        "maxMembers": 5,
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795732591106-7mbgxxxvny8",
+          "memberId": "generated-0-14",
+          "endsAt": "2026-11-26T22:36:40.163Z"
+        }
       }
     ],
     "membership": "generated-4",
