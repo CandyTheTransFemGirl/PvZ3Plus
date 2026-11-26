@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 190,
+  "revision": 191,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3649,6 +3649,22 @@
             "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
             "createdAt": "2026-11-26T22:44:35.725Z",
             "replyTo": null
+          },
+          {
+            "id": "datamine-result-candy-1795733090976-eob971mtms",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_BABYTOFU_PLANTZOMBIE = Tofu Chick\nTofu Chick sounds like a smaller turkey unit.",
+            "createdAt": "2026-11-26T22:44:50.976Z",
+            "replyTo": "datamine-live-candy-1795733075725-0z0dgnnsk7x"
+          },
+          {
+            "id": "datamine-reaction-candy-1795733090976-hiacoopulr8",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "Let's connect this with the other evidence: Maybe the turkey plants summon different units. We need combat data to confirm.",
+            "createdAt": "2026-11-26T22:44:50.976Z",
+            "replyTo": "datamine-result-candy-1795733090976-eob971mtms"
           }
         ],
         "typing": [],
@@ -3671,12 +3687,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795733075725-0z0dgnnsk7x",
-          "memberId": "generated-4-1",
-          "endsAt": "2026-11-26T22:44:49.415Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
