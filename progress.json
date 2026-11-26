@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 178,
+  "revision": 179,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3481,6 +3481,22 @@
             "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
             "createdAt": "2026-11-26T22:36:31.106Z",
             "replyTo": null
+          },
+          {
+            "id": "datamine-result-candy-1795732601524-zil6c31anqq",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_THANKSGIVING_INBOX_TEASER_V2 = Seems like the turkeys are coming soon!\nStay Tuned! See you at 11:00 PM!\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-26T22:36:41.524Z",
+            "replyTo": "datamine-live-candy-1795732591106-7mbgxxxvny8"
+          },
+          {
+            "id": "datamine-reaction-candy-1795732601524-ejdtvmga8vt",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-26T22:36:41.524Z",
+            "replyTo": "datamine-result-candy-1795732601524-zil6c31anqq"
           }
         ],
         "typing": [],
@@ -3503,12 +3519,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795732591106-7mbgxxxvny8",
-          "memberId": "generated-0-14",
-          "endsAt": "2026-11-26T22:36:40.163Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
