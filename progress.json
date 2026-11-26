@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 257,
+  "revision": 258,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -629,6 +629,24 @@
       "name": "Athletic Batter Zombie",
       "type": "zombies",
       "group": "Burbs"
+    },
+    {
+      "id": "tofuturkeyseed",
+      "name": "Tofu Turkey Seed",
+      "type": "plants",
+      "group": "Tier 1"
+    },
+    {
+      "id": "turkeypult",
+      "name": "Turkey-pult",
+      "type": "plants",
+      "group": "Tier 2"
+    },
+    {
+      "id": "turkeymaster",
+      "name": "Turkey Master",
+      "type": "plants",
+      "group": "Tier 3"
     }
   ],
   "customZombiePlan": {
