@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 171,
+  "revision": 172,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3393,6 +3393,46 @@
             "sender": "CloudBean18",
             "body": "Frostroot and Swiss Stallion are announced, but the later pass names in the data aren't public announcements yet.",
             "createdAt": "2026-11-26T22:04:15.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "dataminer-roadmap-0",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "The roadmap data has Thunder Choy and Strongman Zombie dated December 27. I haven't seen a public reveal for either.",
+            "createdAt": "2026-11-26T22:04:18.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "dataminer-roadmap-1",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "There's also Cowbell and Stealth Imp on January 12, plus a whole list of sound-themed plants.",
+            "createdAt": "2026-11-26T22:04:21.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "dataminer-roadmap-2",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Key Lye Pie and Tire Zombie are different: the Dirt Sheet actually named them. That's public information.",
+            "createdAt": "2026-11-26T22:04:24.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "dataminer-roadmap-3",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "The 1.0 mail announced Sneak Stalk and the launch reward, but not what the reward is.",
+            "createdAt": "2026-11-26T22:04:27.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "dataminer-roadmap-4",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "Keep the unrevealed names here. Candy owns the game and Sprout is admin, so don't assume this group is invisible to staff.",
+            "createdAt": "2026-11-26T22:04:30.000Z",
             "replyTo": null
           }
         ],
