@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 105,
+  "revision": 106,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4273,6 +4273,23 @@
             "currency": 0,
             "seedId": "",
             "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795698530360-s3jo76burgd",
+          "title": "Final Reward",
+          "threshold": 2000,
+          "plantId": "lavaleek",
+          "reward": {
+            "coins": 0,
+            "wild": 0,
+            "gems": 0,
+            "points": 0,
+            "seeds": 100,
+            "xp": 300,
+            "currency": 0,
+            "seedId": "cinderwood",
+            "xpId": "cinderwood"
           }
         }
       ],
