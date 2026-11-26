@@ -245,4 +245,9 @@ const launch=el('button','Edit current Adventure level');launch.onclick=()=>{adm
 const summary=el('p');overview.append(summary,el('p','Manage the player, compose gifts and publish challenges. Mailbox, Rewards and Access share one draft. Nothing is sent until you press Send.'));
 for(const [key,label] of [['mail','Compose message'],['gifts','Configure rewards'],['access','Grant early access'],['auth','Manage GitHub connection']]){const b=el('button',label);b.onclick=()=>switchAdmin(key);overview.append(b)}
 const oldAdminOpen=adminButton.onclick;adminButton.onclick=()=>{oldAdminOpen();summary.textContent='Adventure level '+(data?.level??'—')+' · GitHub save '+(data?'loaded':'not loaded');switchAdmin('overview')};switchAdmin('overview');
+mail.append(el('h3','Gift rewards'));for(const x of [...gifts.children].slice(1))mail.append(x);
+mail.append(el('h3','Temporary access'));for(const x of [...access.children].slice(1))mail.append(x);
+for(const k of ['gifts','access']){adminPages[k].remove();delete adminPages[k];adminTabs.querySelector('[data-tab="'+k+'"]').remove();}
+for(const b of overview.querySelectorAll('button'))if(['Configure rewards','Grant early access'].includes(b.textContent))b.remove();
+overview.querySelectorAll('p')[1].textContent='Compose messages with rewards and temporary access in one mailbox form. Nothing is sent until you press Send.';
 </script></body></html>
