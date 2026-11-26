@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 163,
+  "revision": 164,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -20612,6 +20612,28 @@
           "potion": 0,
           "seeds": 0,
           "seedId": "",
+          "plantId": ""
+        }
+      },
+      {
+        "id": "candy-1795730192085-te67tpsq8d",
+        "title": "Starter Pack!",
+        "description": "Welcome to PvZ3+ :D",
+        "section": "main",
+        "currency": "coins",
+        "price": 0,
+        "limit": 1,
+        "limited": false,
+        "endAt": null,
+        "passId": null,
+        "passEndAt": null,
+        "rewards": {
+          "coins": 700,
+          "gems": 100,
+          "wild": 25,
+          "potion": 0,
+          "seeds": 25,
+          "seedId": "peashooter",
           "plantId": ""
         }
       }
