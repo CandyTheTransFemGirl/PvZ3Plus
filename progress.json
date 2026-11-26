@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 92,
+  "revision": 93,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4119,6 +4119,14 @@
         {
           "id": "candy-1795697256739-xbgtzwqjsgo",
           "title": "Merge Fireweed In an victorious Level",
+          "description": "",
+          "day": 1,
+          "points": 65,
+          "completed": false
+        },
+        {
+          "id": "candy-1795697277071-lu9yreucj3g",
+          "title": "Merge Blaze Leaf In an victorious Level",
           "description": "",
           "day": 1,
           "points": 65,
