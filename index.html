@@ -196,9 +196,9 @@ refreshMinerLocale();setInterval(refreshMinerLocale,30000);
 const minerNotes={
 ID_MAIL_2026DEC31ST:["This mail hints at something on January 1st, but doesn't identify the reward.","So New Year's Day might have a surprise. The text alone doesn't confirm what it is."],
 ID_PREMIUMQUESTPATH_TURKEYMASTER_SHOP:["Turkey Master has a premium quest path string. Could be a separate unlock route.","That would fit the Thanksgiving plants, but a shop label doesn't tell us the price."],
-ID_TOFUTUKEY_PLANTZOMBIE:["The identifier ends in PLANTZOMBIE. Is Tofu Turkey a summoned unit rather than a normal plant?","We should look for other turkey-related unit IDs before deciding."],
-ID_BABYTOFU_PLANTZOMBIE:["Tofu Chick sounds like a smaller turkey unit.","Maybe the turkey plants summon different units. We need combat data to confirm."],
-ID_MASTERTURKEYPLANT_ZOMBIE:["Trained Tofu Turkey sounds like a distinct unit associated with Turkey Master.","The name suggests an upgrade, but we haven't found its stats."],
+ID_TOFUTUKEY_PLANTZOMBIE:["That's Turkey-pult's summon from PvZ2! The tofu turkeys run down the lane attacking zombies. PLANTZOMBIE likely refers to an allied mobile unit.","Remember Zoybean Pod's Zomboids? This could use a similar allied-unit system."],
+ID_BABYTOFU_PLANTZOMBIE:["TOFU CHICK?! That's not the regular PvZ2 Turkey-pult summon. Could this be a new lower-tier variant?","A smaller summon would make sense for a tier-one plant, but we need a plant-to-unit mapping."],
+ID_MASTERTURKEYPLANT_ZOMBIE:["A trained turkey? That's potentially a brand-new summon variant, not just Turkey-pult returning!","PvZ2 already had Turkzilla through Plant Food. I wonder whether this is a different stronger summon or a reinterpretation."],
 ID_AGENTLAWN_NAME:["Begonia Boulevard is a lawn name. The AGENTLAWN identifier is interesting.","Could be a future location; we don't have a release date."],
 ID_AGENTLAWN_DESC:["The lawn description is still a placeholder.","That suggests the text isn't finalized, not necessarily that the lawn is playable."],
 ID_ANTICHEAT_WARN:["Uh... there's an anti-cheat warning string in here. Is this actually implemented?","A localization string alone doesn't prove there is any detection code."],
@@ -206,7 +206,7 @@ ID_ANTICHEAT_BAN:["Sweet Anticheat V1.0? Is Candy actually planning an anti-chea
 ID_WOW:["CANDY. The message literally asks whether those two names scared us!","Could be a prank, or Candy could be teasing a real anti-cheat. We still don't know."],
 ID_SECRET_PLANT:["Candy left a message specifically for people snooping through the files.","Looks like the hidden references were deliberately planted."]
 };
-function liveMinerSchedule(){setTimeout(liveMinerRun,2000+Math.floor(Math.random()*3001));}
+function liveMinerSchedule(){setTimeout(liveMinerRun,90000+Math.floor(Math.random()*90001));}
 async function liveMinerRun(){
  let session=null;
  try{
@@ -216,7 +216,7 @@ async function liveMinerRun(){
  const g=v.groups.list.find(x=>x.id==='dataminer-group');
  if(g.activeInvestigation&&Date.parse(g.activeInvestigation.endsAt)>Date.now())return;
  const m=minerPick(g.members),id='datamine-live-'+newMessageId();
- session={id,memberId:m.id,endsAt:new Date(Date.now()+5000+Math.floor(Math.random()*10001)).toISOString()};
+ session={id,memberId:m.id,endsAt:new Date(Date.now()+10000+Math.floor(Math.random()*15001)).toISOString()};
  g.activeInvestigation=session;
  g.messages.push({id,senderId:m.id,sender:m.name,body:"I'm checking the hidden content strings and comparing them with our earlier findings.",createdAt:new Date().toISOString(),replyTo:null});
  },true);
@@ -233,6 +233,17 @@ async function liveMinerRun(){
  const notes=clue&&(minerNotes[clue.key]||["This identifier has a stored value, but we don't know whether the content is active.","We should wait for more evidence before calling this a confirmed release."]);
  g.messages.push({id,senderId:m.id,sender:m.name,body:clue?clue.key+' = '+clue.value+'\n'+(m.id==='generated-0-14'&&/TURKEY|TOFU|AGENTLAWN/.test(clue.key)?'NEW CONTENT?! ': '')+notes[0]:"I've compared the hidden strings with our notes. Nothing new in this batch.",createdAt:new Date().toISOString(),replyTo:session.id});
  if(clue){const other=minerPick(g.members.filter(x=>x.id!==m.id));g.messages.push({id:'datamine-reaction-'+newMessageId(),senderId:other.id,sender:other.name,body:(minerVoices[other.id]?.react||'')+notes[1],createdAt:new Date().toISOString(),replyTo:id});}
+ if(clue&&/TOFU|TURKEY/.test(clue.key)){
+ const seen=g.messages.map(x=>x.body).join('\n');
+ const lines=[
+ ["generated-0-11","Turkey-pult was introduced in PvZ2's 8.4.1 update. Its turkeys are allied attackers, so these PLANTZOMBIE labels fit perfectly."],
+ ["generated-4-1","Let's distinguish the returning Tofu Turkey from the potentially new Tofu Chick and Trained Tofu Turkey. A name alone doesn't establish stats or abilities."],
+ ["generated-0-14","If we actually get a whole turkey plant family instead of just Turkey-pult returning, I'M SO EXCITED!!"],
+ ["generated-2-4","The three unit names could correspond to three tiers. That's a theory, not a confirmed mapping."],
+ ["generated-2-5","I'll keep an eye out for matching plant names and the premium quest path. Those could help confirm the connection."]
+ ];
+ for(const [senderId,body] of lines){if(seen.includes(body))continue;const member=g.members.find(x=>x.id===senderId);if(member)g.messages.push({id:'datamine-discussion-'+newMessageId(),senderId,sender:member.name,body,createdAt:new Date().toISOString(),replyTo:id});}
+ }
  delete g.activeInvestigation;
  },true);
  }catch(e){console.warn('Live dataminer investigation:',e.message);}
