@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 127,
+  "revision": 128,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4962,8 +4962,34 @@
         "wins": 2,
         "losses": 0,
         "coins": 100,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 5,
+          "sunflower": 2,
+          "wallnut": 21
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5001,8 +5027,76 @@
         "wins": 13,
         "losses": 1,
         "coins": 273,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "cabbagepult": 15,
+          "iceberglettuce": 24,
+          "limebomb": 6,
+          "peashooter": 12,
+          "potatomine": 12,
+          "sunflower": 9,
+          "wallnut": 3
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "juggernut": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5040,8 +5134,106 @@
         "wins": 24,
         "losses": 2,
         "coins": 446,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "iceberglettuce": 6,
+          "limebomb": 13,
+          "peashooter": 19,
+          "potatomine": 19,
+          "spikeweed": 16,
+          "sunflower": 16,
+          "sunshroom": 16,
+          "tanglekelp": 19,
+          "umbrellaleaf": 0,
+          "wallnut": 10
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "snowpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "jumbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "juggernut": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5079,8 +5271,145 @@
         "wins": 35,
         "losses": 3,
         "coins": 619,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 17,
+          "limebomb": 20,
+          "peashooter": 1,
+          "potatomine": 1,
+          "spikeweed": 23,
+          "sunflower": 23,
+          "sunshroom": 23,
+          "tanglekelp": 1,
+          "umbrellaleaf": 7,
+          "wallnut": 17,
+          "zaptail": 17,
+          "cinderwood": 1,
+          "blover": 14,
+          "aloevera": 20
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "gatlingpea": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "jumbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "juggernut": {
+            "owned": true,
+            "seen": true
+          },
+          "lightningreed": {
+            "owned": true,
+            "seen": true
+          },
+          "zapture": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5118,8 +5447,55 @@
         "wins": 46,
         "losses": 4,
         "coins": 792,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 8,
+          "potatomine": 8,
+          "spikeweed": 5,
+          "sunflower": 5,
+          "wallnut": 24
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5157,8 +5533,97 @@
         "wins": 2,
         "losses": 5,
         "coins": 965,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 15,
+          "spikeweed": 12,
+          "sunflower": 12,
+          "sunshroom": 12,
+          "tanglekelp": 15,
+          "umbrellaleaf": 21,
+          "wallnut": 6,
+          "zaptail": 6,
+          "cinderwood": 15
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "gatlingpea": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5196,8 +5661,127 @@
         "wins": 13,
         "losses": 6,
         "coins": 1138,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 13,
+          "cabbagepult": 0,
+          "peashooter": 22,
+          "sunflower": 19,
+          "sunshroom": 19,
+          "tanglekelp": 22,
+          "umbrellaleaf": 3,
+          "wallnut": 13,
+          "zaptail": 13,
+          "cinderwood": 22,
+          "blover": 10,
+          "aloevera": 16
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "gatlingpea": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "jumbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5235,8 +5819,43 @@
         "wins": 24,
         "losses": 7,
         "coins": 1311,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 4,
+          "sunflower": 1,
+          "tanglekelp": 4,
+          "wallnut": 20
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5274,8 +5893,76 @@
         "wins": 35,
         "losses": 8,
         "coins": 1484,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 11,
+          "sunflower": 8,
+          "umbrellaleaf": 17,
+          "wallnut": 2,
+          "zaptail": 2,
+          "cinderwood": 11,
+          "blover": 24
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5313,8 +6000,118 @@
         "wins": 46,
         "losses": 0,
         "coins": 1657,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 9,
+          "cabbagepult": 21,
+          "iceberglettuce": 5,
+          "limebomb": 12,
+          "peashooter": 18,
+          "sunflower": 15,
+          "wallnut": 9,
+          "zaptail": 9,
+          "cinderwood": 18,
+          "blover": 6,
+          "aloevera": 12
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "lightningreed": {
+            "owned": true,
+            "seen": true
+          },
+          "zapture": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "coldslaw": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "snowpea": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5352,8 +6149,145 @@
         "wins": 2,
         "losses": 1,
         "coins": 1830,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 16,
+          "cabbagepult": 3,
+          "iceberglettuce": 12,
+          "limebomb": 19,
+          "peashooter": 0,
+          "potatomine": 0,
+          "spikeweed": 22,
+          "sunflower": 22,
+          "sunshroom": 22,
+          "tanglekelp": 0,
+          "wallnut": 16,
+          "cinderwood": 0,
+          "blover": 13,
+          "aloevera": 19
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "coldslaw": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "snowpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "gatlingpea": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5391,8 +6325,64 @@
         "wins": 13,
         "losses": 2,
         "coins": 2003,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 23,
+          "peashooter": 7,
+          "sunflower": 4,
+          "wallnut": 23,
+          "blover": 20,
+          "aloevera": 1
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5430,8 +6420,97 @@
         "wins": 24,
         "losses": 3,
         "coins": 2176,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 5,
+          "cabbagepult": 17,
+          "iceberglettuce": 1,
+          "limebomb": 8,
+          "peashooter": 14,
+          "potatomine": 14,
+          "sunflower": 11,
+          "wallnut": 5,
+          "aloevera": 8
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "coldslaw": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5469,8 +6548,136 @@
         "wins": 35,
         "losses": 4,
         "coins": 2349,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 12,
+          "cabbagepult": 24,
+          "iceberglettuce": 8,
+          "limebomb": 15,
+          "peashooter": 21,
+          "potatomine": 21,
+          "spikeweed": 18,
+          "sunflower": 18,
+          "sunshroom": 18,
+          "tanglekelp": 21,
+          "umbrellaleaf": 2,
+          "wallnut": 12,
+          "zaptail": 12
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "jumbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "lightningreed": {
+            "owned": true,
+            "seen": true
+          },
+          "zapture": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "coldslaw": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5508,8 +6715,43 @@
         "wins": 46,
         "losses": 5,
         "coins": 2522,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "cabbagepult": 6,
+          "peashooter": 3,
+          "sunflower": 0,
+          "wallnut": 19
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5547,8 +6789,85 @@
         "wins": 2,
         "losses": 6,
         "coins": 195,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "iceberglettuce": 22,
+          "limebomb": 4,
+          "peashooter": 10,
+          "potatomine": 10,
+          "spikeweed": 7,
+          "sunflower": 7,
+          "sunshroom": 7,
+          "wallnut": 1
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "snowpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "juggernut": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5586,8 +6905,118 @@
         "wins": 13,
         "losses": 7,
         "coins": 368,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "limebomb": 11,
+          "peashooter": 17,
+          "potatomine": 17,
+          "spikeweed": 14,
+          "sunflower": 14,
+          "sunshroom": 14,
+          "tanglekelp": 17,
+          "umbrellaleaf": 23,
+          "wallnut": 8,
+          "zaptail": 8,
+          "cinderwood": 17
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "gatlingpea": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "jumbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "juggernut": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5625,8 +7054,154 @@
         "wins": 24,
         "losses": 8,
         "coins": 541,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 15,
+          "cabbagepult": 2,
+          "iceberglettuce": 11,
+          "peashooter": 24,
+          "potatomine": 24,
+          "spikeweed": 21,
+          "sunflower": 21,
+          "sunshroom": 21,
+          "tanglekelp": 24,
+          "umbrellaleaf": 5,
+          "wallnut": 15,
+          "zaptail": 15,
+          "cinderwood": 24,
+          "blover": 12,
+          "aloevera": 18
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "snowpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "gatlingpea": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "jumbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "juggernut": {
+            "owned": true,
+            "seen": true
+          },
+          "lightningreed": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5664,8 +7239,64 @@
         "wins": 35,
         "losses": 0,
         "coins": 714,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 6,
+          "spikeweed": 3,
+          "sunflower": 3,
+          "sunshroom": 3,
+          "tanglekelp": 6,
+          "wallnut": 22
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5703,8 +7334,106 @@
         "wins": 46,
         "losses": 1,
         "coins": 887,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 13,
+          "sunflower": 10,
+          "sunshroom": 10,
+          "tanglekelp": 13,
+          "umbrellaleaf": 19,
+          "wallnut": 4,
+          "zaptail": 4,
+          "cinderwood": 13,
+          "blover": 1,
+          "aloevera": 7
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "gatlingpea": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5742,8 +7471,136 @@
         "wins": 2,
         "losses": 2,
         "coins": 1060,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 11,
+          "cabbagepult": 23,
+          "iceberglettuce": 7,
+          "limebomb": 14,
+          "peashooter": 20,
+          "sunflower": 17,
+          "tanglekelp": 20,
+          "umbrellaleaf": 1,
+          "wallnut": 11,
+          "zaptail": 11,
+          "cinderwood": 20,
+          "blover": 8,
+          "aloevera": 14
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "coldslaw": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "snowpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "gatlingpea": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5781,8 +7638,55 @@
         "wins": 13,
         "losses": 3,
         "coins": 1233,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 2,
+          "sunflower": 24,
+          "umbrellaleaf": 8,
+          "wallnut": 18,
+          "zaptail": 18
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5820,8 +7724,85 @@
         "wins": 24,
         "losses": 4,
         "coins": 1406,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 0,
+          "peashooter": 9,
+          "sunflower": 6,
+          "wallnut": 0,
+          "zaptail": 0,
+          "cinderwood": 9,
+          "blover": 22,
+          "aloevera": 3
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "lightningreed": {
+            "owned": true,
+            "seen": true
+          },
+          "zapture": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5859,8 +7840,127 @@
         "wins": 35,
         "losses": 5,
         "coins": 1579,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 7,
+          "cabbagepult": 19,
+          "iceberglettuce": 3,
+          "limebomb": 10,
+          "peashooter": 16,
+          "potatomine": 16,
+          "spikeweed": 13,
+          "sunflower": 13,
+          "wallnut": 7,
+          "cinderwood": 16,
+          "blover": 4,
+          "aloevera": 10
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "coldslaw": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "snowpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5898,8 +7998,34 @@
         "wins": 46,
         "losses": 6,
         "coins": 1752,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 23,
+          "sunflower": 20,
+          "wallnut": 14
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5937,8 +8063,76 @@
         "wins": 2,
         "losses": 7,
         "coins": 1925,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 21,
+          "cabbagepult": 8,
+          "iceberglettuce": 17,
+          "peashooter": 5,
+          "sunflower": 2,
+          "wallnut": 21,
+          "aloevera": 24
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "coldslaw": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -5976,8 +8170,106 @@
         "wins": 13,
         "losses": 8,
         "coins": 2098,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 3,
+          "cabbagepult": 15,
+          "iceberglettuce": 24,
+          "limebomb": 6,
+          "peashooter": 12,
+          "potatomine": 12,
+          "spikeweed": 9,
+          "sunflower": 9,
+          "sunshroom": 9,
+          "wallnut": 3
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "coldslaw": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "snowpea": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6015,8 +8307,145 @@
         "wins": 24,
         "losses": 0,
         "coins": 2271,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "cabbagepult": 22,
+          "iceberglettuce": 6,
+          "limebomb": 13,
+          "peashooter": 19,
+          "potatomine": 19,
+          "spikeweed": 16,
+          "sunflower": 16,
+          "sunshroom": 16,
+          "tanglekelp": 19,
+          "umbrellaleaf": 0,
+          "wallnut": 10,
+          "zaptail": 10,
+          "cinderwood": 19,
+          "blover": 7
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "jumbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "juggernut": {
+            "owned": true,
+            "seen": true
+          },
+          "lightningreed": {
+            "owned": true,
+            "seen": true
+          },
+          "zapture": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "coldslaw": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6054,8 +8483,55 @@
         "wins": 35,
         "losses": 1,
         "coins": 2444,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "iceberglettuce": 13,
+          "limebomb": 20,
+          "peashooter": 1,
+          "sunflower": 23,
+          "wallnut": 17
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "snowpea": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6093,8 +8569,97 @@
         "wins": 46,
         "losses": 2,
         "coins": 117,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "limebomb": 2,
+          "peashooter": 8,
+          "potatomine": 8,
+          "spikeweed": 5,
+          "sunflower": 5,
+          "sunshroom": 5,
+          "tanglekelp": 8,
+          "umbrellaleaf": 14,
+          "wallnut": 24
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "gatlingpea": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6132,8 +8697,127 @@
         "wins": 2,
         "losses": 3,
         "coins": 290,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 15,
+          "potatomine": 15,
+          "spikeweed": 12,
+          "sunflower": 12,
+          "sunshroom": 12,
+          "tanglekelp": 15,
+          "umbrellaleaf": 21,
+          "wallnut": 6,
+          "zaptail": 6,
+          "cinderwood": 15,
+          "blover": 3,
+          "aloevera": 9
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "gatlingpea": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "jumbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "juggernut": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6171,8 +8855,43 @@
         "wins": 13,
         "losses": 4,
         "coins": 463,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 22,
+          "spikeweed": 19,
+          "sunflower": 19,
+          "wallnut": 13
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6210,8 +8929,76 @@
         "wins": 24,
         "losses": 5,
         "coins": 636,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 4,
+          "sunflower": 1,
+          "sunshroom": 1,
+          "tanglekelp": 4,
+          "umbrellaleaf": 10,
+          "wallnut": 20,
+          "zaptail": 20
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6249,8 +9036,118 @@
         "wins": 35,
         "losses": 6,
         "coins": 809,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 2,
+          "cabbagepult": 14,
+          "peashooter": 11,
+          "sunflower": 8,
+          "tanglekelp": 11,
+          "umbrellaleaf": 17,
+          "wallnut": 2,
+          "zaptail": 2,
+          "cinderwood": 11,
+          "blover": 24,
+          "aloevera": 5
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "gatlingpea": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6288,8 +9185,145 @@
         "wins": 46,
         "losses": 7,
         "coins": 982,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 9,
+          "cabbagepult": 21,
+          "iceberglettuce": 5,
+          "limebomb": 12,
+          "peashooter": 18,
+          "potatomine": 18,
+          "spikeweed": 15,
+          "sunflower": 15,
+          "umbrellaleaf": 24,
+          "wallnut": 9,
+          "zaptail": 9,
+          "cinderwood": 18,
+          "blover": 6,
+          "aloevera": 12
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "coldslaw": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "snowpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "gatlingpea": {
+            "owned": true,
+            "seen": true
+          },
+          "jumbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6327,8 +9361,64 @@
         "wins": 2,
         "losses": 8,
         "coins": 1155,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 0,
+          "sunflower": 22,
+          "wallnut": 16,
+          "zaptail": 16,
+          "cinderwood": 0,
+          "blover": 13
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "lightningreed": {
+            "owned": true,
+            "seen": true
+          },
+          "zapture": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6366,8 +9456,97 @@
         "wins": 13,
         "losses": 0,
         "coins": 1328,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 23,
+          "cabbagepult": 10,
+          "iceberglettuce": 19,
+          "peashooter": 7,
+          "sunflower": 4,
+          "wallnut": 23,
+          "cinderwood": 7,
+          "blover": 20,
+          "aloevera": 1
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "coldslaw": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "snowpea": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6405,8 +9584,136 @@
         "wins": 24,
         "losses": 1,
         "coins": 1501,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 5,
+          "cabbagepult": 17,
+          "iceberglettuce": 1,
+          "limebomb": 8,
+          "peashooter": 14,
+          "potatomine": 14,
+          "spikeweed": 11,
+          "sunflower": 11,
+          "sunshroom": 11,
+          "tanglekelp": 14,
+          "wallnut": 5,
+          "blover": 2,
+          "aloevera": 8
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "coldslaw": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "snowpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6444,8 +9751,43 @@
         "wins": 35,
         "losses": 2,
         "coins": 1674,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 21,
+          "sunflower": 18,
+          "wallnut": 12,
+          "aloevera": 15
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6483,8 +9825,85 @@
         "wins": 46,
         "losses": 3,
         "coins": 1847,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 19,
+          "cabbagepult": 6,
+          "iceberglettuce": 15,
+          "limebomb": 22,
+          "peashooter": 3,
+          "potatomine": 3,
+          "sunflower": 0,
+          "wallnut": 19
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "coldslaw": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "slawslinger": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6522,8 +9941,118 @@
         "wins": 2,
         "losses": 4,
         "coins": 2020,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "cabbagepult": 13,
+          "iceberglettuce": 22,
+          "limebomb": 4,
+          "peashooter": 10,
+          "potatomine": 10,
+          "spikeweed": 7,
+          "sunflower": 7,
+          "sunshroom": 7,
+          "tanglekelp": 10,
+          "umbrellaleaf": 16,
+          "wallnut": 1
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "cabbagepult": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "jumbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "juggernut": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "coldslaw": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6561,8 +10090,154 @@
         "wins": 13,
         "losses": 5,
         "coins": 2193,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "bopchoy": 8,
+          "iceberglettuce": 4,
+          "limebomb": 11,
+          "peashooter": 17,
+          "potatomine": 17,
+          "spikeweed": 14,
+          "sunflower": 14,
+          "sunshroom": 14,
+          "tanglekelp": 17,
+          "umbrellaleaf": 23,
+          "wallnut": 8,
+          "zaptail": 8,
+          "cinderwood": 17,
+          "blover": 5,
+          "aloevera": 11
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "iceberglettuce": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "blover": {
+            "owned": true,
+            "seen": true
+          },
+          "aloevera": {
+            "owned": true,
+            "seen": true
+          },
+          "bopchoy": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "snowpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "jumbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "juggernut": {
+            "owned": true,
+            "seen": true
+          },
+          "lightningreed": {
+            "owned": true,
+            "seen": true
+          },
+          "zapture": {
+            "owned": true,
+            "seen": true
+          },
+          "peanut": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          },
+          "gargantuar": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6600,8 +10275,64 @@
         "wins": 24,
         "losses": 6,
         "coins": 2366,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "limebomb": 18,
+          "peashooter": 24,
+          "potatomine": 24,
+          "spikeweed": 21,
+          "sunflower": 21,
+          "wallnut": 15
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "limebomb": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
@@ -6639,8 +10370,106 @@
         "wins": 35,
         "losses": 7,
         "coins": 2539,
-        "seeds": {},
-        "records": {},
+        "seeds": {
+          "peashooter": 6,
+          "potatomine": 6,
+          "spikeweed": 3,
+          "sunflower": 3,
+          "sunshroom": 3,
+          "tanglekelp": 6,
+          "umbrellaleaf": 12,
+          "wallnut": 22,
+          "zaptail": 22,
+          "cinderwood": 6
+        },
+        "records": {
+          "peashooter": {
+            "owned": true,
+            "seen": true
+          },
+          "sunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "wallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "potatomine": {
+            "owned": true,
+            "seen": true
+          },
+          "spikeweed": {
+            "owned": true,
+            "seen": true
+          },
+          "sunshroom": {
+            "owned": true,
+            "seen": true
+          },
+          "tanglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "umbrellaleaf": {
+            "owned": true,
+            "seen": true
+          },
+          "zaptail": {
+            "owned": true,
+            "seen": true
+          },
+          "cinderwood": {
+            "owned": true,
+            "seen": true
+          },
+          "devastater": {
+            "owned": true,
+            "seen": true
+          },
+          "repeater": {
+            "owned": true,
+            "seen": true
+          },
+          "solarpea": {
+            "owned": true,
+            "seen": true
+          },
+          "twinsunflower": {
+            "owned": true,
+            "seen": true
+          },
+          "tallnut": {
+            "owned": true,
+            "seen": true
+          },
+          "gatlingpea": {
+            "owned": true,
+            "seen": true
+          },
+          "wranglekelp": {
+            "owned": true,
+            "seen": true
+          },
+          "browncoat": {
+            "seen": true
+          },
+          "conehead": {
+            "seen": true
+          },
+          "buckethead": {
+            "seen": true
+          },
+          "flag": {
+            "seen": true
+          },
+          "imp": {
+            "seen": true
+          },
+          "batterzombie": {
+            "seen": true
+          }
+        },
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
