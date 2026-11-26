@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 84,
+  "revision": 85,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4052,6 +4052,24 @@
           "plantPassPoints": 900
         },
         "otherReward": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "candy-1795696122161-tujpxq88zxk",
+        "title": "Brain Freeze Basin",
+        "description": "Happy Feastivus! Come on down to Brain Freeze Basin! Its full of snow! And there's new faces to see!",
+        "createdAt": "2026-11-26T12:28:42.161Z",
+        "creator": "candy",
+        "status": "pending",
+        "rewards": {
+          "coins": 0,
+          "wild": 0,
+          "plantPassPoints": 0
+        },
+        "otherReward": "You get rewards for every level! :D\nRewards:\n5 wild seeds(first clear + needs to be 3 stars)\n15 snow balls(special shop currency)\n20 Coins",
+        "startAt": "2026-12-12T18:00:00.000Z",
+        "endAt": "2026-12-24T05:59:00.000Z"
       }
     ]
   }
