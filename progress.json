@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 249,
+  "revision": 250,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4692,6 +4692,42 @@
             "createdAt": "2026-11-26T23:45:02.672Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736702672_7FREIQYW0A3"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736707167-py2bxo60mxj",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_OWNERDEBUG_LOC_SAVE = Save string to GitHub\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:07.167Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736707167_PY2BXO60MXJ"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736707167-b5n8qkwx0tt",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_OWNERDEBUG_LOC_CLOSE = Close editor\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:07.167Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736707167_B5N8QKWX0TT"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736707167-o0etkrr2l8h",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_OWNERDEBUG_LOC_LOADING = Loading catalogues…\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:07.167Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736707167_O0ETKRR2L8H"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736707167-5gppwdccbus",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_OWNERDEBUG_LOC_READY = Select an existing string or create a new one.\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:07.167Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736707167_5GPPWDCCBUS"
           }
         ],
         "typing": [],
@@ -4758,26 +4794,6 @@
                 "PeopleLocalisationPvz3Plus.Json"
               ],
               "clues": [
-                {
-                  "key": "ID_OWNERDEBUG_LOC_SAVE",
-                  "value": "Save string to GitHub",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_CLOSE",
-                  "value": "Close editor",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_LOADING",
-                  "value": "Loading catalogues…",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_READY",
-                  "value": "Select an existing string or create a new one.",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
                 {
                   "key": "ID_OWNERDEBUG_LOC_INVALID",
                   "value": "Use an ID_ identifier containing uppercase letters, digits or underscores.",
