@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 100,
+  "revision": 101,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4186,6 +4186,14 @@
           "description": "",
           "day": 3,
           "points": 200,
+          "completed": false
+        },
+        {
+          "id": "candy-1795697627873-8w1q2ctpcv",
+          "title": "Merge Torchwood or Scorchwood 5 times",
+          "description": "",
+          "day": 3,
+          "points": 400,
           "completed": false
         }
       ],
