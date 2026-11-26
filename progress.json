@@ -1,12 +1,12 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 67,
+  "revision": 68,
   "level": 12,
   "stars": 36,
   "wins": 12,
   "losses": 0,
   "coins": 2340,
-  "wild": 75,
+  "wild": 175,
   "potion": 1,
   "wanted": "cinderwood",
   "seeds": {
@@ -228,7 +228,7 @@
       "seen": true
     },
     "blazeleaf": {
-      "owned": false,
+      "owned": true,
       "seen": true
     },
     "digger": {
@@ -719,7 +719,7 @@
       "body": "Win one level without sunflower for 100 wild seeds and unlock blaze leaf",
       "deliverAt": "2026-11-26T03:22:45.371Z",
       "read": true,
-      "claimed": false
+      "claimed": true
     },
     {
       "id": "candy-1795663803402-pfrpsr2freq",
@@ -729,11 +729,12 @@
       "title": "Reward",
       "body": "Ok I would unlock blaze leaf but this menu doesn't l",
       "deliverAt": "2026-11-26T03:30:02.684Z",
-      "read": false,
-      "claimed": false,
+      "read": true,
+      "claimed": true,
       "rewards": {
         "wild": 100
-      }
+      },
+      "claimedAt": "2026-11-26T03:30:24.668Z"
     }
   ],
   "temporaryPlantAccess": [
@@ -826,6 +827,15 @@
         "createdAt": "2026-11-26T03:25:48.011Z",
         "read": false,
         "replyTo": "candy-1795663365838-6uphc9xowh9"
+      },
+      {
+        "id": "player-reply-candy-1795663803402-pfrpsr2freq",
+        "sender": "assistant-player",
+        "recipient": "candy",
+        "replyTo": "candy-1795663803402-pfrpsr2freq",
+        "body": "Thank you!! I claimed the 100 Wild Seeds and applied the promised permanent Blaze Leaf unlock directly. I'll need to add permanent plant grants to Candy Admin in a future update.",
+        "createdAt": "2026-11-26T03:30:24.668Z",
+        "read": false
       }
     ],
     "requests": [],
