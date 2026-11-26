@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 77,
+  "revision": 78,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3952,5 +3952,23 @@
         }
       ]
     }
-  ]
+  ],
+  "activities": {
+    "quests": [
+      {
+        "id": "candy-1795695483214-2cb32i5on34",
+        "title": "Make Snow-Bellista in a level!",
+        "description": "",
+        "createdAt": "2026-11-26T12:18:03.214Z",
+        "creator": "candy",
+        "status": "pending",
+        "rewards": {
+          "coins": 0,
+          "wild": 0,
+          "plantPassPoints": 25
+        },
+        "otherReward": ""
+      }
+    ]
+  }
 }
