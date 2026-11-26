@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 236,
+  "revision": 237,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4444,6 +4444,24 @@
             "createdAt": "2026-11-26T23:29:11.994Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795735751993_1EWW9D1U0VG"
+          },
+          {
+            "id": "datamine-result-candy-1795735756316-ibamfw2b79",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_PLANT_MAGNETSHROOM_NAME = Magnet Shroom\nA plant name! Magnet Shroom is now referenced in the catalogue. Let’s look for its tier and related plants.",
+            "createdAt": "2026-11-26T23:29:16.317Z",
+            "replyTo": "datamine-live-candy-1795735751993-1eww9d1u0vg",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795735756316_IBAMFW2B79"
+          },
+          {
+            "id": "datamine-reaction-candy-1795735756317-fw1xusb775l",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "As a longtime PvZ fan, here's what stands out: A name is a promising clue, but we need gameplay data to confirm its abilities.",
+            "createdAt": "2026-11-26T23:29:16.317Z",
+            "replyTo": "datamine-result-candy-1795735756316-ibamfw2b79",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795735756317_FW1XUSB775L"
           }
         ],
         "typing": [],
@@ -4492,20 +4510,6 @@
             "46f1f1c3b365eb3475cf56bdea9097f0b4b7687c"
           ],
           "queue": [
-            {
-              "sha": "17468a7375dd5d4c1588c15645bad298cbfdc491",
-              "at": "2026-11-26T23:11:30Z",
-              "files": [
-                "PlantLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_PLANT_MAGNETSHROOM_NAME",
-                  "value": "Magnet Shroom",
-                  "file": "PlantLoc.json"
-                }
-              ]
-            },
             {
               "sha": "8a312d2cc223e919214a399e75f72afcc2538da1",
               "at": "2026-11-26T23:13:02Z",
@@ -4864,11 +4868,6 @@
               "clues": []
             }
           ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795735751993-1eww9d1u0vg",
-          "memberId": "generated-0-14",
-          "endsAt": "2026-11-26T23:29:14.994Z"
         }
       }
     ],
