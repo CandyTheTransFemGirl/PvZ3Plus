@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 135,
+  "revision": 136,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -437,8 +437,11 @@
       "previewAt": "2027-02-05T17:00:00Z",
       "passStartAt": "2027-02-05T17:00:00Z",
       "passEndAt": null,
-      "version": "Beta 1.6",
-      "updateName": "The Big Update"
+      "version": "1.0",
+      "updateName": "Version 1.0 — The Big Update",
+      "exitsBeta": true,
+      "confirmed": true,
+      "teaserDate": "2027-02-02"
     },
     {
       "id": "contentupdate3",
