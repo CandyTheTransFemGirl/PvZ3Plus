@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 254,
+  "revision": 255,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4872,6 +4872,42 @@
             "createdAt": "2026-11-26T23:45:32.211Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736732211_5ES3TS2VL2N"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736737294-cw7egqsmka9",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_DOWNTIME_UPDATEINPROGRESS = Please Stand by! Something New is coming! - PvZ3+ Team\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:37.295Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736737294_CW7EGQSMKA9"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736737295-yfgwtz6833",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_DOWNTIME_MINTENANCE_REMAINING_TIME = Time Until Update: fuction_time_countdown\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:37.295Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736737295_YFGWTZ6833"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736737295-kdayng1fisc",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_DOWNTIME_WAITINGCHAT = Waiting Chat\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:37.295Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736737295_KDAYNG1FISC"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736737295-b0faagt99yn",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_MANAGER_LOC = - Community Manager\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:37.295Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736737295_B0FAAGT99YN"
           }
         ],
         "typing": [],
@@ -4932,55 +4968,12 @@
           ],
           "queue": [
             {
-              "sha": "e43a0094b29df56d4c0e44260065eda845333a49",
-              "at": "2026-11-26T23:38:50Z",
-              "files": [
-                "UpdateLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_DOWNTIME_UPDATEINPROGRESS",
-                  "value": "Please Stand by! Something New is coming! - PvZ3+ Team",
-                  "file": "UpdateLoc.json"
-                },
-                {
-                  "key": "ID_DOWNTIME_MINTENANCE_REMAINING_TIME",
-                  "value": "Time Until Update: fuction_time_countdown",
-                  "file": "UpdateLoc.json"
-                },
-                {
-                  "key": "ID_DOWNTIME_WAITINGCHAT",
-                  "value": "Waiting Chat",
-                  "file": "UpdateLoc.json"
-                }
-              ]
-            },
-            {
-              "sha": "b1504a78b65e1dd1d59dda89d297b1793341a3ef",
-              "at": "2026-11-26T23:40:53Z",
-              "files": [
-                "PeopleLocalisationPvz3Plus.Json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_MANAGER_LOC",
-                  "value": "- Community Manager",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                }
-              ]
-            },
-            {
               "sha": "72adf4d5cd911827fd27f40a05eb81e546078629",
               "at": "2026-11-26T23:42:08Z",
               "files": [
                 "PeopleLocalisationPvz3Plus.Json"
               ],
               "clues": [
-                {
-                  "key": "ID_MANAGER_LOC",
-                  "value": "- Community Manager",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
                 {
                   "key": "ID_OWNER_TEAMNAME",
                   "value": "PvZ3+ Team",
