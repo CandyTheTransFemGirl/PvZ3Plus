@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 68,
+  "revision": 69,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -735,6 +735,24 @@
         "wild": 100
       },
       "claimedAt": "2026-11-26T03:30:24.668Z"
+    },
+    {
+      "id": "candy-1795687892704-clrzoqi3mrj",
+      "sender": "candy",
+      "recipient": "assistant-player",
+      "type": "custom",
+      "title": "Improvement ideas",
+      "body": "Whenever I talk or reply to someone in the group it notifies you to write a message as them.\nAnd the communication chat will let you pick someone to type as and press send.\nThis can be done in git right?",
+      "deliverAt": "2026-11-26T10:11:32.197Z",
+      "read": false,
+      "claimed": false,
+      "rewards": {
+        "coins": 50,
+        "wild": 10,
+        "seeds": {
+          "iceberglettuce": 25
+        }
+      }
     }
   ],
   "temporaryPlantAccess": [
