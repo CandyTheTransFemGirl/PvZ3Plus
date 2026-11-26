@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 172,
+  "revision": 173,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -21162,6 +21162,35 @@
     },
     "lightningreed": {
       "5": true
+    }
+  },
+  "hiddenReferences": {
+    "thanksgiving": {
+      "visibility": "owner-only-ui",
+      "datamineable": true,
+      "released": false,
+      "plants": [
+        {
+          "id": "tofuturkeyseed",
+          "name": "Tofu Turkey Seed",
+          "tier": 1
+        },
+        {
+          "id": "turkeypult",
+          "name": "Turkey-pult",
+          "tier": 2
+        },
+        {
+          "id": "turkeymaster",
+          "name": "Turkey Master",
+          "tier": 3
+        }
+      ],
+      "strings": {
+        "ID_THANKSGIVING_INBOX_TEASER_V2": "Seems like the turkeys are coming soon!\nStay Tuned! See you at 9:30 PM!",
+        "ID_THANKSGIVING_STORE_BUNDLE": "Thanksgiving celebration Gift Placeholder!",
+        "ID_SECRET_PLANT": "Snooping as normal I see? Heh. Expected.\n - Candy"
+      }
     }
   }
 }
