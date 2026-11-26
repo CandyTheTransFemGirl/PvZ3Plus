@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 253,
+  "revision": 254,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4836,6 +4836,42 @@
             "createdAt": "2026-11-26T23:45:21.940Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736721940_EJ3K0BUF6T9"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736732211-7klv0s5dwrg",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_PLANT_COBCANNON_GROUP = Tier 3\nThis gives us a tier or category assignment.",
+            "createdAt": "2026-11-26T23:45:32.211Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736732211_7KLV0S5DWRG"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736732211-nf5abx8b75a",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_PLANT_GOLDMAGNET_NAME = Tier 2\nA named content reference! We need to compare it with the other identifiers.",
+            "createdAt": "2026-11-26T23:45:32.211Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736732211_NF5ABX8B75A"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736732211-sdzfprydwh9",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_DOWNTIME_ACTIVE = Scheduled maintenance — Thanksgiving Update\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:32.211Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736732211_SDZFPRYDWH9"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736732211-5es3ts2vl2n",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_DOWNTIME_REMAINING = Back in fuction_time_countdown\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:32.211Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736732211_5ES3TS2VL2N"
           }
         ],
         "typing": [],
@@ -4896,69 +4932,12 @@
           ],
           "queue": [
             {
-              "sha": "55cf7f3b093e0a7e5c936af4241d52cb271be6bd",
-              "at": "2026-11-26T23:09:26Z",
-              "files": [
-                "PlantLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_PLANT_COBCANNON_GROUP",
-                  "value": "Tier 3",
-                  "file": "PlantLoc.json"
-                }
-              ]
-            },
-            {
-              "sha": "b4cb37a7d34c35d1ce39d447e83b0f097be80957",
-              "at": "2026-11-26T23:10:05Z",
-              "files": [
-                "PlantLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_PLANT_COBCANNON_GROUP",
-                  "value": "Tier 3",
-                  "file": "PlantLoc.json"
-                },
-                {
-                  "key": "ID_PLANT_GOLDMAGNET_NAME",
-                  "value": "Tier 2",
-                  "file": "PlantLoc.json"
-                }
-              ]
-            },
-            {
-              "sha": "700f16c96ae6fedf6e8b666293aaf9093be3718b",
-              "at": "2026-11-26T23:35:01Z",
-              "files": [
-                "UpdateLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_DOWNTIME_ACTIVE",
-                  "value": "Scheduled maintenance — Thanksgiving Update",
-                  "file": "UpdateLoc.json"
-                },
-                {
-                  "key": "ID_DOWNTIME_REMAINING",
-                  "value": "Back in fuction_time_countdown",
-                  "file": "UpdateLoc.json"
-                }
-              ]
-            },
-            {
               "sha": "e43a0094b29df56d4c0e44260065eda845333a49",
               "at": "2026-11-26T23:38:50Z",
               "files": [
                 "UpdateLoc.json"
               ],
               "clues": [
-                {
-                  "key": "ID_DOWNTIME_REMAINING",
-                  "value": "Back in fuction_time_countdown",
-                  "file": "UpdateLoc.json"
-                },
                 {
                   "key": "ID_DOWNTIME_UPDATEINPROGRESS",
                   "value": "Please Stand by! Something New is coming! - PvZ3+ Team",
