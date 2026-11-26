@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 232,
+  "revision": 233,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4390,6 +4390,24 @@
             "createdAt": "2026-11-26T23:28:52.127Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795735732127_M7UX15FQIF"
+          },
+          {
+            "id": "datamine-result-candy-1795735736030-vjxf9jrjzoq",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_PLANT_MAGNETSHROOM_GROUP = Tier 1\nThis plant has a group assignment: Tier 1. That could help map its family.",
+            "createdAt": "2026-11-26T23:28:56.030Z",
+            "replyTo": "datamine-live-candy-1795735732127-m7ux15fqif",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795735736030_VJXF9JRJZOQ"
+          },
+          {
+            "id": "datamine-reaction-candy-1795735736030-d8qfdbq9b9v",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "WAIT, this is interesting!! Compare the matching name identifier before assuming an evolution path.",
+            "createdAt": "2026-11-26T23:28:56.030Z",
+            "replyTo": "datamine-result-candy-1795735736030-vjxf9jrjzoq",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795735736030_D8QFDBQ9B9V"
           }
         ],
         "typing": [],
@@ -4438,20 +4456,6 @@
             "46f1f1c3b365eb3475cf56bdea9097f0b4b7687c"
           ],
           "queue": [
-            {
-              "sha": "2844b6f7ba7f47d1df77bb71ea985d8db485e56c",
-              "at": "2026-11-26T23:11:16Z",
-              "files": [
-                "PlantLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_PLANT_MAGNETSHROOM_GROUP",
-                  "value": "Tier 1",
-                  "file": "PlantLoc.json"
-                }
-              ]
-            },
             {
               "sha": "17468a7375dd5d4c1588c15645bad298cbfdc491",
               "at": "2026-11-26T23:11:30Z",
@@ -4829,11 +4833,6 @@
               "clues": []
             }
           ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795735732127-m7ux15fqif",
-          "memberId": "generated-0-11",
-          "endsAt": "2026-11-26T23:28:55.127Z"
         }
       }
     ],
