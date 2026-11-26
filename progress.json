@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 204,
+  "revision": 205,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3817,6 +3817,22 @@
             "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
             "createdAt": "2026-11-26T22:46:40.657Z",
             "replyTo": null
+          },
+          {
+            "id": "datamine-result-candy-1795733209919-06nd3qrpx5so",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_THANKSGIVING_STORE_BUNDLE = Thanksgiving celebration Gift Placeholder!\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-26T22:46:49.919Z",
+            "replyTo": "datamine-live-candy-1795733200653-rbeaf59cqu"
+          },
+          {
+            "id": "datamine-reaction-candy-1795733209919-yo8ghxp5b7",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "As a longtime PvZ fan, here's what stands out: We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-26T22:46:49.919Z",
+            "replyTo": "datamine-result-candy-1795733209919-06nd3qrpx5so"
           }
         ],
         "typing": [],
@@ -3839,12 +3855,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795733200653-rbeaf59cqu",
-          "memberId": "generated-2-4",
-          "endsAt": "2026-11-26T22:46:48.935Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
