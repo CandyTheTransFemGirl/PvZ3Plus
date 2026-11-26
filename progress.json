@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 242,
+  "revision": 243,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -23084,7 +23084,7 @@
       "senderName": "LunarStar29",
       "body": "Maintenance at 23:45 GMT until 06:00 tomorrow. That's six hours and fifteen minutes.",
       "createdAt": "2026-11-26T23:33:31.286Z",
-      "bodyStringId": "ID_CHAT_DOWNTIME_REACTION_GENERATED_2_4"
+      "bodyStringId": "ID_CHAT_DOWNTIME_ANNOUNCEMENT_REACTION_GENERATED_2_4"
     },
     {
       "id": "downtime-announcement-reaction-generated-0-14",
@@ -23092,7 +23092,7 @@
       "senderName": "PeaCake12",
       "body": "THE TURKEY UPDATE IS FINALLY COMING?!",
       "createdAt": "2026-11-26T23:33:31.289Z",
-      "bodyStringId": "ID_CHAT_DOWNTIME_REACTION_GENERATED_0_14"
+      "bodyStringId": "ID_CHAT_DOWNTIME_ANNOUNCEMENT_REACTION_GENERATED_0_14"
     },
     {
       "id": "downtime-announcement-reaction-generated-4-1",
@@ -23100,7 +23100,7 @@
       "senderName": "MossPop72",
       "body": "That downtime warning string we found earlier makes sense now.",
       "createdAt": "2026-11-26T23:33:31.289Z",
-      "bodyStringId": "ID_CHAT_DOWNTIME_REACTION_GENERATED_4_1"
+      "bodyStringId": "ID_CHAT_DOWNTIME_ANNOUNCEMENT_REACTION_GENERATED_4_1"
     },
     {
       "id": "downtime-announcement-reaction-generated-0-11",
@@ -23108,7 +23108,7 @@
       "senderName": "CloudBean18",
       "body": "I'm curious how the Thanksgiving plants will compare with PvZ2's Turkey-pult.",
       "createdAt": "2026-11-26T23:33:31.289Z",
-      "bodyStringId": "ID_CHAT_DOWNTIME_REACTION_GENERATED_0_11"
+      "bodyStringId": "ID_CHAT_DOWNTIME_ANNOUNCEMENT_REACTION_GENERATED_0_11"
     },
     {
       "id": "downtime-announcement-reaction-generated-2-5",
@@ -23116,7 +23116,7 @@
       "senderName": "PixelBee74",
       "body": "I'll check the new content after maintenance ends.",
       "createdAt": "2026-11-26T23:33:31.289Z",
-      "bodyStringId": "ID_CHAT_DOWNTIME_REACTION_GENERATED_2_5"
+      "bodyStringId": "ID_CHAT_DOWNTIME_ANNOUNCEMENT_REACTION_GENERATED_2_5"
     },
     {
       "id": "downtime-announcement-reaction-assistant-player",
@@ -23124,6 +23124,13 @@
       "senderName": "Sprout :3",
       "body": "Oh! That's a proper maintenance window. Time to finish up my current game. :3",
       "createdAt": "2026-11-26T23:33:31.289Z"
+    },
+    {
+      "id": "candy-1795736640915-j0s83509tz",
+      "senderId": "candy",
+      "senderName": "Candy :3",
+      "body": "Times nearly up guys..",
+      "createdAt": "2026-11-26T23:44:00.915Z"
     }
   ],
   "seedUnlockRules": {
