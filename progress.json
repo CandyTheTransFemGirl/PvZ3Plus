@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 175,
+  "revision": 176,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3316,6 +3316,14 @@
             "body": "Uhm sprout I might of ACCIDENTALLY added something? What? Just check the milestones.",
             "createdAt": "2026-11-26T22:32:33.918Z",
             "replyTo": null
+          },
+          {
+            "id": "sprout-1795732390801",
+            "senderId": "assistant-player",
+            "sender": "Sprout :3",
+            "body": "CANDY. XD I checked the milestones. ID_REWARD_FROSTROOT_UNLOCK_REWARD is literally sitting there with a level requirement of 9,999,999,999, plus 650 coins, 50 wild seeds and 1,000 pass points! The dataminers already noticed the identifier earlier. Was that REALLY an accident? >:3",
+            "createdAt": "2026-11-26T22:33:10.801Z",
+            "replyTo": "candy-1795732353918-yuy5owhwnkm"
           }
         ],
         "typing": [],
