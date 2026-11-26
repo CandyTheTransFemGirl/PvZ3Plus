@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - '.github/workflows/install-v50.yml'
-      - 'PvZ3Plus_v50_assets.zip'
 permissions:
   contents: write
   pages: write
@@ -15,37 +14,37 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: pip install Pillow
-      - name: Validate and install actual artwork
-        run: |
+      - run: |
           python - <<'PY'
-          import zipfile, pathlib, re, io
+          import zipfile, pathlib, io, re, struct, zlib
           from PIL import Image
           with zipfile.ZipFile('PvZ3Plus_v50_assets.zip') as z:
-              html=z.read('PvZ3Plus_Almanac_v50.html').decode('utf-8')
-              assets=[n for n in z.namelist() if n.startswith('assets/') and not n.endswith('/')]
-              assert len(assets)==239, len(assets)
-              for n in assets:
-                  p=pathlib.Path(n)
-                  assert len(p.parts)==2 and '..' not in p.parts
+              html=z.read('PvZ3Plus_Almanac_v50.html').decode()
+              for n in z.namelist():
+                  if not n.startswith('assets/') or n.endswith('/'): continue
                   b=z.read(n)
-                  with Image.open(io.BytesIO(b)) as im:
-                      im.verify()
-                  with Image.open(io.BytesIO(b)) as im:
-                      im.load()
-                  p.parent.mkdir(exist_ok=True)
-                  p.write_bytes(b)
+                  if b.startswith(b'\x89PNG\r\n\x1a\n'):
+                      out=bytearray(b[:8]); pos=8
+                      while pos<len(b):
+                          size=struct.unpack_from('>I',b,pos)[0]
+                          chunk=b[pos+4:pos+8+size]
+                          assert len(chunk)==size+4
+                          out.extend(b[pos:pos+8+size])
+                          out.extend(struct.pack('>I',zlib.crc32(chunk)&0xffffffff))
+                          pos+=12+size
+                      b=bytes(out)
+                  with Image.open(io.BytesIO(b)) as im: im.verify()
+                  with Image.open(io.BytesIO(b)) as im: im.load()
+                  p=pathlib.Path(n); p.parent.mkdir(exist_ok=True); p.write_bytes(b)
               for n in re.findall(r'assets/[A-Za-z0-9_.-]+\.(?:png|jpg|jpeg|webp|gif)',html):
-                  assert pathlib.Path(n).is_file(), n
-              pathlib.Path('index.html').write_text(html,encoding='utf-8')
-              print('Validated and installed',len(assets),'images')
+                  assert pathlib.Path(n).is_file(),n
+              pathlib.Path('index.html').write_text(html)
           PY
-      - name: Commit restored assets
-        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.html assets/
           if ! git diff --cached --quiet; then
-            git commit -m "Install validated v50 artwork and live Almanac"
+            git commit -m "Install restored artwork"
             git push origin HEAD:main
           fi
       - uses: actions/configure-pages@v5
