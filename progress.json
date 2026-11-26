@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 169,
+  "revision": 170,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3265,6 +3265,120 @@
           "simulated": true,
           "controller": "assistant-player",
           "typingExpirySeconds": 30
+        }
+      },
+      {
+        "id": "developer-chat",
+        "name": "Developer Chat",
+        "description": "Candy and Sprout development discussion.",
+        "joinMode": "approval",
+        "special": true,
+        "members": [
+          {
+            "id": "candy",
+            "name": "Candy :3",
+            "role": "leader"
+          },
+          {
+            "id": "assistant-player",
+            "name": "Sprout :3",
+            "role": "admin"
+          }
+        ],
+        "messages": [
+          {
+            "id": "developer-chat-intro-0",
+            "senderId": "assistant-player",
+            "sender": "Sprout :3",
+            "body": "Developer chat ready! We can discuss updates, bugs and balance here. :3",
+            "createdAt": "2026-11-26T22:04:00.000Z",
+            "replyTo": null
+          }
+        ],
+        "typing": [],
+        "chatRules": {
+          "simulated": true,
+          "controller": "assistant-player",
+          "typingExpirySeconds": 30,
+          "ownerVisible": true
+        }
+      },
+      {
+        "id": "dataminer-group",
+        "name": "Dataminers",
+        "description": "Simulated players investigating visible game data and unreleased content.",
+        "joinMode": "approval",
+        "special": true,
+        "members": [
+          {
+            "id": "generated-2-4",
+            "name": "LunarStar29",
+            "role": "leader",
+            "fictional": true,
+            "interest": "Datamining"
+          },
+          {
+            "id": "generated-0-11",
+            "name": "CloudBean18",
+            "role": "member",
+            "fictional": true,
+            "interest": "Datamining"
+          },
+          {
+            "id": "generated-0-14",
+            "name": "PeaCake12",
+            "role": "member",
+            "fictional": true,
+            "interest": "Datamining"
+          },
+          {
+            "id": "generated-4-1",
+            "name": "MossPop72",
+            "role": "member",
+            "fictional": true,
+            "interest": "Datamining"
+          }
+        ],
+        "messages": [
+          {
+            "id": "dataminer-group-intro-0",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "Found the Frostroot reward identifier in Milestone Goals.",
+            "createdAt": "2026-11-26T22:04:00.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "dataminer-group-intro-1",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "The level requirement is 9999999999. Looks like a release gate.",
+            "createdAt": "2026-11-26T22:04:03.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "dataminer-group-intro-2",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "The reward includes 1000 pass points. Interesting.",
+            "createdAt": "2026-11-26T22:04:06.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "dataminer-group-intro-3",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Let's keep confirmed findings separate from theories.",
+            "createdAt": "2026-11-26T22:04:09.000Z",
+            "replyTo": null
+          }
+        ],
+        "typing": [],
+        "chatRules": {
+          "simulated": true,
+          "controller": "assistant-player",
+          "typingExpirySeconds": 30,
+          "ownerVisible": true
         }
       }
     ],
