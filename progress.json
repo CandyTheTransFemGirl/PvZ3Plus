@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 250,
+  "revision": 251,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4728,6 +4728,42 @@
             "createdAt": "2026-11-26T23:45:07.167Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736707167_5GPPWDCCBUS"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736712428-rv2crwqbkl",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_OWNERDEBUG_LOC_INVALID = Use an ID_ identifier containing uppercase letters, digits or underscores.\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:12.428Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736712428_RV2CRWQBKL"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736712428-zv8buwgjq7b",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_OWNERDEBUG_LOC_PREFIX = People catalogue identifiers must begin with ID_REALPERSON_ or ID_OWNERDEBUG_.\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:12.428Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736712428_ZV8BUWGJQ7B"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736712428-es96k6v9ei",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_OWNERDEBUG_LOC_EMPTY = Enter localisation text.\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:12.428Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736712428_ES96K6V9EI"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736712428-bkyuisw23ci",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_OWNERDEBUG_LOC_EXISTS = This identifier already exists. Replace its text?\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:12.428Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736712428_BKYUISW23CI"
           }
         ],
         "typing": [],
@@ -4794,26 +4830,6 @@
                 "PeopleLocalisationPvz3Plus.Json"
               ],
               "clues": [
-                {
-                  "key": "ID_OWNERDEBUG_LOC_INVALID",
-                  "value": "Use an ID_ identifier containing uppercase letters, digits or underscores.",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_PREFIX",
-                  "value": "People catalogue identifiers must begin with ID_REALPERSON_ or ID_OWNERDEBUG_.",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_EMPTY",
-                  "value": "Enter localisation text.",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_EXISTS",
-                  "value": "This identifier already exists. Replace its text?",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
                 {
                   "key": "ID_OWNERDEBUG_LOC_SAVED",
                   "value": "Localisation saved.",
