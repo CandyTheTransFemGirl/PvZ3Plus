@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 224,
+  "revision": 225,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4282,6 +4282,24 @@
             "createdAt": "2026-11-26T23:28:11.881Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795735691881_L44ZX8OZA6"
+          },
+          {
+            "id": "datamine-result-candy-1795735696083-4iloubgnq8w",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_PLANT_GOLDMAGNET_NAME = Gold Magnet\nA plant name! Gold Magnet is now referenced in the catalogue. Let’s look for its tier and related plants.",
+            "createdAt": "2026-11-26T23:28:16.083Z",
+            "replyTo": "datamine-live-candy-1795735691881-l44zx8oza6",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795735696083_4ILOUBGNQ8W"
+          },
+          {
+            "id": "datamine-reaction-candy-1795735696083-k8ob7fgz3e",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Technically speaking, A name is a promising clue, but we need gameplay data to confirm its abilities.",
+            "createdAt": "2026-11-26T23:28:16.083Z",
+            "replyTo": "datamine-result-candy-1795735696083-4iloubgnq8w",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795735696083_K8OB7FGZ3E"
           }
         ],
         "typing": [],
@@ -4330,20 +4348,6 @@
             "46f1f1c3b365eb3475cf56bdea9097f0b4b7687c"
           ],
           "queue": [
-            {
-              "sha": "849a169875960f48c797bc4cad9833551268f9e0",
-              "at": "2026-11-26T23:10:23Z",
-              "files": [
-                "PlantLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_PLANT_GOLDMAGNET_NAME",
-                  "value": "Gold Magnet",
-                  "file": "PlantLoc.json"
-                }
-              ]
-            },
             {
               "sha": "e4f27e325b7e55023defe2fc7e0c649797d6e54e",
               "at": "2026-11-26T23:10:58Z",
@@ -4759,11 +4763,6 @@
               "clues": []
             }
           ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795735691881-l44zx8oza6",
-          "memberId": "generated-0-11",
-          "endsAt": "2026-11-26T23:28:14.881Z"
         }
       }
     ],
