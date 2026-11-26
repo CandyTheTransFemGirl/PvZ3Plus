@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 212,
+  "revision": 213,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3994,6 +3994,24 @@
             "createdAt": "2026-11-26T23:12:14.349Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795734734349_MGB8WDPSLVB"
+          },
+          {
+            "id": "datamine-result-candy-1795734755313-tbpwj3p4c7b",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_OWNERDEBUG_LOC_DUPLICATE = This identifier exists in another catalogue. Edit that catalogue instead.\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-26T23:12:35.313Z",
+            "replyTo": "datamine-live-candy-1795734734349-mgb8wdpslvb",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795734755313_TBPWJ3P4C7B"
+          },
+          {
+            "id": "datamine-reaction-candy-1795734755313-7zuuj5ki7il",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "WAIT, this is interesting!! We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-26T23:12:35.313Z",
+            "replyTo": "datamine-result-candy-1795734755313-tbpwj3p4c7b",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795734755313_7ZUUJ5KI7IL"
           }
         ],
         "typing": [],
@@ -4016,12 +4034,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795734734349-mgb8wdpslvb",
-          "memberId": "generated-0-11",
-          "endsAt": "2026-11-26T23:12:32.907Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
