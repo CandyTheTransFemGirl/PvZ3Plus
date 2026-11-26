@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 140,
+  "revision": 141,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -561,7 +561,8 @@
     "exclusiveUnlock": true,
     "seedUnlockAllowed": false,
     "seedUnlockAllowedAfterExpiry": true,
-    "endAt": "2026-12-08T16:59:00Z"
+    "endAt": "2026-12-08T16:59:00Z",
+    "points": 0
   },
   "plantPassRules": {
     "featuredPlantUnlock": "pass-only while featured pass active",
@@ -571,7 +572,24 @@
       "seedUnlockAllowed": true,
       "wildSeedUnlockAllowed": true
     },
-    "ownershipPermanent": true
+    "ownershipPermanent": true,
+    "rankPointCosts": [
+      {
+        "from": 1,
+        "to": 10,
+        "points": 200
+      },
+      {
+        "from": 11,
+        "to": 16,
+        "points": 350
+      },
+      {
+        "from": 17,
+        "to": null,
+        "points": 450
+      }
+    ]
   },
   "customRoster": [
     {
