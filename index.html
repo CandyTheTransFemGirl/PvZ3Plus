@@ -182,40 +182,49 @@ function refreshGroupChat(){for(const chat of document.querySelectorAll('.groupC
 setInterval(refreshGroupChat,1000);
 let liveMinerBusy=false;
 const minerPick=a=>a[Math.floor(Math.random()*a.length)];
-function liveMinerSchedule(){setTimeout(liveMinerRun,5000+Math.floor(Math.random()*10001));}
+const minerNotes={
+ID_MAIL_2026DEC31ST:["This mail hints at something on January 1st, but doesn't identify the reward.","So New Year's Day might have a surprise. The text alone doesn't confirm what it is."],
+ID_PREMIUMQUESTPATH_TURKEYMASTER_SHOP:["Turkey Master has a premium quest path string. Could be a separate unlock route.","That would fit the Thanksgiving plants, but a shop label doesn't tell us the price."],
+ID_TOFUTUKEY_PLANTZOMBIE:["The identifier ends in PLANTZOMBIE. Is Tofu Turkey a summoned unit rather than a normal plant?","We should look for other turkey-related unit IDs before deciding."],
+ID_BABYTOFU_PLANTZOMBIE:["Tofu Chick sounds like a smaller turkey unit.","Maybe the turkey plants summon different units. We need combat data to confirm."],
+ID_MASTERTURKEYPLANT_ZOMBIE:["Trained Tofu Turkey sounds like a distinct unit associated with Turkey Master.","The name suggests an upgrade, but we haven't found its stats."],
+ID_AGENTLAWN_NAME:["Begonia Boulevard is a lawn name. The AGENTLAWN identifier is interesting.","Could be a future location; we don't have a release date."],
+ID_AGENTLAWN_DESC:["The lawn description is still a placeholder.","That suggests the text isn't finalized, not necessarily that the lawn is playable."],
+ID_ANTICHEAT_WARN:["Uh... there's an anti-cheat warning string in here. Is this actually implemented?","A localization string alone doesn't prove there is any detection code."],
+ID_ANTICHEAT_BAN:["Sweet Anticheat V1.0? That sounds suspiciously specific.","Before panicking, remember that a ban message isn't evidence of an active ban system."],
+ID_WOW:["CANDY. The message literally asks whether those two names scared us!","Okay, that explains the anti-cheat bait. Nice prank."],
+ID_SECRET_PLANT:["Candy left a message specifically for people snooping through the files.","Looks like the hidden references were deliberately planted."]
+};
+function liveMinerSchedule(){setTimeout(liveMinerRun,2000+Math.floor(Math.random()*3001));}
 async function liveMinerRun(){
-  let session=null;
-  try{
-    if(!data||!ownerCredential||liveMinerBusy)return;
-    liveMinerBusy=true;
-    const duration=15000+Math.floor(Math.random()*50001);
-    await mutateSave(v=>{
-      const g=v.groups.list.find(x=>x.id==='dataminer-group');
-      if(g.activeInvestigation&&Date.parse(g.activeInvestigation.endsAt)>Date.now())return;
-      const m=minerPick(g.members),id='datamine-live-'+newMessageId();
-      session={id,memberId:m.id,endsAt:new Date(Date.now()+duration).toISOString()};
-      g.activeInvestigation=session;
-      g.messages.push({id,senderId:m.id,sender:m.name,body:minerPick(["Gonna dig through the files again.","Time to look for hidden identifiers.","Let's see what the devs left in the data."]),createdAt:new Date().toISOString(),replyTo:null});
-    });
-    if(!session)return;
-    await new Promise(resolve=>setTimeout(resolve,Math.max(0,Date.parse(session.endsAt)-Date.now())));
-    await mutateSave(v=>{
-      const g=v.groups.list.find(x=>x.id==='dataminer-group');
-      if(g.activeInvestigation?.id!==session.id)return;
-      const m=g.members.find(x=>x.id===session.memberId),history=g.messages.map(x=>x.body.toLowerCase()).join('\n'),clues=[];
-      function walk(x,path){
-        if(x&&typeof x==='object'){for(const [k,y] of Object.entries(x))walk(y,path.concat(k));}
-        else if(typeof x==='string'&&x.length&&x.length<500&&/^(ID_|name$|plantId$|zombieId$|releaseAt$|id$)/.test(path.at(-1))&&!history.includes(path.at(-1).startsWith('ID_')?path.at(-1).toLowerCase():x.toLowerCase()))clues.push({path:path.join('.'),value:x,hidden:path[0]==='hiddenReferences'});
-      }
-      for(const k of ['hiddenReferences','releaseSchedule','upcomingUpdates','customZombiePlan','customRoster','plantPass','achievements'])walk(v[k],[k]);
-      const hidden=clues.filter(c=>c.hidden),clue=minerPick(hidden.length&&Math.random()<0.65?hidden:clues);
-      const found=clue&&Math.random()<0.75,id='datamine-result-'+newMessageId();
-      g.messages.push({id,senderId:m.id,sender:m.name,body:found?'Found '+clue.path+': '+clue.value+' — file reference, not an official announcement.':minerPick(["Nothing new this time.","No interesting discoveries yet.","Just old references on this scan."]),createdAt:new Date().toISOString(),replyTo:session.id});
-      if(found&&Math.random()<0.8){const other=minerPick(g.members.filter(x=>x.id!==m.id));g.messages.push({id:'datamine-reaction-'+newMessageId(),senderId:other.id,sender:other.name,body:minerPick(["Wait, WHAT?","Interesting. Let's keep that here.","Nice find! Could just be a placeholder though.","Candy really likes leaving clues, huh?"]),createdAt:new Date().toISOString(),replyTo:id});}
-      delete g.activeInvestigation;
-    });
-  }catch(e){console.warn('Live dataminer investigation:',e.message);}
-  finally{liveMinerBusy=false;liveMinerSchedule();}
+ let session=null;
+ try{
+ if(!data||!ownerCredential||liveMinerBusy)return;
+ liveMinerBusy=true;
+ await mutateSave(v=>{
+ const g=v.groups.list.find(x=>x.id==='dataminer-group');
+ if(g.activeInvestigation&&Date.parse(g.activeInvestigation.endsAt)>Date.now())return;
+ const m=minerPick(g.members),id='datamine-live-'+newMessageId();
+ session={id,memberId:m.id,endsAt:new Date(Date.now()+5000+Math.floor(Math.random()*10001)).toISOString()};
+ g.activeInvestigation=session;
+ g.messages.push({id,senderId:m.id,sender:m.name,body:"I'm checking the hidden content strings and comparing them with our earlier findings.",createdAt:new Date().toISOString(),replyTo:null});
+ });
+ if(!session)return;
+ await new Promise(r=>setTimeout(r,Math.max(0,Date.parse(session.endsAt)-Date.now())));
+ await mutateSave(v=>{
+ const g=v.groups.list.find(x=>x.id==='dataminer-group');
+ if(g.activeInvestigation?.id!==session.id)return;
+ const m=g.members.find(x=>x.id===session.memberId),history=g.messages.map(x=>x.body).join('\n'),clues=[];
+ for(const section of Object.values(v.hiddenReferences||{}))for(const [key,value] of Object.entries(section.strings||{}))if(!history.includes(key))clues.push({key,value});
+ for(const goal of v.activities?.goals||[])if(goal.title?.startsWith('ID_')&&!history.includes(goal.title))clues.push({key:goal.title,value:'Level requirement: '+goal.minLevel});
+ const clue=minerPick(clues),id='datamine-result-'+newMessageId();
+ const notes=clue&&(minerNotes[clue.key]||["This identifier has a stored value, but we don't know whether the content is active.","We should wait for more evidence before calling this a confirmed release."]);
+ g.messages.push({id,senderId:m.id,sender:m.name,body:clue?clue.key+' = '+clue.value+'\n'+notes[0]:"I've compared the hidden strings with our notes. Nothing new in this batch.",createdAt:new Date().toISOString(),replyTo:session.id});
+ if(clue){const other=minerPick(g.members.filter(x=>x.id!==m.id));g.messages.push({id:'datamine-reaction-'+newMessageId(),senderId:other.id,sender:other.name,body:notes[1],createdAt:new Date().toISOString(),replyTo:id});}
+ delete g.activeInvestigation;
+ });
+ }catch(e){console.warn('Live dataminer investigation:',e.message);}
+ finally{liveMinerBusy=false;liveMinerSchedule();}
 }
 liveMinerSchedule();
 let imageRevision=-1;async function imageFixes(){try{const r=await fetch('https://raw.githubusercontent.com/CandyTheTransFemGirl/PvZ3Plus/main/image-fixes.json?ts='+Date.now(),{cache:'no-store'}),v=await r.json();if(v.format!=='PvZ3PlusImageFixesV1'||v.revision===imageRevision)return;for(const [k,url] of Object.entries(v.portraits||{})){if(typeof url!=='string'||!(/^(data:image\/(png|jpeg|webp);base64,|https:\/\/raw\.githubusercontent\.com\/CandyTheTransFemGirl\/PvZ3Plus\/)/.test(url)))continue;const i=new Image();i.src=url;try{await i.decode();portraits[k]=url}catch{}}imageRevision=v.revision;render()}catch{}}/* Remote image overrides disabled to preserve verified portraits. */
