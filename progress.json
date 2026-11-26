@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 90,
+  "revision": 91,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4106,6 +4106,14 @@
           "description": "",
           "day": 1,
           "points": 65,
+          "completed": false
+        },
+        {
+          "id": "candy-1795697178216-tbn8d6f7eo",
+          "title": "Merge Fire Pea In an victorious Level",
+          "description": "",
+          "day": 1,
+          "points": 50,
           "completed": false
         }
       ],
