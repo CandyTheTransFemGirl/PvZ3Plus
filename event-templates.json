@@ -1,0 +1,60 @@
+[
+  {
+    "id": "dave",
+    "name": "Crazy Dave's Tasks",
+    "days": 7,
+    "mode": "quests",
+    "quests": [],
+    "milestones": []
+  },
+  {
+    "id": "patrice",
+    "name": "Patrice's Plant Missions",
+    "mode": "plantMissions",
+    "featuredPlants": [],
+    "quests": [],
+    "milestones": []
+  },
+  {
+    "id": "chaos",
+    "name": "Cards of Chaos",
+    "mode": "waves",
+    "roster": [],
+    "cards": [],
+    "milestones": []
+  },
+  {
+    "id": "disco",
+    "name": "Disco Dance Marathon",
+    "mode": "streak",
+    "milestones": []
+  },
+  {
+    "id": "patrol",
+    "name": "Lawn Patrol",
+    "mode": "levels",
+    "levelCount": 20,
+    "difficulties": [
+      "Easy",
+      "Medium",
+      "Hard"
+    ],
+    "featuredPlants": [],
+    "featuredZombies": []
+  },
+  {
+    "id": "pass",
+    "name": "Plant Pass",
+    "days": 14,
+    "mode": "points",
+    "milestones": [],
+    "featuredPlants": []
+  },
+  {
+    "id": "watch",
+    "name": "Neighborville Watch",
+    "mode": "community",
+    "quests": [],
+    "milestones": []
+  }
+]
