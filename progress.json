@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 111,
+  "revision": 112,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4175,7 +4175,11 @@
           "wranglekelp",
           "torchwood",
           "blazeleaf",
-          "windchiller"
+          "windchiller",
+          "firepeashooter",
+          "flambeleaf",
+          "fireweed",
+          "puffpult"
         ],
         "zombies": [],
         "minLevel": 0
