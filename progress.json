@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 217,
+  "revision": 218,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4075,6 +4075,114 @@
             "createdAt": "2026-11-26T23:18:10.103Z",
             "replyTo": "datamine-result-candy-1795735090103-1ukcuxx9atz",
             "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795735090103_C6HLA0W5U2Q"
+          },
+          {
+            "id": "data-push-849a169875960f48c797bc4cad9833551268f9e0",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: PlantLoc.json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:34.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_849A169875960F48C797BC4CAD9833551268F9E0"
+          },
+          {
+            "id": "data-push-e4f27e325b7e55023defe2fc7e0c649797d6e54e",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: PlantLoc.json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:34.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_E4F27E325B7E55023DEFE2FC7E0C649797D6E54E"
+          },
+          {
+            "id": "data-push-2844b6f7ba7f47d1df77bb71ea985d8db485e56c",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: PlantLoc.json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:34.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_2844B6F7BA7F47D1DF77BB71EA985D8DB485E56C"
+          },
+          {
+            "id": "data-push-17468a7375dd5d4c1588c15645bad298cbfdc491",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: PlantLoc.json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:34.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_17468A7375DD5D4C1588C15645BAD298CBFDC491"
+          },
+          {
+            "id": "data-push-8a312d2cc223e919214a399e75f72afcc2538da1",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: PlantLoc.json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:34.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_8A312D2CC223E919214A399E75F72AFCC2538DA1"
+          },
+          {
+            "id": "data-push-e4fc6b1adf139e4132e099be46887f36a01043b3",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: PlantLoc.json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:34.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_E4FC6B1ADF139E4132E099BE46887F36A01043B3"
+          },
+          {
+            "id": "data-push-61713cddf5da684147380a7101af01d0cf12ae87",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: PlantPassLoc.json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:34.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_61713CDDF5DA684147380A7101AF01D0CF12AE87"
+          },
+          {
+            "id": "data-push-c83a055a2eae41e1a943bf59717779df84bfd914",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: UpdateLoc.json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:34.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_C83A055A2EAE41E1A943BF59717779DF84BFD914"
+          },
+          {
+            "id": "data-push-37e0db470bd61016f13a4c3e27595f9363697d43",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: AchievementLoc.json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:34.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_37E0DB470BD61016F13A4C3E27595F9363697D43"
+          },
+          {
+            "id": "data-push-831f73fbe680f8834bdeae8b2e5f8f2d569221e1",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: EventLoc.json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:34.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_831F73FBE680F8834BDEAE8B2E5F8F2D569221E1"
+          },
+          {
+            "id": "data-push-45d082dca06ead7d48408da6c4f933c2e42e5429",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: EventLoc.json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:34.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_45D082DCA06EAD7D48408DA6C4F933C2E42E5429"
+          },
+          {
+            "id": "data-push-5dce8755db38837ab5370a2fda263b732272295d",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:34.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_5DCE8755DB38837AB5370A2FDA263B732272295D"
           }
         ],
         "typing": [],
@@ -4097,7 +4205,237 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5
+        "maxMembers": 5,
+        "dataPushes": {
+          "seen": [
+            "849a169875960f48c797bc4cad9833551268f9e0",
+            "e4f27e325b7e55023defe2fc7e0c649797d6e54e",
+            "2844b6f7ba7f47d1df77bb71ea985d8db485e56c",
+            "17468a7375dd5d4c1588c15645bad298cbfdc491",
+            "8a312d2cc223e919214a399e75f72afcc2538da1",
+            "e4fc6b1adf139e4132e099be46887f36a01043b3",
+            "61713cddf5da684147380a7101af01d0cf12ae87",
+            "c83a055a2eae41e1a943bf59717779df84bfd914",
+            "37e0db470bd61016f13a4c3e27595f9363697d43",
+            "831f73fbe680f8834bdeae8b2e5f8f2d569221e1",
+            "45d082dca06ead7d48408da6c4f933c2e42e5429",
+            "5dce8755db38837ab5370a2fda263b732272295d"
+          ],
+          "queue": [
+            {
+              "sha": "849a169875960f48c797bc4cad9833551268f9e0",
+              "at": "2026-11-26T23:10:23Z",
+              "files": [
+                "PlantLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_PLANT_GOLDMAGNET_NAME",
+                  "value": "Gold Magnet",
+                  "file": "PlantLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "e4f27e325b7e55023defe2fc7e0c649797d6e54e",
+              "at": "2026-11-26T23:10:58Z",
+              "files": [
+                "PlantLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_PLANT_GOLDMAGNET_NAME",
+                  "value": "Gold Magnet",
+                  "file": "PlantLoc.json"
+                },
+                {
+                  "key": "ID_PLANT_GOLDMAGNET_GROUP",
+                  "value": "Tier 2",
+                  "file": "PlantLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "2844b6f7ba7f47d1df77bb71ea985d8db485e56c",
+              "at": "2026-11-26T23:11:16Z",
+              "files": [
+                "PlantLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_PLANT_GOLDMAGNET_GROUP",
+                  "value": "Tier 2",
+                  "file": "PlantLoc.json"
+                },
+                {
+                  "key": "ID_PLANT_MAGNETSHROOM_GROUP",
+                  "value": "Tier 1",
+                  "file": "PlantLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "17468a7375dd5d4c1588c15645bad298cbfdc491",
+              "at": "2026-11-26T23:11:30Z",
+              "files": [
+                "PlantLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_PLANT_MAGNETSHROOM_GROUP",
+                  "value": "Tier 1",
+                  "file": "PlantLoc.json"
+                },
+                {
+                  "key": "ID_PLANT_MAGNETSHROOM_NAME",
+                  "value": "Magnet Shroom",
+                  "file": "PlantLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "8a312d2cc223e919214a399e75f72afcc2538da1",
+              "at": "2026-11-26T23:13:02Z",
+              "files": [
+                "PlantLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_PLANT_MAGNETSHROOM_NAME",
+                  "value": "Magnet Shroom",
+                  "file": "PlantLoc.json"
+                },
+                {
+                  "key": "ID_PLANT_PVZ1_IMITATER_NAME",
+                  "value": "Imitater",
+                  "file": "PlantLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "e4fc6b1adf139e4132e099be46887f36a01043b3",
+              "at": "2026-11-26T23:13:18Z",
+              "files": [
+                "PlantLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_PLANT_PVZ1_IMITATER_NAME",
+                  "value": "Imitater",
+                  "file": "PlantLoc.json"
+                },
+                {
+                  "key": "ID_PLANT_PVZ1_IMITATER_GROUP",
+                  "value": "N/A",
+                  "file": "PlantLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "61713cddf5da684147380a7101af01d0cf12ae87",
+              "at": "2026-11-26T23:16:10Z",
+              "files": [
+                "PlantPassLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_PLANTPASS_CHUNKREWARDRULE",
+                  "value": "Meteorite chunks replaced one-for-one with Wild Seeds",
+                  "file": "PlantPassLoc.json"
+                },
+                {
+                  "key": "ID_PLANTPASS_FEATURED_UPNEXT",
+                  "value": "Frostroot",
+                  "file": "PlantPassLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "c83a055a2eae41e1a943bf59717779df84bfd914",
+              "at": "2026-11-26T23:17:12Z",
+              "files": [
+                "UpdateLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_UI_WEBSITE_UPDATE_AVAILABLE_RELOAD",
+                  "value": "Website update available — Reload",
+                  "file": "UpdateLoc.json"
+                },
+                {
+                  "key": "ID_DOWNTIME_WARNING",
+                  "value": "Downtime in fuction_time_countdown",
+                  "file": "UpdateLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "37e0db470bd61016f13a4c3e27595f9363697d43",
+              "at": "2026-11-26T23:18:18Z",
+              "files": [
+                "AchievementLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_UI_CANDY_CREATE_ACHIEVEMENT",
+                  "value": "Candy · Create achievement",
+                  "file": "AchievementLoc.json"
+                },
+                {
+                  "key": "ID_REWARD_FROSTROOT_UNLOCK_REWARD",
+                  "value": "Unlock Frostroot!",
+                  "file": "AchievementLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "831f73fbe680f8834bdeae8b2e5f8f2d569221e1",
+              "at": "2026-11-26T23:19:07Z",
+              "files": [
+                "EventLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_UI_EVENT_CREATED",
+                  "value": "Event created",
+                  "file": "EventLoc.json"
+                },
+                {
+                  "key": "ID_ACTIVITIES_EVENTS_CANDY_NEWYEARPARTY",
+                  "value": "New Year's Party!",
+                  "file": "EventLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "45d082dca06ead7d48408da6c4f933c2e42e5429",
+              "at": "2026-11-26T23:19:24Z",
+              "files": [
+                "EventLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_ACTIVITIES_EVENTS_CANDY_NEWYEARPARTY",
+                  "value": "New Year's Party!",
+                  "file": "EventLoc.json"
+                },
+                {
+                  "key": "ID_ACTIVITIES_EVENTS_CANDY_PVZBIRTHDAY",
+                  "value": "Birthdayz",
+                  "file": "EventLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "5dce8755db38837ab5370a2fda263b732272295d",
+              "at": "2026-11-26T23:22:29Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            }
+          ]
+        }
       }
     ],
     "membership": "generated-4",
