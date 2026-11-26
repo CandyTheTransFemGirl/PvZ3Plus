@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 80,
+  "revision": 81,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3994,6 +3994,20 @@
           "coins": 0,
           "wild": 0,
           "plantPassPoints": 25
+        },
+        "otherReward": ""
+      },
+      {
+        "id": "candy-1795695576466-dwqhq0a6g0j",
+        "title": "Get to Volcano for the first time in adventure",
+        "description": "",
+        "createdAt": "2026-11-26T12:19:36.466Z",
+        "creator": "candy",
+        "status": "pending",
+        "rewards": {
+          "coins": 0,
+          "wild": 0,
+          "plantPassPoints": 500
         },
         "otherReward": ""
       }
