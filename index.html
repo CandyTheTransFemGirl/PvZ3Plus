@@ -236,12 +236,12 @@ async function pollDataPushes(){
  for(const f of files){if(!/(?:Loc\.json|LocalisedStringsPvZ3Plus\.Json|PeopleLocalisationPvz3Plus\.Json)$/i.test(f.filename))continue;for(const line of (f.patch||'').split('\n')){const m=line.match(/^\+\s*"(ID_[^"]+)"\s*:\s*("(?:[^"\\]|\\.)*")/);if(m)try{clues.push({key:m[1],value:JSON.parse(m[2]),file:f.filename});}catch{}}}
  pushes.push({sha:c.sha,at:c.commit.author.date,files:files.map(f=>f.filename),clues});}
  if(!pushes.length)return;
- await mutateSave(v=>{const g=v.groups.list.find(x=>x.id==='dataminer-group');const state=g.dataPushes??={seen:[],queue:[]};for(const p of pushes){if(state.seen.includes(p.sha))continue;state.seen.push(p.sha);state.queue.push(p);const m=g.members.find(x=>x.id==='generated-4-1')||g.members[0];g.messages.push({id:'data-push-'+p.sha,senderId:m.id,sender:m.name,body:'Data Push detected: '+p.files.join(', ')+'. Checking what changed.',createdAt:new Date().toISOString(),replyTo:null});}state.seen=state.seen.slice(-300);},true);
+ await mutateSave(v=>{const g=v.groups.list.find(x=>x.id==='dataminer-group');const state=g.dataPushes??={seen:[],queue:[]};for(const p of pushes){if(state.seen.includes(p.sha))continue;state.seen.push(p.sha);state.queue.push(p);const m=g.members.find(x=>x.id==='generated-4-1')||g.members[0];if(!g.messages.some(x=>x.id?.startsWith('data-push-')&&x.body.includes(p.files.join(', ')+'.')&&Date.now()-Date.parse(x.createdAt)<30000))g.messages.push({id:'data-push-'+p.sha,senderId:m.id,sender:m.name,body:'Data Push detected: '+p.files.join(', ')+'. Checking what changed.',createdAt:new Date().toISOString(),replyTo:null});}state.seen=state.seen.slice(-300);},true);
  }catch(e){console.warn('Data Push monitor:',e.message);}finally{pushPolling=false;}
 }
 setInterval(pollDataPushes,8000);
 
-function liveMinerSchedule(){setTimeout(liveMinerRun,90000+Math.floor(Math.random()*90001));}
+let minerTimer;function liveMinerSchedule(){clearTimeout(minerTimer);minerTimer=setTimeout(liveMinerRun, data?.groups?.list?.find(g=>g.id==='dataminer-group')?.dataPushes?.queue?.some(p=>p.clues.length)?3000:90000+Math.floor(Math.random()*90001));} setInterval(()=>{if(!liveMinerBusy&&data?.groups?.list?.find(g=>g.id==='dataminer-group')?.dataPushes?.queue?.some(p=>p.clues.length)){clearTimeout(minerTimer);liveMinerRun();}},5000);
 async function liveMinerRun(){
  let session=null;
  try{
@@ -251,7 +251,7 @@ async function liveMinerRun(){
  const g=v.groups.list.find(x=>x.id==='dataminer-group');
  if(g.activeInvestigation&&Date.parse(g.activeInvestigation.endsAt)>Date.now())return;
  const m=minerPick(g.members),id='datamine-live-'+newMessageId();
- session={id,memberId:m.id,endsAt:new Date(Date.now()+10000+Math.floor(Math.random()*15001)).toISOString()};
+ session={id,memberId:m.id,endsAt:new Date(Date.now()+(g.dataPushes?.queue?.some(p=>p.clues.length)?3000:10000+Math.floor(Math.random()*15001))).toISOString()};
  g.activeInvestigation=session;
  g.messages.push({id,senderId:m.id,sender:m.name,body:"I'm checking the hidden content strings and comparing them with our earlier findings.",createdAt:new Date().toISOString(),replyTo:null});
  },true);
@@ -265,7 +265,7 @@ async function liveMinerRun(){
  for(const goal of v.activities?.goals||[])if(goal.title?.startsWith('ID_')&&!history.includes(goal.title))clues.push({key:goal.title,value:'Level requirement: '+goal.minLevel});
  for(const [key,value] of Object.entries(minerLocale))if(/^ID_(REALPERSON|OWNERDEBUG|WHATSWRONG|MAIL_2026|PREMIUMQUESTPATH|TOFUTUKEY|BABYTOFU|MASTERTURKEY|AGENTLAWN|ANTICHEAT|WOW|SECRET|THANGSGIVING|THANKSGIVING)/.test(key)&&!history.includes(key)&&!clues.some(c=>c.key===key))clues.push({key,value});
  const queued=g.dataPushes?.queue||[];while(queued.length&&!queued[0].clues.length)queued.shift();const pushed=queued[0]?.clues.shift();if(queued.length&&!queued[0].clues.length)queued.shift();const clue=pushed||minerPick(clues),id='datamine-result-'+newMessageId();
- const notes=clue&&(minerNotes[clue.key]||["This identifier has a stored value, but we don't know whether the content is active.","We should wait for more evidence before calling this a confirmed release."]);
+ const notes=clue&&(minerNotes[clue.key]||(/_NAME$/.test(clue.key)&&/^ID_PLANT_/.test(clue.key)?['A plant name! '+clue.value+' is now referenced in the catalogue. Let’s look for its tier and related plants.','A name is a promising clue, but we need gameplay data to confirm its abilities.']:/_GROUP$/.test(clue.key)&&/^ID_PLANT_/.test(clue.key)?['This plant has a group assignment: '+clue.value+'. That could help map its family.','Compare the matching name identifier before assuming an evolution path.']:null)||["This identifier has a stored value, but we don't know whether the content is active.","We should wait for more evidence before calling this a confirmed release."]);
  g.messages.push({id,senderId:m.id,sender:m.name,body:clue?clue.key+' = '+clue.value+'\n'+(m.id==='generated-0-14'&&/TURKEY|TOFU|AGENTLAWN/.test(clue.key)?'NEW CONTENT?! ': '')+notes[0]:"I've compared the hidden strings with our notes. Nothing new in this batch.",createdAt:new Date().toISOString(),replyTo:session.id});
  if(clue){const other=minerPick(g.members.filter(x=>x.id!==m.id));g.messages.push({id:'datamine-reaction-'+newMessageId(),senderId:other.id,sender:other.name,body:(minerVoices[other.id]?.react||'')+notes[1],createdAt:new Date().toISOString(),replyTo:id});}
  if(clue&&/TOFU|TURKEY/.test(clue.key)){
