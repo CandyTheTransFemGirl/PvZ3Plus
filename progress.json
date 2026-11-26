@@ -1,17 +1,17 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 65,
-  "level": 11,
-  "stars": 33,
-  "wins": 11,
+  "revision": 66,
+  "level": 12,
+  "stars": 36,
+  "wins": 12,
   "losses": 0,
-  "coins": 2145,
-  "wild": 65,
+  "coins": 2340,
+  "wild": 75,
   "potion": 1,
   "wanted": "cinderwood",
   "seeds": {
     "iceberglettuce": 10,
-    "cinderwood": 60,
+    "cinderwood": 70,
     "limebomb": 25
   },
   "records": {
@@ -252,23 +252,24 @@
     "Level 8 illustrative 3-star victory; unlocked Torchwood, Tangle Kelp and Wrangle-Kelp; encountered Disco Zombie. XP pending.",
     "Level 9 illustrative 3-star victory; Ducky Tube Horde encountered; water tiles double attack and production frequency and apply Soaked.",
     "Level 10 illustrative 3-star victory; Bowling Zombie, Chicken Wrangler and Chicken encountered. XP pending.",
-    "Level 11 simulated 3-star victory in 5:24; Bop Choy unlocked for 25 Wild Seeds; temporary Blaze Leaf planted; Rock’n’Rollin’ Imp and Diggin’ Zombie encountered."
+    "Level 11 simulated 3-star victory in 5:24; Bop Choy unlocked for 25 Wild Seeds; temporary Blaze Leaf planted; Rock’n’Rollin’ Imp and Diggin’ Zombie encountered.",
+    "Level 12 illustrative 3-star victory in 6:18; no Sunflower or Sunflower fusions planted; Candy challenge completed, rewards awaiting owner confirmation."
   ],
   "xp": {
-    "peashooter": 300,
+    "peashooter": 375,
     "sunflower": 421,
-    "wallnut": 106,
-    "cabbagepult": 220,
+    "wallnut": 136,
+    "cabbagepult": 260,
     "tallnut": 346,
-    "spikeweed": 45,
+    "spikeweed": 125,
     "repeater": 145,
     "gatlingpea": 320,
     "twinsunflower": 504,
-    "potatomine": 115,
+    "potatomine": 215,
     "slawslinger": 75,
     "firepeashooter": 225,
-    "lightningreed": 960,
-    "zaptail": 180,
+    "lightningreed": 1140,
+    "zaptail": 230,
     "cinderwood": 165,
     "tanglekelp": 75,
     "wranglekelp": 150,
@@ -801,6 +802,16 @@
         "body": "Challenge accepted! I'll attempt Level 12 without Sunflower or its fusions. No rewards claimed until I win!",
         "createdAt": "2026-11-26T03:23:13.917Z",
         "read": false
+      },
+      {
+        "id": "player-challenge-complete-12",
+        "sender": "assistant-player",
+        "recipient": "candy",
+        "title": "Challenge completed!",
+        "body": "Level 12 cleared with three stars and zero Sunflowers or Sunflower fusions! May I claim the 100 Wild Seeds and permanent Blaze Leaf unlock?",
+        "createdAt": "2026-11-26T03:25:48.011Z",
+        "read": false,
+        "replyTo": "candy-1795663365838-6uphc9xowh9"
       }
     ],
     "requests": [],
@@ -2846,31 +2857,26 @@
       },
       "assistant-player": {
         "status": "finished",
-        "level": 11,
+        "level": 12,
         "result": "victory",
         "stars": 3,
-        "elapsedSeconds": 324,
-        "wave": 5,
+        "elapsedSeconds": 378,
         "events": [
           {
             "time": "0:00",
-            "body": "Battle started"
-          },
-          {
-            "time": "1:00",
-            "body": "Lightning Reed counters Batter Zombies"
+            "body": "Sunflower-free challenge begins"
           },
           {
             "time": "2:00",
-            "body": "Blaze Leaf protects rear against Diggin’ Zombie"
+            "body": "Disco Zombie arrives"
           },
           {
-            "time": "3:00",
-            "body": "Tall-nuts stall rolling Imps"
+            "time": "3:30",
+            "body": "Buckethead stalled by Wall-nut"
           },
           {
-            "time": "5:24",
-            "body": "Three-star victory!"
+            "time": "6:18",
+            "body": "Victory with zero Sunflowers!"
           }
         ],
         "simulated": true
