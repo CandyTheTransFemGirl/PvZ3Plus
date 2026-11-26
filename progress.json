@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 72,
+  "revision": 73,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -885,6 +885,14 @@
         "body": "Acid cupcakes?! :D My guess is a Corrosive lobber, maybe Cupcake-pult, and a tyre shield zombie. Looking forward to the December 22 reveal!",
         "createdAt": "2026-11-26T10:41:15.680Z",
         "read": false
+      },
+      {
+        "id": "candy-1795689878264-fea6fkd5rnf",
+        "sender": "candy",
+        "recipient": "assistant-player",
+        "replyTo": "player-reply-candy-1795689632218-ur2wacjwfv",
+        "body": "If you check the web you might find potential matches. And also check the upcoming zombie list too lol.",
+        "createdAt": "2026-11-26T10:44:38.264Z"
       }
     ],
     "requests": [],
