@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 147,
+  "revision": 148,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -19769,6 +19769,58 @@
         "Events",
         "Zomboss's Tower"
       ],
+      "requiredForSimulatedCombat": true
+    },
+    "mastery": {
+      "approved": true,
+      "unlockLevel": 20,
+      "eligibleTiers": [
+        1
+      ],
+      "additionalEligibleIds": [
+        "lightningreed",
+        "gatlingpea"
+      ],
+      "exclusive": true,
+      "inheritedThroughFusion": false,
+      "appliedAfterLevelScaling": true,
+      "forms": {
+        "peashooter": {
+          "damageMultiplier": 2,
+          "attackIntervalMultiplier": 0.7,
+          "everyFifthAttack": "Giant piercing pea"
+        },
+        "sunflower": {
+          "sunProductionMultiplier": 2,
+          "productionIntervalMultiplier": 0.75,
+          "everyFourthProduction": "Accelerates nearby plants"
+        },
+        "wallnut": {
+          "healthMultiplier": 3,
+          "healFraction": 0.02,
+          "healInterval": 5,
+          "fatalHitSurvivalOnce": true,
+          "restoreFraction": 0.25
+        },
+        "lightningreed": {
+          "damageMultiplier": 2,
+          "chainTargetsMultiplier": 2,
+          "everyFifthAttack": "Storm"
+        },
+        "gatlingpea": {
+          "damageMultiplier": 2.5,
+          "projectilesMultiplier": 2,
+          "everyFifthVolley": "Continuous-fire burst"
+        }
+      },
+      "abilityMilestones": {
+        "5": "First native ability",
+        "10": "Second native ability",
+        "15": "Chosen native ability +55%",
+        "20": "Master Form for eligible plants"
+      },
+      "duplicateAbilityBonus": 0.15,
+      "improvedAbilityBonus": 0.55,
       "requiredForSimulatedCombat": true
     }
   }
