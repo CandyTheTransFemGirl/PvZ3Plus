@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 151,
+  "revision": 152,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -19943,6 +19943,16 @@
       "duplicateAbilityBonus": 0.15,
       "improvedAbilityBonus": 0.55,
       "requiredForSimulatedCombat": true
+    },
+    "fusionRecipeOverrides": {
+      "kernelpult": [
+        "kernelseed",
+        "cabbagepult"
+      ],
+      "kernelcorn": [
+        "kernelpult",
+        "kernelpult"
+      ]
     }
   },
   "bugReports": [],
