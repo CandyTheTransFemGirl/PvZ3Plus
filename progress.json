@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 117,
+  "revision": 118,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -284,7 +284,7 @@
       "releaseDate": "2026-11-26",
       "releaseTime": "16:30",
       "releaseAt": "2026-11-26T16:30:00Z",
-      "previewAt": "2026-11-26T16:30:00Z",
+      "previewAt": "2026-11-26T13:30:00Z",
       "content": [
         "Kernel-Seed",
         "Kernel-pult",
@@ -299,7 +299,10 @@
         "Weather Woman",
         "Hazmatfoil Zombie",
         "Rolling Cheese Imp"
-      ]
+      ],
+      "previewOnly": true,
+      "plantObtainableAt": "2026-11-26T16:30:00Z",
+      "zombieEncounterableAt": "2026-11-26T16:30:00Z"
     },
     {
       "id": "frostroot",
