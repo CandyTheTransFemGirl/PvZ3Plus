@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 165,
+  "revision": 166,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -20633,6 +20633,28 @@
           "wild": 25,
           "potion": 0,
           "seeds": 25,
+          "seedId": "peashooter",
+          "plantId": ""
+        }
+      },
+      {
+        "id": "candy-1795730380269-g4hnzgzgrut",
+        "title": "Peashooter Upgrade Pack!",
+        "description": "",
+        "section": "main",
+        "currency": "gems",
+        "price": 950,
+        "limit": 1,
+        "limited": false,
+        "endAt": null,
+        "passId": null,
+        "passEndAt": null,
+        "rewards": {
+          "coins": 200,
+          "gems": 0,
+          "wild": 35,
+          "potion": 0,
+          "seeds": 650,
           "seedId": "peashooter",
           "plantId": ""
         }
