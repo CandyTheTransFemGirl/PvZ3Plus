@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 91,
+  "revision": 92,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4114,6 +4114,14 @@
           "description": "",
           "day": 1,
           "points": 50,
+          "completed": false
+        },
+        {
+          "id": "candy-1795697256739-xbgtzwqjsgo",
+          "title": "Merge Fireweed In an victorious Level",
+          "description": "",
+          "day": 1,
+          "points": 65,
           "completed": false
         }
       ],
