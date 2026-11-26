@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 195,
+  "revision": 196,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3713,6 +3713,14 @@
             "body": "Technically speaking, Looks like the hidden references were deliberately planted.",
             "createdAt": "2026-11-26T22:45:25.985Z",
             "replyTo": "datamine-result-candy-1795733125985-gew60yc2lh4"
+          },
+          {
+            "id": "datamine-live-candy-1795733134049-z5ce30gyzdn",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-26T22:45:34.049Z",
+            "replyTo": null
           }
         ],
         "typing": [],
@@ -3735,7 +3743,12 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5
+        "maxMembers": 5,
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795733134049-z5ce30gyzdn",
+          "memberId": "generated-2-4",
+          "endsAt": "2026-11-26T22:45:42.844Z"
+        }
       }
     ],
     "membership": "generated-4",
