@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 207,
+  "revision": 208,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3931,6 +3931,22 @@
             "createdAt": "2026-11-26T22:46:57.171Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795733217171_U9M7EB68TZ"
+          },
+          {
+            "id": "datamine-result-candy-1795733931071-9kdi9qhb7ya",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_MASTERTURKEYPLANT_ZOMBIE = Trained Tofu Turkey\nTrained Tofu Turkey sounds like a distinct unit associated with Turkey Master.",
+            "createdAt": "2026-11-26T22:58:51.071Z",
+            "replyTo": "datamine-live-candy-1795733217171-u9m7eb68tz"
+          },
+          {
+            "id": "datamine-reaction-candy-1795733931071-4lkkixrbg4o",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Technically speaking, The name suggests an upgrade, but we haven't found its stats.",
+            "createdAt": "2026-11-26T22:58:51.071Z",
+            "replyTo": "datamine-result-candy-1795733931071-9kdi9qhb7ya"
           }
         ],
         "typing": [],
@@ -3953,12 +3969,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795733217171-u9m7eb68tz",
-          "memberId": "generated-2-5",
-          "endsAt": "2026-11-26T22:47:05.010Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
