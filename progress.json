@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 247,
+  "revision": 248,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -23190,6 +23190,13 @@
       "senderName": "Candy :3",
       "body": "Times nearly up guys..",
       "createdAt": "2026-11-26T23:44:00.915Z"
+    },
+    {
+      "id": "candy-1795736695088-fjm7ovm782b",
+      "senderId": "candy",
+      "senderName": "Candy :3",
+      "body": "GG",
+      "createdAt": "2026-11-26T23:44:55.088Z"
     }
   ],
   "seedUnlockRules": {
