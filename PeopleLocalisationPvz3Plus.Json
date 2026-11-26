@@ -86,5 +86,6 @@
   "ID_OWNERDEBUG_LOC_PUBLIC": "Catalogue text is repository-visible. Never enter credentials, private information or personal messages.",
   "ID_OWNERDEBUG_LOC_RELOAD": "Reload catalogue",
   "ID_OWNERDEBUG_LOC_COUNT": "Matching strings",
-  "ID_OWNERDEBUG_LOC_DUPLICATE": "This identifier exists in another catalogue. Edit that catalogue instead."
+  "ID_OWNERDEBUG_LOC_DUPLICATE": "This identifier exists in another catalogue. Edit that catalogue instead.",
+  "ID_MANAGER_LOC": "- Community Manager"
 }
