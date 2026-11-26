@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 189,
+  "revision": 190,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3641,6 +3641,14 @@
             "body": "As a longtime PvZ fan, here's what stands out: That would fit the Thanksgiving plants, but a shop label doesn't tell us the price.",
             "createdAt": "2026-11-26T22:44:29.205Z",
             "replyTo": "datamine-result-candy-1795733069205-mrfur6j3jao"
+          },
+          {
+            "id": "datamine-live-candy-1795733075725-0z0dgnnsk7x",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-26T22:44:35.725Z",
+            "replyTo": null
           }
         ],
         "typing": [],
@@ -3663,7 +3671,12 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5
+        "maxMembers": 5,
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795733075725-0z0dgnnsk7x",
+          "memberId": "generated-4-1",
+          "endsAt": "2026-11-26T22:44:49.415Z"
+        }
       }
     ],
     "membership": "generated-4",
