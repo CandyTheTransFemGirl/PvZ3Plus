@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 89,
+  "revision": 90,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4098,6 +4098,14 @@
           "description": "",
           "day": 1,
           "points": 100,
+          "completed": false
+        },
+        {
+          "id": "candy-1795697157850-redz212r1e",
+          "title": "Merge Torchwood in an victorious level",
+          "description": "",
+          "day": 1,
+          "points": 65,
           "completed": false
         }
       ],
