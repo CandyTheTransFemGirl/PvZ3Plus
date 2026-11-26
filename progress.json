@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 246,
+  "revision": 247,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4620,6 +4620,42 @@
             "createdAt": "2026-11-26T23:44:39.235Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736679235_LEE72CAVEX"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736691456-vjo7uw6thm",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_ACTIVITIES_EVENTS_CANDY_PVZBIRTHDAY = Birthdayz\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:44:51.456Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736691456_VJO7UW6THM"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736691456-nsuumko7ne",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_OWNERDEBUG_OWNER_ACCOUNT_REQUIRED = Owner account required\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:44:51.456Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736691456_NSUUMKO7NE"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736691456-aa1nbcay0k",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_OWNERDEBUG_LOC_EDITOR = Localisation Editor\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:44:51.456Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736691456_AA1NBCAY0K"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736691456-nbg1x3rit3",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_OWNERDEBUG_LOC_CATALOGUE = Localisation catalogue\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:44:51.456Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736691456_NBG1X3RIT3"
           }
         ],
         "typing": [],
@@ -4680,41 +4716,12 @@
           ],
           "queue": [
             {
-              "sha": "45d082dca06ead7d48408da6c4f933c2e42e5429",
-              "at": "2026-11-26T23:19:24Z",
-              "files": [
-                "EventLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_ACTIVITIES_EVENTS_CANDY_PVZBIRTHDAY",
-                  "value": "Birthdayz",
-                  "file": "EventLoc.json"
-                }
-              ]
-            },
-            {
               "sha": "b193eec0ddb5204f030d57bd266a60c64a2bef85",
               "at": "2026-11-26T23:05:52Z",
               "files": [
                 "PeopleLocalisationPvz3Plus.Json"
               ],
               "clues": [
-                {
-                  "key": "ID_OWNERDEBUG_OWNER_ACCOUNT_REQUIRED",
-                  "value": "Owner account required",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_EDITOR",
-                  "value": "Localisation Editor",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_CATALOGUE",
-                  "value": "Localisation catalogue",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
                 {
                   "key": "ID_OWNERDEBUG_LOC_IDENTIFIER",
                   "value": "String identifier",
