@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 157,
+  "revision": 158,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -20547,6 +20547,28 @@
           "seeds": 0,
           "seedId": "",
           "plantId": "snowbellista"
+        }
+      },
+      {
+        "id": "candy-1795729994743-cq373bnm72e",
+        "title": "125 Gems",
+        "description": "",
+        "section": "main",
+        "currency": "coins",
+        "price": 600,
+        "limit": 0,
+        "limited": false,
+        "endAt": null,
+        "passId": null,
+        "passEndAt": null,
+        "rewards": {
+          "coins": 0,
+          "gems": 125,
+          "wild": 0,
+          "potion": 0,
+          "seeds": 0,
+          "seedId": "",
+          "plantId": ""
         }
       }
     ],
