@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 126,
+  "revision": 127,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -980,7 +980,7 @@
     },
     {
       "id": "candy-1795713839283-lven90kd3yh",
-      "sender": "candy",
+      "sender": "pvz3plus-team",
       "recipient": "assistant-player",
       "type": "custom",
       "title": "Content Update 1 celebration!",
@@ -995,7 +995,8 @@
         }
       },
       "broadcast": true,
-      "claimedAt": "2026-11-26T17:30:00.000Z"
+      "claimedAt": "2026-11-26T17:30:00.000Z",
+      "senderName": "PvZ3+ Team"
     }
   ],
   "temporaryPlantAccess": [
@@ -1709,7 +1710,7 @@
           {
             "id": "candy",
             "name": "Candy",
-            "role": "owner"
+            "role": "member"
           }
         ],
         "messages": [
@@ -1725,7 +1726,7 @@
             "id": "candy-1795707969823-q8nsjloqn",
             "senderId": "candy",
             "sender": "Candy",
-            "body": "How is everyone doing and yes I'm the owner. Hi.",
+            "body": "How is everyone doing? Hi.",
             "createdAt": "2026-11-26T15:46:09.823Z",
             "replyTo": null
           },
@@ -1741,7 +1742,7 @@
             "id": "reply-candy-1795707969823-q8nsjloqn-generated-4-5",
             "senderId": "generated-4-5",
             "sender": "SunnyBug1",
-            "body": "WAIT THE OWNER IS HERE?? Hi!! Are you excited for the update too?",
+            "body": "Hiii!! Are you excited for the update too?",
             "createdAt": "2026-11-26T15:46:17.823Z",
             "replyTo": "candy-1795707969823-q8nsjloqn"
           },
@@ -1765,7 +1766,7 @@
             "id": "reply-candy-1795707969823-q8nsjloqn-generated-4-8",
             "senderId": "generated-4-8",
             "sender": "MossStar91",
-            "body": "Does this mean we're officially owner-approved bonkers?",
+            "body": "Does this mean we're officially bonkers?",
             "createdAt": "2026-11-26T15:46:29.823Z",
             "replyTo": "candy-1795707969823-q8nsjloqn"
           },
@@ -1821,7 +1822,7 @@
             "id": "cu1-group-4",
             "sender": "PeaPuff5",
             "senderId": "generated-4-4",
-            "body": "Thanks for the update Candy!",
+            "body": "Thanks for the update, devs!",
             "createdAt": "2026-11-26T17:30:04.000Z",
             "replyTo": null
           }
@@ -4966,7 +4967,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-4-0",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -4980,7 +4981,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5004,7 +5006,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-4-1",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5018,7 +5020,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5042,7 +5045,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-4-2",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5056,7 +5059,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5080,7 +5084,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-4-3",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5094,7 +5098,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5118,7 +5123,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-4-4",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5132,7 +5137,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5156,7 +5162,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-4-5",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5170,7 +5176,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5194,7 +5201,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-4-6",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5208,7 +5215,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5232,7 +5240,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-4-7",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5246,7 +5254,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5270,7 +5279,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-4-8",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5284,7 +5293,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5308,7 +5318,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-4-9",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5322,7 +5332,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5346,7 +5357,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-0",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5360,7 +5371,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5384,7 +5396,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-1",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5398,7 +5410,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5422,7 +5435,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-2",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5436,7 +5449,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5460,7 +5474,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-3",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5474,7 +5488,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5498,7 +5513,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-4",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5512,7 +5527,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5536,7 +5552,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-5",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5550,7 +5566,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5574,7 +5591,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-6",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5588,7 +5605,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5612,7 +5630,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-7",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5626,7 +5644,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5650,7 +5669,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-8",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5664,7 +5683,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5688,7 +5708,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-9",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5702,7 +5722,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5726,7 +5747,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-10",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5740,7 +5761,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5764,7 +5786,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-11",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5778,7 +5800,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5802,7 +5825,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-12",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5816,7 +5839,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5840,7 +5864,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-13",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5854,7 +5878,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5878,7 +5903,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-0-14",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5892,7 +5917,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5916,7 +5942,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-1-0",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5930,7 +5956,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5954,7 +5981,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-1-1",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -5968,7 +5995,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -5992,7 +6020,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-1-2",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6006,7 +6034,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6030,7 +6059,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-1-3",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6044,7 +6073,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6068,7 +6098,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-1-4",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6082,7 +6112,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6106,7 +6137,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-1-5",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6120,7 +6151,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6144,7 +6176,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-1-6",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6158,7 +6190,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6182,7 +6215,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-1-7",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6196,7 +6229,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6220,7 +6254,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-2-0",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6234,7 +6268,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6258,7 +6293,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-2-1",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6272,7 +6307,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6296,7 +6332,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-2-2",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6310,7 +6346,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6334,7 +6371,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-2-3",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6348,7 +6385,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6372,7 +6410,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-2-4",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6386,7 +6424,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6410,7 +6449,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-2-5",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6424,7 +6463,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6448,7 +6488,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-2-6",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6462,7 +6502,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6486,7 +6527,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-3-0",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6500,7 +6541,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6524,7 +6566,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-3-1",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6538,7 +6580,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6562,7 +6605,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-3-2",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6576,7 +6619,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6600,7 +6644,7 @@
         "mailbox": [
           {
             "id": "candy-1795713839283-lven90kd3yh",
-            "sender": "candy",
+            "sender": "pvz3plus-team",
             "recipient": "generated-3-3",
             "type": "custom",
             "title": "Content Update 1 celebration!",
@@ -6614,7 +6658,8 @@
                 "kernelseed": 25
               }
             },
-            "broadcast": true
+            "broadcast": true,
+            "senderName": "PvZ3+ Team"
           }
         ]
       }
@@ -6632,7 +6677,7 @@
       "id": "cu1-global-1",
       "senderId": "generated-4-2",
       "senderName": "CloverStar29",
-      "body": "Just got the celebration mail. Thanks Candy!",
+      "body": "Just got the celebration mail. Thanks, devs!",
       "createdAt": "2026-11-26T17:30:01.000Z"
     },
     {
@@ -6667,7 +6712,7 @@
       "id": "cu1-global-sprout",
       "senderId": "assistant-player",
       "senderName": "Sprout :3",
-      "body": "Claimed my celebration gift! Thank you Candy!! :D",
+      "body": "Claimed my celebration gift! Thank you, PvZ3+ Team!! :D",
       "createdAt": "2026-11-26T17:30:00.000Z"
     }
   ],
