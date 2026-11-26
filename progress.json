@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 238,
+  "revision": 239,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4471,6 +4471,24 @@
             "createdAt": "2026-11-26T23:29:21.696Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795735761696_XBF2OSR55PA"
+          },
+          {
+            "id": "datamine-result-candy-1795735765955-djb261fhpav",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_PLANT_MAGNETSHROOM_NAME = Magnet Shroom\nA plant name! Magnet Shroom is now referenced in the catalogue. Let’s look for its tier and related plants.",
+            "createdAt": "2026-11-26T23:29:25.955Z",
+            "replyTo": "datamine-live-candy-1795735761696-xbf2osr55pa",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795735765955_DJB261FHPAV"
+          },
+          {
+            "id": "datamine-reaction-candy-1795735765955-yozfuymt2r8",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "As a longtime PvZ fan, here's what stands out: A name is a promising clue, but we need gameplay data to confirm its abilities.",
+            "createdAt": "2026-11-26T23:29:25.955Z",
+            "replyTo": "datamine-result-candy-1795735765955-djb261fhpav",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795735765955_YOZFUYMT2R8"
           }
         ],
         "typing": [],
@@ -4526,11 +4544,6 @@
                 "PlantLoc.json"
               ],
               "clues": [
-                {
-                  "key": "ID_PLANT_MAGNETSHROOM_NAME",
-                  "value": "Magnet Shroom",
-                  "file": "PlantLoc.json"
-                },
                 {
                   "key": "ID_PLANT_PVZ1_IMITATER_NAME",
                   "value": "Imitater",
@@ -4877,11 +4890,6 @@
               "clues": []
             }
           ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795735761696-xbf2osr55pa",
-          "memberId": "generated-2-4",
-          "endsAt": "2026-11-26T23:29:24.696Z"
         }
       }
     ],
