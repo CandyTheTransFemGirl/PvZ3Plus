@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 145,
+  "revision": 146,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5030,8 +5030,8 @@
     }
   ],
   "adventureLevels": {
-    "12": {
-      "level": 12,
+    "13": {
+      "level": 13,
       "rules": "",
       "updatedAt": "2026-11-26T17:26:00.024Z",
       "zombies": [
