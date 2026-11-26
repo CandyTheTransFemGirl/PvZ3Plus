@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 66,
+  "revision": 67,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -720,6 +720,20 @@
       "deliverAt": "2026-11-26T03:22:45.371Z",
       "read": true,
       "claimed": false
+    },
+    {
+      "id": "candy-1795663803402-pfrpsr2freq",
+      "sender": "candy",
+      "recipient": "assistant-player",
+      "type": "custom",
+      "title": "Reward",
+      "body": "Ok I would unlock blaze leaf but this menu doesn't l",
+      "deliverAt": "2026-11-26T03:30:02.684Z",
+      "read": false,
+      "claimed": false,
+      "rewards": {
+        "wild": 100
+      }
     }
   ],
   "temporaryPlantAccess": [
