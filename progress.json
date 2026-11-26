@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 133,
+  "revision": 134,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -16859,10 +16859,12 @@
   "gems": 0,
   "releaseSchedule": {
     "keylyepie": {
-      "date": "2026-12-22T22:00:00Z"
+      "releaseAt": "2026-12-22T22:00:00Z",
+      "updateLabel": "Dirt Sheet Update"
     },
     "tirezombie": {
-      "date": "2026-12-22T22:00:00Z"
+      "releaseAt": "2026-12-22T22:00:00Z",
+      "updateLabel": "Dirt Sheet Update"
     }
   },
   "adventureMaxLevel": 350,
