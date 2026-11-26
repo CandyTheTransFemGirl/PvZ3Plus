@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 124,
+  "revision": 125,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6543,5 +6543,14 @@
       }
     }
   ],
-  "globalChat": []
+  "globalChat": [],
+  "seedUnlockRules": {
+    "tier1": 25,
+    "tier2": 50,
+    "tier3": 100,
+    "baseIngredientSeeds": 25,
+    "appliesTo": "all players",
+    "unknownRecipe": "do not infer",
+    "wildSeedsCoverMissing": true
+  }
 }
