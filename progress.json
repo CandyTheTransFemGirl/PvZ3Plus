@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 85,
+  "revision": 86,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4069,7 +4069,7 @@
         },
         "otherReward": "You get rewards for every level! :D\nRewards:\n5 wild seeds(first clear + needs to be 3 stars)\n15 snow balls(special shop currency)\n20 Coins",
         "startAt": "2026-12-12T18:00:00.000Z",
-        "endAt": "2026-12-24T05:59:00.000Z"
+        "endAt": "2026-12-24T17:59:00.000Z"
       }
     ]
   }
