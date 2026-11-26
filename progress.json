@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 170,
+  "revision": 171,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3306,8 +3306,8 @@
       {
         "id": "dataminer-group",
         "name": "Dataminers",
-        "description": "Simulated players investigating visible game data and unreleased content.",
-        "joinMode": "approval",
+        "description": "Five invited friends investigating unreleased PvZ3+ content. Owner can observe without joining.",
+        "joinMode": "invite-only",
         "special": true,
         "members": [
           {
@@ -3334,6 +3334,13 @@
           {
             "id": "generated-4-1",
             "name": "MossPop72",
+            "role": "member",
+            "fictional": true,
+            "interest": "Datamining"
+          },
+          {
+            "id": "generated-2-5",
+            "name": "PixelBee74",
             "role": "member",
             "fictional": true,
             "interest": "Datamining"
@@ -3371,6 +3378,22 @@
             "body": "Let's keep confirmed findings separate from theories.",
             "createdAt": "2026-11-26T22:04:09.000Z",
             "replyTo": null
+          },
+          {
+            "id": "dataminer-rules-0",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "Candy is the owner and Sprout is an admin. Keep our findings in this group.",
+            "createdAt": "2026-11-26T22:04:12.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "dataminer-rules-1",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "Frostroot and Swiss Stallion are announced, but the later pass names in the data aren't public announcements yet.",
+            "createdAt": "2026-11-26T22:04:15.000Z",
+            "replyTo": null
           }
         ],
         "typing": [],
@@ -3378,8 +3401,22 @@
           "simulated": true,
           "controller": "assistant-player",
           "typingExpirySeconds": 30,
-          "ownerVisible": true
-        }
+          "ownerVisible": true,
+          "ownerBypass": true,
+          "ownerObserverOnly": true,
+          "invitedFriendsOnly": true,
+          "knownStaff": {
+            "assistant-player": "admin",
+            "candy": "owner"
+          },
+          "knowsUnannouncedContent": true,
+          "announcedContent": [
+            "frostroot",
+            "swissstallion"
+          ],
+          "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
+        },
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
