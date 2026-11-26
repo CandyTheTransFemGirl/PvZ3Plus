@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 192,
+  "revision": 193,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3673,6 +3673,22 @@
             "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
             "createdAt": "2026-11-26T22:44:56.212Z",
             "replyTo": null
+          },
+          {
+            "id": "datamine-result-candy-1795733111325-3tjngrft7w4",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_ANTICHEAT_WARN = Data Modification Detected!\nUh... there's an anti-cheat warning string in here. Is this actually implemented?",
+            "createdAt": "2026-11-26T22:45:11.325Z",
+            "replyTo": "datamine-live-candy-1795733096212-9m781xultjj"
+          },
+          {
+            "id": "datamine-reaction-candy-1795733111326-sj974fr29ht",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "Adding this to our investigation notes: A localization string alone doesn't prove there is any detection code.",
+            "createdAt": "2026-11-26T22:45:11.326Z",
+            "replyTo": "datamine-result-candy-1795733111325-3tjngrft7w4"
           }
         ],
         "typing": [],
@@ -3695,12 +3711,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795733096212-9m781xultjj",
-          "memberId": "generated-4-1",
-          "endsAt": "2026-11-26T22:45:10.160Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
