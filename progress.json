@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 101,
+  "revision": 102,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4200,6 +4200,32 @@
       "shop": [],
       "points": 0,
       "balance": 0
+    },
+    "candy-1795696122161-tujpxq88zxk": {
+      "quests": [],
+      "shop": [],
+      "points": 0,
+      "balance": 0,
+      "rewardTrack": [
+        {
+          "id": "candy-1795698112366-qq6f8ny8hy",
+          "title": "Reward 1",
+          "threshold": 100,
+          "plantId": "",
+          "reward": {
+            "coins": 500,
+            "wild": 0,
+            "gems": 0,
+            "points": 0,
+            "seeds": 0,
+            "xp": 0,
+            "currency": 0,
+            "seedId": "",
+            "xpId": ""
+          }
+        }
+      ],
+      "rewardClaims": []
     }
   }
 }
