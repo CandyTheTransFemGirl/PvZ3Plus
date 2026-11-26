@@ -182,6 +182,17 @@ function refreshGroupChat(){for(const chat of document.querySelectorAll('.groupC
 setInterval(refreshGroupChat,1000);
 let liveMinerBusy=false;
 const minerPick=a=>a[Math.floor(Math.random()*a.length)];
+const minerVoices={
+'generated-2-4':{start:"I'll cross-check the new strings against our previous discoveries.",react:"Let's connect this with the other evidence: "},
+'generated-0-11':{start:"Checking for familiar names from PvZ1, PvZ2 and PvZ3. I wonder if there are any entirely new faces.",react:"As a longtime PvZ fan, here's what stands out: "},
+'generated-0-14':{start:"PLEASE let there be a brand-new plant or zombie in this batch!!",react:"WAIT, this is interesting!! "},
+'generated-4-1':{start:"I'll inspect the identifiers and separate actual mechanics from placeholder text.",react:"Technically speaking, "},
+'generated-2-5':{start:"Checking the event and localisation references for anything we missed.",react:"Adding this to our investigation notes: "}
+};
+let minerLocale={};
+async function refreshMinerLocale(){try{const r=await fetch('./LocalisedStringsPvZ3Plus.Json?ts='+Date.now(),{cache:'no-store'});if(r.ok)minerLocale=await r.json()}catch(e){console.warn('Localisation catalogue unavailable',e.message)}}
+refreshMinerLocale();setInterval(refreshMinerLocale,30000);
+
 const minerNotes={
 ID_MAIL_2026DEC31ST:["This mail hints at something on January 1st, but doesn't identify the reward.","So New Year's Day might have a surprise. The text alone doesn't confirm what it is."],
 ID_PREMIUMQUESTPATH_TURKEYMASTER_SHOP:["Turkey Master has a premium quest path string. Could be a separate unlock route.","That would fit the Thanksgiving plants, but a shop label doesn't tell us the price."],
@@ -217,10 +228,11 @@ async function liveMinerRun(){
  const m=g.members.find(x=>x.id===session.memberId),history=g.messages.map(x=>x.body).join('\n'),clues=[];
  for(const section of Object.values(v.hiddenReferences||{}))for(const [key,value] of Object.entries(section.strings||{}))if(!history.includes(key))clues.push({key,value});
  for(const goal of v.activities?.goals||[])if(goal.title?.startsWith('ID_')&&!history.includes(goal.title))clues.push({key:goal.title,value:'Level requirement: '+goal.minLevel});
+ for(const [key,value] of Object.entries(minerLocale))if(/^ID_(MAIL_2026|PREMIUMQUESTPATH|TOFUTUKEY|BABYTOFU|MASTERTURKEY|AGENTLAWN|ANTICHEAT|WOW|SECRET|THANGSGIVING|THANKSGIVING)/.test(key)&&!history.includes(key)&&!clues.some(c=>c.key===key))clues.push({key,value});
  const clue=minerPick(clues),id='datamine-result-'+newMessageId();
  const notes=clue&&(minerNotes[clue.key]||["This identifier has a stored value, but we don't know whether the content is active.","We should wait for more evidence before calling this a confirmed release."]);
- g.messages.push({id,senderId:m.id,sender:m.name,body:clue?clue.key+' = '+clue.value+'\n'+notes[0]:"I've compared the hidden strings with our notes. Nothing new in this batch.",createdAt:new Date().toISOString(),replyTo:session.id});
- if(clue){const other=minerPick(g.members.filter(x=>x.id!==m.id));g.messages.push({id:'datamine-reaction-'+newMessageId(),senderId:other.id,sender:other.name,body:notes[1],createdAt:new Date().toISOString(),replyTo:id});}
+ g.messages.push({id,senderId:m.id,sender:m.name,body:clue?clue.key+' = '+clue.value+'\n'+(m.id==='generated-0-14'&&/TURKEY|TOFU|AGENTLAWN/.test(clue.key)?'NEW CONTENT?! ': '')+notes[0]:"I've compared the hidden strings with our notes. Nothing new in this batch.",createdAt:new Date().toISOString(),replyTo:session.id});
+ if(clue){const other=minerPick(g.members.filter(x=>x.id!==m.id));g.messages.push({id:'datamine-reaction-'+newMessageId(),senderId:other.id,sender:other.name,body:(minerVoices[other.id]?.react||'')+notes[1],createdAt:new Date().toISOString(),replyTo:id});}
  delete g.activeInvestigation;
  },true);
  }catch(e){console.warn('Live dataminer investigation:',e.message);}
