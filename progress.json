@@ -1,20 +1,23 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 150,
+  "revision": 151,
   "level": 12,
   "stars": 36,
   "wins": 12,
   "losses": 0,
   "coins": 2640,
-  "wild": 285,
+  "wild": 5,
   "potion": 1,
   "wanted": "cinderwood",
   "seeds": {
     "iceberglettuce": 35,
-    "cinderwood": 70,
-    "limebomb": 25,
+    "cinderwood": 0,
+    "limebomb": 0,
     "aloevera": 65,
-    "kernelseed": 25
+    "kernelseed": 0,
+    "sunshroom": 0,
+    "umbrellaleaf": 0,
+    "zaptail": 0
   },
   "records": {
     "cabbagepult": {
@@ -240,6 +243,22 @@
     "acrobatimp": {
       "seen": true,
       "owned": false
+    },
+    "kernelseed": {
+      "owned": true,
+      "seen": false
+    },
+    "limebomb": {
+      "owned": true,
+      "seen": false
+    },
+    "sunshroom": {
+      "owned": true,
+      "seen": false
+    },
+    "umbrellaleaf": {
+      "owned": true,
+      "seen": false
     }
   },
   "history": [
@@ -255,7 +274,8 @@
     "Level 9 illustrative 3-star victory; Ducky Tube Horde encountered; water tiles double attack and production frequency and apply Soaked.",
     "Level 10 illustrative 3-star victory; Bowling Zombie, Chicken Wrangler and Chicken encountered. XP pending.",
     "Level 11 simulated 3-star victory in 5:24; Bop Choy unlocked for 25 Wild Seeds; temporary Blaze Leaf planted; Rock’n’Rollin’ Imp and Diggin’ Zombie encountered.",
-    "Level 12 illustrative 3-star victory in 6:18; no Sunflower or Sunflower fusions planted; Candy challenge completed, rewards awaiting owner confirmation."
+    "Level 12 illustrative 3-star victory in 6:18; no Sunflower or Sunflower fusions planted; Candy challenge completed, rewards awaiting owner confirmation.",
+    "Sprout unlocked Kernel-Seed, Lime-bomb, Sun-shroom and Umbrella Leaf; evolved Cinderwood and Lightning Reed to level 5. Spent 280 Wild Seeds and 120 plant-specific seeds; evolution XP reset to used XP per Almanac rules."
   ],
   "xp": {
     "peashooter": 375,
@@ -270,7 +290,7 @@
     "potatomine": 215,
     "slawslinger": 75,
     "firepeashooter": 225,
-    "lightningreed": 1140,
+    "lightningreed": 200,
     "zaptail": 230,
     "cinderwood": 200,
     "tanglekelp": 75,
@@ -19955,5 +19975,13 @@
       "hotfix"
     ],
     "simulatedPlayersMaySubmit": true
+  },
+  "evolutions": {
+    "cinderwood": {
+      "5": true
+    },
+    "lightningreed": {
+      "5": true
+    }
   }
 }
