@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 87,
+  "revision": 88,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4085,7 +4085,7 @@
         },
         "otherReward": "There is 3 days of quests! Completing each one gives you points towards an reward track for this event. The final reward is an plant!",
         "startAt": "2026-11-26T01:00:00.000Z",
-        "endAt": "2026-11-27T15:25:00.000Z"
+        "endAt": "2026-11-29T15:25:00.000Z"
       }
     ]
   }
