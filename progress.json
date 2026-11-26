@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 115,
+  "revision": 116,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -278,6 +278,29 @@
     "blazeleaf": 160
   },
   "upcomingUpdates": [
+    {
+      "id": "contentupdate1",
+      "updateName": "Content Update 1",
+      "releaseDate": "2026-11-26",
+      "releaseTime": "16:30",
+      "releaseAt": "2026-11-26T16:30:00Z",
+      "previewAt": "2026-11-26T16:30:00Z",
+      "content": [
+        "Kernel-Seed",
+        "Kernel-pult",
+        "Cano-Pea",
+        "Sea-Shroom",
+        "Water Chestnut",
+        "Explode-o-nut",
+        "Blast Choy",
+        "Umbrella Mine",
+        "Kernel Corn",
+        "Tazelnut",
+        "Weather Woman (Burbs)",
+        "Hazmatfoil Zombie (Sewer)",
+        "Rolling Cheese Imp (Volcano)"
+      ]
+    },
     {
       "id": "frostroot",
       "releaseDate": "2026-12-12",
