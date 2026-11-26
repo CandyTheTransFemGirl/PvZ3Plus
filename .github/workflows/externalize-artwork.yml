@@ -1,0 +1,48 @@
+name: Externalize artwork
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow
+      - name: Extract and validate artwork
+        run: |
+          python - <<'PY'
+          import base64, hashlib, io, pathlib, re
+          from PIL import Image
+          source = pathlib.Path('PvZ3Plus_Almanac_v47.html').read_text()
+          assets = pathlib.Path('assets')
+          assets.mkdir(exist_ok=True)
+          failures = []
+          def replace(m):
+              try:
+                  raw = base64.b64decode(m.group(2), validate=True)
+                  with Image.open(io.BytesIO(raw)) as im:
+                      im.verify()
+                  with Image.open(io.BytesIO(raw)) as im:
+                      im.load()
+                  ext = {'jpeg':'jpg','png':'png','webp':'webp','gif':'gif'}[m.group(1)]
+                  path = assets / (hashlib.sha256(raw).hexdigest() + '.' + ext)
+                  path.write_bytes(raw)
+                  return './' + str(path)
+              except Exception:
+                  failures.append(len(failures)+1)
+                  return m.group(0)
+          output = re.sub(r'data:image/(png|jpeg|webp|gif);base64,([A-Za-z0-9+/=]+)', replace, source)
+          pathlib.Path('almanac-external-preview.html').write_text(output)
+          pathlib.Path('assets/extraction-report.txt').write_text(f'Valid unique images: {len(list(assets.glob("*")))}\nInvalid entries retained: {len(failures)}\n')
+          PY
+      - name: Commit preview and assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets almanac-external-preview.html
+          git diff --cached --quiet || git commit -m "Extract validated artwork into external assets"
+          git push
