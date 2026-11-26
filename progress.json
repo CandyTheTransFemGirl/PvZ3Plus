@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 174,
+  "revision": 175,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3307,6 +3307,14 @@
             "sender": "Sprout :3",
             "body": "Developer chat ready! We can discuss updates, bugs and balance here. :3",
             "createdAt": "2026-11-26T22:04:00.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "candy-1795732353918-yuy5owhwnkm",
+            "senderId": "candy",
+            "sender": "Candy :3",
+            "body": "Uhm sprout I might of ACCIDENTALLY added something? What? Just check the milestones.",
+            "createdAt": "2026-11-26T22:32:33.918Z",
             "replyTo": null
           }
         ],
