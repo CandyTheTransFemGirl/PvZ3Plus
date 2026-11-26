@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 155,
+  "revision": 156,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -20382,6 +20382,34 @@
       "senderName": "PeaCake12",
       "body": "Please tell me there's a cranberry plant.",
       "createdAt": "2026-11-26T21:46:27.000Z"
+    },
+    {
+      "id": "thanksgiving-2026-generated-4-1",
+      "senderId": "generated-4-1",
+      "senderName": "MossPop72",
+      "body": "Happy Thanksgiving from the US! I was wondering if we'd get anything seasonal today.",
+      "createdAt": "2026-11-26T21:47:00.000Z"
+    },
+    {
+      "id": "thanksgiving-2026-generated-0-3",
+      "senderId": "generated-0-3",
+      "senderName": "MoonCake62",
+      "body": "Just finished Thanksgiving dinner and opened the game. THREE new plants?!",
+      "createdAt": "2026-11-26T21:47:03.000Z"
+    },
+    {
+      "id": "thanksgiving-2026-generated-1-0",
+      "senderId": "generated-1-0",
+      "senderName": "ToastBug73",
+      "body": "I was hoping for a Thanksgiving plant when CU1 dropped earlier lol",
+      "createdAt": "2026-11-26T21:47:06.000Z"
+    },
+    {
+      "id": "thanksgiving-2026-generated-2-4",
+      "senderId": "generated-2-4",
+      "senderName": "LunarStar29",
+      "body": "Happy Thanksgiving! Hopefully I can collect them before they disappear.",
+      "createdAt": "2026-11-26T21:47:09.000Z"
     }
   ],
   "seedUnlockRules": {
