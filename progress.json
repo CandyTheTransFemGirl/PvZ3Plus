@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 134,
+  "revision": 135,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -359,15 +359,21 @@
     },
     {
       "id": "dirtsheet20261222",
-      "updateName": "Dirt Sheet Update",
+      "updateName": "Sewer Expansion Update",
       "releaseDate": "2026-12-22",
       "releaseTime": "22:00",
       "releaseAt": "2026-12-22T22:00:00Z",
       "content": [
-        "Key Lye Pie",
-        "Tire Zombie"
+        "Key Lye Pie (featured plant)",
+        "Tire Zombie (featured zombie)",
+        "1 mystery plant",
+        "2 mystery Sewer zombies"
       ],
-      "confirmed": true
+      "confirmed": true,
+      "featuredPlant": "keylyepie",
+      "featuredZombie": "tirezombie",
+      "plantCount": 2,
+      "zombieCount": 3
     },
     {
       "id": "thunderchoy",
@@ -16860,11 +16866,11 @@
   "releaseSchedule": {
     "keylyepie": {
       "releaseAt": "2026-12-22T22:00:00Z",
-      "updateLabel": "Dirt Sheet Update"
+      "updateLabel": "Sewer Expansion Update"
     },
     "tirezombie": {
       "releaseAt": "2026-12-22T22:00:00Z",
-      "updateLabel": "Dirt Sheet Update"
+      "updateLabel": "Sewer Expansion Update"
     }
   },
   "adventureMaxLevel": 350,
