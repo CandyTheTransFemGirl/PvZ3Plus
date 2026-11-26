@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 214,
+  "revision": 215,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4030,6 +4030,24 @@
             "createdAt": "2026-11-26T23:15:32.356Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795734932356_42MYXZ900HZ"
+          },
+          {
+            "id": "datamine-result-candy-1795734950623-b8an1mche29",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_OWNERDEBUG_CANDY_OWNER_CREATION_CONTROLS = Candy · Owner creation controls\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-26T23:15:50.623Z",
+            "replyTo": "datamine-live-candy-1795734932356-42myxz900hz",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795734950623_B8AN1MCHE29"
+          },
+          {
+            "id": "datamine-reaction-candy-1795734950623-nvanmew5e6",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "Adding this to our investigation notes: We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-26T23:15:50.623Z",
+            "replyTo": "datamine-result-candy-1795734950623-b8an1mche29",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795734950623_NVANMEW5E6"
           }
         ],
         "typing": [],
@@ -4052,12 +4070,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795734932356-42myxz900hz",
-          "memberId": "generated-2-4",
-          "endsAt": "2026-11-26T23:15:49.635Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
