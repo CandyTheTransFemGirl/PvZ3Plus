@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 248,
+  "revision": 249,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4656,6 +4656,42 @@
             "createdAt": "2026-11-26T23:44:51.456Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736691456_NBG1X3RIT3"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736702672-hiltoli2rc6",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_OWNERDEBUG_LOC_IDENTIFIER = String identifier\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:02.672Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736702672_HILTOLI2RC6"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736702672-4eoup8pdtj6",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_OWNERDEBUG_LOC_VALUE = Localised text\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:02.672Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736702672_4EOUP8PDTJ6"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736702672-q4xqchomnu",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_OWNERDEBUG_LOC_SEARCH = Search identifiers or text\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:02.672Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736702672_Q4XQCHOMNU"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736702672-7freiqyw0a3",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_OWNERDEBUG_LOC_NEW = New string\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:02.672Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736702672_7FREIQYW0A3"
           }
         ],
         "typing": [],
@@ -4722,26 +4758,6 @@
                 "PeopleLocalisationPvz3Plus.Json"
               ],
               "clues": [
-                {
-                  "key": "ID_OWNERDEBUG_LOC_IDENTIFIER",
-                  "value": "String identifier",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_VALUE",
-                  "value": "Localised text",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_SEARCH",
-                  "value": "Search identifiers or text",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_LOC_NEW",
-                  "value": "New string",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
                 {
                   "key": "ID_OWNERDEBUG_LOC_SAVE",
                   "value": "Save string to GitHub",
