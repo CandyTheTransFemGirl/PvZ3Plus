@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 118,
+  "revision": 119,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -802,13 +802,14 @@
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
       "read": true,
-      "claimed": false,
+      "claimed": true,
       "rewards": {},
       "temporaryPlantAccess": {
         "plantId": "fireweed",
         "durationMs": 36000000,
         "startsOnClaim": true
-      }
+      },
+      "claimedAt": "2026-11-26T14:03:29.665Z"
     },
     {
       "id": "candy-1795699869391-4fc5o6ikwjj",
@@ -819,13 +820,14 @@
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
       "read": true,
-      "claimed": false,
+      "claimed": true,
       "rewards": {},
       "temporaryPlantAccess": {
         "plantId": "flambeleaf",
         "durationMs": 36000000,
         "startsOnClaim": true
-      }
+      },
+      "claimedAt": "2026-11-26T14:03:29.665Z"
     },
     {
       "id": "candy-1795699869391-f4k1cob5ew",
@@ -836,30 +838,14 @@
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
       "read": true,
-      "claimed": false,
+      "claimed": true,
       "rewards": {},
       "temporaryPlantAccess": {
         "plantId": "flamethrower",
         "durationMs": 36000000,
         "startsOnClaim": true
-      }
-    },
-    {
-      "id": "candy-1795699869391-3sve9a5w92f",
-      "sender": "candy",
-      "recipient": "assistant-player",
-      "type": "custom",
-      "title": "A little help. · kernelcorn",
-      "body": "Cool!",
-      "deliverAt": "2026-11-26T13:31:08.923Z",
-      "read": true,
-      "claimed": false,
-      "rewards": {},
-      "temporaryPlantAccess": {
-        "plantId": "kernelcorn",
-        "durationMs": 36000000,
-        "startsOnClaim": true
-      }
+      },
+      "claimedAt": "2026-11-26T14:03:29.665Z"
     },
     {
       "id": "candy-1795699869391-lxuthova6r",
@@ -870,47 +856,14 @@
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
       "read": true,
-      "claimed": false,
+      "claimed": true,
       "rewards": {},
       "temporaryPlantAccess": {
         "plantId": "puffpult",
         "durationMs": 36000000,
         "startsOnClaim": true
-      }
-    },
-    {
-      "id": "candy-1795699869391-kh60u5hqla",
-      "sender": "candy",
-      "recipient": "assistant-player",
-      "type": "custom",
-      "title": "A little help. · quillshot",
-      "body": "Cool!",
-      "deliverAt": "2026-11-26T13:31:08.923Z",
-      "read": true,
-      "claimed": false,
-      "rewards": {},
-      "temporaryPlantAccess": {
-        "plantId": "quillshot",
-        "durationMs": 36000000,
-        "startsOnClaim": true
-      }
-    },
-    {
-      "id": "candy-1795699869391-ajkt9dmu7zr",
-      "sender": "candy",
-      "recipient": "assistant-player",
-      "type": "custom",
-      "title": "A little help. · quillerqueen",
-      "body": "Cool!",
-      "deliverAt": "2026-11-26T13:31:08.923Z",
-      "read": true,
-      "claimed": false,
-      "rewards": {},
-      "temporaryPlantAccess": {
-        "plantId": "quillerqueen",
-        "durationMs": 36000000,
-        "startsOnClaim": true
-      }
+      },
+      "claimedAt": "2026-11-26T14:03:29.665Z"
     },
     {
       "id": "candy-1795699869391-7xa7fxcwshi",
@@ -921,13 +874,14 @@
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
       "read": true,
-      "claimed": false,
+      "claimed": true,
       "rewards": {},
       "temporaryPlantAccess": {
         "plantId": "scorchwood",
         "durationMs": 36000000,
         "startsOnClaim": true
-      }
+      },
+      "claimedAt": "2026-11-26T14:03:29.665Z"
     },
     {
       "id": "candy-1795699869391-blhy0d8woxc",
@@ -938,13 +892,14 @@
       "body": "Cool!",
       "deliverAt": "2026-11-26T13:31:08.923Z",
       "read": true,
-      "claimed": false,
+      "claimed": true,
       "rewards": {},
       "temporaryPlantAccess": {
         "plantId": "sulfurshroom",
         "durationMs": 36000000,
         "startsOnClaim": true
-      }
+      },
+      "claimedAt": "2026-11-26T14:03:29.665Z"
     }
   ],
   "temporaryPlantAccess": [
@@ -968,6 +923,48 @@
       "expiresAt": "2026-11-26T01:52:13.124Z",
       "sender": "candy",
       "messageId": "candy-1795646944865-kc8yttf6oj"
+    },
+    {
+      "plantId": "fireweed",
+      "startsAt": "2026-11-26T14:03:29.665Z",
+      "expiresAt": "2026-11-27T00:03:29.665Z",
+      "sender": "candy",
+      "messageId": "candy-1795699869391-ccqwf6bzmmg"
+    },
+    {
+      "plantId": "flambeleaf",
+      "startsAt": "2026-11-26T14:03:29.665Z",
+      "expiresAt": "2026-11-27T00:03:29.665Z",
+      "sender": "candy",
+      "messageId": "candy-1795699869391-4fc5o6ikwjj"
+    },
+    {
+      "plantId": "flamethrower",
+      "startsAt": "2026-11-26T14:03:29.665Z",
+      "expiresAt": "2026-11-27T00:03:29.665Z",
+      "sender": "candy",
+      "messageId": "candy-1795699869391-f4k1cob5ew"
+    },
+    {
+      "plantId": "puffpult",
+      "startsAt": "2026-11-26T14:03:29.665Z",
+      "expiresAt": "2026-11-27T00:03:29.665Z",
+      "sender": "candy",
+      "messageId": "candy-1795699869391-lxuthova6r"
+    },
+    {
+      "plantId": "scorchwood",
+      "startsAt": "2026-11-26T14:03:29.665Z",
+      "expiresAt": "2026-11-27T00:03:29.665Z",
+      "sender": "candy",
+      "messageId": "candy-1795699869391-7xa7fxcwshi"
+    },
+    {
+      "plantId": "sulfurshroom",
+      "startsAt": "2026-11-26T14:03:29.665Z",
+      "expiresAt": "2026-11-27T00:03:29.665Z",
+      "sender": "candy",
+      "messageId": "candy-1795699869391-blhy0d8woxc"
     }
   ],
   "playerCommunication": {
