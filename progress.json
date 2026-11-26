@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 191,
+  "revision": 192,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3665,6 +3665,14 @@
             "body": "Let's connect this with the other evidence: Maybe the turkey plants summon different units. We need combat data to confirm.",
             "createdAt": "2026-11-26T22:44:50.976Z",
             "replyTo": "datamine-result-candy-1795733090976-eob971mtms"
+          },
+          {
+            "id": "datamine-live-candy-1795733096212-9m781xultjj",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-26T22:44:56.212Z",
+            "replyTo": null
           }
         ],
         "typing": [],
@@ -3687,7 +3695,12 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5
+        "maxMembers": 5,
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795733096212-9m781xultjj",
+          "memberId": "generated-4-1",
+          "endsAt": "2026-11-26T22:45:10.160Z"
+        }
       }
     ],
     "membership": "generated-4",
