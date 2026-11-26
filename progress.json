@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 96,
+  "revision": 97,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4154,6 +4154,14 @@
           "description": "",
           "day": 2,
           "points": 350,
+          "completed": false
+        },
+        {
+          "id": "candy-1795697445035-5mu87eqs457",
+          "title": "Merge an Sulfur-Shroom in an victorious Level!",
+          "description": "",
+          "day": 1,
+          "points": 75,
           "completed": false
         }
       ],
