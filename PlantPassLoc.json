@@ -6,5 +6,6 @@
   "ID_UI_PLANT_PASS": "🎟 Plant Pass",
   "ID_PLANTPASS_FEATURED": "Snow-Bellista",
   "ID_PLANTPASS_XPREWARDRULE": "Shards replaced with XP for Snow-Bellista ingredients",
-  "ID_PLANTPASS_CHUNKREWARDRULE": "Meteorite chunks replaced one-for-one with Wild Seeds"
+  "ID_PLANTPASS_CHUNKREWARDRULE": "Meteorite chunks replaced one-for-one with Wild Seeds",
+  "ID_PLANTPASS_FEATURED_UPNEXT": "Frostroot"
 }
