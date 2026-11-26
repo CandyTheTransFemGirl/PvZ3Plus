@@ -1,0 +1,2 @@
+Valid unique images: 171
+Invalid entries retained: 66
