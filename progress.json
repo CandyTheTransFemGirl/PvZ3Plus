@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 256,
+  "revision": 257,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -23764,5 +23764,13 @@
     "endsAt": "2026-11-27T06:00:00Z",
     "reason": "Thanksgiving Update",
     "warningId": "ID_DOWNTIME_WARNING"
-  }
+  },
+  "waitingChat": [
+    {
+      "id": "waiting-candy-1795736746684-lkrifwbwv0g",
+      "senderName": "PvZ3+ Team",
+      "body": "Alright everyone please give us some time to get everything set up!",
+      "createdAt": "2026-11-26T23:45:46.684Z"
+    }
+  ]
 }
