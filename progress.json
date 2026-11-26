@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 110,
+  "revision": 111,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4224,6 +4224,28 @@
           "sulfurshroom"
         ],
         "zombies": [],
+        "minLevel": 0
+      },
+      {
+        "id": "candy-1795699186936-3t25pxp7roj",
+        "title": "Encounter All Zombominations",
+        "description": "",
+        "createdAt": "2026-11-26T13:19:46.936Z",
+        "creator": "candy",
+        "status": "pending",
+        "rewards": {
+          "coins": 30,
+          "wild": 100,
+          "plantPassPoints": 0
+        },
+        "otherReward": "",
+        "plants": [],
+        "zombies": [
+          "buzzbox",
+          "esgargot",
+          "shocktopus",
+          "trouthouse"
+        ],
         "minLevel": 0
       }
     ]
