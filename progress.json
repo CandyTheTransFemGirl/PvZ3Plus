@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 255,
+  "revision": 256,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4908,6 +4908,33 @@
             "createdAt": "2026-11-26T23:45:37.295Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736737295_B0FAAGT99YN"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736742246-5g9p2qehldn",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_OWNER_TEAMNAME = PvZ3+ Team\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:42.246Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736742246_5G9P2QEHLDN"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736742246-lbra4v4rgxb",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_OWNERDEBUG_DOWNTIME_PREVIEW = View downtime screen\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:42.246Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736742246_LBRA4V4RGXB"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736742246-k9elbcov6g",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_OWNERDEBUG_DOWNTIME_EXIT = Return to owner interface\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:45:42.246Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736742246_K9ELBCOV6G"
           }
         ],
         "typing": [],
@@ -4966,46 +4993,7 @@
             "5094d921dfe1cc7e169c84eca49b3ba09361a203",
             "ac53b34c0a8c905dd5254b25530a90d640f9755c"
           ],
-          "queue": [
-            {
-              "sha": "72adf4d5cd911827fd27f40a05eb81e546078629",
-              "at": "2026-11-26T23:42:08Z",
-              "files": [
-                "PeopleLocalisationPvz3Plus.Json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_OWNER_TEAMNAME",
-                  "value": "PvZ3+ Team",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                }
-              ]
-            },
-            {
-              "sha": "5094d921dfe1cc7e169c84eca49b3ba09361a203",
-              "at": "2026-11-26T23:43:00Z",
-              "files": [
-                "PeopleLocalisationPvz3Plus.Json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_OWNER_TEAMNAME",
-                  "value": "PvZ3+ Team",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_DOWNTIME_PREVIEW",
-                  "value": "View downtime screen",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                },
-                {
-                  "key": "ID_OWNERDEBUG_DOWNTIME_EXIT",
-                  "value": "Return to owner interface",
-                  "file": "PeopleLocalisationPvz3Plus.Json"
-                }
-              ]
-            }
-          ]
+          "queue": []
         }
       }
     ],
