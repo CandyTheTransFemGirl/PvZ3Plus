@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 196,
+  "revision": 197,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3721,6 +3721,22 @@
             "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
             "createdAt": "2026-11-26T22:45:34.049Z",
             "replyTo": null
+          },
+          {
+            "id": "datamine-result-candy-1795733143948-gbk7y57m67d",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_WOW = Did the 2 names above scare you? >:) \n- Candy\nCANDY. The message literally asks whether those two names scared us!",
+            "createdAt": "2026-11-26T22:45:43.948Z",
+            "replyTo": "datamine-live-candy-1795733134049-z5ce30gyzdn"
+          },
+          {
+            "id": "datamine-reaction-candy-1795733143948-sf617pn9bv",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Technically speaking, Could be a prank, or Candy could be teasing a real anti-cheat. We still don't know.",
+            "createdAt": "2026-11-26T22:45:43.948Z",
+            "replyTo": "datamine-result-candy-1795733143948-gbk7y57m67d"
           }
         ],
         "typing": [],
@@ -3743,12 +3759,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795733134049-z5ce30gyzdn",
-          "memberId": "generated-2-4",
-          "endsAt": "2026-11-26T22:45:42.844Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
