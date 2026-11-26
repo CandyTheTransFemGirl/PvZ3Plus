@@ -305,6 +305,33 @@
       "zombieEncounterableAt": "2026-11-26T16:30:00Z"
     },
     {
+      "id": "balancepatch1",
+      "updateName": "Balance Patch 1",
+      "releaseDate": "2026-11-30",
+      "releaseTime": "17:30",
+      "releaseAt": "2026-11-30T17:30:00Z",
+      "content": [
+        "???"
+      ]
+    },
+    {
+      "id": "contentupdate2",
+      "updateName": "Content Update 2",
+      "releaseDate": "2026-12-03",
+      "releaseTime": "21:00",
+      "releaseAt": "2026-12-03T21:00:00Z",
+      "content": [
+        "Lily Pad",
+        "Yuzooka Tree",
+        "Burst Thistle",
+        "Plantern",
+        "Brieologist",
+        "Bungee Zombie"
+      ],
+      "plantCount": 10,
+      "zombieCount": 7
+    },
+    {
       "id": "frostroot",
       "releaseDate": "2026-12-12",
       "releaseTime": "18:00",
@@ -314,7 +341,7 @@
         "Frostroot Plant Pass",
         "New plants",
         "Swiss Stallion",
-        "Snow stage",
+        "Brain Freeze Basin",
         "Snow stage zombies",
         "Snow event"
       ],
@@ -392,6 +419,51 @@
       "passEndAt": null,
       "version": "Beta 1.6",
       "updateName": "The Big Update"
+    },
+    {
+      "id": "contentupdate3",
+      "updateName": "Content Update 3",
+      "releaseDate": "2027-02-14",
+      "releaseTime": null,
+      "releaseAt": null,
+      "content": [
+        "???"
+      ],
+      "releaseWindow": "Valentine's 2027"
+    },
+    {
+      "id": "contentupdate4",
+      "updateName": "Content Update 4",
+      "releaseDate": null,
+      "releaseTime": null,
+      "releaseAt": null,
+      "content": [
+        "???"
+      ],
+      "releaseWindow": "Spring 2027"
+    },
+    {
+      "id": "contentupdate5",
+      "updateName": "Content Update 5",
+      "releaseDate": "2027-10-31",
+      "releaseTime": null,
+      "releaseAt": null,
+      "content": [
+        "???"
+      ],
+      "releaseWindow": "Halloween 2027",
+      "confirmed": true
+    },
+    {
+      "id": "contentupdate6",
+      "updateName": "Content Update 6",
+      "releaseDate": null,
+      "releaseTime": null,
+      "releaseAt": null,
+      "content": [
+        "???"
+      ],
+      "releaseWindow": "Thanksgiving 2027"
     }
   ],
   "plantPass": {
