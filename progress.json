@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 218,
+  "revision": 219,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4183,6 +4183,69 @@
             "createdAt": "2026-11-26T23:24:34.343Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_5DCE8755DB38837AB5370A2FDA263B732272295D"
+          },
+          {
+            "id": "data-push-8b9668b44fe4d93870828e2bf8ebb69d4cf3a901",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:48.087Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_8B9668B44FE4D93870828E2BF8EBB69D4CF3A901"
+          },
+          {
+            "id": "data-push-b193eec0ddb5204f030d57bd266a60c64a2bef85",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: PeopleLocalisationPvz3Plus.Json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:48.087Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_B193EEC0DDB5204F030D57BD266A60C64A2BEF85"
+          },
+          {
+            "id": "data-push-6f4d06a5445cc0194c7b7a583325b7b334940d0a",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:48.087Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_6F4D06A5445CC0194C7B7A583325B7B334940D0A"
+          },
+          {
+            "id": "data-push-136ccfb82d4fb39c360d574ec5863c9725ed8f68",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:48.087Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_136CCFB82D4FB39C360D574EC5863C9725ED8F68"
+          },
+          {
+            "id": "data-push-86ec6cadc7075b68c94291e0ee9afc775db5a455",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: PlantLoc.json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:48.087Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_86EC6CADC7075B68C94291E0EE9AFC775DB5A455"
+          },
+          {
+            "id": "data-push-55cf7f3b093e0a7e5c936af4241d52cb271be6bd",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: PlantLoc.json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:48.087Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_55CF7F3B093E0A7E5C936AF4241D52CB271BE6BD"
+          },
+          {
+            "id": "data-push-b4cb37a7d34c35d1ce39d447e83b0f097be80957",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: PlantLoc.json. Checking what changed.",
+            "createdAt": "2026-11-26T23:24:48.087Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_B4CB37A7D34C35D1CE39D447E83B0F097BE80957"
           }
         ],
         "typing": [],
@@ -4219,7 +4282,14 @@
             "37e0db470bd61016f13a4c3e27595f9363697d43",
             "831f73fbe680f8834bdeae8b2e5f8f2d569221e1",
             "45d082dca06ead7d48408da6c4f933c2e42e5429",
-            "5dce8755db38837ab5370a2fda263b732272295d"
+            "5dce8755db38837ab5370a2fda263b732272295d",
+            "8b9668b44fe4d93870828e2bf8ebb69d4cf3a901",
+            "b193eec0ddb5204f030d57bd266a60c64a2bef85",
+            "6f4d06a5445cc0194c7b7a583325b7b334940d0a",
+            "136ccfb82d4fb39c360d574ec5863c9725ed8f68",
+            "86ec6cadc7075b68c94291e0ee9afc775db5a455",
+            "55cf7f3b093e0a7e5c936af4241d52cb271be6bd",
+            "b4cb37a7d34c35d1ce39d447e83b0f097be80957"
           ],
           "queue": [
             {
@@ -4433,6 +4503,206 @@
                 "index.html"
               ],
               "clues": []
+            },
+            {
+              "sha": "8b9668b44fe4d93870828e2bf8ebb69d4cf3a901",
+              "at": "2026-11-26T23:02:49Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "b193eec0ddb5204f030d57bd266a60c64a2bef85",
+              "at": "2026-11-26T23:05:52Z",
+              "files": [
+                "PeopleLocalisationPvz3Plus.Json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_OWNERDEBUG_OWNER_ACCOUNT_REQUIRED",
+                  "value": "Owner account required",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_EDITOR",
+                  "value": "Localisation Editor",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_CATALOGUE",
+                  "value": "Localisation catalogue",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_IDENTIFIER",
+                  "value": "String identifier",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_VALUE",
+                  "value": "Localised text",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_SEARCH",
+                  "value": "Search identifiers or text",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_NEW",
+                  "value": "New string",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_SAVE",
+                  "value": "Save string to GitHub",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_CLOSE",
+                  "value": "Close editor",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_LOADING",
+                  "value": "Loading catalogues…",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_READY",
+                  "value": "Select an existing string or create a new one.",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_INVALID",
+                  "value": "Use an ID_ identifier containing uppercase letters, digits or underscores.",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_PREFIX",
+                  "value": "People catalogue identifiers must begin with ID_REALPERSON_ or ID_OWNERDEBUG_.",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_EMPTY",
+                  "value": "Enter localisation text.",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_EXISTS",
+                  "value": "This identifier already exists. Replace its text?",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_SAVED",
+                  "value": "Localisation saved.",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_FAILED",
+                  "value": "Localisation request failed",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_CONFLICT",
+                  "value": "The catalogue changed. Reload it before saving again.",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_PUBLIC",
+                  "value": "Catalogue text is repository-visible. Never enter credentials, private information or personal messages.",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_RELOAD",
+                  "value": "Reload catalogue",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_COUNT",
+                  "value": "Matching strings",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                },
+                {
+                  "key": "ID_OWNERDEBUG_LOC_DUPLICATE",
+                  "value": "This identifier exists in another catalogue. Edit that catalogue instead.",
+                  "file": "PeopleLocalisationPvz3Plus.Json"
+                }
+              ]
+            },
+            {
+              "sha": "6f4d06a5445cc0194c7b7a583325b7b334940d0a",
+              "at": "2026-11-26T23:05:55Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "136ccfb82d4fb39c360d574ec5863c9725ed8f68",
+              "at": "2026-11-26T23:07:46Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "86ec6cadc7075b68c94291e0ee9afc775db5a455",
+              "at": "2026-11-26T23:09:10Z",
+              "files": [
+                "PlantLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_PLANT_THREEPEATER_GROUP",
+                  "value": "Upcoming",
+                  "file": "PlantLoc.json"
+                },
+                {
+                  "key": "ID_PLANT_COBCANNON_NAME",
+                  "value": "Cob Cannon",
+                  "file": "PlantLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "55cf7f3b093e0a7e5c936af4241d52cb271be6bd",
+              "at": "2026-11-26T23:09:26Z",
+              "files": [
+                "PlantLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_PLANT_COBCANNON_NAME",
+                  "value": "Cob Cannon",
+                  "file": "PlantLoc.json"
+                },
+                {
+                  "key": "ID_PLANT_COBCANNON_GROUP",
+                  "value": "Tier 3",
+                  "file": "PlantLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "b4cb37a7d34c35d1ce39d447e83b0f097be80957",
+              "at": "2026-11-26T23:10:05Z",
+              "files": [
+                "PlantLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_PLANT_COBCANNON_GROUP",
+                  "value": "Tier 3",
+                  "file": "PlantLoc.json"
+                },
+                {
+                  "key": "ID_PLANT_GOLDMAGNET_NAME",
+                  "value": "Tier 2",
+                  "file": "PlantLoc.json"
+                }
+              ]
             }
           ]
         }
