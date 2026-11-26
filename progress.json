@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 184,
+  "revision": 185,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3346,35 +3346,75 @@
             "name": "LunarStar29",
             "role": "leader",
             "fictional": true,
-            "interest": "Datamining"
+            "interest": "Datamining",
+            "personality": "Analytical leader",
+            "speciality": "Connects evidence and theories",
+            "franchiseKnowledge": [
+              "PvZ1",
+              "PvZ2",
+              "PvZ3"
+            ],
+            "diehardFan": true
           },
           {
             "id": "generated-0-11",
             "name": "CloudBean18",
             "role": "member",
             "fictional": true,
-            "interest": "Datamining"
+            "interest": "Datamining",
+            "personality": "PvZ encyclopaedia",
+            "speciality": "Recognises returning plants across PvZ1, PvZ2 and PvZ3",
+            "franchiseKnowledge": [
+              "PvZ1",
+              "PvZ2",
+              "PvZ3"
+            ],
+            "diehardFan": true
           },
           {
             "id": "generated-0-14",
             "name": "PeaCake12",
             "role": "member",
             "fictional": true,
-            "interest": "Datamining"
+            "interest": "Datamining",
+            "personality": "Excitable superfan",
+            "speciality": "Especially excited by entirely original characters",
+            "franchiseKnowledge": [
+              "PvZ1",
+              "PvZ2",
+              "PvZ3"
+            ],
+            "diehardFan": true
           },
           {
             "id": "generated-4-1",
             "name": "MossPop72",
             "role": "member",
             "fictional": true,
-            "interest": "Datamining"
+            "interest": "Datamining",
+            "personality": "Technical specialist",
+            "speciality": "Checks mechanics and configuration evidence",
+            "franchiseKnowledge": [
+              "PvZ1",
+              "PvZ2",
+              "PvZ3"
+            ],
+            "diehardFan": true
           },
           {
             "id": "generated-2-5",
             "name": "PixelBee74",
             "role": "member",
             "fictional": true,
-            "interest": "Datamining"
+            "interest": "Datamining",
+            "personality": "Persistent investigator",
+            "speciality": "Tracks events, assets and hidden identifiers",
+            "franchiseKnowledge": [
+              "PvZ1",
+              "PvZ2",
+              "PvZ3"
+            ],
+            "diehardFan": true
           }
         ],
         "messages": [
