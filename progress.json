@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 136,
+  "revision": 137,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -359,7 +359,7 @@
     },
     {
       "id": "dirtsheet20261222",
-      "updateName": "Sewer Expansion Update",
+      "updateName": "RC 1 — Sewer Expansion Update",
       "releaseDate": "2026-12-22",
       "releaseTime": "22:00",
       "releaseAt": "2026-12-22T22:00:00Z",
@@ -373,7 +373,9 @@
       "featuredPlant": "keylyepie",
       "featuredZombie": "tirezombie",
       "plantCount": 2,
-      "zombieCount": 3
+      "zombieCount": 3,
+      "version": "RC 1",
+      "phase": "Release Candidate"
     },
     {
       "id": "thunderchoy",
@@ -393,7 +395,10 @@
       "releaseAt": "2026-12-27T22:00:00Z",
       "previewAt": "2026-12-27T22:00:00Z",
       "passStartAt": "2026-12-27T22:00:00Z",
-      "passEndAt": "2027-01-10T21:59:00Z"
+      "passEndAt": "2027-01-10T21:59:00Z",
+      "version": "RC 2",
+      "phase": "Release Candidate",
+      "updateName": "RC 2 — Thunder Choy"
     },
     {
       "id": "cowbell",
@@ -424,7 +429,10 @@
       "releaseAt": "2027-01-12T20:00:00Z",
       "previewAt": "2027-01-12T20:00:00Z",
       "passStartAt": "2027-01-12T20:00:00Z",
-      "passEndAt": "2027-01-26T19:59:00Z"
+      "passEndAt": "2027-01-26T19:59:00Z",
+      "version": "RC 3",
+      "phase": "Release Candidate",
+      "updateName": "RC 3 — Cowbell"
     },
     {
       "id": "mystery20270205",
@@ -439,9 +447,10 @@
       "passEndAt": null,
       "version": "1.0",
       "updateName": "Version 1.0 — The Big Update",
-      "exitsBeta": true,
+      "exitsBeta": false,
       "confirmed": true,
-      "teaserDate": "2027-02-02"
+      "teaserDate": "2027-02-02",
+      "phase": "Full Release"
     },
     {
       "id": "contentupdate3",
