@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 63,
+  "revision": 64,
   "level": 11,
   "stars": 33,
   "wins": 11,
@@ -708,6 +708,17 @@
         "durationMs": 420000,
         "startsOnClaim": true
       }
+    },
+    {
+      "id": "candy-1795663365838-6uphc9xowh9",
+      "sender": "candy",
+      "recipient": "assistant-player",
+      "type": "custom",
+      "title": "I have an challenge for you",
+      "body": "Win one level without sunflower for 100 wild seeds and unlock blaze leaf",
+      "deliverAt": "2026-11-26T03:22:45.371Z",
+      "read": false,
+      "claimed": false
     }
   ],
   "temporaryPlantAccess": [
