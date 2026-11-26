@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 81,
+  "revision": 82,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4008,6 +4008,20 @@
           "coins": 0,
           "wild": 0,
           "plantPassPoints": 500
+        },
+        "otherReward": ""
+      },
+      {
+        "id": "candy-1795695588971-rk5gjzmwp6f",
+        "title": "Upgrade a plant",
+        "description": "",
+        "createdAt": "2026-11-26T12:19:48.972Z",
+        "creator": "candy",
+        "status": "pending",
+        "rewards": {
+          "coins": 0,
+          "wild": 0,
+          "plantPassPoints": 75
         },
         "otherReward": ""
       }
