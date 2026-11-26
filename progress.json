@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 160,
+  "revision": 161,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -20553,7 +20553,7 @@
         "id": "candy-1795729994743-cq373bnm72e",
         "title": "125 Gems",
         "description": "",
-        "section": "main",
+        "section": "resources",
         "currency": "coins",
         "price": 600,
         "limit": 0,
