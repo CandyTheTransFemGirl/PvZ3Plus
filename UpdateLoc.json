@@ -1,5 +1,7 @@
 {
   "ID_UI_PLANT_EXPANSION_UPDATE": "Plant Expansion Update",
   "ID_UI_WEBSITE_UPDATE_AVAILABLE_RELOAD": "Website update available — Reload",
-  "ID_DOWNTIME_WARNING": "Downtime in fuction_time_countdown"
+  "ID_DOWNTIME_WARNING": "Downtime in fuction_time_countdown",
+  "ID_DOWNTIME_ACTIVE": "Scheduled maintenance — Thanksgiving Update",
+  "ID_DOWNTIME_REMAINING": "Back in fuction_time_countdown"
 }
