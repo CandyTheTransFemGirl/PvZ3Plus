@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 130,
+  "revision": 131,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -16617,5 +16617,92 @@
     "tirezombie": {
       "date": "2026-12-22T22:00:00Z"
     }
-  }
+  },
+  "adventureMaxLevel": 350,
+  "adventureIssues": [
+    {
+      "issue": 1,
+      "zone": "Burbs",
+      "firstLevel": 1,
+      "lastLevel": 25
+    },
+    {
+      "issue": 2,
+      "zone": "Camp",
+      "firstLevel": 26,
+      "lastLevel": 50
+    },
+    {
+      "issue": 3,
+      "zone": "Volcano",
+      "firstLevel": 51,
+      "lastLevel": 75
+    },
+    {
+      "issue": 4,
+      "zone": "Burbs",
+      "firstLevel": 76,
+      "lastLevel": 100
+    },
+    {
+      "issue": 5,
+      "zone": "Camp",
+      "firstLevel": 101,
+      "lastLevel": 125
+    },
+    {
+      "issue": 6,
+      "zone": "Sewers",
+      "firstLevel": 126,
+      "lastLevel": 150
+    },
+    {
+      "issue": 7,
+      "zone": "Burbs",
+      "firstLevel": 151,
+      "lastLevel": 175
+    },
+    {
+      "issue": 8,
+      "zone": "Volcano",
+      "firstLevel": 176,
+      "lastLevel": 200
+    },
+    {
+      "issue": 9,
+      "zone": "Sewers",
+      "firstLevel": 201,
+      "lastLevel": 225
+    },
+    {
+      "issue": 10,
+      "zone": "Camp",
+      "firstLevel": 226,
+      "lastLevel": 250
+    },
+    {
+      "issue": 11,
+      "zone": "Burbs",
+      "firstLevel": 251,
+      "lastLevel": 275
+    },
+    {
+      "issue": 12,
+      "zone": "Sewers",
+      "firstLevel": 276,
+      "lastLevel": 300
+    },
+    {
+      "issue": 13,
+      "zone": "Camp",
+      "firstLevel": 301,
+      "lastLevel": 325
+    },
+    {
+      "issue": 14,
+      "zone": "Big Wave Beach",
+      "firstLevel": 326,
+      "lastLevel": 350
+    }
+  ]
 }
