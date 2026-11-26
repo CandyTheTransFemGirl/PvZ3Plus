@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 194,
+  "revision": 195,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3697,6 +3697,22 @@
             "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
             "createdAt": "2026-11-26T22:45:18.115Z",
             "replyTo": null
+          },
+          {
+            "id": "datamine-result-candy-1795733125985-gew60yc2lh4",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_SECRET_PLANT = Snooping as normal I see? Heh. Expected.\n - Candy\nCandy left a message specifically for people snooping through the files.",
+            "createdAt": "2026-11-26T22:45:25.985Z",
+            "replyTo": "datamine-live-candy-1795733118115-1d0r8yb3ovw"
+          },
+          {
+            "id": "datamine-reaction-candy-1795733125985-0irukw16fuhe",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Technically speaking, Looks like the hidden references were deliberately planted.",
+            "createdAt": "2026-11-26T22:45:25.985Z",
+            "replyTo": "datamine-result-candy-1795733125985-gew60yc2lh4"
           }
         ],
         "typing": [],
@@ -3719,12 +3735,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795733118115-1d0r8yb3ovw",
-          "memberId": "generated-2-5",
-          "endsAt": "2026-11-26T22:45:25.011Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
