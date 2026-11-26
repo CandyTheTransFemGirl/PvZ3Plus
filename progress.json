@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 211,
+  "revision": 212,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3985,6 +3985,15 @@
             "createdAt": "2026-11-26T23:10:05.851Z",
             "replyTo": "datamine-result-candy-1795734605851-n28cqbihnj",
             "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795734605851_00IL5PUIH1HP"
+          },
+          {
+            "id": "datamine-live-candy-1795734734349-mgb8wdpslvb",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-26T23:12:14.349Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795734734349_MGB8WDPSLVB"
           }
         ],
         "typing": [],
@@ -4007,7 +4016,12 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5
+        "maxMembers": 5,
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795734734349-mgb8wdpslvb",
+          "memberId": "generated-0-11",
+          "endsAt": "2026-11-26T23:12:32.907Z"
+        }
       }
     ],
     "membership": "generated-4",
