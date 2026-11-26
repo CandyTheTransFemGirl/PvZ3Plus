@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 162,
+  "revision": 163,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -20597,7 +20597,7 @@
         "id": "candy-1795730075373-19kd683w6rj",
         "title": "1000 Gems",
         "description": "Best Value + BONUS 75 Wild Seeds!",
-        "section": "main",
+        "section": "resources",
         "currency": "coins",
         "price": 95000,
         "limit": 0,
