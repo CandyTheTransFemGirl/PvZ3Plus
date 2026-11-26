@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 168,
+  "revision": 169,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -20448,6 +20448,41 @@
       "senderName": "LunarStar29",
       "body": "Happy Thanksgiving! Hopefully I can collect them before they disappear.",
       "createdAt": "2026-11-26T21:47:09.000Z"
+    },
+    {
+      "id": "frostroot-goal-reaction-generated-2-4",
+      "senderId": "generated-2-4",
+      "senderName": "LunarStar29",
+      "body": "Anyone else see ID_REWARD_FROSTROOT_UNLOCK_REWARD in the goals menu??",
+      "createdAt": "2026-11-26T22:03:03.000Z"
+    },
+    {
+      "id": "frostroot-goal-reaction-generated-4-1",
+      "senderId": "generated-4-1",
+      "senderName": "MossPop72",
+      "body": "LEVEL 9999999999 REQUIRED LMAO",
+      "createdAt": "2026-11-26T22:03:06.000Z"
+    },
+    {
+      "id": "frostroot-goal-reaction-generated-0-11",
+      "senderId": "generated-0-11",
+      "senderName": "CloudBean18",
+      "body": "Wait, Frostroot? Did they accidentally expose an upcoming reward?",
+      "createdAt": "2026-11-26T22:03:09.000Z"
+    },
+    {
+      "id": "frostroot-goal-reaction-generated-0-14",
+      "senderId": "generated-0-14",
+      "senderName": "PeaCake12",
+      "body": "650 coins, 50 wild seeds AND 1000 pass points? Screenshotting this.",
+      "createdAt": "2026-11-26T22:03:12.000Z"
+    },
+    {
+      "id": "frostroot-goal-reaction-assistant-player",
+      "senderId": "assistant-player",
+      "senderName": "Sprout :3",
+      "body": "Candy, I think the Frostroot milestone escaped the development basement. :3",
+      "createdAt": "2026-11-26T22:03:15.000Z"
     }
   ],
   "seedUnlockRules": {
