@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 75,
+  "revision": 76,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3797,6 +3797,98 @@
             "seeds": 100,
             "xp": 0,
             "seedId": "peashooter",
+            "xpId": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "candy-1795694897836-t8xunfgrj6h",
+      "section": "Zombie Destroyer",
+      "title": "Boss Defeater",
+      "steps": [
+        {
+          "id": "candy-1795694897836-0kgxuqm7xeak",
+          "label": "1",
+          "metric": "zombieKills",
+          "targetId": "esgargot",
+          "goal": 1,
+          "reward": {
+            "coins": 0,
+            "wild": 25,
+            "gems": 0,
+            "points": 0,
+            "seeds": 0,
+            "xp": 0,
+            "seedId": "",
+            "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795694897836-igllzh15l1",
+          "label": "2",
+          "metric": "zombieKills",
+          "targetId": "gargantuar",
+          "goal": 1,
+          "reward": {
+            "coins": 0,
+            "wild": 50,
+            "gems": 25,
+            "points": 0,
+            "seeds": 25,
+            "xp": 0,
+            "seedId": "potatomine",
+            "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795694897836-wjp64yvxxo",
+          "label": "3",
+          "metric": "zombieKills",
+          "targetId": "buzzbox",
+          "goal": 1,
+          "reward": {
+            "coins": 0,
+            "wild": 75,
+            "gems": 50,
+            "points": 0,
+            "seeds": 50,
+            "xp": 0,
+            "seedId": "spikeweed",
+            "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795694897837-uozas5efw9j",
+          "label": "4",
+          "metric": "zombieKills",
+          "targetId": "shocktopus",
+          "goal": 1,
+          "reward": {
+            "coins": 0,
+            "wild": 100,
+            "gems": 0,
+            "points": 0,
+            "seeds": 50,
+            "xp": 0,
+            "seedId": "zaptail",
+            "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795694897837-3my6bhr0v55",
+          "label": "5",
+          "metric": "zombieKills",
+          "targetId": "trouthouse",
+          "goal": 1,
+          "reward": {
+            "coins": 0,
+            "wild": 100,
+            "gems": 0,
+            "points": 0,
+            "seeds": 100,
+            "xp": 0,
+            "seedId": "spikeweed",
             "xpId": ""
           }
         }
