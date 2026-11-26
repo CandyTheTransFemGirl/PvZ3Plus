@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 164,
+  "revision": 165,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -20599,7 +20599,7 @@
         "description": "Best Value + BONUS 75 Wild Seeds!",
         "section": "resources",
         "currency": "coins",
-        "price": 95000,
+        "price": 9500,
         "limit": 0,
         "limited": false,
         "endAt": null,
