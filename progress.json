@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 120,
+  "revision": 121,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -1721,6 +1721,14 @@
             "body": "Hiii Candy! :3 I'm doing great! Just preparing for Dave's tasks and the content update.",
             "createdAt": "2026-11-26T15:46:33.823Z",
             "replyTo": "candy-1795707969823-q8nsjloqn"
+          },
+          {
+            "id": "candy-1795708619332-e9r7opyqjd4",
+            "senderId": "candy",
+            "sender": "Candy :3",
+            "body": "I guess so lol",
+            "createdAt": "2026-11-26T15:56:59.332Z",
+            "replyTo": null
           }
         ],
         "typing": [],
@@ -4787,6 +4795,16 @@
       "replyTo": null,
       "status": "pending",
       "createdAt": "2026-11-26T15:46:09.823Z"
+    },
+    {
+      "id": "candy-1795708619334-065xd055fwsv",
+      "channel": "group",
+      "groupId": "generated-4",
+      "messageId": "candy-1795708619332-e9r7opyqjd4",
+      "body": "I guess so lol",
+      "replyTo": null,
+      "status": "pending",
+      "createdAt": "2026-11-26T15:56:59.332Z"
     }
   ]
 }
