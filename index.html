@@ -180,6 +180,35 @@ setInterval(()=>{for(const t of document.querySelectorAll('.sharedTimer'))t.text
 
 function refreshGroupChat(){for(const chat of document.querySelectorAll('.groupChat')){const g=data?.groups?.list?.find(x=>x.id===chat.dataset.groupId);if(!g)continue;const messages=g.messages||[],typing=(g.typing||[]).filter(t=>Date.parse(t.expiresAt)>Date.now());const select=chat.parentElement.querySelector('select'),old=select?.value;const optionSig=JSON.stringify(messages.map(m=>[m.id,m.sender,m.body]));if(select&&select.dataset.sig!==optionSig&&document.activeElement!==select){select.dataset.sig=optionSig;select.replaceChildren(new Option('No reply',''));for(const m of messages)if(m.id)select.add(new Option((m.sender||'Player')+': '+String(m.body||'').slice(0,60),m.id));select.value=old||''}const sig=JSON.stringify([messages,typing]);if(chat.dataset.sig===sig)continue;chat.dataset.sig=sig;chat.replaceChildren();for(const m of messages){const bubble=el('article');bubble.className='chatBubble';if(m.senderId==='candy')bubble.classList.add('candyMail');const member=g.members.find(x=>x.id===m.senderId);const author=el('b',(member?.name||m.sender||'Player')+(member?.role==='leader'?' · Leader':''));bubble.append(author);if(m.replyTo){const parent=messages.find(x=>x.id===m.replyTo);bubble.append(el('small','Reply to '+(parent?parent.sender+': '+String(parent.body).slice(0,100):'earlier message')))}bubble.append(el('p',m.body||''));if(m.createdAt)bubble.append(el('small',new Date(m.createdAt).toLocaleString()));if(m.id&&select){const b=el('button','Reply');b.onclick=()=>{select.value=m.id;chat.parentElement.querySelector('textarea')?.focus()};bubble.append(b)}chat.append(bubble)}const names=typing.map(t=>g.members.find(m=>m.id===t.memberId)?.name||(t.memberId==='assistant-player'?'Player':null)).filter(Boolean);if(names.length)chat.append(el('small',names.join(', ')+(names.length===1?' is':' are')+' typing…'));}}
 setInterval(refreshGroupChat,1000);
+let liveMinerBusy=false;
+function liveMinerSchedule(){setTimeout(liveMinerRun,15000+Math.floor(Math.random()*65001));}
+async function liveMinerRun(){
+  try{
+    if(!data||!ownerCredential||liveMinerBusy)return;
+    liveMinerBusy=true;
+    const group=data.groups?.list?.find(g=>g.id==='dataminer-group');
+    if(!group?.members?.length)return;
+    const history=(group.messages||[]).map(m=>m.body.toLowerCase()).join('\n');
+    const clues=[];
+    function walk(v,path){
+      if(v&&typeof v==='object'){for(const [k,x] of Object.entries(v))walk(x,path.concat(k));}
+      else if(typeof v==='string'&&v.length>0&&v.length<350&&(/^(ID_|name$|plantId$|zombieId$|releaseAt$|id$)/.test(path.at(-1)))&&!history.includes(v.toLowerCase()))clues.push({path:path.join('.'),value:v});
+    }
+    for(const k of ['hiddenReferences','releaseSchedule','upcomingUpdates','customZombiePlan','customRoster','plantPass','achievements'])walk(data[k], [k]);
+    if(!clues.length||Math.random()<0.25)return;
+    const clue=clues[Math.floor(Math.random()*clues.length)];
+    await mutateSave(v=>{
+      const g=v.groups.list.find(x=>x.id==='dataminer-group');
+      if(g.messages.some(m=>m.body.toLowerCase().includes(clue.value.toLowerCase())))return;
+      const member=g.members[Math.floor(Math.random()*g.members.length)];
+      const body=['Found a reference in ','Interesting file entry: ','Anyone seen this in '][Math.floor(Math.random()*3)]+clue.path+': '+clue.value+'. Not an official announcement.';
+      g.messages.push({id:'datamine-live-'+newMessageId(),senderId:member.id,sender:member.name,body,createdAt:new Date().toISOString(),replyTo:null});
+    });
+  }catch(e){console.warn('Live dataminer investigation:',e.message);}
+  finally{liveMinerBusy=false;liveMinerSchedule();}
+}
+liveMinerSchedule();
+
 let imageRevision=-1;async function imageFixes(){try{const r=await fetch('https://raw.githubusercontent.com/CandyTheTransFemGirl/PvZ3Plus/main/image-fixes.json?ts='+Date.now(),{cache:'no-store'}),v=await r.json();if(v.format!=='PvZ3PlusImageFixesV1'||v.revision===imageRevision)return;for(const [k,url] of Object.entries(v.portraits||{})){if(typeof url!=='string'||!(/^(data:image\/(png|jpeg|webp);base64,|https:\/\/raw\.githubusercontent\.com\/CandyTheTransFemGirl\/PvZ3Plus\/)/.test(url)))continue;const i=new Image();i.src=url;try{await i.decode();portraits[k]=url}catch{}}imageRevision=v.revision;render()}catch{}}/* Remote image overrides disabled to preserve verified portraits. */
 
 
