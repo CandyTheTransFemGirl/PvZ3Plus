@@ -1673,6 +1673,54 @@
             "body": "How is everyone doing and yes I'm the owner. Hi.",
             "createdAt": "2026-11-26T15:46:09.823Z",
             "replyTo": null
+          },
+          {
+            "id": "reply-candy-1795707969823-q8nsjloqn-generated-4-0",
+            "senderId": "generated-4-0",
+            "sender": "NutBug74",
+            "body": "Hey Candy! Welcome to the group! Doing pretty well, been experimenting with fusions.",
+            "createdAt": "2026-11-26T15:46:13.823Z",
+            "replyTo": "candy-1795707969823-q8nsjloqn"
+          },
+          {
+            "id": "reply-candy-1795707969823-q8nsjloqn-generated-4-5",
+            "senderId": "generated-4-5",
+            "sender": "SunnyBug1",
+            "body": "WAIT THE OWNER IS HERE?? Hi!! Are you excited for the update too?",
+            "createdAt": "2026-11-26T15:46:17.823Z",
+            "replyTo": "candy-1795707969823-q8nsjloqn"
+          },
+          {
+            "id": "reply-candy-1795707969823-q8nsjloqn-generated-4-9",
+            "senderId": "generated-4-9",
+            "sender": "LeafFox93",
+            "body": "Doing fine. The bucketheads, on the other hand, are not.",
+            "createdAt": "2026-11-26T15:46:21.823Z",
+            "replyTo": "candy-1795707969823-q8nsjloqn"
+          },
+          {
+            "id": "reply-candy-1795707969823-q8nsjloqn-generated-4-6",
+            "senderId": "generated-4-6",
+            "sender": "SunnyByte63",
+            "body": "Hiii! I'm collecting plants! Can't wait for the new ones!",
+            "createdAt": "2026-11-26T15:46:25.823Z",
+            "replyTo": "candy-1795707969823-q8nsjloqn"
+          },
+          {
+            "id": "reply-candy-1795707969823-q8nsjloqn-generated-4-8",
+            "senderId": "generated-4-8",
+            "sender": "MossStar91",
+            "body": "Does this mean we're officially owner-approved bonkers?",
+            "createdAt": "2026-11-26T15:46:29.823Z",
+            "replyTo": "candy-1795707969823-q8nsjloqn"
+          },
+          {
+            "id": "reply-candy-1795707969823-q8nsjloqn-assistant-player",
+            "senderId": "assistant-player",
+            "sender": "Player",
+            "body": "Hiii Candy! :3 I'm doing great! Just preparing for Dave's tasks and the content update.",
+            "createdAt": "2026-11-26T15:46:33.823Z",
+            "replyTo": "candy-1795707969823-q8nsjloqn"
           }
         ],
         "typing": [],
