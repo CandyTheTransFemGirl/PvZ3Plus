@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 148,
+  "revision": 149,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -19811,6 +19811,107 @@
           "damageMultiplier": 2.5,
           "projectilesMultiplier": 2,
           "everyFifthVolley": "Continuous-fire burst"
+        },
+        "kernelseed": {
+          "name": "Golden Harvest",
+          "design": "Golden husk and radiant kernels",
+          "healthMultiplier": 3,
+          "damageMultiplier": 3,
+          "sunProductionMultiplier": 3,
+          "specialMechanic": "Every fifth action creates a free kernel-themed bonus attack or production, matching its normal role."
+        },
+        "bopchoy": {
+          "name": "Jade Fist",
+          "design": "Golden gloves and jade headband",
+          "healthMultiplier": 3,
+          "damageMultiplier": 4,
+          "attackIntervalMultiplier": 0.5,
+          "specialMechanic": "Every fifth attack strikes all zombies within two tiles, stunning for 3s."
+        },
+        "cabbagepult": {
+          "name": "Siege King",
+          "design": "Golden catapult leaves",
+          "damageMultiplier": 4,
+          "attackIntervalMultiplier": 0.6,
+          "specialMechanic": "Every fourth lob deals triple damage in a 3×3 area."
+        },
+        "iceberglettuce": {
+          "name": "Absolute Zero",
+          "design": "Golden frost crown",
+          "healthMultiplier": 3,
+          "damageMultiplier": 3,
+          "specialMechanic": "Freeze effects last twice as long; every fifth activation freezes its entire lane for 8s."
+        },
+        "limebomb": {
+          "name": "Citrus Cataclysm",
+          "design": "Golden rind and lime aura",
+          "damageMultiplier": 5,
+          "healthMultiplier": 3,
+          "specialMechanic": "Explosion covers a 5×5 area and leaves damaging citrus residue for 10s."
+        },
+        "potatomine": {
+          "name": "Seismic Titan",
+          "design": "Golden armour and crystal detonator",
+          "damageMultiplier": 5,
+          "healthMultiplier": 3,
+          "specialMechanic": "Arms in 1s; explosion covers 3×3 and triggers a second blast after 2s."
+        },
+        "spikeweed": {
+          "name": "Thorn Dominion",
+          "design": "Golden steel spikes",
+          "healthMultiplier": 4,
+          "damageMultiplier": 4,
+          "attackIntervalMultiplier": 0.5,
+          "specialMechanic": "Slows zombies on its tile by 50%; every fifth hit damages all zombies in its lane."
+        },
+        "sunshroom": {
+          "name": "Solar Monarch",
+          "design": "Golden mushroom cap and halo",
+          "healthMultiplier": 3,
+          "sunProductionMultiplier": 4,
+          "productionIntervalMultiplier": 0.5,
+          "specialMechanic": "Starts fully grown; every fifth production doubles nearby sun producers' next output."
+        },
+        "tanglekelp": {
+          "name": "Abyssal Sovereign",
+          "design": "Golden seaweed and teal crown",
+          "healthMultiplier": 4,
+          "damageMultiplier": 4,
+          "specialMechanic": "Grabs up to three targets per activation; survives its first three normally consumptive activations."
+        },
+        "umbrellaleaf": {
+          "name": "Celestial Canopy",
+          "design": "Golden canopy and emerald veins",
+          "healthMultiplier": 4,
+          "specialMechanic": "Protects a 5×5 area; reflects intercepted attacks and grants protected plants 50% damage reduction."
+        },
+        "zaptail": {
+          "name": "Thunder Monarch",
+          "design": "Golden tail and electric halo",
+          "healthMultiplier": 3,
+          "damageMultiplier": 4,
+          "attackIntervalMultiplier": 0.5,
+          "specialMechanic": "Every fifth attack chains across the entire lawn, stunning targets for 2s."
+        },
+        "cinderwood": {
+          "name": "Inferno Sovereign",
+          "design": "Golden bark and white-hot flame",
+          "healthMultiplier": 4,
+          "damageMultiplier": 4,
+          "specialMechanic": "Fire amplification is tripled; nearby attacking plants gain burning attacks."
+        },
+        "blover": {
+          "name": "Tempest Emperor",
+          "design": "Golden leaves and cyclone aura",
+          "healthMultiplier": 3,
+          "specialMechanic": "Blows away flying zombies across the lawn; pushes ground zombies three tiles back and slows them for 8s."
+        },
+        "aloevera": {
+          "name": "Immortal Bloom",
+          "design": "Golden aloe leaves and healing halo",
+          "healthMultiplier": 4,
+          "healingMultiplier": 5,
+          "specialMechanic": "Heals a 3×3 area; every fifth heal grants a shield equal to 50% of each target's maximum HP."
         }
       },
       "abilityMilestones": {
