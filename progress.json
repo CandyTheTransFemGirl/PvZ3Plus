@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 173,
+  "revision": 174,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -21205,6 +21205,23 @@
         "ID_THANKSGIVING_INBOX_TEASER_V2": "Seems like the turkeys are coming soon!\nStay Tuned! See you at 11:00 PM!",
         "ID_THANKSGIVING_STORE_BUNDLE": "Thanksgiving celebration Gift Placeholder!",
         "ID_SECRET_PLANT": "Snooping as normal I see? Heh. Expected.\n - Candy"
+      }
+    },
+    "extraIdentifiers": {
+      "visibility": "owner-only-ui",
+      "datamineable": true,
+      "released": false,
+      "strings": {
+        "ID_MAIL_2026DEC31ST": "Happy New Year's Eve!!\nTheres so many new things that were added!\nAnd there's still more to come!\nThere will be something waiting on January 1st 2027!\n- Pvz3+ Devs",
+        "ID_PREMIUMQUESTPATH_TURKEYMASTER_SHOP": "Turkey Master Premium Path",
+        "ID_TOFUTUKEY_PLANTZOMBIE": "Tofu Turkey",
+        "ID_BABYTOFU_PLANTZOMBIE": "Tofu Chick",
+        "ID_MASTERTURKEYPLANT_ZOMBIE": "Trained Tofu Turkey",
+        "ID_AGENTLAWN_NAME": "Begonia Boulevard",
+        "ID_AGENTLAWN_DESC": "Placeholder Description!",
+        "ID_ANTICHEAT_WARN": "Data Modification Detected!",
+        "ID_ANTICHEAT_BAN": "You have been banned by Sweet Anticheat V1.0\nReason: No Cheating And Modification Allowed!",
+        "ID_WOW": "Did the 2 names above scare you? >:) \n- Candy"
       }
     }
   }
