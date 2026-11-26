@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 74,
+  "revision": 75,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3725,5 +3725,82 @@
       "doubleSlashDamageCombined": true,
       "doubleSlashBothApplyBurn": true
     }
-  }
+  },
+  "achievements": [
+    {
+      "id": "candy-1795694628805-s7s21x7puor",
+      "section": "Plant Mastery",
+      "title": "Peashooter Mastery",
+      "steps": [
+        {
+          "id": "candy-1795694628805-b2h4e11cvy",
+          "label": "1",
+          "metric": "plantLevel",
+          "targetId": "peashooter",
+          "goal": 5,
+          "reward": {
+            "coins": 0,
+            "wild": 50,
+            "gems": 0,
+            "points": 0,
+            "seeds": 0,
+            "xp": 0,
+            "seedId": "",
+            "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795694628805-vu7wo2cbrge",
+          "label": "2",
+          "metric": "plantLevel",
+          "targetId": "peashooter",
+          "goal": 10,
+          "reward": {
+            "coins": 0,
+            "wild": 150,
+            "gems": 0,
+            "points": 0,
+            "seeds": 0,
+            "xp": 0,
+            "seedId": "",
+            "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795694628805-7jxs6yb7x1m",
+          "label": "3",
+          "metric": "plantLevel",
+          "targetId": "peashooter",
+          "goal": 15,
+          "reward": {
+            "coins": 100,
+            "wild": 300,
+            "gems": 50,
+            "points": 0,
+            "seeds": 0,
+            "xp": 0,
+            "seedId": "",
+            "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795694628806-ail4w4mkm2o",
+          "label": "4",
+          "metric": "plantLevel",
+          "targetId": "peashooter",
+          "goal": 20,
+          "reward": {
+            "coins": 600,
+            "wild": 200,
+            "gems": 100,
+            "points": 0,
+            "seeds": 100,
+            "xp": 0,
+            "seedId": "peashooter",
+            "xpId": ""
+          }
+        }
+      ]
+    }
+  ]
 }
