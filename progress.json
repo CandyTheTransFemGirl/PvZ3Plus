@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 203,
+  "revision": 204,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3809,6 +3809,14 @@
             "body": "As a longtime PvZ fan, here's what stands out: So New Year's Day might have a surprise. The text alone doesn't confirm what it is.",
             "createdAt": "2026-11-26T22:46:35.136Z",
             "replyTo": "datamine-result-candy-1795733195136-ijtajxuegq8"
+          },
+          {
+            "id": "datamine-live-candy-1795733200653-rbeaf59cqu",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-26T22:46:40.657Z",
+            "replyTo": null
           }
         ],
         "typing": [],
@@ -3831,7 +3839,12 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5
+        "maxMembers": 5,
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795733200653-rbeaf59cqu",
+          "memberId": "generated-2-4",
+          "endsAt": "2026-11-26T22:46:48.935Z"
+        }
       }
     ],
     "membership": "generated-4",
