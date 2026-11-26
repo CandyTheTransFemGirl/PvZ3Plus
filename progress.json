@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 88,
+  "revision": 89,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4088,5 +4088,22 @@
         "endAt": "2026-11-29T15:25:00.000Z"
       }
     ]
+  },
+  "eventContent": {
+    "candy-1795696587360-34bue2h5do3": {
+      "quests": [
+        {
+          "id": "candy-1795697133954-44jv78lv1r7",
+          "title": "Use Cinderwood in 5 victorious levels",
+          "description": "",
+          "day": 1,
+          "points": 100,
+          "completed": false
+        }
+      ],
+      "shop": [],
+      "points": 0,
+      "balance": 0
+    }
   }
 }
