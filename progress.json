@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 176,
+  "revision": 177,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3464,6 +3464,14 @@
             "sender": "LunarStar29",
             "body": "Keep the unrevealed names here. Candy owns the game and Sprout is admin, so don't assume this group is invisible to staff.",
             "createdAt": "2026-11-26T22:04:30.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "datamine-live-candy-1795732581420-7gijfln834",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "Found a reference in upcomingUpdates.0.id: contentupdate1. Not an official announcement.",
+            "createdAt": "2026-11-26T22:36:21.420Z",
             "replyTo": null
           }
         ],
