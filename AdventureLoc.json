@@ -1,0 +1,7 @@
+{
+  "ID_UI_ADVENTURE_DATA_LEVEL_A_MINLEVEL_IF_GOALMET_A_A_STATUS_PENDING": "Adventure: '+data.level+' / '+a.minLevel));if(goalMet(a)&&a.status==='pending",
+  "ID_UI_ADVENTURE_LEVEL_LEVEL_EL_P": "Adventure Level '+level),el('p",
+  "ID_UI_ADVENTURE_A_LEVEL_MAX_TBA": "Adventure: '+a.level+' / '+(max??'TBA",
+  "ID_UI_ADVENTURE_LEVEL": "Adventure level ",
+  "ID_UI_ADVENTURE_COLLECTION_GITHUB_LIVE_SYNC": "Adventure collection · GitHub live sync"
+}
