@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 245,
+  "revision": 246,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4584,6 +4584,42 @@
             "createdAt": "2026-11-26T23:44:11.069Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736651069_ILRRM3NQ2PT"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736679235-onby0k7e7pj",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_UI_CANDY_CREATE_ACHIEVEMENT = Candy · Create achievement\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:44:39.235Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736679235_ONBY0K7E7PJ"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736679235-2trj4mra563",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_REWARD_FROSTROOT_UNLOCK_REWARD = Unlock Frostroot!\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:44:39.235Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736679235_2TRJ4MRA563"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736679235-4t9xhkwwod",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_UI_EVENT_CREATED = Event created\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:44:39.235Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736679235_4T9XHKWWOD"
+          },
+          {
+            "id": "datamine-push-result-candy-1795736679235-lee72cavex",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_ACTIVITIES_EVENTS_CANDY_NEWYEARPARTY = New Year's Party!\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-26T23:44:39.235Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736679235_LEE72CAVEX"
           }
         ],
         "typing": [],
@@ -4644,55 +4680,12 @@
           ],
           "queue": [
             {
-              "sha": "37e0db470bd61016f13a4c3e27595f9363697d43",
-              "at": "2026-11-26T23:18:18Z",
-              "files": [
-                "AchievementLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_UI_CANDY_CREATE_ACHIEVEMENT",
-                  "value": "Candy · Create achievement",
-                  "file": "AchievementLoc.json"
-                },
-                {
-                  "key": "ID_REWARD_FROSTROOT_UNLOCK_REWARD",
-                  "value": "Unlock Frostroot!",
-                  "file": "AchievementLoc.json"
-                }
-              ]
-            },
-            {
-              "sha": "831f73fbe680f8834bdeae8b2e5f8f2d569221e1",
-              "at": "2026-11-26T23:19:07Z",
-              "files": [
-                "EventLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_UI_EVENT_CREATED",
-                  "value": "Event created",
-                  "file": "EventLoc.json"
-                },
-                {
-                  "key": "ID_ACTIVITIES_EVENTS_CANDY_NEWYEARPARTY",
-                  "value": "New Year's Party!",
-                  "file": "EventLoc.json"
-                }
-              ]
-            },
-            {
               "sha": "45d082dca06ead7d48408da6c4f933c2e42e5429",
               "at": "2026-11-26T23:19:24Z",
               "files": [
                 "EventLoc.json"
               ],
               "clues": [
-                {
-                  "key": "ID_ACTIVITIES_EVENTS_CANDY_NEWYEARPARTY",
-                  "value": "New Year's Party!",
-                  "file": "EventLoc.json"
-                },
                 {
                   "key": "ID_ACTIVITIES_EVENTS_CANDY_PVZBIRTHDAY",
                   "value": "Birthdayz",
