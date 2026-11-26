@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 188,
+  "revision": 189,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3625,6 +3625,22 @@
             "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
             "createdAt": "2026-11-26T22:44:21.375Z",
             "replyTo": null
+          },
+          {
+            "id": "datamine-result-candy-1795733069205-mrfur6j3jao",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_PREMIUMQUESTPATH_TURKEYMASTER_SHOP = Turkey Master Premium Path\nTurkey Master has a premium quest path string. Could be a separate unlock route.",
+            "createdAt": "2026-11-26T22:44:29.205Z",
+            "replyTo": "datamine-live-candy-1795733061375-ub0esow2oq"
+          },
+          {
+            "id": "datamine-reaction-candy-1795733069205-zd56fpwnlt9",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "As a longtime PvZ fan, here's what stands out: That would fit the Thanksgiving plants, but a shop label doesn't tell us the price.",
+            "createdAt": "2026-11-26T22:44:29.205Z",
+            "replyTo": "datamine-result-candy-1795733069205-mrfur6j3jao"
           }
         ],
         "typing": [],
@@ -3647,12 +3663,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795733061375-ub0esow2oq",
-          "memberId": "generated-4-1",
-          "endsAt": "2026-11-26T22:44:27.418Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
