@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 83,
+  "revision": 84,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4036,6 +4036,20 @@
           "coins": 0,
           "wild": 0,
           "plantPassPoints": 700
+        },
+        "otherReward": ""
+      },
+      {
+        "id": "candy-1795695622733-c1djquv6n8p",
+        "title": "Complete All Quests",
+        "description": "",
+        "createdAt": "2026-11-26T12:20:22.733Z",
+        "creator": "candy",
+        "status": "pending",
+        "rewards": {
+          "coins": 0,
+          "wild": 0,
+          "plantPassPoints": 900
         },
         "otherReward": ""
       }
