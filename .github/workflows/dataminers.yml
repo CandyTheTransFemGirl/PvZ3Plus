@@ -1,0 +1,31 @@
+name: Dataminer activity
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: dataminer-activity
+  cancel-in-progress: false
+jobs:
+  investigate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Investigate and publish
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python3 scripts/dataminers.py
+            if git diff --quiet -- progress.json; then exit 0; fi
+            git add progress.json
+            git commit -m "Dataminers: new investigation finding"
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1
