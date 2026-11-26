@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 76,
+  "revision": 77,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3890,6 +3890,64 @@
             "xp": 0,
             "seedId": "spikeweed",
             "xpId": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "candy-1795695116533-90z3ig05bow",
+      "section": "Collection Master",
+      "title": "Plant Collection Mastery",
+      "steps": [
+        {
+          "id": "candy-1795695116533-m69mjx0plx",
+          "label": "1",
+          "metric": "owned",
+          "targetId": "",
+          "goal": 16,
+          "reward": {
+            "coins": 1000,
+            "wild": 50,
+            "gems": 0,
+            "points": 0,
+            "seeds": 0,
+            "xp": 0,
+            "seedId": "",
+            "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795695116533-ofr0hj65on9",
+          "label": "2",
+          "metric": "owned",
+          "targetId": "",
+          "goal": 43,
+          "reward": {
+            "coins": 500,
+            "wild": 75,
+            "gems": 0,
+            "points": 0,
+            "seeds": 100,
+            "xp": 0,
+            "seedId": "aloevera",
+            "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795695116533-ikpwbbv285a",
+          "label": "3",
+          "metric": "owned",
+          "targetId": "",
+          "goal": 29,
+          "reward": {
+            "coins": 1000,
+            "wild": 300,
+            "gems": 50,
+            "points": 0,
+            "seeds": 250,
+            "xp": 50,
+            "seedId": "limebomb",
+            "xpId": "cabbagepult"
           }
         }
       ]
