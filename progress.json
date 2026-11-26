@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 154,
+  "revision": 155,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -20312,6 +20312,76 @@
       "senderName": "Candy :3",
       "body": "Sprout you should try and complete the plant pass before it ends",
       "createdAt": "2026-11-26T18:40:45.661Z"
+    },
+    {
+      "id": "candy-1795729543594-uhf22h5j6-reaction-assistant-player",
+      "senderId": "assistant-player",
+      "senderName": "Sprout :3",
+      "body": "THREE limited plants?! I just spent nearly all my Wild Seeds ;-;",
+      "createdAt": "2026-11-26T21:46:00.000Z"
+    },
+    {
+      "id": "candy-1795729543594-uhf22h5j6-reaction-generated-4-0",
+      "senderId": "generated-4-0",
+      "senderName": "NutBug74",
+      "body": "SURPRISE THANKSGIVING UPDATE?!",
+      "createdAt": "2026-11-26T21:46:03.000Z"
+    },
+    {
+      "id": "candy-1795729543594-uhf22h5j6-reaction-generated-4-3",
+      "senderId": "generated-4-3",
+      "senderName": "PuddleBloom22",
+      "body": "Are they only available this weekend?",
+      "createdAt": "2026-11-26T21:46:06.000Z"
+    },
+    {
+      "id": "candy-1795729543594-uhf22h5j6-reaction-generated-4-6",
+      "senderId": "generated-4-6",
+      "senderName": "SunnyByte63",
+      "body": "Logging in now! Thanks for the coins!",
+      "createdAt": "2026-11-26T21:46:09.000Z"
+    },
+    {
+      "id": "candy-1795729543594-uhf22h5j6-reaction-generated-4-9",
+      "senderId": "generated-4-9",
+      "senderName": "LeafFox93",
+      "body": "A whole seasonal fusion family? I need all three.",
+      "createdAt": "2026-11-26T21:46:12.000Z"
+    },
+    {
+      "id": "candy-1795729543594-uhf22h5j6-reaction-generated-0-2",
+      "senderId": "generated-0-2",
+      "senderName": "NutBug1",
+      "body": "Time to save my seeds again lol",
+      "createdAt": "2026-11-26T21:46:15.000Z"
+    },
+    {
+      "id": "candy-1795729543594-uhf22h5j6-reaction-generated-0-5",
+      "senderId": "generated-0-5",
+      "senderName": "ToastBug65",
+      "body": "Happy Thanksgiving everyone!",
+      "createdAt": "2026-11-26T21:46:18.000Z"
+    },
+    {
+      "id": "candy-1795729543594-uhf22h5j6-reaction-generated-0-8",
+      "senderId": "generated-0-8",
+      "senderName": "CloudStar61",
+      "body": "Can we keep them after the event ends?",
+      "createdAt": "2026-11-26T21:46:21.000Z"
+    },
+    {
+      "id": "candy-1795729543594-uhf22h5j6-reaction-generated-0-11",
+      "senderId": "generated-0-11",
+      "senderName": "CloudBean18",
+      "body": "Content Update 1 AND seasonal plants on the same day??",
+      "createdAt": "2026-11-26T21:46:24.000Z"
+    },
+    {
+      "id": "candy-1795729543594-uhf22h5j6-reaction-generated-0-14",
+      "senderId": "generated-0-14",
+      "senderName": "PeaCake12",
+      "body": "Please tell me there's a cranberry plant.",
+      "createdAt": "2026-11-26T21:46:27.000Z"
     }
   ],
   "seedUnlockRules": {
