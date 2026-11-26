@@ -1,0 +1,5 @@
+{
+  "ID_UI_ZOMBOSS_S_TOWER": "Zomboss’s Tower",
+  "ID_UI_NO_TOWER_RUN_COMPLETED_YET_RESULTS_WILL_APPEAR_HERE_AFTER_A_RUN_ENDS": "No Tower run completed yet. Results will appear here after a run ends.",
+  "ID_UI_RUN_SETTINGS_JSON_STRINGIFY_LATEST_SETTINGS_TOWERPANEL_APPEND_RESULT_CONST_LB_EL_SECTION": "Run settings: '+JSON.stringify(latest.settings)))}towerPanel.append(result);const lb=el('section"
+}
