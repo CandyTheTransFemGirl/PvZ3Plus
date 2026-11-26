@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 193,
+  "revision": 194,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3689,6 +3689,14 @@
             "body": "Adding this to our investigation notes: A localization string alone doesn't prove there is any detection code.",
             "createdAt": "2026-11-26T22:45:11.326Z",
             "replyTo": "datamine-result-candy-1795733111325-3tjngrft7w4"
+          },
+          {
+            "id": "datamine-live-candy-1795733118115-1d0r8yb3ovw",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-26T22:45:18.115Z",
+            "replyTo": null
           }
         ],
         "typing": [],
@@ -3711,7 +3719,12 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5
+        "maxMembers": 5,
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795733118115-1d0r8yb3ovw",
+          "memberId": "generated-2-5",
+          "endsAt": "2026-11-26T22:45:25.011Z"
+        }
       }
     ],
     "membership": "generated-4",
