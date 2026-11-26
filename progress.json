@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 216,
+  "revision": 217,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4057,6 +4057,24 @@
             "createdAt": "2026-11-26T23:17:50.988Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795735070988_QRDMFFQHGWB"
+          },
+          {
+            "id": "datamine-result-candy-1795735090103-1ukcuxx9atz",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_OWNERDEBUG_SURVIVAL_SCORE_DUEL = Survival score duel\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-26T23:18:10.103Z",
+            "replyTo": "datamine-live-candy-1795735070988-qrdmffqhgwb",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795735090103_1UKCUXX9ATZ"
+          },
+          {
+            "id": "datamine-reaction-candy-1795735090103-c6hla0w5u2q",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "Let's connect this with the other evidence: We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-26T23:18:10.103Z",
+            "replyTo": "datamine-result-candy-1795735090103-1ukcuxx9atz",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795735090103_C6HLA0W5U2Q"
           }
         ],
         "typing": [],
@@ -4079,12 +4097,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795735070988-qrdmffqhgwb",
-          "memberId": "generated-0-14",
-          "endsAt": "2026-11-26T23:18:08.720Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
