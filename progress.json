@@ -1,18 +1,20 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 125,
+  "revision": 126,
   "level": 12,
   "stars": 36,
   "wins": 12,
   "losses": 0,
-  "coins": 2390,
-  "wild": 185,
+  "coins": 2640,
+  "wild": 285,
   "potion": 1,
   "wanted": "cinderwood",
   "seeds": {
     "iceberglettuce": 35,
     "cinderwood": 70,
-    "limebomb": 25
+    "limebomb": 25,
+    "aloevera": 65,
+    "kernelseed": 25
   },
   "records": {
     "cabbagepult": {
@@ -758,7 +760,7 @@
       "body": "Bell",
       "deliverAt": "2026-11-25T22:50:04.978Z",
       "read": true,
-      "claimed": false,
+      "claimed": true,
       "rewards": {
         "coins": 125
       },
@@ -766,7 +768,8 @@
         "plantId": "cowbell",
         "durationMs": 600000,
         "startsOnClaim": true
-      }
+      },
+      "claimedAt": "2026-11-26T17:30:00.000Z"
     },
     {
       "id": "candy-1795647046380-c465mpe7ywf",
@@ -777,7 +780,7 @@
       "body": "Hehe!!",
       "deliverAt": "2026-11-25T22:50:45.922Z",
       "read": true,
-      "claimed": false,
+      "claimed": true,
       "rewards": {
         "wild": 100
       },
@@ -785,7 +788,8 @@
         "plantId": "boomboxwood",
         "durationMs": 420000,
         "startsOnClaim": true
-      }
+      },
+      "claimedAt": "2026-11-26T17:30:00.000Z"
     },
     {
       "id": "candy-1795647089027-v8p6bstidd8",
@@ -796,7 +800,7 @@
       "body": "Having fun?",
       "deliverAt": "2026-11-25T22:51:28.548Z",
       "read": true,
-      "claimed": false,
+      "claimed": true,
       "rewards": {
         "seeds": {
           "aloevera": 65
@@ -806,7 +810,8 @@
         "plantId": "echopea",
         "durationMs": 420000,
         "startsOnClaim": true
-      }
+      },
+      "claimedAt": "2026-11-26T17:30:00.000Z"
     },
     {
       "id": "candy-1795663365838-6uphc9xowh9",
@@ -981,15 +986,16 @@
       "title": "Content Update 1 celebration!",
       "body": "The first content update! \nEnjoy the new plants and zombies! \nHere's an celebration reward! <D",
       "deliverAt": "2026-11-26T17:23:58.377Z",
-      "read": false,
-      "claimed": false,
+      "read": true,
+      "claimed": true,
       "rewards": {
         "coins": 125,
         "seeds": {
           "kernelseed": 25
         }
       },
-      "broadcast": true
+      "broadcast": true,
+      "claimedAt": "2026-11-26T17:30:00.000Z"
     }
   ],
   "temporaryPlantAccess": [
@@ -1055,6 +1061,27 @@
       "expiresAt": "2026-11-27T00:03:29.665Z",
       "sender": "candy",
       "messageId": "candy-1795699869391-blhy0d8woxc"
+    },
+    {
+      "plantId": "cowbell",
+      "startsAt": "2026-11-26T17:30:00.000Z",
+      "expiresAt": "2026-11-26T17:40:00.000Z",
+      "sender": "candy",
+      "messageId": "candy-1795647005430-r9e8p53gzgn"
+    },
+    {
+      "plantId": "boomboxwood",
+      "startsAt": "2026-11-26T17:30:00.000Z",
+      "expiresAt": "2026-11-26T17:37:00.000Z",
+      "sender": "candy",
+      "messageId": "candy-1795647046380-c465mpe7ywf"
+    },
+    {
+      "plantId": "echopea",
+      "startsAt": "2026-11-26T17:30:00.000Z",
+      "expiresAt": "2026-11-26T17:37:00.000Z",
+      "sender": "candy",
+      "messageId": "candy-1795647089027-v8p6bstidd8"
     }
   ],
   "playerCommunication": {
@@ -1179,6 +1206,16 @@
         "createdAt": "2026-11-26T13:31:50.704Z",
         "replyTo": "candy-1795699869391-ccqwf6bzmmg",
         "read": false
+      },
+      {
+        "id": "cu1-thanks-sprout",
+        "sender": "assistant-player",
+        "recipient": "candy",
+        "title": "Celebration gift!",
+        "body": "Thank you for the coins and Kernel-seed seeds! I claimed the gift. Everyone has their own copy now! :D",
+        "createdAt": "2026-11-26T17:30:00.000Z",
+        "read": false,
+        "replyTo": "candy-1795713839283-lven90kd3yh"
       }
     ],
     "requests": [],
@@ -1746,6 +1783,46 @@
             "sender": "Candy :3",
             "body": "I guess so lol",
             "createdAt": "2026-11-26T15:56:59.332Z",
+            "replyTo": null
+          },
+          {
+            "id": "cu1-group-0",
+            "sender": "NutBug74",
+            "senderId": "generated-4-0",
+            "body": "Anyone else get the celebration mail?",
+            "createdAt": "2026-11-26T17:30:00.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "cu1-group-1",
+            "sender": "MossPop72",
+            "senderId": "generated-4-1",
+            "body": "Yep! Saving those corn seeds for Kernel-seed.",
+            "createdAt": "2026-11-26T17:30:01.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "cu1-group-2",
+            "sender": "CloverStar29",
+            "senderId": "generated-4-2",
+            "body": "Remember you need the actual ingredients unlocked for fusions now.",
+            "createdAt": "2026-11-26T17:30:02.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "cu1-group-3",
+            "sender": "PuddleBloom22",
+            "senderId": "generated-4-3",
+            "body": "I want to try Canopea when I get the ingredients.",
+            "createdAt": "2026-11-26T17:30:03.000Z",
+            "replyTo": null
+          },
+          {
+            "id": "cu1-group-4",
+            "sender": "PeaPuff5",
+            "senderId": "generated-4-4",
+            "body": "Thanks for the update Candy!",
+            "createdAt": "2026-11-26T17:30:04.000Z",
             "replyTo": null
           }
         ],
@@ -6543,7 +6620,57 @@
       }
     }
   ],
-  "globalChat": [],
+  "globalChat": [
+    {
+      "id": "cu1-global-0",
+      "senderId": "generated-4-1",
+      "senderName": "MossPop72",
+      "body": "FREE CORN SEEDS!! 🌽",
+      "createdAt": "2026-11-26T17:30:00.000Z"
+    },
+    {
+      "id": "cu1-global-1",
+      "senderId": "generated-4-2",
+      "senderName": "CloverStar29",
+      "body": "Just got the celebration mail. Thanks Candy!",
+      "createdAt": "2026-11-26T17:30:01.000Z"
+    },
+    {
+      "id": "cu1-global-2",
+      "senderId": "generated-4-4",
+      "senderName": "PeaPuff5",
+      "body": "25 Kernel-seed seeds is enough for the first unlock!",
+      "createdAt": "2026-11-26T17:30:02.000Z"
+    },
+    {
+      "id": "cu1-global-3",
+      "senderId": "generated-4-5",
+      "senderName": "SunnyBug1",
+      "body": "Gotta unlock Kernel-seed before Kernel-pult now.",
+      "createdAt": "2026-11-26T17:30:03.000Z"
+    },
+    {
+      "id": "cu1-global-4",
+      "senderId": "generated-4-7",
+      "senderName": "SproutFox28",
+      "body": "The new fusion ingredients requirement makes sense.",
+      "createdAt": "2026-11-26T17:30:04.000Z"
+    },
+    {
+      "id": "cu1-global-5",
+      "senderId": "generated-4-8",
+      "senderName": "MossStar91",
+      "body": "125 coins too? Nice!",
+      "createdAt": "2026-11-26T17:30:05.000Z"
+    },
+    {
+      "id": "cu1-global-sprout",
+      "senderId": "assistant-player",
+      "senderName": "Sprout :3",
+      "body": "Claimed my celebration gift! Thank you Candy!! :D",
+      "createdAt": "2026-11-26T17:30:00.000Z"
+    }
+  ],
   "seedUnlockRules": {
     "tier1": 25,
     "tier2": 50,
@@ -6551,6 +6678,9 @@
     "baseIngredientSeeds": 25,
     "appliesTo": "all players",
     "unknownRecipe": "do not infer",
-    "wildSeedsCoverMissing": true
-  }
+    "wildSeedsCoverMissing": true,
+    "requiresOwnedFusionIngredients": true,
+    "temporaryAccessCounts": false
+  },
+  "gems": 0
 }
