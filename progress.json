@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 106,
+  "revision": 107,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4097,7 +4097,7 @@
           "title": "Use Cinderwood in 5 victorious levels",
           "description": "",
           "day": 1,
-          "points": 100,
+          "points": 115,
           "completed": false
         },
         {
@@ -4105,7 +4105,7 @@
           "title": "Merge Torchwood in an victorious level",
           "description": "",
           "day": 1,
-          "points": 65,
+          "points": 75,
           "completed": false
         },
         {
@@ -4113,7 +4113,7 @@
           "title": "Merge Fire Pea In an victorious Level",
           "description": "",
           "day": 1,
-          "points": 50,
+          "points": 55,
           "completed": false
         },
         {
@@ -4121,7 +4121,7 @@
           "title": "Merge Fireweed In an victorious Level",
           "description": "",
           "day": 1,
-          "points": 65,
+          "points": 75,
           "completed": false
         },
         {
@@ -4129,7 +4129,7 @@
           "title": "Merge Blaze Leaf In an victorious Level",
           "description": "",
           "day": 1,
-          "points": 65,
+          "points": 75,
           "completed": false
         },
         {
@@ -4137,7 +4137,7 @@
           "title": "Merge Scorchwood In an victorious Level",
           "description": "",
           "day": 2,
-          "points": 200,
+          "points": 225,
           "completed": false
         },
         {
@@ -4145,7 +4145,7 @@
           "title": "Win with only firey Attacking plants",
           "description": "",
           "day": 2,
-          "points": 65,
+          "points": 75,
           "completed": false
         },
         {
@@ -4153,7 +4153,7 @@
           "title": "Merge an Flame Thrower In an victorious Level!",
           "description": "",
           "day": 2,
-          "points": 350,
+          "points": 395,
           "completed": false
         },
         {
@@ -4161,7 +4161,7 @@
           "title": "Merge an Sulfur-Shroom in an victorious Level!",
           "description": "",
           "day": 1,
-          "points": 75,
+          "points": 85,
           "completed": false
         },
         {
@@ -4169,7 +4169,7 @@
           "title": "Merge an Lavaleek in an victorious Level",
           "description": "",
           "day": 3,
-          "points": 65,
+          "points": 75,
           "completed": false
         },
         {
@@ -4177,7 +4177,7 @@
           "title": "Win with 3 firey element plant used in an victorious level",
           "description": "",
           "day": 3,
-          "points": 65,
+          "points": 75,
           "completed": false
         },
         {
@@ -4185,7 +4185,7 @@
           "title": "Win with cinderwood 5 times",
           "description": "",
           "day": 3,
-          "points": 200,
+          "points": 225,
           "completed": false
         },
         {
@@ -4193,16 +4193,10 @@
           "title": "Merge Torchwood or Scorchwood 5 times",
           "description": "",
           "day": 3,
-          "points": 400,
+          "points": 450,
           "completed": false
         }
       ],
-      "shop": [],
-      "points": 0,
-      "balance": 0
-    },
-    "candy-1795696122161-tujpxq88zxk": {
-      "quests": [],
       "shop": [],
       "points": 0,
       "balance": 0,
@@ -4293,6 +4287,14 @@
           }
         }
       ],
+      "rewardClaims": []
+    },
+    "candy-1795696122161-tujpxq88zxk": {
+      "quests": [],
+      "shop": [],
+      "points": 0,
+      "balance": 0,
+      "rewardTrack": [],
       "rewardClaims": []
     }
   }
