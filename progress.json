@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 202,
+  "revision": 203,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3793,6 +3793,22 @@
             "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
             "createdAt": "2026-11-26T22:46:28.017Z",
             "replyTo": null
+          },
+          {
+            "id": "datamine-result-candy-1795733195136-ijtajxuegq8",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_MAIL_2026DEC31ST = Happy New Year's Eve!!\nTheres so many new things that were added!\nAnd there's still more to come!\nThere will be something waiting on January 1st 2027!\n- Pvz3+ Devs\nThis mail hints at something on January 1st, but doesn't identify the reward.",
+            "createdAt": "2026-11-26T22:46:35.136Z",
+            "replyTo": "datamine-live-candy-1795733188017-o3g1t7ln9ii"
+          },
+          {
+            "id": "datamine-reaction-candy-1795733195136-qzbb3lh595o",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "As a longtime PvZ fan, here's what stands out: So New Year's Day might have a surprise. The text alone doesn't confirm what it is.",
+            "createdAt": "2026-11-26T22:46:35.136Z",
+            "replyTo": "datamine-result-candy-1795733195136-ijtajxuegq8"
           }
         ],
         "typing": [],
@@ -3815,12 +3831,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795733188017-o3g1t7ln9ii",
-          "memberId": "generated-4-1",
-          "endsAt": "2026-11-26T22:46:33.901Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
