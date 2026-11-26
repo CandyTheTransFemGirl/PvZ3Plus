@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 159,
+  "revision": 160,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -20587,6 +20587,28 @@
           "coins": 0,
           "gems": 750,
           "wild": 0,
+          "potion": 0,
+          "seeds": 0,
+          "seedId": "",
+          "plantId": ""
+        }
+      },
+      {
+        "id": "candy-1795730075373-19kd683w6rj",
+        "title": "1000 Gems",
+        "description": "Best Value + BONUS 75 Wild Seeds!",
+        "section": "main",
+        "currency": "coins",
+        "price": 95000,
+        "limit": 0,
+        "limited": false,
+        "endAt": null,
+        "passId": null,
+        "passEndAt": null,
+        "rewards": {
+          "coins": 0,
+          "gems": 1000,
+          "wild": 75,
           "potion": 0,
           "seeds": 0,
           "seedId": "",
