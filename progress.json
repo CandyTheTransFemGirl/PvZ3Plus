@@ -4012,6 +4012,14 @@
             "createdAt": "2026-11-26T23:12:35.313Z",
             "replyTo": "datamine-result-candy-1795734755313-tbpwj3p4c7b",
             "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795734755313_7ZUUJ5KI7IL"
+          },
+          {
+            "id": "datamine-auto-1795734905802-xgzcrjv5v8",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "PlantLoc.json has ID_PLANT_PVZ1_IMITATER_NAME = Imitater and ID_PLANT_PVZ1_IMITATER_GROUP = N/A. That tier is unusual. Could be a special seed-packet mechanic like PvZ1, but the strings alone don't prove it.",
+            "createdAt": "2026-11-26T23:15:05.802Z",
+            "replyTo": null
           }
         ],
         "typing": [],
