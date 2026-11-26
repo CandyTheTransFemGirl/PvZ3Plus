@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 139,
+  "revision": 140,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -17516,6 +17516,13 @@
       "senderName": "Sprout :3",
       "body": "Welcome back everyone! :D The special launch reward is still a secret. I'll help with questions about the roadmap!",
       "createdAt": "2026-11-26T18:24:49.337Z"
+    },
+    {
+      "id": "candy-1795718445661-xn8k2jjwlre",
+      "senderId": "candy",
+      "senderName": "Candy :3",
+      "body": "Sprout you should try and complete the plant pass before it ends",
+      "createdAt": "2026-11-26T18:40:45.661Z"
     }
   ],
   "seedUnlockRules": {
