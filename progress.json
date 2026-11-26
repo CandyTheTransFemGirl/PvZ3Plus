@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 230,
+  "revision": 231,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4363,6 +4363,24 @@
             "createdAt": "2026-11-26T23:28:42.107Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795735722106_3VQJIXNJJ7X"
+          },
+          {
+            "id": "datamine-result-candy-1795735726148-3hj7wtknc5v",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_PLANT_GOLDMAGNET_GROUP = Tier 2\nThis plant has a group assignment: Tier 2. That could help map its family.",
+            "createdAt": "2026-11-26T23:28:46.148Z",
+            "replyTo": "datamine-live-candy-1795735722106-3vqjixnjj7x",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795735726148_3HJ7WTKNC5V"
+          },
+          {
+            "id": "datamine-reaction-candy-1795735726148-6m74h4fex9p",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "As a longtime PvZ fan, here's what stands out: Compare the matching name identifier before assuming an evolution path.",
+            "createdAt": "2026-11-26T23:28:46.148Z",
+            "replyTo": "datamine-result-candy-1795735726148-3hj7wtknc5v",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795735726148_6M74H4FEX9P"
           }
         ],
         "typing": [],
@@ -4418,11 +4436,6 @@
                 "PlantLoc.json"
               ],
               "clues": [
-                {
-                  "key": "ID_PLANT_GOLDMAGNET_GROUP",
-                  "value": "Tier 2",
-                  "file": "PlantLoc.json"
-                },
                 {
                   "key": "ID_PLANT_MAGNETSHROOM_GROUP",
                   "value": "Tier 1",
@@ -4807,11 +4820,6 @@
               "clues": []
             }
           ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795735722106-3vqjixnjj7x",
-          "memberId": "generated-4-1",
-          "endsAt": "2026-11-26T23:28:45.106Z"
         }
       }
     ],
