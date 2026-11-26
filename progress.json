@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 186,
+  "revision": 187,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3601,6 +3601,22 @@
             "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
             "createdAt": "2026-11-26T22:44:02.088Z",
             "replyTo": null
+          },
+          {
+            "id": "datamine-result-candy-1795733053595-7pc4no5j1pu",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_AGENTLAWN_NAME = Begonia Boulevard\nBegonia Boulevard is a lawn name. The AGENTLAWN identifier is interesting.",
+            "createdAt": "2026-11-26T22:44:13.595Z",
+            "replyTo": "datamine-live-candy-1795733042088-6stu29c24fh"
+          },
+          {
+            "id": "datamine-reaction-candy-1795733053595-fp3h3eyz8wk",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "WAIT, this is interesting!! Could be a future location; we don't have a release date.",
+            "createdAt": "2026-11-26T22:44:13.595Z",
+            "replyTo": "datamine-result-candy-1795733053595-7pc4no5j1pu"
           }
         ],
         "typing": [],
@@ -3623,12 +3639,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795733042088-6stu29c24fh",
-          "memberId": "generated-2-5",
-          "endsAt": "2026-11-26T22:44:12.501Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
