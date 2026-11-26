@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 141,
+  "revision": 142,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -589,7 +589,13 @@
         "to": null,
         "points": 450
       }
-    ]
+    ],
+    "questRefreshHours": 5,
+    "loginQuest": {
+      "title": "Log in!",
+      "points": 155,
+      "oneTime": true
+    }
   },
   "customRoster": [
     {
@@ -17655,5 +17661,9 @@
   "playerRoles": {
     "assistant-player": "admin",
     "candy": "owner"
+  },
+  "shop": {
+    "offers": [],
+    "purchases": []
   }
 }
