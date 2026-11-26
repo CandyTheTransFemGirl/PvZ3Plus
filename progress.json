@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 200,
+  "revision": 201,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3769,6 +3769,22 @@
             "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
             "createdAt": "2026-11-26T22:46:10.269Z",
             "replyTo": null
+          },
+          {
+            "id": "datamine-result-candy-1795733182471-ry810lm8pj",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_ANTICHEAT_BAN = You have been banned by Sweet Anticheat V1.0\nReason: No Cheating And Modification Allowed!\nSweet Anticheat V1.0? Is Candy actually planning an anti-cheat or just messing with us?",
+            "createdAt": "2026-11-26T22:46:22.471Z",
+            "replyTo": "datamine-live-candy-1795733170269-rljj86wt8pk"
+          },
+          {
+            "id": "datamine-reaction-candy-1795733182471-re6qsillwib",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Technically speaking, Before panicking, remember that a ban message isn't evidence of an active ban system.",
+            "createdAt": "2026-11-26T22:46:22.471Z",
+            "replyTo": "datamine-result-candy-1795733182471-ry810lm8pj"
           }
         ],
         "typing": [],
@@ -3791,12 +3807,7 @@
           ],
           "announcementScope": "Upcoming plant-pass reveals; owner supplied canon"
         },
-        "maxMembers": 5,
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795733170269-rljj86wt8pk",
-          "memberId": "generated-0-14",
-          "endsAt": "2026-11-26T22:46:21.380Z"
-        }
+        "maxMembers": 5
       }
     ],
     "membership": "generated-4",
