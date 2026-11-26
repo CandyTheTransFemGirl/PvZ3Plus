@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 107,
+  "revision": 108,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4086,6 +4086,42 @@
         "otherReward": "There is 3 days of quests! Completing each one gives you points towards an reward track for this event. The final reward is an plant!",
         "startAt": "2026-11-26T01:00:00.000Z",
         "endAt": "2026-11-29T15:25:00.000Z"
+      }
+    ],
+    "goals": [
+      {
+        "id": "candy-1795698939649-n6swrwrpa",
+        "title": "Unlock all tier 1 plants",
+        "description": "",
+        "createdAt": "2026-11-26T13:15:39.649Z",
+        "creator": "candy",
+        "status": "pending",
+        "rewards": {
+          "coins": 500,
+          "wild": 50,
+          "plantPassPoints": 0
+        },
+        "otherReward": "",
+        "plants": [
+          "bopchoy",
+          "cabbagepult",
+          "iceberglettuce",
+          "limebomb",
+          "peashooter",
+          "potatomine",
+          "spikeweed",
+          "sunflower",
+          "sunshroom",
+          "tanglekelp",
+          "umbrellaleaf",
+          "wallnut",
+          "zaptail",
+          "cinderwood",
+          "blover",
+          "aloevera"
+        ],
+        "zombies": [],
+        "minLevel": 0
       }
     ]
   },
