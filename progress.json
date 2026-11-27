@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 385,
+  "revision": 386,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8311,6 +8311,14 @@
           "description": "",
           "day": 1,
           "points": 450,
+          "completed": false
+        },
+        {
+          "id": "candy-1795785789719-ivmltxv41i",
+          "title": "Unlock Turkey Seed!",
+          "description": "",
+          "day": 1,
+          "points": 50,
           "completed": false
         }
       ],
