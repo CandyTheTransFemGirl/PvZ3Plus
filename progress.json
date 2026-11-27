@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 404,
+  "revision": 405,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6551,21 +6551,7 @@
             "ca86e9e0c716092a27747f9b8e150ed3e75f92be",
             "6808d6c1af8e03823940e735dcabb09754af4e05"
           ],
-          "queue": [
-            {
-              "sha": "6808d6c1af8e03823940e735dcabb09754af4e05",
-              "at": "2026-11-27T13:35:26Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            }
-          ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795789176850-1dmmffs0ngl",
-          "memberId": "generated-4-1",
-          "endsAt": "2026-11-27T14:19:52.469Z"
+          "queue": []
         }
       }
     ],
