@@ -1,0 +1,58 @@
+{
+  "AlmanacConfig": {
+    "AlmanacEntries": 18,
+    "Plants": 73,
+    "Zombies": 57,
+    "Tags": 46
+  },
+  "BattlePassConfig": {},
+  "BiomeConfig": {
+    "Biomes": 5
+  },
+  "BoardMechanicsDatabase": {
+    "Mechanics": 31
+  },
+  "ClientBattlePassV2Config": {
+    "Seasons": 24
+  },
+  "CombatDatabase": {
+    "Units": 354,
+    "TargetPatterns": 318,
+    "Abilities": 690,
+    "StatTagging": 7,
+    "LaneSelectionTags": 3
+  },
+  "LevelGenerationConfig": {
+    "TrickSpawnConfigs": 3
+  },
+  "LevelLayoutDatabase": {
+    "LevelLayouts": 430,
+    "Tags": 100,
+    "UnitLayouts": 14,
+    "UnitLayoutTags": 12
+  },
+  "LevelTeamSelectionFilterConfig": {
+    "BoardMechanicsTagFilters": 2,
+    "LevelTypeFilters": 3
+  },
+  "LevelTypeDatabase": {
+    "LevelTypes": 9
+  },
+  "PerksAndHazardsConfig": {
+    "HybridCombatModifiers": 1,
+    "CombatModifiers": 72
+  },
+  "RoadTripConfig": {
+    "RoadTrips": 37
+  },
+  "RoadTripCutscenesDatabase": {
+    "Cutscenes": 1
+  },
+  "WaveDatabase": {
+    "Battles": 718,
+    "DropTables": 1,
+    "DynamicWaveUnits": 119,
+    "WaveDifficultyTemplates": 105,
+    "WaveFormationTemplates": 249
+  }
+}
