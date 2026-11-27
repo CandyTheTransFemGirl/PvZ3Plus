@@ -18,7 +18,7 @@
     "sunshroom": 0,
     "umbrellaleaf": 0,
     "zaptail": 0,
-    "tofuturkeyseed": 25
+    "tofuturkeyseed": 0
   },
   "records": {
     "cabbagepult": {
@@ -260,6 +260,10 @@
     "umbrellaleaf": {
       "owned": true,
       "seen": false
+    },
+    "tofuturkeyseed": {
+      "owned": true,
+      "seen": true
     }
   },
   "history": [
