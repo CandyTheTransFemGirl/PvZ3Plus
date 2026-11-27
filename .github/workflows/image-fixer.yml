@@ -1,0 +1,44 @@
+name: Repair corrupted portraits
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/image-fixer.yml'
+permissions:
+  contents: write
+concurrency:
+  group: portrait-repair
+  cancel-in-progress: false
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow
+      - run: python ImageFixer.py --restore-archive
+        continue-on-error: true
+      - name: Verify both restored portraits and mappings
+        run: |
+          python - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          html = Path('index.html').read_text()
+          for name in ['222-doubleagentimp','230-snowmachineimp']:
+              p = Path('assets') / (name + '.png')
+              with Image.open(p) as im:
+                  im.load()
+                  assert min(im.size) >= 16
+              assert './assets/' + p.name in html
+          PY
+      - name: Commit repairs
+        run: |
+          git config user.name "PvZ3+ Asset Repair"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html assets/222-doubleagentimp.png assets/230-snowmachineimp.png
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Restore imp portraits from archive"
+          git pull --rebase origin main
+          git push origin HEAD:main
