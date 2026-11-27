@@ -5627,6 +5627,24 @@
             "createdAt": "2026-11-27T05:23:34.909Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_36E77AD3036EE19DA05BBC5B1C9B3EA2809B29D9"
+          },
+          {
+            "id": "datamine-seasonal-1795758090000",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "Found a new root file, seasonal-plant-ideas.txt! It lists Blooming Heart as T2 and Dandelion as T2 from two Dandelion Seeds. Also Gloom-shroom, Winter Melon and Spikerock are on there. Looks like a brainstorming list, not a release schedule.",
+            "createdAt": "2026-11-27T05:41:30.000Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_SEASONAL_1795758090000"
+          },
+          {
+            "id": "datamine-seasonal-1795758090000-reply",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "THREE PVZ1 UPGRADE PLANTS ON THE SAME LIST??? GLOOM-SHROOM AND WINTER MELON AND SPIKEROCK!! please let these make it past the ideas stage :D",
+            "createdAt": "2026-11-27T05:41:31.000Z",
+            "replyTo": "datamine-seasonal-1795758090000",
+            "bodyStringId": "ID_CHAT_DATAMINE_SEASONAL_1795758090000_REPLY"
           }
         ],
         "typing": [],
