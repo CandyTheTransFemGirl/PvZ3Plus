@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 397,
+  "revision": 398,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8420,6 +8420,14 @@
           "description": "Thanks for sticking around!!",
           "day": 4,
           "points": 455000,
+          "completed": false
+        },
+        {
+          "id": "candy-1795786163488-arns1l453j",
+          "title": "Use All 3 turkey plants in one level",
+          "description": "",
+          "day": 3,
+          "points": 2500,
           "completed": false
         }
       ],
