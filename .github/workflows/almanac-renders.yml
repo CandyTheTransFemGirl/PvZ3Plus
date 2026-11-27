@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - renders.zip
+      - renders-v2.zip
       - .github/workflows/almanac-renders.yml
 permissions:
   contents: write
@@ -15,36 +15,48 @@ jobs:
       - run: python -m pip install Pillow
       - run: |
           python - <<'PY'
-          import zipfile, re, json, io
+          import zipfile,re,json,io
           from pathlib import Path
           from PIL import Image
           out=Path('assets/almanac-renders')
+          anim=Path('animations')
           out.mkdir(parents=True,exist_ok=True)
+          anim.mkdir(exist_ok=True)
           mapping={}
-          with zipfile.ZipFile('renders.zip') as z:
+          gifs={'Arrowhead (Plant)_EE.gif':'arrowhead','Balloonatic - Idle_EE.gif':'balloonatic','Sunflower Seed_EE.gif':'sunflowerseed','Thunderchoy (Plant)_EE.gif':'thunderchoy','Torchwood_idle_anim.gif':'torchwood','Volleyball Zombie - Idle_EE.gif':'volleyballzombie','cabbagevolt_idle.gif':'cabbagevolt'}
+          custom={'KernelSeed_Almanac.png':'kernelseed','MegaFlower_Almanac.png':'megaflower','T1TurkeySeedRender.png':'tofuturkeyseed','TurkeyPultRender.png':'turkeypult','TurkeyMasterT3Render.png':'turkeymaster','T2TurkeyPultSummonRender.png':'tofuturkey','T3MasterSummonRender.png':'trainedtofuturkey','TurkeySeedChickSummonRender.png':'tofuchick'}
+          count=0
+          with zipfile.ZipFile('renders-v2.zip') as z:
+              assert z.testzip() is None
               for f in z.infolist():
-                  stem=Path(f.filename).stem.lower()
-                  m=re.search(r'almanacentryunlock[_ -]*(.+)',stem)
-                  if not m: continue
-                  key=re.sub('[^a-z0-9]','',m.group(1))
+                  name=Path(f.filename).name
+                  if f.is_dir(): continue
+                  raw=z.read(f)
+                  if name in gifs:
+                      with Image.open(io.BytesIO(raw)) as im:
+                          assert im.format=='GIF'
+                          for i in range(im.n_frames): im.seek(i); im.load()
+                      (anim/(gifs[name]+'.gif')).write_bytes(raw)
+                      count+=1
+                      continue
+                  m=re.search(r'almanacentryunlock[_ -]*(.+)',Path(name).stem.lower())
+                  key=custom.get(name)
+                  if not key and m: key=re.sub('[^a-z0-9]','',re.sub(r'\s*\(\d+\)$','',m.group(1)))
                   if not key: continue
-                  try:
-                      with Image.open(io.BytesIO(z.read(f))) as im:
-                          im.load()
-                          dest=out/(key+'.png')
-                          im.convert('RGBA').save(dest)
-                          mapping[key]='./'+dest.as_posix()
-                  except Exception as e:
-                      print(f.filename,e)
-          assert mapping, 'No matching renders found'
+                  with Image.open(io.BytesIO(raw)) as im:
+                      im.load()
+                      dest=out/(key+'.png')
+                      im.convert('RGBA').save(dest)
+                      mapping[key]='./'+dest.as_posix()
+          assert len(mapping)==33 and count==7,(len(mapping),count)
           Path('almanac-renders.json').write_text(json.dumps(mapping,indent=2))
-          print('Imported',len(mapping),'renders')
+          print('Imported',len(mapping),'renders and',count,'animations')
           PY
       - run: |
           git config user.name "PvZ3+ Asset Import"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/almanac-renders almanac-renders.json
+          git add assets/almanac-renders almanac-renders.json animations
           git diff --cached --quiet && exit 0
-          git commit -m "Import Almanac renders"
+          git commit -m "Import v2 renders and original GIF animations"
           git pull --rebase origin main
           git push origin HEAD:main
