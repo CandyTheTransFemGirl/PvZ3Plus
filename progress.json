@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 376,
+  "revision": 377,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8237,7 +8237,16 @@
       "rewardClaims": []
     },
     "candy-1795755404791-oua3fimes3": {
-      "quests": [],
+      "quests": [
+        {
+          "id": "candy-1795785638919-x4sqs57qm1m",
+          "title": "Use Turkey Seed in 5 levels!",
+          "description": "",
+          "day": 1,
+          "points": 200,
+          "completed": false
+        }
+      ],
       "shop": [],
       "points": 0,
       "balance": 0,
