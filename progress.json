@@ -633,7 +633,7 @@
     },
     {
       "id": "tofuturkeyseed",
-      "name": "Tofu Turkey Seed",
+      "name": "Tofu Seed",
       "type": "plants",
       "group": "Tier 1"
     },
@@ -5017,7 +5017,7 @@
             "id": "datamine-push-result-candy-1795737907343-2g49g1mpwce",
             "senderId": "generated-4-1",
             "sender": "MossPop72",
-            "body": "ID_PLANT_TOFUTURKEYSEED_NAME = Tofu Turkey Seed\nA named content reference! We need to compare it with the other identifiers.",
+            "body": "ID_PLANT_TOFUTURKEYSEED_NAME = Tofu Seed\nA named content reference! We need to compare it with the other identifiers.",
             "createdAt": "2026-11-27T00:05:07.343Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795737907343_2G49G1MPWCE"
@@ -5576,7 +5576,7 @@
             "id": "datamine-push-result-candy-1795754697183-fmz7nmt7ub8",
             "senderId": "generated-0-11",
             "sender": "CloudBean18",
-            "body": "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T1_UNLOCK = Unlock Tofu Turkey Seed!\nThis is a changed localisation value, not proof of a release.",
+            "body": "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T1_UNLOCK = Unlock Tofu Seed!\nThis is a changed localisation value, not proof of a release.",
             "createdAt": "2026-11-27T04:44:57.183Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795754697183_FMZ7NMT7UB8"
@@ -7603,7 +7603,7 @@
       {
         "id": "candy-1795755404791-oua3fimes3",
         "title": "Thanksgiving Event!",
-        "description": "Get Tofu Turkey Seed Turkey-pult And Turkey Master unlock progress here!\nRemember these plants only are here once per year!\nSo don't miss your chance!",
+        "description": "Get Tofu Seed Turkey-pult And Turkey Master unlock progress here!\nRemember these plants only are here once per year!\nSo don't miss your chance!",
         "createdAt": "2026-11-27T04:56:44.791Z",
         "creator": "candy",
         "status": "pending",
@@ -25881,7 +25881,7 @@
       "id": "thanksgiving-reopen-20261127-1",
       "senderId": "generated-0-14",
       "senderName": "PeaCake12",
-      "body": "Tofu Turkey Seed is such a funny name. I need the whole family in my collection.",
+      "body": "Tofu Seed is such a funny name. I need the whole family in my collection.",
       "createdAt": "2026-11-27T04:40:13.000Z",
       "bodyStringId": "ID_CHAT_THANKSGIVING_REOPEN_20261127_1"
     },
@@ -26437,7 +26437,7 @@
       "plants": [
         {
           "id": "tofuturkeyseed",
-          "name": "Tofu Turkey Seed",
+          "name": "Tofu Seed",
           "tier": 1
         },
         {
