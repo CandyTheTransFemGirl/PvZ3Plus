@@ -1,0 +1,80 @@
+name: Evolved animation extraction probe
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/evolved-animation.yml'
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download catalogue-listed Iceberg Lettuce bundles
+        run: |
+          mkdir -p bundles report
+          while IFS= read -r file; do
+            curl --fail --location --retry 2 --max-time 90 "https://pvzn3xt.ak.popcap.com/client-assets/Android/$file" -o "bundles/$file" || echo "$file" >> report/download-failures.txt
+          done <<'BUNDLES'
+          unit_plants_lvl_plant_iceberglettuce_gameplay_unit-41b83872202e36ed5c69e16256e9b1ca.bundle
+          unit__shared_statusvfx_freeze-5ae10a37de5e69d190b8bbdc94f0b9fa.bundle
+          unit__shared_statusvfx-972d53163829531ec089a8feb86c7cab.bundle
+          unit__shared_plantsall-71f5ed63caf6014a8aff3e0f83974a5f.bundle
+          finalizedbundles_shared_glowvfx-7efe9adc117b3c2a0cc8ec1c7968e50e.bundle
+          unit__shared_smokevfx-26de539c5d42a07ad42a51884e7e637c.bundle
+          unit__common-8f6cbcc00106c9fbcf771bd6c3d1b957.bundle
+          shaders-50279d01b5460abb68196bbae30ed115.bundle
+          _common-194d0a44c1e0d1ec80cc281e94a00b94.bundle
+          unit__shared_puff-b377dac2858dc5398f9a6117d0b5566b.bundle
+          unit__shared_merge-a6195fde06eb763a6effdbc6db88164d.bundle
+          unit__shared_sparkle-9c18d772c53df147c86df5497f568de9.bundle
+          unit__shared_star-03992c4f057b38be84b741d9b4256ca0.bundle
+          unit__shared_dirtvfx-4bda4665d3fbcfb69c9d24d32b35798d.bundle
+          unit__shared_pea-d66bc3768033131f9cbc63000ae433ca.bundle
+          ui_common_zengarden_zengarednresources_merge-cef512e8da74c362ae32c15f2016a238.bundle
+          unit__shared_impact-743889723c22477f597487b68bdd8de6.bundle
+          unit__shared_solarstorm-2ab2a25b6aed49be407d9d3edbd6f22e.bundle
+          unit__shared_merge_merge_vfx_variants-758718a08a79f7086c32e57fdbc6490e.bundle
+          unit__shared_rainbow-a7d26ead77cce418d05f6d0e49118053.bundle
+          unit__shared_peashooters-e006903ac7f2129fc9fa0befafb05e78.bundle
+          unit__shared_kalestorm-6d7c60d61fe1ed815a0a35ba240708ca.bundle
+          unit__shared_statusvfx_gowtoken-df9436ba542d735b3cd1b1ba355a6fcd.bundle
+          BUNDLES
+          sha256sum bundles/* > report/checksums.txt
+      - name: Inspect Unity objects and animation clips
+        run: |
+          pip install UnityPy
+          python - <<'PY'
+          import UnityPy, json, pathlib
+          result=[]
+          for p in pathlib.Path('bundles').glob('*'):
+              try:
+                  env=UnityPy.load(str(p))
+                  for o in env.objects:
+                      row={'bundle':p.name,'type':o.type.name,'path_id':o.path_id}
+                      try:
+                          d=o.read()
+                          row['name']=getattr(d,'m_Name','')
+                          if o.type.name=='AnimationClip':
+                              row['sample_rate']=getattr(d,'m_SampleRate',None)
+                      except Exception as e:
+                          row['read_error']=str(e)
+                      result.append(row)
+              except Exception as e:
+                  result.append({'bundle':p.name,'error':str(e)})
+          pathlib.Path('report/objects.json').write_text(json.dumps(result,indent=2))
+          print('Objects:',len(result))
+          print('Animation clips:',sum(x.get('type')=='AnimationClip' for x in result))
+          if not any(x.get('type')=='AnimationClip' for x in result):
+              raise SystemExit('No animation clips decoded')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: iceberg-animation-probe
+          path: report/
+          retention-days: 7
