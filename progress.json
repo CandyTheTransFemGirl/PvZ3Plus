@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 368,
+  "revision": 369,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8233,6 +8233,23 @@
             "gems": 0,
             "points": 0,
             "seeds": 100,
+            "xp": 0,
+            "currency": 0,
+            "seedId": "tofuturkeyseed",
+            "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795785342453-0ghbr6h1fkq5",
+          "title": "Goal 4",
+          "threshold": 850,
+          "plantId": "",
+          "reward": {
+            "coins": 0,
+            "wild": 50,
+            "gems": 0,
+            "points": 0,
+            "seeds": 250,
             "xp": 0,
             "currency": 0,
             "seedId": "tofuturkeyseed",
