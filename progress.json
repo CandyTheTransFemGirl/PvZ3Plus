@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 418,
+  "revision": 419,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6682,6 +6682,33 @@
             "createdAt": "2026-11-27T16:39:04.387Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_C79B95A5DEDC5EC89543A383213155257382CC5F"
+          },
+          {
+            "id": "data-push-f6afe4ad5fe38b6ad866d302ef8fa2763f344787",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: AssetsReadMe. Checking what changed.",
+            "createdAt": "2026-11-27T16:39:17.579Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_F6AFE4AD5FE38B6AD866D302EF8FA2763F344787"
+          },
+          {
+            "id": "data-push-cd4a1dfa6b0c371291767dd5a1ef476d93a4858a",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: LevelRef/.gitkeep. Checking what changed.",
+            "createdAt": "2026-11-27T16:39:17.579Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_CD4A1DFA6B0C371291767DD5A1EF476D93A4858A"
+          },
+          {
+            "id": "data-push-a77473b84ffe12579496fcfced84a012cfdddbc2",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: LevelRef/Adventure - Level 1 - 2026-11-27_EE.png, LevelRef/Adventure - Level 10 - 2026-11-27_EE.png, LevelRef/Adventure - Level 11 - 2026-11-27_EE.png, LevelRef/Adventure - Level 12 - 2026-11-27_EE.png, LevelRef/Adventure - Level 13 - 2026-11-27_EE.png, LevelRef/Adventure - Level 14 - 2026-11-27_EE.png, LevelRef/Adventure - Level 15 - 2026-11-27_EE.png, LevelRef/Adventure - Level 16 - 2026-11-27_EE.png, LevelRef/Adventure - Level 17 - 2026-11-27_EE.png, LevelRef/Adventure - Level 18 - 2026-11-27_EE.png, LevelRef/Adventure - Level 19 - 2026-11-27_EE.png, LevelRef/Adventure - Level 2 - 2026-11-27_EE.png, LevelRef/Adventure - Level 20 - 2026-11-27_EE.png, LevelRef/Adventure - Level 21 - 2026-11-27_EE.png, LevelRef/Adventure - Level 22 - 2026-11-27_EE.png, LevelRef/Adventure - Level 23 - 2026-11-27_EE.png, LevelRef/Adventure - Level 24 - 2026-11-27_EE.png, LevelRef/Adventure - Level 25 - 2026-11-27_EE.png, LevelRef/Adventure - Level 26 - 2026-11-27_EE.png, LevelRef/Adventure - Level 27 - 2026-11-27_EE.png, LevelRef/Adventure - Level 28 - 2026-11-27_EE.png, LevelRef/Adventure - Level 29 - 2026-11-27_EE.png, LevelRef/Adventure - Level 3 - 2026-11-27_EE.png, LevelRef/Adventure - Level 30 - 2026-11-27_EE.png, LevelRef/Adventure - Level 31 - 2026-11-27_EE.png, LevelRef/Adventure - Level 32 - 2026-11-27_EE.png, LevelRef/Adventure - Level 33 - 2026-11-27_EE.png, LevelRef/Adventure - Level 34 - 2026-11-27_EE.png, LevelRef/Adventure - Level 35 - 2026-11-27_EE.png, LevelRef/Adventure - Level 36 - 2026-11-27_EE.png, LevelRef/Adventure - Level 37 - 2026-11-27_EE.png, LevelRef/Adventure - Level 38 - 2026-11-27_EE.png, LevelRef/Adventure - Level 39 - 2026-11-27_EE.png, LevelRef/Adventure - Level 4 - 2026-11-27_EE.png, LevelRef/Adventure - Level 40 - 2026-11-27_EE.png, LevelRef/Adventure - Level 41 - 2026-11-27_EE.png, LevelRef/Adventure - Level 42 - 2026-11-27_EE.png, LevelRef/Adventure - Level 43 - 2026-11-27_EE.png, LevelRef/Adventure - Level 44 - 2026-11-27_EE.png, LevelRef/Adventure - Level 45 - 2026-11-27_EE.png, LevelRef/Adventure - Level 46 - 2026-11-27_EE.png, LevelRef/Adventure - Level 47 - 2026-11-27_EE.png, LevelRef/Adventure - Level 48 - 2026-11-27_EE.png, LevelRef/Adventure - Level 49 - 2026-11-27_EE.png, LevelRef/Adventure - Level 5 - 2026-11-27_EE.png, LevelRef/Adventure - Level 50 - 2026-11-27_EE.png, LevelRef/Adventure - Level 6 - 2026-11-27_EE.png, LevelRef/Adventure - Level 7 - 2026-11-27_EE.png, LevelRef/Adventure - Level 8 - 2026-11-27_EE.png, LevelRef/Adventure - Level 9 - 2026-11-27_EE.png, LevelRef/Adventure Tutorial - T1_EE.png, LevelRef/Adventure Tutorial - T2_EE.png, LevelRef/Adventure Tutorial - T3_EE.png, LevelRef/Adventure Tutorial - T4_EE.png, LevelRef/Lawn Patrol Strongman - Level 1 - 2026-11-27_EE.png. Checking what changed.",
+            "createdAt": "2026-11-27T16:39:17.580Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_A77473B84FFE12579496FCFCED84A012CFDDDBC2"
           }
         ],
         "typing": [],
@@ -6845,7 +6872,10 @@
             "0915993c2b77e943e0e39720c82fbd7dcf371f06",
             "e75fbc010a666d8c5ebd1b5b2a36fc418c15c4c0",
             "c79b95a5dedc5ec89543a383213155257382cc5f",
-            "74211c6c769a0be6bb49cd11730eca425b05c5aa"
+            "74211c6c769a0be6bb49cd11730eca425b05c5aa",
+            "f6afe4ad5fe38b6ad866d302ef8fa2763f344787",
+            "cd4a1dfa6b0c371291767dd5a1ef476d93a4858a",
+            "a77473b84ffe12579496fcfced84a012cfdddbc2"
           ],
           "queue": [
             {
@@ -6931,6 +6961,84 @@
               "at": "2026-11-27T16:36:13Z",
               "files": [
                 "evolved-reference.js"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "f6afe4ad5fe38b6ad866d302ef8fa2763f344787",
+              "at": "2026-11-27T15:36:14Z",
+              "files": [
+                "AssetsReadMe"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "cd4a1dfa6b0c371291767dd5a1ef476d93a4858a",
+              "at": "2026-11-27T15:36:57Z",
+              "files": [
+                "LevelRef/.gitkeep"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "a77473b84ffe12579496fcfced84a012cfdddbc2",
+              "at": "2026-11-27T15:39:19Z",
+              "files": [
+                "LevelRef/Adventure - Level 1 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 10 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 11 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 12 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 13 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 14 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 15 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 16 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 17 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 18 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 19 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 2 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 20 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 21 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 22 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 23 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 24 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 25 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 26 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 27 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 28 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 29 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 3 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 30 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 31 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 32 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 33 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 34 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 35 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 36 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 37 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 38 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 39 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 4 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 40 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 41 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 42 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 43 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 44 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 45 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 46 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 47 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 48 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 49 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 5 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 50 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 6 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 7 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 8 - 2026-11-27_EE.png",
+                "LevelRef/Adventure - Level 9 - 2026-11-27_EE.png",
+                "LevelRef/Adventure Tutorial - T1_EE.png",
+                "LevelRef/Adventure Tutorial - T2_EE.png",
+                "LevelRef/Adventure Tutorial - T3_EE.png",
+                "LevelRef/Adventure Tutorial - T4_EE.png",
+                "LevelRef/Lawn Patrol Strongman - Level 1 - 2026-11-27_EE.png"
               ],
               "clues": []
             }
