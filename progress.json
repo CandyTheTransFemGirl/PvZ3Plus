@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 260,
+  "revision": 261,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5007,6 +5007,24 @@
             "createdAt": "2026-11-27T00:05:07.343Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795737907343_5DT4ZGWJG5T"
+          },
+          {
+            "id": "datamine-push-result-candy-1795737912281-idrl4uurz1f",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_PLANT_TURKEYMASTER_NAME = Turkey Master\nA named content reference! We need to compare it with the other identifiers.",
+            "createdAt": "2026-11-27T00:05:12.281Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795737912281_IDRL4UURZ1F"
+          },
+          {
+            "id": "datamine-push-result-candy-1795737912281-xnwp03ij6bq",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_PLANT_TURKEYMASTER_GROUP = Tier 3\nThis gives us a tier or category assignment.",
+            "createdAt": "2026-11-27T00:05:12.281Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795737912281_XNWP03IJ6BQ"
           }
         ],
         "typing": [],
@@ -5067,27 +5085,7 @@
             "c5179bad97065fa2cd1b65d9b5289be7075ce217",
             "9fe3468dd877c8e966272d49e3cc24eec2f2a584"
           ],
-          "queue": [
-            {
-              "sha": "c5179bad97065fa2cd1b65d9b5289be7075ce217",
-              "at": "2026-11-26T23:49:19Z",
-              "files": [
-                "PlantLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_PLANT_TURKEYMASTER_NAME",
-                  "value": "Turkey Master",
-                  "file": "PlantLoc.json"
-                },
-                {
-                  "key": "ID_PLANT_TURKEYMASTER_GROUP",
-                  "value": "Tier 3",
-                  "file": "PlantLoc.json"
-                }
-              ]
-            }
-          ]
+          "queue": []
         }
       }
     ],
