@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 279,
+  "revision": 280,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5194,6 +5194,24 @@
             "createdAt": "2026-11-27T01:20:39.495Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_B4B680862991BA700AC0B4BA724CD83748ED6046"
+          },
+          {
+            "id": "datamine-result-candy-1795742457756-589xftv3x1d",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_OWNERDEBUG_MANAGE_SHOP_OWNER_SIGN_IN_REQUIRED = Manage shop (owner sign-in required)\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-27T01:20:57.756Z",
+            "replyTo": "datamine-live-candy-1795742432847-l8lrulygs3",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795742457756_589XFTV3X1D"
+          },
+          {
+            "id": "datamine-reaction-candy-1795742457756-64h4lahnvym",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "Let's connect this with the other evidence: We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-27T01:20:57.756Z",
+            "replyTo": "datamine-result-candy-1795742457756-589xftv3x1d",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795742457756_64H4LAHNVYM"
           }
         ],
         "typing": [],
@@ -5264,21 +5282,7 @@
             "4e71809438bc37e8c5c508bbee356f2c81e34a80",
             "b4b680862991ba700ac0b4ba724cd83748ed6046"
           ],
-          "queue": [
-            {
-              "sha": "b4b680862991ba700ac0b4ba724cd83748ed6046",
-              "at": "2026-11-27T01:20:08Z",
-              "files": [
-                "progress.json"
-              ],
-              "clues": []
-            }
-          ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795742432847-l8lrulygs3",
-          "memberId": "generated-2-5",
-          "endsAt": "2026-11-27T01:20:56.560Z"
+          "queue": []
         }
       }
     ],
