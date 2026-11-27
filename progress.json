@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 342,
+  "revision": 343,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6041,6 +6041,24 @@
             "createdAt": "2026-11-27T12:34:08.122Z",
             "replyTo": "datamine-result-candy-1795782848122-kq8vl7lyfq9",
             "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795782848122_2FEFZK2U1L9"
+          },
+          {
+            "id": "data-push-ce5a1ca53fdf4ecaa373258effb4c5258c72c1d4",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: animations/Map Nd07 Character Zomboss - Idle_EE.gif, animations/Map Nd07 Character Zomboss - Walk_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T12:34:15.143Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_CE5A1CA53FDF4ECAA373258EFFB4C5258C72C1D4"
+          },
+          {
+            "id": "data-push-1db63dac812cdf6511274f55905576e090a4a997",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: animations/Magic Beans - Idle Excited_EE.gif, animations/Magic Beans - Idle Happy_EE.gif, animations/Magic Beans_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T12:34:15.144Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_1DB63DAC812CDF6511274F55905576E090A4A997"
           }
         ],
         "typing": [],
@@ -6159,9 +6177,40 @@
             "99d1d2bbbd30f0dca90278f905e39da43c788589",
             "cffc40f695efe0e307c0b281ec1f4afd83effa70",
             "9edf830f06027fecffd2643b35584e2154ee95c8",
-            "ffc2f1db0aa46cd4602664138f58407403272bbe"
+            "ffc2f1db0aa46cd4602664138f58407403272bbe",
+            "ce5a1ca53fdf4ecaa373258effb4c5258c72c1d4",
+            "3917f55c7cb45c5320586284f96aa6fad71632c7",
+            "1db63dac812cdf6511274f55905576e090a4a997"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "ce5a1ca53fdf4ecaa373258effb4c5258c72c1d4",
+              "at": "2026-11-27T11:43:51Z",
+              "files": [
+                "animations/Map Nd07 Character Zomboss - Idle_EE.gif",
+                "animations/Map Nd07 Character Zomboss - Walk_EE.gif"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "3917f55c7cb45c5320586284f96aa6fad71632c7",
+              "at": "2026-11-27T11:44:12Z",
+              "files": [
+                "animations.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "1db63dac812cdf6511274f55905576e090a4a997",
+              "at": "2026-11-27T11:44:34Z",
+              "files": [
+                "animations/Magic Beans - Idle Excited_EE.gif",
+                "animations/Magic Beans - Idle Happy_EE.gif",
+                "animations/Magic Beans_EE.gif"
+              ],
+              "clues": []
+            }
+          ]
         }
       }
     ],
