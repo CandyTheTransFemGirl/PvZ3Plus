@@ -20,6 +20,8 @@
   "magicbeans": "./animations/Magic%20Beans_EE.gif",
   "magicbeansidleexcited": "./animations/Magic%20Beans%20-%20Idle%20Excited_EE.gif",
   "magicbeansidlehappy": "./animations/Magic%20Beans%20-%20Idle%20Happy_EE.gif",
+  "mapnd01charactermohackedidlehacked": "./animations/Map%20Nd01%20Character%20Mo%20Hacked%20-%20Idlehacked_EE.gif",
+  "mapnd01charactermohackedwalkhacked": "./animations/Map%20Nd01%20Character%20Mo%20Hacked%20-%20Walkhacked_EE.gif",
   "mapnd05charactertwister": "./animations/Map%20Nd05%20Character%20Twister%20-%20Idle_EE.gif",
   "mapnd05charactertwisterdigging": "./animations/Map%20Nd05%20Character%20Twister%20-%20Digging_EE.gif",
   "mapnd07characterzomboss": "./animations/Map%20Nd07%20Character%20Zomboss%20-%20Idle_EE.gif",
