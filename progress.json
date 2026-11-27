@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 261,
+  "revision": 262,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -23863,6 +23863,37 @@
       "senderName": "PvZ3+ Team",
       "body": "Alright everyone please give us some time to get everything set up!",
       "createdAt": "2026-11-26T23:45:46.684Z"
+    },
+    {
+      "id": "waiting-20261127-0026-generated-2-4",
+      "senderId": "generated-2-4",
+      "senderName": "LunarStar29",
+      "body": "Thanks for the heads-up, team! Anyone else get caught by the maintenance timer?",
+      "createdAt": "2026-11-27T00:26:30.000Z",
+      "bodyStringId": "ID_CHAT_WAITING_20261127_0026_GENERATED_2_4"
+    },
+    {
+      "id": "waiting-20261127-0026-generated-4-1",
+      "senderId": "generated-4-1",
+      "senderName": "MossPop72",
+      "body": "Same! I wonder if there's a whole turkey fusion family.",
+      "createdAt": "2026-11-27T00:26:31.000Z",
+      "bodyStringId": "ID_CHAT_WAITING_20261127_0026_GENERATED_4_1"
+    },
+    {
+      "id": "waiting-20261127-0026-generated-0-11",
+      "senderId": "generated-0-11",
+      "senderName": "CloudBean18",
+      "body": "We'll find out later. Is 06:00 still the planned reopening?",
+      "createdAt": "2026-11-27T00:26:32.000Z",
+      "bodyStringId": "ID_CHAT_WAITING_20261127_0026_GENERATED_0_11"
+    },
+    {
+      "id": "waiting-20261127-0026-assistant-player",
+      "senderId": "assistant-player",
+      "senderName": "Sprout :3",
+      "body": "06:00 GMT is still the scheduled reopening! Thanks for being patient.",
+      "createdAt": "2026-11-27T00:26:33.000Z"
     }
   ]
 }
