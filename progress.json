@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 380,
+  "revision": 381,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8279,6 +8279,14 @@
           "description": "",
           "day": 1,
           "points": 550,
+          "completed": false
+        },
+        {
+          "id": "candy-1795785688138-zcbadsq69z",
+          "title": "Merge Turkey-pult!",
+          "description": "",
+          "day": 1,
+          "points": 1000,
           "completed": false
         }
       ],
