@@ -5,7 +5,7 @@
   "stars": 36,
   "wins": 12,
   "losses": 0,
-  "coins": 2890,
+  "coins": 3140,
   "wild": 5,
   "potion": 1,
   "wanted": "cinderwood",
@@ -17,7 +17,8 @@
     "kernelseed": 0,
     "sunshroom": 0,
     "umbrellaleaf": 0,
-    "zaptail": 0
+    "zaptail": 0,
+    "tofuturkeyseed": 25
   },
   "records": {
     "cabbagepult": {
@@ -1221,8 +1222,8 @@
       "title": "Thanksgiving Update! - Release",
       "body": "We hope you enjoy the new plants! If you find any bugs or something that needs to be rebalanced do let us know! - PvZ3+ Team",
       "deliverAt": "2026-11-27T04:49:16.556Z",
-      "read": false,
-      "claimed": false,
+      "read": true,
+      "claimed": true,
       "rewards": {
         "coins": 250,
         "seeds": {
@@ -1230,7 +1231,8 @@
         }
       },
       "broadcast": true,
-      "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+      "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL",
+      "claimedAt": "2026-11-27T12:36:03.908Z"
     },
     {
       "id": "candy-1795782885979-g3x868yqer6",
@@ -1240,7 +1242,7 @@
       "title": "Announcement",
       "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
       "deliverAt": "2026-11-27T12:34:44.897Z",
-      "read": false,
+      "read": true,
       "claimed": false,
       "rewards": {},
       "broadcast": true,
