@@ -1,0 +1,21 @@
+(function(){
+const base='reference/decoded/36.0.95/';
+let pending;
+const load=()=>pending||(pending=Promise.all(['WaveDatabase','LevelLayoutDatabase','CombatDatabase','AlmanacConfig','RoadTripConfig'].map(n=>fetch(base+n+'.json').then(r=>{if(!r.ok)throw Error(n+' '+r.status);return r.json()}))).catch(e=>{pending=null;throw e}));
+function rng(seed){let x=seed>>>0;return ()=>{x=(Math.imul(x,1664525)+1013904223)>>>0;return x/4294967296}}
+async function generate(level,seed=level,rating=100){
+const [w,l,c,a,r]=await load(),random=rng(seed);
+const matches=w.Battles.filter(b=>new RegExp('^Arc\\d+_Issue_\\d+_Level'+String(level).padStart(4,'0')+'(?:_|$)').test(b.Name));
+const b=matches.find(x=>x.PreSpawnedUnits?.length)||matches.find(x=>x.Waves?.length)||matches[0];if(!b)throw Error('No reference battle for level '+level);
+const ids=b.AllPossibleLayoutIds||[],id=ids[Math.floor(random()*ids.length)],layout=l.LevelLayouts.find(x=>(x.Id??0)===id);
+const tiles=[...(layout?.PreSpawnedUnits||[]).map(x=>x.PreSpawnedUnit).filter(Boolean),...(b.PreSpawnedUnits||[])];
+const template=w.WaveDifficultyTemplates.find(x=>x.Id===b.WaveDifficultyTemplateId);
+const tier=w.DynamicWaveConfig.SkillRatingTiers.find(x=>rating>=(x.SkillRatingRange?.Min??0)&&rating<=(x.SkillRatingRange?.Max??Infinity))||w.DynamicWaveConfig.SkillRatingTiers[0];
+const levelTier=tier.LevelTiers[0],pool=(b.DynamicWaveZombiePoolLookupKeys||[]).map(k=>w.DynamicWaveUnits.find(u=>u.UnitLookupKey===k)).filter(Boolean);
+const waves=(b.Waves?.length?b.Waves:template?.Waves||[]).map((raw,i)=>{const v=raw.DynamicWaveV2||raw,dt=v.DifficultyTier||v.PerceivedDifficulty||1,t=levelTier.WaveTiers.find(x=>x.WaveDifficultyTier===dt)||levelTier.WaveTiers.at(-1),duration=v.DurationInMs||1000,eligible=pool.filter(u=>(u.FactionSpecificConfig?.Zombie?.UnitTier||1)<=(t.UnitTierLimit||1)),spawns=[];let budget=(t.TotalZombiePowerPerSecond||0)*duration/1000;for(let j=0;j<200&&eligible.length;j++){const choices=eligible.filter(u=>(u.FactionSpecificConfig.Zombie.BasePower||1)<=budget);if(!choices.length)break;const weights=choices.map(u=>(u.FactionSpecificConfig.Zombie.SpawnWeight||1)*(v.HasFeaturedZombies&&b.DynamicWaveFeaturedZombieLookupKeys?.includes(u.UnitLookupKey)?w.DynamicWaveConfig.FeaturedZombieSpawnWeightMultiplier||1:1));let pick=random()*weights.reduce((a,b)=>a+b,0),k=0;while(k<weights.length-1&&(pick-=weights[k])>=0)k++;const u=choices[k];budget-=u.FactionSpecificConfig.Zombie.BasePower||1;spawns.push({unit:u.UnitLookupKey,lane:Math.floor(random()*Math.min(5,t.NumberOfActiveLanes||5)),delay:Math.floor(random()*duration)});}
+return {index:i+1,start:v.StartTimeInMs||0,duration,huge:!!v.IsHugeWave,spawns:spawns.sort((a,b)=>a.delay-b.delay),raw};});
+return {level,seed,rating,battle:b.Name,biome:b.BoardVisualAlias,layout:layout?.Name,tiles,waves,pool:b.DynamicWaveZombiePoolLookupKeys||[],events:b.Events||[],custom:typeof data!=='undefined'?data?.adventureLevels?.[level]:null};
+}
+window.PvZ3Reference={load,generate};
+const button=document.createElement('button');button.textContent='Adventure reference generator';button.style.cssText='margin:12px';document.body.append(button);button.onclick=()=>{const d=document.createElement('dialog');d.style.cssText='max-width:90vw;max-height:85vh;overflow:auto;background:#172334;color:white';document.body.append(d);const n=document.createElement('input');n.type='number';n.min=1;n.value=typeof data!=='undefined'?Number(data?.level||0)+1:1;const seed=document.createElement('input');seed.type='number';seed.value=n.value;const out=document.createElement('pre');out.style.whiteSpace='pre-wrap';const go=document.createElement('button');go.textContent='Generate';const close=document.createElement('button');close.textContent='Close';close.onclick=()=>d.remove();d.append('Level ',n,' Seed ',seed,go,close,out);go.onclick=async()=>{out.textContent='Loading reference…';try{const v=await generate(+n.value,+seed.value);out.textContent=JSON.stringify(v,null,2)}catch(e){out.textContent=e.message}};d.showModal();go.click()};
+})();
