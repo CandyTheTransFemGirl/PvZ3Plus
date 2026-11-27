@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 344,
+  "revision": 345,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -1231,6 +1231,20 @@
       },
       "broadcast": true,
       "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+    },
+    {
+      "id": "candy-1795782885979-g3x868yqer6",
+      "sender": "pvz3plus-team",
+      "recipient": "assistant-player",
+      "type": "custom",
+      "title": "Announcement",
+      "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+      "deliverAt": "2026-11-27T12:34:44.897Z",
+      "read": false,
+      "claimed": false,
+      "rewards": {},
+      "broadcast": true,
+      "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
     }
   ],
   "temporaryPlantAccess": [
@@ -8249,6 +8263,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-0",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -8606,6 +8634,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-1",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -8993,6 +9035,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-2",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -9419,6 +9475,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-3",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -9755,6 +9825,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-4",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -10133,6 +10217,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-5",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -10541,6 +10639,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-6",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -10865,6 +10977,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-7",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -11222,6 +11348,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-8",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -11621,6 +11761,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-4-9",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -12047,6 +12201,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-0",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -12392,6 +12560,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-1",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -12770,6 +12952,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-2",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -13187,6 +13383,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-3",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -13511,6 +13721,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-4",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -13877,6 +14101,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-5",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -14276,6 +14514,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-6",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -14711,6 +14963,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-7",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -15056,6 +15322,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-8",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -15443,6 +15723,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-9",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -15860,6 +16154,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-10",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -16196,6 +16504,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-11",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -16562,6 +16884,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-12",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -16970,6 +17306,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-13",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -17285,6 +17635,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-0-14",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -17642,6 +18006,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-0",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -18029,6 +18407,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-1",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -18455,6 +18847,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-2",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -18791,6 +19197,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-3",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -19169,6 +19589,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-4",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -19577,6 +20011,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-5",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -19901,6 +20349,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-6",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -20258,6 +20720,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-1-7",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -20657,6 +21133,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-2-0",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -21083,6 +21573,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-2-1",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -21428,6 +21932,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-2-2",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -21806,6 +22324,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-2-3",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -22223,6 +22755,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-2-4",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -22547,6 +23093,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-2-5",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -22913,6 +23473,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-2-6",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -23312,6 +23886,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-3-0",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -23747,6 +24335,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-3-1",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -24092,6 +24694,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-3-2",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
@@ -24479,6 +25095,20 @@
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
+          },
+          {
+            "id": "candy-1795782885979-g3x868yqer6",
+            "sender": "pvz3plus-team",
+            "recipient": "generated-3-3",
+            "type": "custom",
+            "title": "Announcement",
+            "body": "Animations are coming to PvZ3+ \nAs time goes on you might see some plants and zombies get idles! At some point every zombie and plant will have one! See you for the next plant pass \nPvZ3+ Team",
+            "deliverAt": "2026-11-27T12:34:44.897Z",
+            "read": false,
+            "claimed": false,
+            "rewards": {},
+            "broadcast": true,
+            "bodyStringId": "ID_CHAT_CANDY_1795782885979_G3X868YQER6"
           }
         ],
         "gems": 0,
