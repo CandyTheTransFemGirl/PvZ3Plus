@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 381,
+  "revision": 382,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8287,6 +8287,14 @@
           "description": "",
           "day": 1,
           "points": 1000,
+          "completed": false
+        },
+        {
+          "id": "candy-1795785713708-v2e5csc50v",
+          "title": "Thanksgiving gift!",
+          "description": "Free Gift lol",
+          "day": 1,
+          "points": 25,
           "completed": false
         }
       ],
