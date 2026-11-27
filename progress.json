@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 357,
+  "revision": 358,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6169,6 +6169,24 @@
             "createdAt": "2026-11-27T13:04:39.481Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_B0C6C432E7804E2007BC4AE83A0FE2278D49030D"
+          },
+          {
+            "id": "datamine-result-candy-1795784691637-uzcajvxz8r",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_OWNERDEBUG_HOURS = Hours\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-27T13:04:51.637Z",
+            "replyTo": "datamine-live-candy-1795784672994-w1sarcav57p",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795784691637_UZCAJVXZ8R"
+          },
+          {
+            "id": "datamine-reaction-candy-1795784691638-osgci48j1p",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Technically speaking, We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-27T13:04:51.638Z",
+            "replyTo": "datamine-result-candy-1795784691637-uzcajvxz8r",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795784691638_OSGCI48J1P"
           }
         ],
         "typing": [],
@@ -6305,21 +6323,7 @@
             "ac8a6131dbbfcd9f21276c098cc7ea5ef1c3d4f0",
             "b0c6c432e7804e2007bc4ae83a0fe2278d49030d"
           ],
-          "queue": [
-            {
-              "sha": "b0c6c432e7804e2007bc4ae83a0fe2278d49030d",
-              "at": "2026-11-27T13:04:06Z",
-              "files": [
-                "progress.json"
-              ],
-              "clues": []
-            }
-          ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795784672994-w1sarcav57p",
-          "memberId": "generated-2-5",
-          "endsAt": "2026-11-27T13:04:50.497Z"
+          "queue": []
         }
       }
     ],
