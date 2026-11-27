@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 338,
+  "revision": 339,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5915,6 +5915,60 @@
             "createdAt": "2026-11-27T12:31:36.700Z",
             "replyTo": "datamine-result-candy-1795782696700-35q2s87p87s",
             "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795782696700_11WZCSF26KF"
+          },
+          {
+            "id": "data-push-6d889b0db475f95fbd1bff4c1e6e31139152bb44",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: Bamboo Shoots_EE.gif, Beat Choy_EE.gif, Blockwood_EE.gif, Bonk Choy_EE.gif, Bopchoy (Almanac)_EE.gif, Buzz Choy_EE.gif, Buzz-Box_EE.gif, Cab-barrage_EE.gif, Cabbage-pult_EE.gif, Cata-pulp_EE.gif, Chainsaw Grass_EE.gif, Chuck-nut_EE.gif, Cold Slaw_EE.gif, Dangerine_EE.gif, Devastater - Animation_EE.gif, Map Nd01 Character Patrice - Idle_EE.gif, Map Nd01 Character Patrice - Walk_EE.gif, animations.json, animations/Fog Mechanic Zomboss_EE.gif, animations/Sulfurshroom (Plant)_EE.gif, animations/Waterchestnut_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T12:33:46.526Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_6D889B0DB475F95FBD1BFF4C1E6E31139152BB44"
+          },
+          {
+            "id": "data-push-642458abc799b5e5f0438a2ef1a6adf6588038bd",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: progress.json. Checking what changed.",
+            "createdAt": "2026-11-27T12:33:46.526Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_642458ABC799B5E5F0438A2EF1A6ADF6588038BD"
+          },
+          {
+            "id": "data-push-1720bb35723a6349a2b33bf7f7880ca25eae0f08",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-27T12:33:46.526Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_1720BB35723A6349A2B33BF7F7880CA25EAE0F08"
+          },
+          {
+            "id": "data-push-aa9c1bc9cf5ccac61d44a76ef1f4b5e897e662da",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: assets/common_bigGreenButton_EE.png, assets/common_editButton_EE.png, assets/common_parent_plant_locked_badge_EE.png, assets/common_portraitBackground_EE.png, assets/common_portraitFrameOnly_EE.png, assets/common_searchButton_EE.png, assets/common_settingsButton_EE.png, assets/common_unlock_key_purple_badge_EE.png, assets/icon_damageAcidic_EE.png, assets/icon_damageCold_EE.png, assets/icon_damageEarth_EE.png, assets/icon_damageElectric_EE.png, assets/icon_damageExplosive_EE.png, assets/icon_damageFire_EE.png, assets/icon_damageSonic_EE.png, assets/icon_damageType_acidic_EE.png, assets/icon_damageType_cold_EE.png, assets/icon_damageType_electric_EE.png, assets/icon_sun_blank_EE.png, assets/rewards_plantCardBackground.png. Checking what changed.",
+            "createdAt": "2026-11-27T12:33:46.526Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_AA9C1BC9CF5CCAC61D44A76EF1F4B5E897E662DA"
+          },
+          {
+            "id": "data-push-71e8f744e021544926a265d45156fcc234d4a135",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: assets/Trouthouse (Almanac)_EE.gif, assets/Volcanobrowncoat (Almanac)_EE.gif, assets/Volcanobuckethead (Almanac)_EE.gif, assets/Volcanoconehead (Almanac)_EE.gif, assets/Volcanogarg (Almanac)_EE.gif, assets/Volcanologist (Almanac)_EE.gif, assets/Volleyballzombie (Almanac)_EE.gif, assets/Zombee (Almanac)_EE.gif, assets/Zombiechicken (Almanac)_EE.gif, assets/Zscoutimpflag (Almanac)_EE.gif, assets/Zscoutimptrumpet (Almanac)_EE.gif, assets/Zscoutleader (Almanac)_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T12:33:46.526Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_71E8F744E021544926A265D45156FCC234D4A135"
+          },
+          {
+            "id": "data-push-fb2e8a1eb0a2a3b707757430eeb67ca53fd718ff",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: animations.json. Checking what changed.",
+            "createdAt": "2026-11-27T12:33:46.526Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_FB2E8A1EB0A2A3B707757430EEB67CA53FD718FF"
           }
         ],
         "typing": [],
@@ -6014,9 +6068,150 @@
             "d0ff85279fc8f7259f28925b44edb82c4950bb0f",
             "c73f8ec7e0fcece3255c9a669fcfd1e07b36078f",
             "c36303a3164327f2ba517c3440d95e4b4b221c61",
-            "f6c251b144831bca1b86bf3dba6a5b9b400d234b"
+            "f6c251b144831bca1b86bf3dba6a5b9b400d234b",
+            "6d889b0db475f95fbd1bff4c1e6e31139152bb44",
+            "642458abc799b5e5f0438a2ef1a6adf6588038bd",
+            "1720bb35723a6349a2b33bf7f7880ca25eae0f08",
+            "6102748235773b92f74c5ae55f4655050e5ae768",
+            "d9e299712dd662c249dee84e2cd4b86a3ede711e",
+            "256975c16e2bd1fc1f827c0d2dfecf9a9cb739ff",
+            "aa9c1bc9cf5ccac61d44a76ef1f4b5e897e662da",
+            "71e8f744e021544926a265d45156fcc234d4a135",
+            "9f7f40e9d96ff4970608ac0772c8879892d061a6",
+            "fb2e8a1eb0a2a3b707757430eeb67ca53fd718ff"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "6d889b0db475f95fbd1bff4c1e6e31139152bb44",
+              "at": "2026-11-27T11:59:41Z",
+              "files": [
+                "Bamboo Shoots_EE.gif",
+                "Beat Choy_EE.gif",
+                "Blockwood_EE.gif",
+                "Bonk Choy_EE.gif",
+                "Bopchoy (Almanac)_EE.gif",
+                "Buzz Choy_EE.gif",
+                "Buzz-Box_EE.gif",
+                "Cab-barrage_EE.gif",
+                "Cabbage-pult_EE.gif",
+                "Cata-pulp_EE.gif",
+                "Chainsaw Grass_EE.gif",
+                "Chuck-nut_EE.gif",
+                "Cold Slaw_EE.gif",
+                "Dangerine_EE.gif",
+                "Devastater - Animation_EE.gif",
+                "Map Nd01 Character Patrice - Idle_EE.gif",
+                "Map Nd01 Character Patrice - Walk_EE.gif",
+                "animations.json",
+                "animations/Fog Mechanic Zomboss_EE.gif",
+                "animations/Sulfurshroom (Plant)_EE.gif",
+                "animations/Waterchestnut_EE.gif"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "642458abc799b5e5f0438a2ef1a6adf6588038bd",
+              "at": "2026-11-27T11:59:52Z",
+              "files": [
+                "progress.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "1720bb35723a6349a2b33bf7f7880ca25eae0f08",
+              "at": "2026-11-27T12:10:01Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "6102748235773b92f74c5ae55f4655050e5ae768",
+              "at": "2026-11-27T12:14:39Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "d9e299712dd662c249dee84e2cd4b86a3ede711e",
+              "at": "2026-11-27T12:19:01Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "256975c16e2bd1fc1f827c0d2dfecf9a9cb739ff",
+              "at": "2026-11-27T12:21:58Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "aa9c1bc9cf5ccac61d44a76ef1f4b5e897e662da",
+              "at": "2026-11-27T12:26:35Z",
+              "files": [
+                "assets/common_bigGreenButton_EE.png",
+                "assets/common_editButton_EE.png",
+                "assets/common_parent_plant_locked_badge_EE.png",
+                "assets/common_portraitBackground_EE.png",
+                "assets/common_portraitFrameOnly_EE.png",
+                "assets/common_searchButton_EE.png",
+                "assets/common_settingsButton_EE.png",
+                "assets/common_unlock_key_purple_badge_EE.png",
+                "assets/icon_damageAcidic_EE.png",
+                "assets/icon_damageCold_EE.png",
+                "assets/icon_damageEarth_EE.png",
+                "assets/icon_damageElectric_EE.png",
+                "assets/icon_damageExplosive_EE.png",
+                "assets/icon_damageFire_EE.png",
+                "assets/icon_damageSonic_EE.png",
+                "assets/icon_damageType_acidic_EE.png",
+                "assets/icon_damageType_cold_EE.png",
+                "assets/icon_damageType_electric_EE.png",
+                "assets/icon_sun_blank_EE.png",
+                "assets/rewards_plantCardBackground.png"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "71e8f744e021544926a265d45156fcc234d4a135",
+              "at": "2026-11-27T12:28:16Z",
+              "files": [
+                "assets/Trouthouse (Almanac)_EE.gif",
+                "assets/Volcanobrowncoat (Almanac)_EE.gif",
+                "assets/Volcanobuckethead (Almanac)_EE.gif",
+                "assets/Volcanoconehead (Almanac)_EE.gif",
+                "assets/Volcanogarg (Almanac)_EE.gif",
+                "assets/Volcanologist (Almanac)_EE.gif",
+                "assets/Volleyballzombie (Almanac)_EE.gif",
+                "assets/Zombee (Almanac)_EE.gif",
+                "assets/Zombiechicken (Almanac)_EE.gif",
+                "assets/Zscoutimpflag (Almanac)_EE.gif",
+                "assets/Zscoutimptrumpet (Almanac)_EE.gif",
+                "assets/Zscoutleader (Almanac)_EE.gif"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "9f7f40e9d96ff4970608ac0772c8879892d061a6",
+              "at": "2026-11-27T12:30:26Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "fb2e8a1eb0a2a3b707757430eeb67ca53fd718ff",
+              "at": "2026-11-27T12:30:37Z",
+              "files": [
+                "animations.json"
+              ],
+              "clues": []
+            }
+          ]
         }
       }
     ],
