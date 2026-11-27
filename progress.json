@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 272,
+  "revision": 273,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5130,6 +5130,24 @@
             "createdAt": "2026-11-27T01:15:29.777Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795742129777_PEAYTSVW3OI"
+          },
+          {
+            "id": "data-push-8ea73fb21b1dcddc0db3447a80e65667b8a52198",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: progress.json. Checking what changed.",
+            "createdAt": "2026-11-27T01:15:39.552Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_8EA73FB21B1DCDDC0DB3447A80E65667B8A52198"
+          },
+          {
+            "id": "data-push-4e71809438bc37e8c5c508bbee356f2c81e34a80",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-27T01:15:39.552Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_4E71809438BC37E8C5C508BBEE356F2C81E34A80"
           }
         ],
         "typing": [],
@@ -5195,9 +5213,28 @@
             "641ba218385c06f8c08282b2dc6b5fcadeee74c8",
             "47f0b3f89b3940a8111713c9a6359c816640ad4f",
             "e443c0c111063480035aaa35730d49f5f396f519",
-            "5721e71b2d1b470bb4d6719bfecec211babdb906"
+            "5721e71b2d1b470bb4d6719bfecec211babdb906",
+            "8ea73fb21b1dcddc0db3447a80e65667b8a52198",
+            "4e71809438bc37e8c5c508bbee356f2c81e34a80"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "8ea73fb21b1dcddc0db3447a80e65667b8a52198",
+              "at": "2026-11-27T01:15:01Z",
+              "files": [
+                "progress.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "4e71809438bc37e8c5c508bbee356f2c81e34a80",
+              "at": "2026-11-27T01:15:15Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            }
+          ]
         },
         "activeInvestigation": {
           "id": "datamine-live-candy-1795742129777-peaytsvw3oi",
