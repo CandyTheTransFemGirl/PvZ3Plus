@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 427,
+  "revision": 428,
   "level": 13,
   "stars": 39,
   "wins": 13,
@@ -7999,6 +7999,101 @@
       "burnEverySlashes": 2,
       "doubleSlashDamageCombined": true,
       "doubleSlashBothApplyBurn": true
+    },
+    "tofuturkeyseed": {
+      "hp": 300,
+      "damage": 5,
+      "attackInterval": 4,
+      "sunCost": 100,
+      "seedRecharge": 5,
+      "summons": [
+        "tofuchick"
+      ],
+      "summonsPerAttack": 1,
+      "simultaneousSummons": true,
+      "summonStats": {
+        "tofuchick": {
+          "hp": 30,
+          "dps": 35,
+          "movementSpeed": 0.8
+        },
+        "tofuturkey": {
+          "hp": 55,
+          "dps": 65,
+          "movementSpeed": 1
+        },
+        "trainedtofuturkey": {
+          "hp": 105,
+          "dps": 85,
+          "movementSpeed": 1.2
+        }
+      },
+      "summonsInheritLevelScaling": true,
+      "canDestroyThornHazards": true
+    },
+    "turkeypult": {
+      "hp": 600,
+      "damage": 10,
+      "attackInterval": 3,
+      "sunCost": null,
+      "seedRecharge": null,
+      "summons": [
+        "tofuturkey"
+      ],
+      "summonsPerAttack": 1,
+      "simultaneousSummons": true,
+      "summonStats": {
+        "tofuchick": {
+          "hp": 30,
+          "dps": 35,
+          "movementSpeed": 0.8
+        },
+        "tofuturkey": {
+          "hp": 55,
+          "dps": 65,
+          "movementSpeed": 1
+        },
+        "trainedtofuturkey": {
+          "hp": 105,
+          "dps": 85,
+          "movementSpeed": 1.2
+        }
+      },
+      "summonsInheritLevelScaling": true,
+      "canDestroyThornHazards": true
+    },
+    "turkeymaster": {
+      "hp": 1200,
+      "damage": 25,
+      "attackInterval": 2,
+      "sunCost": null,
+      "seedRecharge": null,
+      "summons": [
+        "tofuchick",
+        "tofuturkey",
+        "trainedtofuturkey"
+      ],
+      "summonsPerAttack": 3,
+      "simultaneousSummons": true,
+      "summonStats": {
+        "tofuchick": {
+          "hp": 30,
+          "dps": 35,
+          "movementSpeed": 0.8
+        },
+        "tofuturkey": {
+          "hp": 55,
+          "dps": 65,
+          "movementSpeed": 1
+        },
+        "trainedtofuturkey": {
+          "hp": 105,
+          "dps": 85,
+          "movementSpeed": 1.2
+        }
+      },
+      "summonsInheritLevelScaling": true,
+      "canDestroyThornHazards": true
     }
   },
   "achievements": [
