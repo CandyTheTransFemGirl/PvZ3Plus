@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 306,
+  "revision": 307,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5545,6 +5545,15 @@
             "createdAt": "2026-11-27T04:44:57.183Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795754697183_FMZ7NMT7UB8"
+          },
+          {
+            "id": "data-push-21341f66d131ee2133ab98750bf3a5d6f00f96ac",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: QuestLoc.json. Checking what changed.",
+            "createdAt": "2026-11-27T04:45:17.437Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_21341F66D131EE2133AB98750BF3A5D6F00F96AC"
           }
         ],
         "typing": [],
@@ -5615,9 +5624,30 @@
             "4e71809438bc37e8c5c508bbee356f2c81e34a80",
             "b4b680862991ba700ac0b4ba724cd83748ed6046",
             "fccfaca03c480fcb06e62ba068e29d04177fb95a",
-            "c1eee2cce06ad594a2d9890b8352bf798d0fdf9f"
+            "c1eee2cce06ad594a2d9890b8352bf798d0fdf9f",
+            "21341f66d131ee2133ab98750bf3a5d6f00f96ac"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "21341f66d131ee2133ab98750bf3a5d6f00f96ac",
+              "at": "2026-11-27T04:45:13Z",
+              "files": [
+                "QuestLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T1_UNLOCK",
+                  "value": "Unlock Tofu Turkey Seed!",
+                  "file": "QuestLoc.json"
+                },
+                {
+                  "key": "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T2_UNLOCK",
+                  "value": "Unlock Turkey-pult!",
+                  "file": "QuestLoc.json"
+                }
+              ]
+            }
+          ]
         }
       }
     ],
