@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 396,
+  "revision": 397,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8412,6 +8412,14 @@
           "description": "",
           "day": 3,
           "points": 1200,
+          "completed": false
+        },
+        {
+          "id": "candy-1795786142148-vcz47wz4h2m",
+          "title": "Your Thanksgiving Prize! <3",
+          "description": "Thanks for sticking around!!",
+          "day": 4,
+          "points": 455000,
           "completed": false
         }
       ],
