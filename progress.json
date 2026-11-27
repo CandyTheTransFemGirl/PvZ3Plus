@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 392,
+  "revision": 393,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8384,6 +8384,14 @@
           "description": "",
           "day": 2,
           "points": 350,
+          "completed": false
+        },
+        {
+          "id": "candy-1795786020817-qeduc2s6db",
+          "title": "Merge Turkey Master in 10 Levels!",
+          "description": "",
+          "day": 2,
+          "points": 3500,
           "completed": false
         }
       ],
