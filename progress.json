@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 367,
+  "revision": 368,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8232,9 +8232,9 @@
             "wild": 0,
             "gems": 0,
             "points": 0,
-            "seeds": 0,
+            "seeds": 100,
             "xp": 0,
-            "currency": 100,
+            "currency": 0,
             "seedId": "tofuturkeyseed",
             "xpId": ""
           }
