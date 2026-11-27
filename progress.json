@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 334,
+  "revision": 335,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5970,73 +5970,7 @@
             "c73f8ec7e0fcece3255c9a669fcfd1e07b36078f",
             "c36303a3164327f2ba517c3440d95e4b4b221c61"
           ],
-          "queue": [
-            {
-              "sha": "658ce3c9fde20b0c80e53bb4cb2bb2955153a5f3",
-              "at": "2026-11-27T09:49:29Z",
-              "files": [
-                "animations/Bamboo Shoots_EE.gif",
-                "animations/Beat Choy_EE.gif",
-                "animations/Blockwood_EE.gif",
-                "animations/Bonk Choy_EE.gif",
-                "animations/Bopchoy (Almanac)_EE.gif",
-                "animations/Buzz Choy_EE.gif",
-                "animations/Buzz-Box_EE.gif",
-                "animations/Cab-barrage_EE.gif",
-                "animations/Cabbage-pult_EE.gif",
-                "animations/Cata-pulp_EE.gif",
-                "animations/Chainsaw Grass_EE.gif",
-                "animations/Chuck-nut_EE.gif",
-                "animations/Cold Slaw_EE.gif",
-                "animations/Dangerine_EE.gif",
-                "animations/Devastater - Animation_EE.gif"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "d0ff85279fc8f7259f28925b44edb82c4950bb0f",
-              "at": "2026-11-27T09:53:47Z",
-              "files": [
-                "Bamboo Shoots_EE.gif",
-                "Beat Choy_EE.gif",
-                "Blockwood_EE.gif",
-                "Bonk Choy_EE.gif",
-                "Bopchoy (Almanac)_EE.gif",
-                "Buzz Choy_EE.gif",
-                "Buzz-Box_EE.gif",
-                "Cab-barrage_EE.gif",
-                "Cabbage-pult_EE.gif",
-                "Cata-pulp_EE.gif",
-                "Chainsaw Grass_EE.gif",
-                "Chuck-nut_EE.gif",
-                "Cold Slaw_EE.gif",
-                "Dangerine_EE.gif",
-                "Devastater - Animation_EE.gif"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "c73f8ec7e0fcece3255c9a669fcfd1e07b36078f",
-              "at": "2026-11-27T09:55:52Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "c36303a3164327f2ba517c3440d95e4b4b221c61",
-              "at": "2026-11-27T09:56:06Z",
-              "files": [
-                "animations.json"
-              ],
-              "clues": []
-            }
-          ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795771366443-ni99mocpt1",
-          "memberId": "generated-0-14",
-          "endsAt": "2026-11-27T09:23:08.280Z"
+          "queue": []
         }
       }
     ],
