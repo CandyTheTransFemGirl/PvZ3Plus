@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 402,
+  "revision": 403,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6392,7 +6392,17 @@
             "sender": "PeaCake12",
             "body": "Found something in upcomingUpdates.4.releaseAt: 2026-12-22T22:00:00Z. Not sure what it means yet.",
             "createdAt": "2026-11-27T14:00:34.552735Z",
-            "replyTo": null
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_0588FD041C1F454D8FD870EAE6C69A47"
+          },
+          {
+            "id": "datamine-live-candy-1795789176850-1dmmffs0ngl",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-27T14:19:36.851Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795789176850_1DMMFFS0NGL"
           }
         ],
         "typing": [],
@@ -6532,6 +6542,11 @@
             "ca86e9e0c716092a27747f9b8e150ed3e75f92be"
           ],
           "queue": []
+        },
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795789176850-1dmmffs0ngl",
+          "memberId": "generated-4-1",
+          "endsAt": "2026-11-27T14:19:52.469Z"
         }
       }
     ],
