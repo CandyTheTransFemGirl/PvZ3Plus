@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 309,
+  "revision": 310,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5572,6 +5572,15 @@
             "createdAt": "2026-11-27T04:46:05.530Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_C63DBED348350C8CFD738F8DFAFB70D618DC1FC2"
+          },
+          {
+            "id": "datamine-push-result-candy-1795754770340-e0w51q77fl",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T3_UNLOCK = Unlock Turkey Master!\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-27T04:46:10.340Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795754770340_E0W51Q77FL"
           }
         ],
         "typing": [],
@@ -5646,27 +5655,7 @@
             "21341f66d131ee2133ab98750bf3a5d6f00f96ac",
             "c63dbed348350c8cfd738f8dfafb70d618dc1fc2"
           ],
-          "queue": [
-            {
-              "sha": "c63dbed348350c8cfd738f8dfafb70d618dc1fc2",
-              "at": "2026-11-27T04:45:56Z",
-              "files": [
-                "QuestLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T2_UNLOCK",
-                  "value": "Unlock Turkey-pult!",
-                  "file": "QuestLoc.json"
-                },
-                {
-                  "key": "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T3_UNLOCK",
-                  "value": "Unlock Turkey Master!",
-                  "file": "QuestLoc.json"
-                }
-              ]
-            }
-          ]
+          "queue": []
         }
       }
     ],
