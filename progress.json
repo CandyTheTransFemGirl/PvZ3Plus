@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 276,
+  "revision": 277,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -3432,7 +3432,7 @@
             "role": "member",
             "fictional": true,
             "interest": "Datamining",
-            "personality": "PvZ encyclopaedia",
+            "personality": "PvZ encyclopaedia; extremely excitable whenever a PvZ1 plant appears in any game other than PvZ1, especially classic upgrade plants",
             "speciality": "Recognises returning plants across PvZ1, PvZ2 and PvZ3",
             "franchiseKnowledge": [
               "PvZ1",
@@ -3440,7 +3440,8 @@
               "PvZ3"
             ],
             "diehardFan": true,
-            "favoriteReturningContent": "PvZ1 plants, especially upgrade plants"
+            "favoriteReturningContent": "Any PvZ1 plant returning in another game; especially upgrade plants",
+            "reactionStyle": "Enthusiastic all-caps celebrations when evidence of a returning PvZ1 plant is discovered, while distinguishing evidence from confirmed releases"
           },
           {
             "id": "generated-0-14",
