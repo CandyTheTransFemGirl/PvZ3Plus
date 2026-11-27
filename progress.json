@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 372,
+  "revision": 373,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8298,6 +8298,23 @@
             "currency": 0,
             "seedId": "",
             "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795785493528-bl9yuqwudot",
+          "title": "Final goal",
+          "threshold": 4500,
+          "plantId": "turkeymaster",
+          "reward": {
+            "coins": 9005,
+            "wild": 250,
+            "gems": 550,
+            "points": 0,
+            "seeds": 900,
+            "xp": 1000,
+            "currency": 0,
+            "seedId": "tofuturkeyseed",
+            "xpId": "turkeymaster"
           }
         }
       ],
