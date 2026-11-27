@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 336,
+  "revision": 337,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5879,6 +5879,15 @@
             "createdAt": "2026-11-27T09:58:37.919Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795773517919_39DJN3EH5RC"
+          },
+          {
+            "id": "data-push-f6c251b144831bca1b86bf3dba6a5b9b400d234b",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-27T09:58:44.733Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_F6C251B144831BCA1B86BF3DBA6A5B9B400D234B"
           }
         ],
         "typing": [],
@@ -5977,9 +5986,19 @@
             "658ce3c9fde20b0c80e53bb4cb2bb2955153a5f3",
             "d0ff85279fc8f7259f28925b44edb82c4950bb0f",
             "c73f8ec7e0fcece3255c9a669fcfd1e07b36078f",
-            "c36303a3164327f2ba517c3440d95e4b4b221c61"
+            "c36303a3164327f2ba517c3440d95e4b4b221c61",
+            "f6c251b144831bca1b86bf3dba6a5b9b400d234b"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "f6c251b144831bca1b86bf3dba6a5b9b400d234b",
+              "at": "2026-11-27T09:58:22Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            }
+          ]
         },
         "activeInvestigation": {
           "id": "datamine-live-candy-1795773517919-39djn3eh5rc",
