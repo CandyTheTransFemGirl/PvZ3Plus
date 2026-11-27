@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 374,
+  "revision": 375,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6268,6 +6268,24 @@
             "createdAt": "2026-11-27T13:18:37.876Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795785517876_GYTSFWWPFD8"
+          },
+          {
+            "id": "datamine-result-candy-1795785533559-pczjgtxb7mb",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_OWNERDEBUG_SEND_A_MESSAGE_TO_THE_PLAYER_GITHUB_AUTHENTICATION_IS_REQUIRED_FOR_WRITING = Send a message to the player. GitHub authentication is required for writing.\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-27T13:18:53.559Z",
+            "replyTo": "datamine-live-candy-1795785517876-gytsfwwpfd8",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795785533559_PCZJGTXB7MB"
+          },
+          {
+            "id": "datamine-reaction-candy-1795785533559-6hsc5gudqhu",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "Let's connect this with the other evidence: We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-27T13:18:53.559Z",
+            "replyTo": "datamine-result-candy-1795785533559-pczjgtxb7mb",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795785533559_6HSC5GUDQHU"
           }
         ],
         "typing": [],
@@ -6407,11 +6425,6 @@
             "ca86e9e0c716092a27747f9b8e150ed3e75f92be"
           ],
           "queue": []
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795785517876-gytsfwwpfd8",
-          "memberId": "generated-0-11",
-          "endsAt": "2026-11-27T13:18:52.003Z"
         }
       }
     ],
