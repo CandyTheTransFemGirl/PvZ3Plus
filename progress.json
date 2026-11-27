@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 271,
+  "revision": 272,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5111,14 +5111,25 @@
             "images": [
               "assets/thanksgiving/TurkeyMasterT3Render.png"
             ],
-            "createdAt": "2026-11-27T01:14:59.050Z"
+            "createdAt": "2026-11-27T01:14:59.050Z",
+            "bodyStringId": "ID_CHAT_ART_FIND_1795742099046"
           },
           {
             "id": "art-reply-1795742099046",
             "senderId": "generated-0-11",
             "sender": "CloudBean18",
             "body": "Three tiers of turkeys! This reminds me of how much I love seeing classic PvZ1 upgrades return, too. Imagine more of those getting full families.",
-            "createdAt": "2026-11-27T01:14:59.051Z"
+            "createdAt": "2026-11-27T01:14:59.051Z",
+            "bodyStringId": "ID_CHAT_ART_REPLY_1795742099046"
+          },
+          {
+            "id": "datamine-live-candy-1795742129777-peaytsvw3oi",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-27T01:15:29.777Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795742129777_PEAYTSVW3OI"
           }
         ],
         "typing": [],
@@ -5187,6 +5198,11 @@
             "5721e71b2d1b470bb4d6719bfecec211babdb906"
           ],
           "queue": []
+        },
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795742129777-peaytsvw3oi",
+          "memberId": "generated-2-4",
+          "endsAt": "2026-11-27T01:15:52.558Z"
         }
       }
     ],
@@ -24007,21 +24023,24 @@
       "senderId": "generated-2-4",
       "senderName": "LunarStar29",
       "body": "YES! Thanks for the update, team!",
-      "createdAt": "2026-11-27T01:14:59.046Z"
+      "createdAt": "2026-11-27T01:14:59.046Z",
+      "bodyStringId": "ID_CHAT_WAITING_ART_1795742099046_0"
     },
     {
       "id": "waiting-art-1795742099046-1",
       "senderId": "generated-4-1",
       "senderName": "MossPop72",
       "body": "Artwork done already? Now I'm even more curious about the turkey family.",
-      "createdAt": "2026-11-27T01:14:59.047Z"
+      "createdAt": "2026-11-27T01:14:59.047Z",
+      "bodyStringId": "ID_CHAT_WAITING_ART_1795742099046_1"
     },
     {
       "id": "waiting-art-1795742099046-2",
       "senderId": "generated-0-14",
       "senderName": "PeaCake12",
       "body": "TURKEY HYPE!! Can't wait to see the designs!",
-      "createdAt": "2026-11-27T01:14:59.048Z"
+      "createdAt": "2026-11-27T01:14:59.048Z",
+      "bodyStringId": "ID_CHAT_WAITING_ART_1795742099046_2"
     }
   ]
 }
