@@ -1,0 +1,50 @@
+name: Index Almanac animations
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'animations/**'
+      - '.github/workflows/animation-index.yml'
+permissions:
+  contents: write
+concurrency:
+  group: animation-index
+  cancel-in-progress: false
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: |
+          python - <<'PY'
+          import re,json
+          from pathlib import Path
+          from urllib.parse import quote
+          mapping={}
+          ranks={}
+          for p in sorted(Path('animations').iterdir()):
+              if not p.is_file() or p.suffix.lower()!='.gif': continue
+              s=p.stem.lower()
+              s=re.sub(r'[_ -]ee$','',s)
+              s=re.sub(r'\((?:plant|zombie|almanac|\d+)\)','',s)
+              s=re.sub(r'(?:[_ -]+(?:idle|walk|walking|animation|anim|almanac))+$','',s)
+              key=re.sub('[^a-z0-9]','',s)
+              if not key: continue
+              rank=2 if 'idle' in p.stem.lower() else 1 if 'walk' in p.stem.lower() else 0
+              if p.stem.lower()==key: rank+=1
+              if key not in ranks or rank>ranks[key]:
+                  mapping[key]='./'+quote(p.as_posix(),safe='/')
+                  ranks[key]=rank
+          Path('animations.json').write_text(json.dumps(mapping,indent=2,sort_keys=True)+'\n')
+          print(json.dumps(mapping,indent=2))
+          PY
+      - run: |
+          git config user.name "PvZ3+ Animation Index"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add animations.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh Almanac animation index"
+          git pull --rebase origin main
+          git push origin HEAD:main
