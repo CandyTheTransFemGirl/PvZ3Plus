@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 390,
+  "revision": 391,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8362,6 +8362,14 @@
           "description": "",
           "day": 1,
           "points": 1200,
+          "completed": false
+        },
+        {
+          "id": "candy-1795785913089-bpwp7fdl94",
+          "title": "Win with Turkey-pult in 4 levels!",
+          "description": "",
+          "day": 2,
+          "points": 350,
           "completed": false
         }
       ],
