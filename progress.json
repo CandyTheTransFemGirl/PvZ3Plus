@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 384,
+  "revision": 385,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8303,6 +8303,14 @@
           "description": "",
           "day": 1,
           "points": 900,
+          "completed": false
+        },
+        {
+          "id": "candy-1795785766395-n1d305qw5a",
+          "title": "Merge 3 Tier 2 plants in one level!",
+          "description": "",
+          "day": 1,
+          "points": 450,
           "completed": false
         }
       ],
