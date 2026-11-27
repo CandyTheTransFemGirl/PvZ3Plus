@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 315,
+  "revision": 316,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -7094,6 +7094,22 @@
         "otherReward": "There is 3 days of quests! Completing each one gives you points towards an reward track for this event. The final reward is an plant!",
         "startAt": "2026-11-26T01:00:00.000Z",
         "endAt": "2026-11-29T15:25:00.000Z"
+      },
+      {
+        "id": "candy-1795755404791-oua3fimes3",
+        "title": "Thanksgiving Event!",
+        "description": "Get Tofu Turkey Seed Turkey-pult And Turkey Master unlock progress here!\nRemember these plants only are here once per year!\nSo don't miss your chance!",
+        "createdAt": "2026-11-27T04:56:44.791Z",
+        "creator": "candy",
+        "status": "pending",
+        "rewards": {
+          "coins": 0,
+          "wild": 0,
+          "plantPassPoints": 0
+        },
+        "otherReward": "Has 2 Reward Path's: \nRegular\nPremium.\nLike an plant pass but its intended for seasonal based plants. And other stuff.\nIdk what to call it tho",
+        "startAt": "2026-11-27T01:00:00.000Z",
+        "endAt": "2026-11-30T23:59:00.000Z"
       }
     ],
     "goals": [
