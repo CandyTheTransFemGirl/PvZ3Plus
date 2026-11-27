@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 330,
+  "revision": 331,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5780,6 +5780,51 @@
             "createdAt": "2026-11-27T08:32:23.384Z",
             "replyTo": "datamine-result-candy-1795768343383-vibhz6s6mfo",
             "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795768343384_W9ZOUDBMRZ"
+          },
+          {
+            "id": "data-push-04c40934ab132151571d9aaa8a1f488fe70886fa",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: renders.zip. Checking what changed.",
+            "createdAt": "2026-11-27T08:44:56.012Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_04C40934AB132151571D9AAA8A1F488FE70886FA"
+          },
+          {
+            "id": "data-push-bbc1e7366657955715f974faacf8683c1885fa4e",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: renders-v2.zip. Checking what changed.",
+            "createdAt": "2026-11-27T08:44:56.013Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_BBC1E7366657955715F974FAACF8683C1885FA4E"
+          },
+          {
+            "id": "data-push-6a6b9660e36c8495dd5b70084cc3dcc4bbe1b501",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: renders-v2-inventory.json. Checking what changed.",
+            "createdAt": "2026-11-27T08:44:56.013Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_6A6B9660E36C8495DD5B70084CC3DCC4BBE1B501"
+          },
+          {
+            "id": "data-push-7e86a4ede0a78dfd360bf44fc877c6c02fc2cce1",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-27T08:44:56.013Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_7E86A4EDE0A78DFD360BF44FC877C6C02FC2CCE1"
+          },
+          {
+            "id": "data-push-5f8f2abd006a5aa3bb3ac75d4e1b6d3a8d17179f",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: almanac-renders.json, animations/arrowhead.gif, animations/balloonatic.gif, animations/cabbagevolt.gif, animations/sunflowerseed.gif, animations/thunderchoy.gif, animations/torchwood.gif, animations/volleyballzombie.gif, assets/almanac-renders/celerystalker.png, assets/almanac-renders/frostroot.png, assets/almanac-renders/kernelseed.png, assets/almanac-renders/megaflower.png, assets/almanac-renders/threepeater.png, assets/almanac-renders/thunderchoy.png, assets/almanac-renders/tofuchick.png, assets/almanac-renders/tofuturkey.png, assets/almanac-renders/tofuturkeyseed.png, assets/almanac-renders/torchwood.png, assets/almanac-renders/trainedtofuturkey.png, assets/almanac-renders/turkeymaster.png, assets/almanac-renders/turkeypult.png. Checking what changed.",
+            "createdAt": "2026-11-27T08:44:56.013Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_5F8F2ABD006A5AA3BB3AC75D4E1B6D3A8D17179F"
           }
         ],
         "typing": [],
@@ -5869,9 +5914,75 @@
             "9ee63841cab0a6f9fa9da6abacff92af6912ff32",
             "bc68ae964ba6d466f3af4714abc43ad5688fcbf9",
             "a786650e385e3f5c9739d8f75445968a7acb48d4",
-            "679be9fcb07ac8718f81a9415d0b04feec57590c"
+            "679be9fcb07ac8718f81a9415d0b04feec57590c",
+            "04c40934ab132151571d9aaa8a1f488fe70886fa",
+            "bbc1e7366657955715f974faacf8683c1885fa4e",
+            "6a6b9660e36c8495dd5b70084cc3dcc4bbe1b501",
+            "7e86a4ede0a78dfd360bf44fc877c6c02fc2cce1",
+            "5f8f2abd006a5aa3bb3ac75d4e1b6d3a8d17179f"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "04c40934ab132151571d9aaa8a1f488fe70886fa",
+              "at": "2026-11-27T08:34:51Z",
+              "files": [
+                "renders.zip"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "bbc1e7366657955715f974faacf8683c1885fa4e",
+              "at": "2026-11-27T08:40:31Z",
+              "files": [
+                "renders-v2.zip"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "6a6b9660e36c8495dd5b70084cc3dcc4bbe1b501",
+              "at": "2026-11-27T08:41:55Z",
+              "files": [
+                "renders-v2-inventory.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "7e86a4ede0a78dfd360bf44fc877c6c02fc2cce1",
+              "at": "2026-11-27T08:44:25Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "5f8f2abd006a5aa3bb3ac75d4e1b6d3a8d17179f",
+              "at": "2026-11-27T08:44:35Z",
+              "files": [
+                "almanac-renders.json",
+                "animations/arrowhead.gif",
+                "animations/balloonatic.gif",
+                "animations/cabbagevolt.gif",
+                "animations/sunflowerseed.gif",
+                "animations/thunderchoy.gif",
+                "animations/torchwood.gif",
+                "animations/volleyballzombie.gif",
+                "assets/almanac-renders/celerystalker.png",
+                "assets/almanac-renders/frostroot.png",
+                "assets/almanac-renders/kernelseed.png",
+                "assets/almanac-renders/megaflower.png",
+                "assets/almanac-renders/threepeater.png",
+                "assets/almanac-renders/thunderchoy.png",
+                "assets/almanac-renders/tofuchick.png",
+                "assets/almanac-renders/tofuturkey.png",
+                "assets/almanac-renders/tofuturkeyseed.png",
+                "assets/almanac-renders/torchwood.png",
+                "assets/almanac-renders/trainedtofuturkey.png",
+                "assets/almanac-renders/turkeymaster.png",
+                "assets/almanac-renders/turkeypult.png"
+              ],
+              "clues": []
+            }
+          ]
         }
       }
     ],
