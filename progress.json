@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 375,
+  "revision": 376,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8342,6 +8342,23 @@
             "currency": 0,
             "seedId": "tofuturkeyseed",
             "xpId": "turkeymaster"
+          }
+        },
+        {
+          "id": "candy-1795785549733-3tdaxhl454c",
+          "title": "Thanksgiving Gift!",
+          "threshold": 1,
+          "plantId": "",
+          "reward": {
+            "coins": 25,
+            "wild": 10,
+            "gems": 5,
+            "points": 0,
+            "seeds": 25,
+            "xp": 0,
+            "currency": 25,
+            "seedId": "tofuturkeyseed",
+            "xpId": "tofuturkeyseed"
           }
         }
       ],
