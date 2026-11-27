@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 417,
+  "revision": 418,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6619,6 +6619,69 @@
             "createdAt": "2026-11-27T15:35:04.146Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795793704145_SQ3KP9CPGG"
+          },
+          {
+            "id": "data-push-b26eeed73a49d9b2a65326d48974d806f72f0cde",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: tools/evolved_decode.py. Checking what changed.",
+            "createdAt": "2026-11-27T16:39:04.385Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_B26EEED73A49D9B2A65326D48974D806F72F0CDE"
+          },
+          {
+            "id": "data-push-83418659fd56477f3dd5f5a6cf26355251724feb",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: reference/schema/.gitkeep. Checking what changed.",
+            "createdAt": "2026-11-27T16:39:04.386Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_83418659FD56477F3DD5F5A6CF26355251724FEB"
+          },
+          {
+            "id": "data-push-ba48d66cd763e9b08808135b09db5b77d6eb32d4",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: reference/schema/pvz3-schema.json. Checking what changed.",
+            "createdAt": "2026-11-27T16:39:04.386Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_BA48D66CD763E9B08808135B09DB5B77D6EB32D4"
+          },
+          {
+            "id": "data-push-3d18c745df5e1e9594888880d76e19b7a95a042a",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: reference/decoded/36.0.95/AlmanacConfig.json, reference/decoded/36.0.95/BattlePassConfig.json, reference/decoded/36.0.95/BiomeConfig.json, reference/decoded/36.0.95/BoardMechanicsDatabase.json, reference/decoded/36.0.95/ClientBattlePassV2Config.json, reference/decoded/36.0.95/CombatDatabase.json, reference/decoded/36.0.95/LevelGenerationConfig.json, reference/decoded/36.0.95/LevelLayoutDatabase.json, reference/decoded/36.0.95/LevelTeamSelectionFilterConfig.json, reference/decoded/36.0.95/LevelTypeDatabase.json, reference/decoded/36.0.95/PerksAndHazardsConfig.json, reference/decoded/36.0.95/RoadTripConfig.json, reference/decoded/36.0.95/RoadTripCutscenesDatabase.json, reference/decoded/36.0.95/WaveDatabase.json, reference/decoded/36.0.95/report.json. Checking what changed.",
+            "createdAt": "2026-11-27T16:39:04.387Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_3D18C745DF5E1E9594888880D76E19B7A95A042A"
+          },
+          {
+            "id": "data-push-5ba1a365ac25e0a6961892720e0e3fa72b6d97dd",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: evolved-reference.js. Checking what changed.",
+            "createdAt": "2026-11-27T16:39:04.387Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_5BA1A365AC25E0A6961892720E0E3FA72B6D97DD"
+          },
+          {
+            "id": "data-push-0915993c2b77e943e0e39720c82fbd7dcf371f06",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-27T16:39:04.387Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_0915993C2B77E943E0E39720C82FBD7DCF371F06"
+          },
+          {
+            "id": "data-push-c79b95a5dedc5ec89543a383213155257382cc5f",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: reference/decoded/36.0.95/PvZ3PlusLevels.json. Checking what changed.",
+            "createdAt": "2026-11-27T16:39:04.387Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_C79B95A5DEDC5EC89543A383213155257382CC5F"
           }
         ],
         "typing": [],
@@ -6773,9 +6836,105 @@
             "bc68e5267efe7777fe0084b4ae18e2a9c67d8d1e",
             "4f6c6b97d537e094a9c2562048f398b23d665284",
             "22ef29bc2f1e5e1c2abfb7a5e0f0a07f8d3a8667",
-            "ec9f5a5605f3e538fefbd82e13f176a03508225c"
+            "ec9f5a5605f3e538fefbd82e13f176a03508225c",
+            "b26eeed73a49d9b2a65326d48974d806f72f0cde",
+            "83418659fd56477f3dd5f5a6cf26355251724feb",
+            "ba48d66cd763e9b08808135b09db5b77d6eb32d4",
+            "3d18c745df5e1e9594888880d76e19b7a95a042a",
+            "5ba1a365ac25e0a6961892720e0e3fa72b6d97dd",
+            "0915993c2b77e943e0e39720c82fbd7dcf371f06",
+            "e75fbc010a666d8c5ebd1b5b2a36fc418c15c4c0",
+            "c79b95a5dedc5ec89543a383213155257382cc5f",
+            "74211c6c769a0be6bb49cd11730eca425b05c5aa"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "b26eeed73a49d9b2a65326d48974d806f72f0cde",
+              "at": "2026-11-27T16:11:17Z",
+              "files": [
+                "tools/evolved_decode.py"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "83418659fd56477f3dd5f5a6cf26355251724feb",
+              "at": "2026-11-27T16:13:10Z",
+              "files": [
+                "reference/schema/.gitkeep"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "ba48d66cd763e9b08808135b09db5b77d6eb32d4",
+              "at": "2026-11-27T16:14:53Z",
+              "files": [
+                "reference/schema/pvz3-schema.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "3d18c745df5e1e9594888880d76e19b7a95a042a",
+              "at": "2026-11-27T16:24:19Z",
+              "files": [
+                "reference/decoded/36.0.95/AlmanacConfig.json",
+                "reference/decoded/36.0.95/BattlePassConfig.json",
+                "reference/decoded/36.0.95/BiomeConfig.json",
+                "reference/decoded/36.0.95/BoardMechanicsDatabase.json",
+                "reference/decoded/36.0.95/ClientBattlePassV2Config.json",
+                "reference/decoded/36.0.95/CombatDatabase.json",
+                "reference/decoded/36.0.95/LevelGenerationConfig.json",
+                "reference/decoded/36.0.95/LevelLayoutDatabase.json",
+                "reference/decoded/36.0.95/LevelTeamSelectionFilterConfig.json",
+                "reference/decoded/36.0.95/LevelTypeDatabase.json",
+                "reference/decoded/36.0.95/PerksAndHazardsConfig.json",
+                "reference/decoded/36.0.95/RoadTripConfig.json",
+                "reference/decoded/36.0.95/RoadTripCutscenesDatabase.json",
+                "reference/decoded/36.0.95/WaveDatabase.json",
+                "reference/decoded/36.0.95/report.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "5ba1a365ac25e0a6961892720e0e3fa72b6d97dd",
+              "at": "2026-11-27T16:26:19Z",
+              "files": [
+                "evolved-reference.js"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "0915993c2b77e943e0e39720c82fbd7dcf371f06",
+              "at": "2026-11-27T16:26:22Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "e75fbc010a666d8c5ebd1b5b2a36fc418c15c4c0",
+              "at": "2026-11-27T16:28:50Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "c79b95a5dedc5ec89543a383213155257382cc5f",
+              "at": "2026-11-27T16:35:25Z",
+              "files": [
+                "reference/decoded/36.0.95/PvZ3PlusLevels.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "74211c6c769a0be6bb49cd11730eca425b05c5aa",
+              "at": "2026-11-27T16:36:13Z",
+              "files": [
+                "evolved-reference.js"
+              ],
+              "clues": []
+            }
+          ]
         },
         "activeInvestigation": {
           "id": "datamine-live-candy-1795793704145-sq3kp9cpgg",
