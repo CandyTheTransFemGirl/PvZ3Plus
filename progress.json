@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 259,
+  "revision": 260,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4971,6 +4971,42 @@
             "createdAt": "2026-11-27T00:05:04.107Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_9FE3468DD877C8E966272D49E3CC24EEC2F2A584"
+          },
+          {
+            "id": "datamine-push-result-candy-1795737907343-2g49g1mpwce",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_PLANT_TOFUTURKEYSEED_NAME = Tofu Turkey Seed\nA named content reference! We need to compare it with the other identifiers.",
+            "createdAt": "2026-11-27T00:05:07.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795737907343_2G49G1MPWCE"
+          },
+          {
+            "id": "datamine-push-result-candy-1795737907343-r60vfoqxt6p",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_PLANT_TOFUTURKEYSEED_GROUP = Tier 1\nThis gives us a tier or category assignment.",
+            "createdAt": "2026-11-27T00:05:07.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795737907343_R60VFOQXT6P"
+          },
+          {
+            "id": "datamine-push-result-candy-1795737907343-osk9pfqq37g",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_PLANT_TURKEYPULT_NAME = Turkey-pult\nA named content reference! We need to compare it with the other identifiers.",
+            "createdAt": "2026-11-27T00:05:07.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795737907343_OSK9PFQQ37G"
+          },
+          {
+            "id": "datamine-push-result-candy-1795737907343-5dt4zgwjg5t",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_PLANT_TURKEYPULT_GROUP = Tier 2\nThis gives us a tier or category assignment.",
+            "createdAt": "2026-11-27T00:05:07.343Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795737907343_5DT4ZGWJG5T"
           }
         ],
         "typing": [],
@@ -5040,31 +5076,6 @@
               ],
               "clues": [
                 {
-                  "key": "ID_PLANT_PVZ1_IMITATER_GROUP",
-                  "value": "N/A",
-                  "file": "PlantLoc.json"
-                },
-                {
-                  "key": "ID_PLANT_TOFUTURKEYSEED_NAME",
-                  "value": "Tofu Turkey Seed",
-                  "file": "PlantLoc.json"
-                },
-                {
-                  "key": "ID_PLANT_TOFUTURKEYSEED_GROUP",
-                  "value": "Tier 1",
-                  "file": "PlantLoc.json"
-                },
-                {
-                  "key": "ID_PLANT_TURKEYPULT_NAME",
-                  "value": "Turkey-pult",
-                  "file": "PlantLoc.json"
-                },
-                {
-                  "key": "ID_PLANT_TURKEYPULT_GROUP",
-                  "value": "Tier 2",
-                  "file": "PlantLoc.json"
-                },
-                {
                   "key": "ID_PLANT_TURKEYMASTER_NAME",
                   "value": "Turkey Master",
                   "file": "PlantLoc.json"
@@ -5075,14 +5086,6 @@
                   "file": "PlantLoc.json"
                 }
               ]
-            },
-            {
-              "sha": "9fe3468dd877c8e966272d49e3cc24eec2f2a584",
-              "at": "2026-11-26T23:49:22Z",
-              "files": [
-                "progress.json"
-              ],
-              "clues": []
             }
           ]
         }
