@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 340,
+  "revision": 341,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5978,6 +5978,51 @@
             "createdAt": "2026-11-27T12:33:49.897Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795782829897_35GBNX4ZE05"
+          },
+          {
+            "id": "data-push-84d174b93460d45111763cd3918709a6ffbff0a4",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: animations/Map Nd01 Character Mo Hacked - Idlehacked_EE.gif, animations/Map Nd01 Character Mo Hacked - Walkhacked_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T12:34:01.562Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_84D174B93460D45111763CD3918709A6FFBFF0A4"
+          },
+          {
+            "id": "data-push-bb28cc55c1b9c84b5e59a3bc18c9d0d01f5362aa",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: Fog Mechanic Zomboss_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T12:34:01.563Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_BB28CC55C1B9C84B5E59A3BC18C9D0D01F5362AA"
+          },
+          {
+            "id": "data-push-7c8db985793d50efafbc35827cd9c59f8f0a09e7",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: animations/Map Nd01 Character Patrice - Idle_EE.gif, animations/Map Nd01 Character Patrice - Walk_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T12:34:01.563Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_7C8DB985793D50EFAFBC35827CD9C59F8F0A09E7"
+          },
+          {
+            "id": "data-push-cffc40f695efe0e307c0b281ec1f4afd83effa70",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: Sulfurshroom (Plant)_EE.gif, Waterchestnut_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T12:34:01.563Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_CFFC40F695EFE0E307C0B281EC1F4AFD83EFFA70"
+          },
+          {
+            "id": "data-push-9edf830f06027fecffd2643b35584e2154ee95c8",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: animations/Flamethrower_EE.gif, animations/Fourleafblover_EE.gif, animations/Plant Chard Guard_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T12:34:01.563Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_9EDF830F06027FECFFD2643B35584E2154EE95C8"
           }
         ],
         "typing": [],
@@ -6087,7 +6132,16 @@
             "aa9c1bc9cf5ccac61d44a76ef1f4b5e897e662da",
             "71e8f744e021544926a265d45156fcc234d4a135",
             "9f7f40e9d96ff4970608ac0772c8879892d061a6",
-            "fb2e8a1eb0a2a3b707757430eeb67ca53fd718ff"
+            "fb2e8a1eb0a2a3b707757430eeb67ca53fd718ff",
+            "d2122ba19a2c653352b2d8b09e658aaf3c10493c",
+            "84d174b93460d45111763cd3918709a6ffbff0a4",
+            "112ca96632ee1123c751dc57890e8ac8fb398fe7",
+            "bb28cc55c1b9c84b5e59a3bc18c9d0d01f5362aa",
+            "7c8db985793d50efafbc35827cd9c59f8f0a09e7",
+            "99d1d2bbbd30f0dca90278f905e39da43c788589",
+            "cffc40f695efe0e307c0b281ec1f4afd83effa70",
+            "9edf830f06027fecffd2643b35584e2154ee95c8",
+            "ffc2f1db0aa46cd4602664138f58407403272bbe"
           ],
           "queue": [
             {
@@ -6215,6 +6269,83 @@
             {
               "sha": "fb2e8a1eb0a2a3b707757430eeb67ca53fd718ff",
               "at": "2026-11-27T12:30:37Z",
+              "files": [
+                "animations.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "d2122ba19a2c653352b2d8b09e658aaf3c10493c",
+              "at": "2026-11-27T11:44:58Z",
+              "files": [
+                "animations.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "84d174b93460d45111763cd3918709a6ffbff0a4",
+              "at": "2026-11-27T11:45:19Z",
+              "files": [
+                "animations/Map Nd01 Character Mo Hacked - Idlehacked_EE.gif",
+                "animations/Map Nd01 Character Mo Hacked - Walkhacked_EE.gif"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "112ca96632ee1123c751dc57890e8ac8fb398fe7",
+              "at": "2026-11-27T11:45:41Z",
+              "files": [
+                "animations.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "bb28cc55c1b9c84b5e59a3bc18c9d0d01f5362aa",
+              "at": "2026-11-27T11:46:32Z",
+              "files": [
+                "Fog Mechanic Zomboss_EE.gif"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "7c8db985793d50efafbc35827cd9c59f8f0a09e7",
+              "at": "2026-11-27T11:50:04Z",
+              "files": [
+                "animations/Map Nd01 Character Patrice - Idle_EE.gif",
+                "animations/Map Nd01 Character Patrice - Walk_EE.gif"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "99d1d2bbbd30f0dca90278f905e39da43c788589",
+              "at": "2026-11-27T11:50:31Z",
+              "files": [
+                "animations.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "cffc40f695efe0e307c0b281ec1f4afd83effa70",
+              "at": "2026-11-27T11:52:56Z",
+              "files": [
+                "Sulfurshroom (Plant)_EE.gif",
+                "Waterchestnut_EE.gif"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "9edf830f06027fecffd2643b35584e2154ee95c8",
+              "at": "2026-11-27T11:55:46Z",
+              "files": [
+                "animations/Flamethrower_EE.gif",
+                "animations/Fourleafblover_EE.gif",
+                "animations/Plant Chard Guard_EE.gif"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "ffc2f1db0aa46cd4602664138f58407403272bbe",
+              "at": "2026-11-27T11:56:13Z",
               "files": [
                 "animations.json"
               ],
