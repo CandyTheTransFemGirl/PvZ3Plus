@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 322,
+  "revision": 323,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5791,55 +5791,7 @@
             "103f36aa232d45cdc111666559cec370db179cde",
             "726288ff1f593cfc26bb80eb2bcbfb04d1589f09"
           ],
-          "queue": [
-            {
-              "sha": "c2407457962c18f8e11f2f4d47a2f84108fdbf4c",
-              "at": "2026-11-27T07:24:02Z",
-              "files": [
-                "ImageFixer.py"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "bddcbf9f3e628fc6cbe7be4f0acdf83209141ec4",
-              "at": "2026-11-27T07:26:39Z",
-              "files": [
-                "downtime.json"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "f6771ffe8ecdcbe9ec2b9eb5d63accce3271fb15",
-              "at": "2026-11-27T07:26:40Z",
-              "files": [
-                "site-status.json"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "103f36aa232d45cdc111666559cec370db179cde",
-              "at": "2026-11-27T07:26:43Z",
-              "files": [
-                "assets/222-doubleagentimp.png",
-                "assets/230-snowmachineimp.png",
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "726288ff1f593cfc26bb80eb2bcbfb04d1589f09",
-              "at": "2026-11-27T07:26:58Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            }
-          ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795764436741-xd3scgir25",
-          "memberId": "generated-0-11",
-          "endsAt": "2026-11-27T07:27:31.810Z"
+          "queue": []
         }
       }
     ],
