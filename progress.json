@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 378,
+  "revision": 379,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8258,6 +8258,14 @@
           "description": "",
           "day": 1,
           "points": 200,
+          "completed": false
+        },
+        {
+          "id": "candy-1795785665519-ra6th4qucjq",
+          "title": "Win with Turkey Seed as your only attacking plant 3 times!",
+          "description": "",
+          "day": 1,
+          "points": 550,
           "completed": false
         }
       ],
