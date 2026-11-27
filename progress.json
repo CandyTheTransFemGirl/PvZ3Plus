@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 317,
+  "revision": 318,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5721,16 +5721,7 @@
             "e05834ff340c9da2201a1a45451089fa5f8463e7",
             "36e77ad3036ee19da05bbc5b1c9b3ea2809b29d9"
           ],
-          "queue": [
-            {
-              "sha": "36e77ad3036ee19da05bbc5b1c9b3ea2809b29d9",
-              "at": "2026-11-27T05:05:22Z",
-              "files": [
-                "ImageFixer.py"
-              ],
-              "clues": []
-            }
-          ]
+          "queue": []
         }
       }
     ],
