@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
       - name: Retrieve selected live configurations
         shell: bash
         run: |
@@ -50,4 +51,22 @@ jobs:
         with:
           name: evolved-live-36.0.95
           path: reference/
+          retention-days: 7
+      - name: Check schema availability
+        id: schema
+        run: |
+          if test -s reference/schema/pvz3-schema.json; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::Schema missing: add reference/schema/pvz3-schema.json to enable decoding"
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Decode reference databases
+        if: steps.schema.outputs.ready == 'true'
+        run: python3 tools/evolved_decode.py reference/schema/pvz3-schema.json reference/36.0.95 decoded/36.0.95
+      - uses: actions/upload-artifact@v4
+        if: steps.schema.outputs.ready == 'true' && success()
+        with:
+          name: evolved-decoded-36.0.95
+          path: decoded/
           retention-days: 7
