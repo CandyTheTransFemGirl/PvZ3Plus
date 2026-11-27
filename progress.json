@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 324,
+  "revision": 325,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5717,6 +5717,33 @@
             "createdAt": "2026-11-27T07:32:55.579Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795764775578_05JJQVDCUOWW"
+          },
+          {
+            "id": "data-push-c73f52e6224ea1553d832117401097642973ed39",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-27T08:26:48.962Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_C73F52E6224EA1553D832117401097642973ED39"
+          },
+          {
+            "id": "data-push-9ee63841cab0a6f9fa9da6abacff92af6912ff32",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: renders.zip. Checking what changed.",
+            "createdAt": "2026-11-27T08:26:48.964Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_9EE63841CAB0A6F9FA9DA6ABACFF92AF6912FF32"
+          },
+          {
+            "id": "data-push-a786650e385e3f5c9739d8f75445968a7acb48d4",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: almanac-renders.json, assets/almanac-renders/balloonzombie.png, assets/almanac-renders/brieologist.png, assets/almanac-renders/browncoat.png, assets/almanac-renders/buckethead.png, assets/almanac-renders/cattail.png, assets/almanac-renders/celerystalker1.png, assets/almanac-renders/clapchoy.png, assets/almanac-renders/conehead.png, assets/almanac-renders/esgargot.png, assets/almanac-renders/firepeashooter.png, assets/almanac-renders/flag.png, assets/almanac-renders/fourleafblover.png, assets/almanac-renders/frostroot1.png, assets/almanac-renders/imp.png, assets/almanac-renders/junglebiomefemalezombie.png, assets/almanac-renders/junglebiomemalezombie.png, assets/almanac-renders/lavaleek.png, assets/almanac-renders/scorchwood.png, assets/almanac-renders/sonicpult.png, assets/almanac-renders/sonicshroom.png, assets/almanac-renders/swissstallion.png, assets/almanac-renders/threepeater1.png, assets/almanac-renders/thunderchoy1.png, assets/almanac-renders/torchwood1.png, assets/almanac-renders/waveshooter.png. Checking what changed.",
+            "createdAt": "2026-11-27T08:26:48.964Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_A786650E385E3F5C9739D8F75445968A7ACB48D4"
           }
         ],
         "typing": [],
@@ -5798,9 +5825,98 @@
             "bddcbf9f3e628fc6cbe7be4f0acdf83209141ec4",
             "f6771ffe8ecdcbe9ec2b9eb5d63accce3271fb15",
             "103f36aa232d45cdc111666559cec370db179cde",
-            "726288ff1f593cfc26bb80eb2bcbfb04d1589f09"
+            "726288ff1f593cfc26bb80eb2bcbfb04d1589f09",
+            "c73f52e6224ea1553d832117401097642973ed39",
+            "50600379f3dde5c519da88692b9e8dba511cfb11",
+            "1fbbcdb503ddb58998b69a74c8f863cb6d82497e",
+            "a47ec654139894c6df6046cfc38dfda7bf94d559",
+            "9ee63841cab0a6f9fa9da6abacff92af6912ff32",
+            "bc68ae964ba6d466f3af4714abc43ad5688fcbf9",
+            "a786650e385e3f5c9739d8f75445968a7acb48d4"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "c73f52e6224ea1553d832117401097642973ed39",
+              "at": "2026-11-27T08:10:41Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "50600379f3dde5c519da88692b9e8dba511cfb11",
+              "at": "2026-11-27T08:12:19Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "1fbbcdb503ddb58998b69a74c8f863cb6d82497e",
+              "at": "2026-11-27T08:13:15Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "a47ec654139894c6df6046cfc38dfda7bf94d559",
+              "at": "2026-11-27T08:13:43Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "9ee63841cab0a6f9fa9da6abacff92af6912ff32",
+              "at": "2026-11-27T08:23:03Z",
+              "files": [
+                "renders.zip"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "bc68ae964ba6d466f3af4714abc43ad5688fcbf9",
+              "at": "2026-11-27T08:26:13Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "a786650e385e3f5c9739d8f75445968a7acb48d4",
+              "at": "2026-11-27T08:26:24Z",
+              "files": [
+                "almanac-renders.json",
+                "assets/almanac-renders/balloonzombie.png",
+                "assets/almanac-renders/brieologist.png",
+                "assets/almanac-renders/browncoat.png",
+                "assets/almanac-renders/buckethead.png",
+                "assets/almanac-renders/cattail.png",
+                "assets/almanac-renders/celerystalker1.png",
+                "assets/almanac-renders/clapchoy.png",
+                "assets/almanac-renders/conehead.png",
+                "assets/almanac-renders/esgargot.png",
+                "assets/almanac-renders/firepeashooter.png",
+                "assets/almanac-renders/flag.png",
+                "assets/almanac-renders/fourleafblover.png",
+                "assets/almanac-renders/frostroot1.png",
+                "assets/almanac-renders/imp.png",
+                "assets/almanac-renders/junglebiomefemalezombie.png",
+                "assets/almanac-renders/junglebiomemalezombie.png",
+                "assets/almanac-renders/lavaleek.png",
+                "assets/almanac-renders/scorchwood.png",
+                "assets/almanac-renders/sonicpult.png",
+                "assets/almanac-renders/sonicshroom.png",
+                "assets/almanac-renders/swissstallion.png",
+                "assets/almanac-renders/threepeater1.png",
+                "assets/almanac-renders/thunderchoy1.png",
+                "assets/almanac-renders/torchwood1.png",
+                "assets/almanac-renders/waveshooter.png"
+              ],
+              "clues": []
+            }
+          ]
         },
         "activeInvestigation": {
           "id": "datamine-live-candy-1795764775578-05jjqvdcuoww",
