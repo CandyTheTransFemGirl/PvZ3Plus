@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 387,
+  "revision": 388,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6322,6 +6322,24 @@
             "createdAt": "2026-11-27T13:23:43.796Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795785823796_UZR9FY20T1"
+          },
+          {
+            "id": "datamine-result-candy-1795785840098-xusxd25kiq",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_OWNERDEBUG_INVALID_LEVEL = Invalid level\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-27T13:24:00.098Z",
+            "replyTo": "datamine-live-candy-1795785823796-uzr9fy20t1",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795785840098_XUSXD25KIQ"
+          },
+          {
+            "id": "datamine-reaction-candy-1795785840098-9nltcmb7v3s",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "WAIT, this is interesting!! We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-27T13:24:00.098Z",
+            "replyTo": "datamine-result-candy-1795785840098-xusxd25kiq",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795785840098_9NLTCMB7V3S"
           }
         ],
         "typing": [],
@@ -6461,11 +6479,6 @@
             "ca86e9e0c716092a27747f9b8e150ed3e75f92be"
           ],
           "queue": []
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795785823796-uzr9fy20t1",
-          "memberId": "generated-0-11",
-          "endsAt": "2026-11-27T13:23:58.315Z"
         }
       }
     ],
