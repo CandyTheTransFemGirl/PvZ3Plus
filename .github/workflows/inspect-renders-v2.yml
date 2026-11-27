@@ -1,0 +1,30 @@
+name: Inspect renders v2
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/inspect-renders-v2.yml
+      - renders-v2.zip
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          python - <<'PY'
+          import zipfile,json
+          with zipfile.ZipFile('renders-v2.zip') as z:
+              entries=[{'name':i.filename,'bytes':i.file_size} for i in z.infolist() if not i.is_dir()]
+              print(json.dumps(entries,indent=2))
+              with open('renders-v2-inventory.json','w') as f: json.dump(entries,f,indent=2)
+          PY
+      - run: |
+          git config user.name "PvZ3+ Asset Inspector"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add renders-v2-inventory.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Record renders v2 archive inventory"
+          git pull --rebase origin main
+          git push origin HEAD:main
