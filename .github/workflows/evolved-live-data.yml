@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - '.github/workflows/evolved-live-data.yml'
+      - 'reference/schema/**'
+      - 'tools/evolved_decode.py'
 permissions:
   contents: read
 jobs:
