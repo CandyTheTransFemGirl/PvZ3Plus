@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 400,
+  "revision": 401,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8455,6 +8455,14 @@
           "description": "",
           "day": 3,
           "points": 2500,
+          "completed": false
+        },
+        {
+          "id": "candy-1795786186192-zcee4d1cwnc",
+          "title": "Win by only using turkey plants as attackers!",
+          "description": "",
+          "day": 3,
+          "points": 6500,
           "completed": false
         }
       ],
