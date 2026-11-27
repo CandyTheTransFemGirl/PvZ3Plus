@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 265,
+  "revision": 266,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5061,6 +5061,15 @@
             "createdAt": "2026-11-27T01:08:34.455Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_E443C0C111063480035AAA35730D49F5F396F519"
+          },
+          {
+            "id": "data-push-5721e71b2d1b470bb4d6719bfecec211babdb906",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-27T01:10:27.108Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_5721E71B2D1B470BB4D6719BFECEC211BABDB906"
           }
         ],
         "typing": [],
@@ -5123,7 +5132,8 @@
             "ec7a301277d82146ed4f3e6824a5a04c051a57fc",
             "641ba218385c06f8c08282b2dc6b5fcadeee74c8",
             "47f0b3f89b3940a8111713c9a6359c816640ad4f",
-            "e443c0c111063480035aaa35730d49f5f396f519"
+            "e443c0c111063480035aaa35730d49f5f396f519",
+            "5721e71b2d1b470bb4d6719bfecec211babdb906"
           ],
           "queue": [
             {
@@ -5158,6 +5168,14 @@
                 "assets/thanksgiving/TurkeyPultT2SummonPortrait.png",
                 "assets/thanksgiving/TurkeySeedChickSummonRender.png",
                 "assets/thanksgiving/TurkeySeedSummonChickPortrait.png"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "5721e71b2d1b470bb4d6719bfecec211babdb906",
+              "at": "2026-11-27T01:09:30Z",
+              "files": [
+                "index.html"
               ],
               "clues": []
             }
