@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 346,
+  "revision": 347,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6084,6 +6084,33 @@
             "createdAt": "2026-11-27T12:40:33.551Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795783233551_WGJV5G7UCTL"
+          },
+          {
+            "id": "data-push-ff698358e1911e10133a846620f70408b7e57fdc",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: progress.json. Checking what changed.",
+            "createdAt": "2026-11-27T12:40:48.751Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_FF698358E1911E10133A846620F70408B7E57FDC"
+          },
+          {
+            "id": "data-push-17dbefc1d58c889e8f83a2ac1dacd94226f3dbc7",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: PlantLoc.json. Checking what changed.",
+            "createdAt": "2026-11-27T12:40:48.751Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_17DBEFC1D58C889E8F83A2AC1DACD94226F3DBC7"
+          },
+          {
+            "id": "data-push-07bbf820bc60373e03cc0768a0922acf85b01c6c",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-27T12:40:48.751Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_07BBF820BC60373E03CC0768A0922ACF85B01C6C"
           }
         ],
         "typing": [],
@@ -6205,9 +6232,52 @@
             "ffc2f1db0aa46cd4602664138f58407403272bbe",
             "ce5a1ca53fdf4ecaa373258effb4c5258c72c1d4",
             "3917f55c7cb45c5320586284f96aa6fad71632c7",
-            "1db63dac812cdf6511274f55905576e090a4a997"
+            "1db63dac812cdf6511274f55905576e090a4a997",
+            "ff698358e1911e10133a846620f70408b7e57fdc",
+            "17dbefc1d58c889e8f83a2ac1dacd94226f3dbc7",
+            "94eb24eae1abee5d8f67be2c7aedb9927c1e8ab1",
+            "07bbf820bc60373e03cc0768a0922acf85b01c6c"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "ff698358e1911e10133a846620f70408b7e57fdc",
+              "at": "2026-11-27T12:36:07Z",
+              "files": [
+                "progress.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "17dbefc1d58c889e8f83a2ac1dacd94226f3dbc7",
+              "at": "2026-11-27T12:38:10Z",
+              "files": [
+                "PlantLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_PLANT_TOFUTURKEYSEED_NAME",
+                  "value": "Tofu Seed",
+                  "file": "PlantLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "94eb24eae1abee5d8f67be2c7aedb9927c1e8ab1",
+              "at": "2026-11-27T12:38:16Z",
+              "files": [
+                "progress.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "07bbf820bc60373e03cc0768a0922acf85b01c6c",
+              "at": "2026-11-27T12:39:58Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            }
+          ]
         },
         "activeInvestigation": {
           "id": "datamine-live-candy-1795783233551-wgjv5g7uctl",
