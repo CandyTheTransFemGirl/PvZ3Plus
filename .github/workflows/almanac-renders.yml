@@ -1,0 +1,50 @@
+name: Import Almanac renders
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - renders.zip
+      - .github/workflows/almanac-renders.yml
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install Pillow
+      - run: |
+          python - <<'PY'
+          import zipfile, re, json, io
+          from pathlib import Path
+          from PIL import Image
+          out=Path('assets/almanac-renders')
+          out.mkdir(parents=True,exist_ok=True)
+          mapping={}
+          with zipfile.ZipFile('renders.zip') as z:
+              for f in z.infolist():
+                  stem=Path(f.filename).stem.lower()
+                  m=re.search(r'almanacentryunlock[_ -]*(.+)',stem)
+                  if not m: continue
+                  key=re.sub('[^a-z0-9]','',m.group(1))
+                  if not key: continue
+                  try:
+                      with Image.open(io.BytesIO(z.read(f))) as im:
+                          im.load()
+                          dest=out/(key+'.png')
+                          im.convert('RGBA').save(dest)
+                          mapping[key]='./'+dest.as_posix()
+                  except Exception as e:
+                      print(f.filename,e)
+          assert mapping, 'No matching renders found'
+          Path('almanac-renders.json').write_text(json.dumps(mapping,indent=2))
+          print('Imported',len(mapping),'renders')
+          PY
+      - run: |
+          git config user.name "PvZ3+ Asset Import"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/almanac-renders almanac-renders.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Import Almanac renders"
+          git pull --rebase origin main
+          git push origin HEAD:main
