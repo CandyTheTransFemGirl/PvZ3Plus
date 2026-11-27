@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 412,
+  "revision": 413,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6511,6 +6511,60 @@
             "createdAt": "2026-11-27T15:00:39.140Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795791639140_DMMXED95M9T"
+          },
+          {
+            "id": "data-push-f9fd9097bc112fadcc033e6f2ad0cac5db0fd008",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: assets/Batterzombie (Almanac)_EE.gif, assets/Counterpunch (Almanac)_EE.gif, assets/Disco (Almanac)_EE.gif, assets/Esgargot (Almanac)_EE.gif, assets/Gargantuar (Almanac)_EE.gif, assets/Goalie (Almanac)_EE.gif, assets/Hiker (Almanac) - Walk_EE.gif, assets/Hikerbuckethead (Almanac)_EE.gif, assets/Hikerconehead (Almanac)_EE.gif, assets/Imp (Almanac)_EE.gif, assets/Landscaper (Almanac)_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T15:00:43.650Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_F9FD9097BC112FADCC033E6F2AD0CAC5DB0FD008"
+          },
+          {
+            "id": "data-push-628253803f8c368d9d7308cf047af431ed855690",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: animations.json. Checking what changed.",
+            "createdAt": "2026-11-27T15:00:43.650Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_628253803F8C368D9D7308CF047AF431ED855690"
+          },
+          {
+            "id": "data-push-392ee52baeaf45d53bdad67259b891478baa8691",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: animations/Explodeonut_EE.gif, animations/Flamethrower - Defaultability_EE.gif, animations/Plant Kalestorm_EE.gif, animations/Plant Kernel Corn_EE.gif, animations/Plant Sweet Potato_EE.gif, animations/Threepeater_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T15:00:43.650Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_392EE52BAEAF45D53BDAD67259B891478BAA8691"
+          },
+          {
+            "id": "data-push-d0e56d7923dcb1fc0762557f04af26eff50fb241",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: assets/Backupdancer (Almanac)_EE.gif, assets/Beachbrowncoat (Almanac)_EE.gif, assets/Beachbuckethead (Almanac)_EE.gif, assets/Beachconehead (Almanac)_EE.gif, assets/Browncoat (Almanac)_EE.gif, assets/Buckethead (Almanac)_EE.gif, assets/Canoezombie (Almanac) - Walk_EE.gif, assets/Chickenwrangler (Almanac) - Walk Hop_EE.gif, assets/Duckytubebuckethead (Almanac)_EE.gif, assets/Duckytubeconehead (Almanac)_EE.gif, assets/Duckytubezombie (Almanac)_EE.gif, assets/Snowmachine Imp (Almanac)_EE.gif, assets/Tirezombie (Almanac) - Walk_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T15:00:43.650Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_D0E56D7923DCB1FC0762557F04AF26EFF50FB241"
+          },
+          {
+            "id": "data-push-4f6c6b97d537e094a9c2562048f398b23d665284",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: animations/Blastchoy_EE.gif, animations/Blazeleaf_EE.gif, animations/Blover_EE.gif, animations/Bovinebells_EE.gif, animations/Burstthistle - Attack_EE.gif, animations/Canopea - Attack_EE.gif, animations/Canopea_EE.gif, animations/Chilibean_EE.gif, animations/Cinderwood - Idle_EE.gif, animations/Cobralily (Plant)_EE.gif, animations/Magic Beans - Scared_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T15:00:43.650Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_4F6C6B97D537E094A9C2562048F398B23D665284"
+          },
+          {
+            "id": "data-push-ec9f5a5605f3e538fefbd82e13f176a03508225c",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: assets/thanksgiving/file_000000000fcc81f486c46455b3eb9649.png, assets/thanksgiving/file_000000001e38821098f024607474e6dd.png, assets/thanksgiving/file_000000004f508210822a9a04da7d35c7.png, assets/thanksgiving/file_00000000856082109ac8a0343917617d.png, assets/thanksgiving/file_00000000ce9481f4b8a64dec9de3273d.png. Checking what changed.",
+            "createdAt": "2026-11-27T15:00:43.651Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_EC9F5A5605F3E538FEFBD82E13F176A03508225C"
           }
         ],
         "typing": [],
@@ -6656,9 +6710,132 @@
             "2d9613f8103224aca4549bd5af0889824133188d",
             "9abf3f040a294b43f865d11bdff91eee6f225fd9",
             "318749a15d2790b278218b9b7275997c66158d4a",
-            "6e6ef8029410390bbb27c6b37cb867f1bfdae1b9"
+            "6e6ef8029410390bbb27c6b37cb867f1bfdae1b9",
+            "f9fd9097bc112fadcc033e6f2ad0cac5db0fd008",
+            "628253803f8c368d9d7308cf047af431ed855690",
+            "392ee52baeaf45d53bdad67259b891478baa8691",
+            "44c5f64c58e1ceaf5048400d3d051433bbd7f0f8",
+            "d0e56d7923dcb1fc0762557f04af26eff50fb241",
+            "bc68e5267efe7777fe0084b4ae18e2a9c67d8d1e",
+            "4f6c6b97d537e094a9c2562048f398b23d665284",
+            "22ef29bc2f1e5e1c2abfb7a5e0f0a07f8d3a8667",
+            "ec9f5a5605f3e538fefbd82e13f176a03508225c"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "f9fd9097bc112fadcc033e6f2ad0cac5db0fd008",
+              "at": "2026-11-27T14:49:32Z",
+              "files": [
+                "assets/Batterzombie (Almanac)_EE.gif",
+                "assets/Counterpunch (Almanac)_EE.gif",
+                "assets/Disco (Almanac)_EE.gif",
+                "assets/Esgargot (Almanac)_EE.gif",
+                "assets/Gargantuar (Almanac)_EE.gif",
+                "assets/Goalie (Almanac)_EE.gif",
+                "assets/Hiker (Almanac) - Walk_EE.gif",
+                "assets/Hikerbuckethead (Almanac)_EE.gif",
+                "assets/Hikerconehead (Almanac)_EE.gif",
+                "assets/Imp (Almanac)_EE.gif",
+                "assets/Landscaper (Almanac)_EE.gif"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "628253803f8c368d9d7308cf047af431ed855690",
+              "at": "2026-11-27T14:50:07Z",
+              "files": [
+                "animations.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "392ee52baeaf45d53bdad67259b891478baa8691",
+              "at": "2026-11-27T14:50:54Z",
+              "files": [
+                "animations/Explodeonut_EE.gif",
+                "animations/Flamethrower - Defaultability_EE.gif",
+                "animations/Plant Kalestorm_EE.gif",
+                "animations/Plant Kernel Corn_EE.gif",
+                "animations/Plant Sweet Potato_EE.gif",
+                "animations/Threepeater_EE.gif"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "44c5f64c58e1ceaf5048400d3d051433bbd7f0f8",
+              "at": "2026-11-27T14:51:29Z",
+              "files": [
+                "animations.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "d0e56d7923dcb1fc0762557f04af26eff50fb241",
+              "at": "2026-11-27T14:52:38Z",
+              "files": [
+                "assets/Backupdancer (Almanac)_EE.gif",
+                "assets/Beachbrowncoat (Almanac)_EE.gif",
+                "assets/Beachbuckethead (Almanac)_EE.gif",
+                "assets/Beachconehead (Almanac)_EE.gif",
+                "assets/Browncoat (Almanac)_EE.gif",
+                "assets/Buckethead (Almanac)_EE.gif",
+                "assets/Canoezombie (Almanac) - Walk_EE.gif",
+                "assets/Chickenwrangler (Almanac) - Walk Hop_EE.gif",
+                "assets/Duckytubebuckethead (Almanac)_EE.gif",
+                "assets/Duckytubeconehead (Almanac)_EE.gif",
+                "assets/Duckytubezombie (Almanac)_EE.gif",
+                "assets/Snowmachine Imp (Almanac)_EE.gif",
+                "assets/Tirezombie (Almanac) - Walk_EE.gif"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "bc68e5267efe7777fe0084b4ae18e2a9c67d8d1e",
+              "at": "2026-11-27T14:53:16Z",
+              "files": [
+                "animations.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "4f6c6b97d537e094a9c2562048f398b23d665284",
+              "at": "2026-11-27T14:54:23Z",
+              "files": [
+                "animations/Blastchoy_EE.gif",
+                "animations/Blazeleaf_EE.gif",
+                "animations/Blover_EE.gif",
+                "animations/Bovinebells_EE.gif",
+                "animations/Burstthistle - Attack_EE.gif",
+                "animations/Canopea - Attack_EE.gif",
+                "animations/Canopea_EE.gif",
+                "animations/Chilibean_EE.gif",
+                "animations/Cinderwood - Idle_EE.gif",
+                "animations/Cobralily (Plant)_EE.gif",
+                "animations/Magic Beans - Scared_EE.gif"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "22ef29bc2f1e5e1c2abfb7a5e0f0a07f8d3a8667",
+              "at": "2026-11-27T14:55:07Z",
+              "files": [
+                "animations.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "ec9f5a5605f3e538fefbd82e13f176a03508225c",
+              "at": "2026-11-27T14:56:05Z",
+              "files": [
+                "assets/thanksgiving/file_000000000fcc81f486c46455b3eb9649.png",
+                "assets/thanksgiving/file_000000001e38821098f024607474e6dd.png",
+                "assets/thanksgiving/file_000000004f508210822a9a04da7d35c7.png",
+                "assets/thanksgiving/file_00000000856082109ac8a0343917617d.png",
+                "assets/thanksgiving/file_00000000ce9481f4b8a64dec9de3273d.png"
+              ],
+              "clues": []
+            }
+          ]
         },
         "activeInvestigation": {
           "id": "datamine-live-candy-1795791639140-dmmxed95m9t",
