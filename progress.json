@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 409,
+  "revision": 410,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6640,93 +6640,7 @@
             "318749a15d2790b278218b9b7275997c66158d4a",
             "6e6ef8029410390bbb27c6b37cb867f1bfdae1b9"
           ],
-          "queue": [
-            {
-              "sha": "a87b17e3b43f228db1ec93e59bd3cb1ecbf8bdd8",
-              "at": "2026-11-27T14:36:07Z",
-              "files": [
-                "animations/Cata-pulp_EE.gif"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "8906e5c6f92fc7bdd35cad99ec778694d8ac0412",
-              "at": "2026-11-27T14:36:24Z",
-              "files": [
-                "animations.json"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "e9365f9f04f2fbee30d5c908afaeb88ab4dadf53",
-              "at": "2026-11-27T14:36:39Z",
-              "files": [
-                "animations/Cata-pulp - Default ability_EE.gif",
-                "animations/Cata-pulp_EE.gif"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "fc0e47af236d9c6e5efa98721218099c900aa39e",
-              "at": "2026-11-27T14:36:57Z",
-              "files": [
-                "animations.json"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "2d9613f8103224aca4549bd5af0889824133188d",
-              "at": "2026-11-27T14:37:35Z",
-              "files": [
-                "animations/Flambeleaf_EE.gif",
-                "animations/Plant Shuffle Truffle_EE.gif",
-                "animations/Screambeans_EE.gif",
-                "animations/Silversword_EE.gif",
-                "animations/Waterchestnut_EE (1).gif"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "9abf3f040a294b43f865d11bdff91eee6f225fd9",
-              "at": "2026-11-27T14:37:57Z",
-              "files": [
-                "animations.json"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "318749a15d2790b278218b9b7275997c66158d4a",
-              "at": "2026-11-27T14:39:18Z",
-              "files": [
-                "assets/Lifeguardgarg (Almanac) - Lifeguardgarg Walk_EE.gif",
-                "assets/Lineswinger (Almanac)_EE.gif",
-                "assets/Lineswingerbuckethead (Almanac)_EE.gif",
-                "assets/Lineswingerconehead (Almanac)_EE.gif",
-                "assets/Lumberjack (Almanac)_EE (1).gif",
-                "assets/Nachonautimp (Almanac)_EE.gif",
-                "assets/Parasolzombie (Almanac)_EE.gif",
-                "assets/Pigeon (Almanac)_EE.gif",
-                "assets/Pigeonfeeder (Almanac)_EE.gif",
-                "assets/Polevaulter (Almanac)_EE.gif",
-                "assets/Shocktopus (Almanac) - Walk_EE.gif",
-                "assets/Slippingimp (Almanac)_EE.gif"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "6e6ef8029410390bbb27c6b37cb867f1bfdae1b9",
-              "at": "2026-11-27T14:39:51Z",
-              "files": [
-                "animations.json"
-              ],
-              "clues": []
-            }
-          ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795790570440-sr9akeo32jj",
-          "memberId": "generated-2-5",
-          "endsAt": "2026-11-27T14:43:03.145Z"
+          "queue": []
         }
       }
     ],
