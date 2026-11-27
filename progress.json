@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 258,
+  "revision": 259,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -4953,6 +4953,24 @@
             "createdAt": "2026-11-26T23:45:42.246Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795736742246_K9ELBCOV6G"
+          },
+          {
+            "id": "data-push-c5179bad97065fa2cd1b65d9b5289be7075ce217",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: PlantLoc.json. Checking what changed.",
+            "createdAt": "2026-11-27T00:05:04.107Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_C5179BAD97065FA2CD1B65D9B5289BE7075CE217"
+          },
+          {
+            "id": "data-push-9fe3468dd877c8e966272d49e3cc24eec2f2a584",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: progress.json. Checking what changed.",
+            "createdAt": "2026-11-27T00:05:04.107Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_9FE3468DD877C8E966272D49E3CC24EEC2F2A584"
           }
         ],
         "typing": [],
@@ -5009,9 +5027,64 @@
             "72adf4d5cd911827fd27f40a05eb81e546078629",
             "68385f86b024ad78bb5ec60e518075ec4b35843d",
             "5094d921dfe1cc7e169c84eca49b3ba09361a203",
-            "ac53b34c0a8c905dd5254b25530a90d640f9755c"
+            "ac53b34c0a8c905dd5254b25530a90d640f9755c",
+            "c5179bad97065fa2cd1b65d9b5289be7075ce217",
+            "9fe3468dd877c8e966272d49e3cc24eec2f2a584"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "c5179bad97065fa2cd1b65d9b5289be7075ce217",
+              "at": "2026-11-26T23:49:19Z",
+              "files": [
+                "PlantLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_PLANT_PVZ1_IMITATER_GROUP",
+                  "value": "N/A",
+                  "file": "PlantLoc.json"
+                },
+                {
+                  "key": "ID_PLANT_TOFUTURKEYSEED_NAME",
+                  "value": "Tofu Turkey Seed",
+                  "file": "PlantLoc.json"
+                },
+                {
+                  "key": "ID_PLANT_TOFUTURKEYSEED_GROUP",
+                  "value": "Tier 1",
+                  "file": "PlantLoc.json"
+                },
+                {
+                  "key": "ID_PLANT_TURKEYPULT_NAME",
+                  "value": "Turkey-pult",
+                  "file": "PlantLoc.json"
+                },
+                {
+                  "key": "ID_PLANT_TURKEYPULT_GROUP",
+                  "value": "Tier 2",
+                  "file": "PlantLoc.json"
+                },
+                {
+                  "key": "ID_PLANT_TURKEYMASTER_NAME",
+                  "value": "Turkey Master",
+                  "file": "PlantLoc.json"
+                },
+                {
+                  "key": "ID_PLANT_TURKEYMASTER_GROUP",
+                  "value": "Tier 3",
+                  "file": "PlantLoc.json"
+                }
+              ]
+            },
+            {
+              "sha": "9fe3468dd877c8e966272d49e3cc24eec2f2a584",
+              "at": "2026-11-26T23:49:22Z",
+              "files": [
+                "progress.json"
+              ],
+              "clues": []
+            }
+          ]
         }
       }
     ],
