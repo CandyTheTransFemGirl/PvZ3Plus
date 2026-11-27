@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 428,
+  "revision": 429,
   "level": 13,
   "stars": 39,
   "wins": 13,
@@ -9157,50 +9157,7 @@
       "createdAt": "2026-11-26T15:56:59.332Z"
     }
   ],
-  "adventureLevels": {
-    "13": {
-      "level": 13,
-      "rules": "",
-      "updatedAt": "2026-11-26T17:26:00.024Z",
-      "zombies": [
-        {
-          "id": "batterzombie",
-          "level": 1,
-          "count": 1
-        },
-        {
-          "id": "browncoat",
-          "level": 1,
-          "count": 1
-        },
-        {
-          "id": "deadlift",
-          "level": 1,
-          "count": 1
-        },
-        {
-          "id": "conehead",
-          "level": 1,
-          "count": 1
-        },
-        {
-          "id": "buckethead",
-          "level": 1,
-          "count": 1
-        }
-      ],
-      "hazards": [],
-      "rewards": [
-        {
-          "condition": "threeStar",
-          "type": "potion",
-          "plantId": "",
-          "amount": 1,
-          "custom": "Level 5 Potion Boost"
-        }
-      ]
-    }
-  },
+  "adventureLevels": {},
   "playerPopulation": [
     {
       "id": "generated-4-0",
