@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 325,
+  "revision": 326,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5834,94 +5834,7 @@
             "bc68ae964ba6d466f3af4714abc43ad5688fcbf9",
             "a786650e385e3f5c9739d8f75445968a7acb48d4"
           ],
-          "queue": [
-            {
-              "sha": "c73f52e6224ea1553d832117401097642973ed39",
-              "at": "2026-11-27T08:10:41Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "50600379f3dde5c519da88692b9e8dba511cfb11",
-              "at": "2026-11-27T08:12:19Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "1fbbcdb503ddb58998b69a74c8f863cb6d82497e",
-              "at": "2026-11-27T08:13:15Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "a47ec654139894c6df6046cfc38dfda7bf94d559",
-              "at": "2026-11-27T08:13:43Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "9ee63841cab0a6f9fa9da6abacff92af6912ff32",
-              "at": "2026-11-27T08:23:03Z",
-              "files": [
-                "renders.zip"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "bc68ae964ba6d466f3af4714abc43ad5688fcbf9",
-              "at": "2026-11-27T08:26:13Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "a786650e385e3f5c9739d8f75445968a7acb48d4",
-              "at": "2026-11-27T08:26:24Z",
-              "files": [
-                "almanac-renders.json",
-                "assets/almanac-renders/balloonzombie.png",
-                "assets/almanac-renders/brieologist.png",
-                "assets/almanac-renders/browncoat.png",
-                "assets/almanac-renders/buckethead.png",
-                "assets/almanac-renders/cattail.png",
-                "assets/almanac-renders/celerystalker1.png",
-                "assets/almanac-renders/clapchoy.png",
-                "assets/almanac-renders/conehead.png",
-                "assets/almanac-renders/esgargot.png",
-                "assets/almanac-renders/firepeashooter.png",
-                "assets/almanac-renders/flag.png",
-                "assets/almanac-renders/fourleafblover.png",
-                "assets/almanac-renders/frostroot1.png",
-                "assets/almanac-renders/imp.png",
-                "assets/almanac-renders/junglebiomefemalezombie.png",
-                "assets/almanac-renders/junglebiomemalezombie.png",
-                "assets/almanac-renders/lavaleek.png",
-                "assets/almanac-renders/scorchwood.png",
-                "assets/almanac-renders/sonicpult.png",
-                "assets/almanac-renders/sonicshroom.png",
-                "assets/almanac-renders/swissstallion.png",
-                "assets/almanac-renders/threepeater1.png",
-                "assets/almanac-renders/thunderchoy1.png",
-                "assets/almanac-renders/torchwood1.png",
-                "assets/almanac-renders/waveshooter.png"
-              ],
-              "clues": []
-            }
-          ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795764775578-05jjqvdcuoww",
-          "memberId": "generated-2-5",
-          "endsAt": "2026-11-27T07:33:06.540Z"
+          "queue": []
         }
       }
     ],
