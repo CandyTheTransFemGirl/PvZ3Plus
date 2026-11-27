@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 401,
+  "revision": 402,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8463,6 +8463,14 @@
           "description": "",
           "day": 3,
           "points": 6500,
+          "completed": false
+        },
+        {
+          "id": "candy-1795786220325-mmr4knu1j78",
+          "title": "Defeat 20 Zombies with an Turkey plant!",
+          "description": "",
+          "day": 3,
+          "points": 600,
           "completed": false
         }
       ],
