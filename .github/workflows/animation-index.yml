@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'animations/**'
+      - 'assets/**/*.gif'
+      - 'assets/**/*.GIF'
       - '*.gif'
       - '*.GIF'
       - '.github/workflows/animation-index.yml'
@@ -40,7 +42,7 @@ jobs:
                   print('Moved:',source,'to',dest)
           mapping={}
           ranks={}
-          for p in sorted(Path('animations').iterdir()):
+          for p in sorted(Path('animations').iterdir())+sorted(Path('assets').rglob('*')):
               if not p.is_file() or p.suffix.lower()!='.gif': continue
               s=p.stem.lower()
               s=re.sub(r'[_ -]ee$','',s)
