@@ -1,0 +1,39 @@
+name: Install Thanksgiving artwork
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'ThanksGiving.zip'
+      - '.github/workflows/install-thanksgiving.yml'
+permissions:
+  contents: write
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate and extract artwork
+        run: |
+          python - <<'PY'
+          import zipfile, pathlib
+          names = ["T1Portrait.png","T1Render.png","TurkeySeedSummonChickPortrait.png","TurkeySeedChickSummonRender.png","TurkeyPultPortrait.png","TurkeyPultRender.png","TurkeyPultT2SummonPortrait.png","T2TurkeyPultSummonRender.png","TurkeyMasterT3_Portrait.png","TurkeyMasterT3Render.png","TurkeyMasterSummonPortrait.png","T3MasterSummonRender.png"]
+          out = pathlib.Path('assets/thanksgiving')
+          out.mkdir(parents=True, exist_ok=True)
+          with zipfile.ZipFile('ThanksGiving.zip') as z:
+              for name in names:
+                  b = z.read('ThanksGiving/' + name)
+                  assert b.startswith(b'\x89PNG\r\n\x1a\n'), name
+                  (out / name).write_bytes(b)
+          PY
+      - name: Commit artwork
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/thanksgiving
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Install 12 Thanksgiving artwork assets'
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 3
+          done
+          exit 1
