@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 423,
+  "revision": 424,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6745,6 +6745,24 @@
             "createdAt": "2026-11-27T16:43:22.560Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795797802560_8KOMY8QH0AO"
+          },
+          {
+            "id": "datamine-result-candy-1795797816745-58eqwvdnuxr",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "ID_OWNERDEBUG_AUTOMATICALLY_TARGETS_THE_NEXT_UNCOMPLETED_ADVENTURE_LEVEL_PUBLISH_USING_YOUR_CANDY_ADMIN_GITHUB_TOK = Automatically targets the next uncompleted Adventure level. Publish using your Candy Admin GitHub token.\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-27T16:43:36.745Z",
+            "replyTo": "datamine-live-candy-1795797802560-8komy8qh0ao",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795797816745_58EQWVDNUXR"
+          },
+          {
+            "id": "datamine-reaction-candy-1795797816745-w7bu46xfrso",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "As a longtime PvZ fan, here's what stands out: We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-27T16:43:36.745Z",
+            "replyTo": "datamine-result-candy-1795797816745-58eqwvdnuxr",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795797816745_W7BU46XFRSO"
           }
         ],
         "typing": [],
@@ -6914,11 +6932,6 @@
             "a77473b84ffe12579496fcfced84a012cfdddbc2"
           ],
           "queue": []
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795797802560-8komy8qh0ao",
-          "memberId": "generated-2-5",
-          "endsAt": "2026-11-27T16:43:35.291Z"
         }
       }
     ],
