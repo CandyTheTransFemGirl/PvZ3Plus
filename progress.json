@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 264,
+  "revision": 265,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5034,6 +5034,33 @@
             "createdAt": "2026-11-27T00:31:20.379Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_EC7A301277D82146ED4F3E6824A5A04C051A57FC"
+          },
+          {
+            "id": "data-push-641ba218385c06f8c08282b2dc6b5fcadeee74c8",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: ThanksGiving.zip. Checking what changed.",
+            "createdAt": "2026-11-27T01:08:34.455Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_641BA218385C06F8C08282B2DC6B5FCADEEE74C8"
+          },
+          {
+            "id": "data-push-47f0b3f89b3940a8111713c9a6359c816640ad4f",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-27T01:08:34.455Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_47F0B3F89B3940A8111713C9A6359C816640AD4F"
+          },
+          {
+            "id": "data-push-e443c0c111063480035aaa35730d49f5f396f519",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: assets/thanksgiving/T1Portrait.png, assets/thanksgiving/T1Render.png, assets/thanksgiving/T2TurkeyPultSummonRender.png, assets/thanksgiving/T3MasterSummonRender.png, assets/thanksgiving/TurkeyMasterSummonPortrait.png, assets/thanksgiving/TurkeyMasterT3Render.png, assets/thanksgiving/TurkeyMasterT3_Portrait.png, assets/thanksgiving/TurkeyPultPortrait.png, assets/thanksgiving/TurkeyPultRender.png, assets/thanksgiving/TurkeyPultT2SummonPortrait.png, assets/thanksgiving/TurkeySeedChickSummonRender.png, assets/thanksgiving/TurkeySeedSummonChickPortrait.png. Checking what changed.",
+            "createdAt": "2026-11-27T01:08:34.455Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_E443C0C111063480035AAA35730D49F5F396F519"
           }
         ],
         "typing": [],
@@ -5093,9 +5120,48 @@
             "ac53b34c0a8c905dd5254b25530a90d640f9755c",
             "c5179bad97065fa2cd1b65d9b5289be7075ce217",
             "9fe3468dd877c8e966272d49e3cc24eec2f2a584",
-            "ec7a301277d82146ed4f3e6824a5a04c051a57fc"
+            "ec7a301277d82146ed4f3e6824a5a04c051a57fc",
+            "641ba218385c06f8c08282b2dc6b5fcadeee74c8",
+            "47f0b3f89b3940a8111713c9a6359c816640ad4f",
+            "e443c0c111063480035aaa35730d49f5f396f519"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "641ba218385c06f8c08282b2dc6b5fcadeee74c8",
+              "at": "2026-11-27T01:04:25Z",
+              "files": [
+                "ThanksGiving.zip"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "47f0b3f89b3940a8111713c9a6359c816640ad4f",
+              "at": "2026-11-27T01:06:56Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "e443c0c111063480035aaa35730d49f5f396f519",
+              "at": "2026-11-27T01:07:16Z",
+              "files": [
+                "assets/thanksgiving/T1Portrait.png",
+                "assets/thanksgiving/T1Render.png",
+                "assets/thanksgiving/T2TurkeyPultSummonRender.png",
+                "assets/thanksgiving/T3MasterSummonRender.png",
+                "assets/thanksgiving/TurkeyMasterSummonPortrait.png",
+                "assets/thanksgiving/TurkeyMasterT3Render.png",
+                "assets/thanksgiving/TurkeyMasterT3_Portrait.png",
+                "assets/thanksgiving/TurkeyPultPortrait.png",
+                "assets/thanksgiving/TurkeyPultRender.png",
+                "assets/thanksgiving/TurkeyPultT2SummonPortrait.png",
+                "assets/thanksgiving/TurkeySeedChickSummonRender.png",
+                "assets/thanksgiving/TurkeySeedSummonChickPortrait.png"
+              ],
+              "clues": []
+            }
+          ]
         }
       }
     ],
