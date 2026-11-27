@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 395,
+  "revision": 396,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8404,6 +8404,14 @@
           "description": "",
           "day": 2,
           "points": 3500,
+          "completed": false
+        },
+        {
+          "id": "candy-1795786066235-s0o8d2v2p58",
+          "title": "Day 3 Gift!",
+          "description": "",
+          "day": 3,
+          "points": 1200,
           "completed": false
         }
       ],
