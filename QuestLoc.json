@@ -22,5 +22,6 @@
   "ID_UI_NO_REWARD_MILESTONES_PUBLISHED_YET": "No reward milestones published yet.",
   "ID_UI_CANDY_CREATE_MODE_QUESTS_EVENT_QUEST_SHOP_OFFER": "Candy · Create '+(mode==='quests'?'event quest':'shop offer",
   "ID_UI_QUESTS_AND_GOALS": "Quests and goals",
-  "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T1_UNLOCK": "Unlock Tofu Turkey Seed!"
+  "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T1_UNLOCK": "Unlock Tofu Turkey Seed!",
+  "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T2_UNLOCK": "Unlock Turkey-pult!"
 }
