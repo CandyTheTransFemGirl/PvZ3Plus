@@ -1,13 +1,13 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 426,
-  "level": 12,
-  "stars": 36,
-  "wins": 12,
+  "revision": 427,
+  "level": 13,
+  "stars": 39,
+  "wins": 13,
   "losses": 0,
-  "coins": 3140,
-  "wild": 5,
-  "potion": 1,
+  "coins": 3165,
+  "wild": 15,
+  "potion": 2,
   "wanted": "cinderwood",
   "seeds": {
     "iceberglettuce": 35,
@@ -18,7 +18,7 @@
     "sunshroom": 0,
     "umbrellaleaf": 0,
     "zaptail": 0,
-    "tofuturkeyseed": 0
+    "tofuturkeyseed": 25
   },
   "records": {
     "cabbagepult": {
@@ -280,7 +280,8 @@
     "Level 10 illustrative 3-star victory; Bowling Zombie, Chicken Wrangler and Chicken encountered. XP pending.",
     "Level 11 simulated 3-star victory in 5:24; Bop Choy unlocked for 25 Wild Seeds; temporary Blaze Leaf planted; Rock’n’Rollin’ Imp and Diggin’ Zombie encountered.",
     "Level 12 illustrative 3-star victory in 6:18; no Sunflower or Sunflower fusions planted; Candy challenge completed, rewards awaiting owner confirmation.",
-    "Sprout unlocked Kernel-Seed, Lime-bomb, Sun-shroom and Umbrella Leaf; evolved Cinderwood and Lightning Reed to level 5. Spent 280 Wild Seeds and 120 plant-specific seeds; evolution XP reset to used XP per Almanac rules."
+    "Sprout unlocked Kernel-Seed, Lime-bomb, Sun-shroom and Umbrella Leaf; evolved Cinderwood and Lightning Reed to level 5. Spent 280 Wild Seeds and 120 plant-specific seeds; evolution XP reset to used XP per Almanac rules.",
+    "Level 13 narrative simulation: 3-star victory in 3:40 using Tofu Seed as sole attacker, Sunflower and Wall-nut support. Tofu Seed treated as weaker Turkey-pult per developer. Turkey Seed use 1/5, sole attacker wins 1/3. Claimed configured potion reward and Thanksgiving Gift; completed Unlock Turkey Seed quest."
   ],
   "xp": {
     "peashooter": 375,
@@ -302,7 +303,8 @@
     "wranglekelp": 150,
     "blover": 20,
     "bopchoy": 20,
-    "blazeleaf": 160
+    "blazeleaf": 160,
+    "tofuturkeyseed": 50
   },
   "upcomingUpdates": [
     {
@@ -8826,7 +8828,7 @@
           "description": "",
           "day": 1,
           "points": 50,
-          "completed": false
+          "completed": true
         },
         {
           "id": "candy-1795785880531-asyzyq2khtd",
@@ -8910,8 +8912,8 @@
         }
       ],
       "shop": [],
-      "points": 25,
-      "balance": 0,
+      "points": 75,
+      "balance": 25,
       "rewardTrack": [
         {
           "id": "candy-1795785196617-mcc5mmr8wbf",
@@ -9033,7 +9035,9 @@
           }
         }
       ],
-      "rewardClaims": []
+      "rewardClaims": [
+        "candy-1795785549733-3tdaxhl454c"
+      ]
     }
   },
   "npcResponseQueue": [
@@ -26977,7 +26981,7 @@
     "requiresOwnedFusionIngredients": true,
     "temporaryAccessCounts": false
   },
-  "gems": 0,
+  "gems": 5,
   "releaseSchedule": {
     "keylyepie": {
       "releaseAt": "2026-12-22T22:00:00Z",
