@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 371,
+  "revision": 372,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8280,6 +8280,23 @@
             "xp": 0,
             "currency": 0,
             "seedId": "tofuturkeyseed",
+            "xpId": ""
+          }
+        },
+        {
+          "id": "candy-1795785431101-kh9u7kkofxq",
+          "title": "Goal 5",
+          "threshold": 2500,
+          "plantId": "turkeypult",
+          "reward": {
+            "coins": 300,
+            "wild": 100,
+            "gems": 0,
+            "points": 0,
+            "seeds": 0,
+            "xp": 0,
+            "currency": 0,
+            "seedId": "",
             "xpId": ""
           }
         }
