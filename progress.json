@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 337,
+  "revision": 338,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5897,6 +5897,24 @@
             "createdAt": "2026-11-27T11:59:51.023Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_1795780791023_YSJJA2YE"
+          },
+          {
+            "id": "datamine-result-candy-1795782696700-35q2s87p87s",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_OWNERDEBUG_ADVENTURE_SCORE_DUEL = Adventure score duel\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-27T12:31:36.700Z",
+            "replyTo": "datamine-live-candy-1795773517919-39djn3eh5rc",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795782696700_35Q2S87P87S"
+          },
+          {
+            "id": "datamine-reaction-candy-1795782696700-11wzcsf26kf",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "WAIT, this is interesting!! We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-27T12:31:36.700Z",
+            "replyTo": "datamine-result-candy-1795782696700-35q2s87p87s",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795782696700_11WZCSF26KF"
           }
         ],
         "typing": [],
@@ -5998,21 +6016,7 @@
             "c36303a3164327f2ba517c3440d95e4b4b221c61",
             "f6c251b144831bca1b86bf3dba6a5b9b400d234b"
           ],
-          "queue": [
-            {
-              "sha": "f6c251b144831bca1b86bf3dba6a5b9b400d234b",
-              "at": "2026-11-27T09:58:22Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            }
-          ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795773517919-39djn3eh5rc",
-          "memberId": "generated-2-4",
-          "endsAt": "2026-11-27T09:58:58.300Z"
+          "queue": []
         }
       }
     ],
