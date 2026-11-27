@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 267,
+  "revision": 268,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -23944,6 +23944,12 @@
       "senderName": "Sprout :3",
       "body": "06:00 GMT is still the scheduled reopening! Thanks for being patient.",
       "createdAt": "2026-11-27T00:26:33.000Z"
+    },
+    {
+      "id": "waiting-bd260611-2b3e-4211-afef-9c842f0693b2",
+      "senderName": "PvZ3+ Team",
+      "body": "Status Update!: The artwork is officially Done! :D",
+      "createdAt": "2026-11-27T01:10:44.232Z"
     }
   ]
 }
