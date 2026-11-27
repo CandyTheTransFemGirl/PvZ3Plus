@@ -1,0 +1,53 @@
+name: Evolved live configuration retrieval
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/evolved-live-data.yml'
+permissions:
+  contents: read
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Retrieve selected live configurations
+        shell: bash
+        run: |
+          mkdir -p reference/36.0.95
+          failed=0
+          while IFS= read -r file; do
+            name="${file%-*}"
+            dest="reference/36.0.95/$name.data"
+            if curl --fail --proto '=https' --connect-timeout 10 --max-time 60 --retry 1 --silent --show-error "https://pvzn3xt.ak.popcap.com/game-data/binary/36.0.95/$file.data" -o "$dest.tmp" && test -s "$dest.tmp"; then
+              mv "$dest.tmp" "$dest"
+              printf '%s %s bytes\n' "$name" "$(wc -c < "$dest")" | tee -a reference/report.txt
+            else
+              rm -f "$dest.tmp"
+              echo "FAILED $name" | tee -a reference/report.txt
+              failed=1
+            fi
+          done <<'FILES'
+          AlmanacConfig-73c28fb527fb2c2b81a2c3954028f4db
+          BattlePassConfig-e939b63e2cbb82ca783ec79cf7a040b3
+          BiomeConfig-1a8a994142cdb74939e9165a0c3492c8
+          BoardMechanicsDatabase-e7e5b5a2225cc7863f622af1335ce1e1
+          ClientBattlePassV2Config-f3fa5affba5d17af2249ff42fd5ddc6c
+          CombatDatabase-51a85864e49d71bacbb4be47e3e96b75
+          LevelGenerationConfig-ae4a9a3c31f4c0fd9a7e35b0a022aaad
+          LevelLayoutDatabase-01461c2cb3e3fcd7e3295ccb3e7b726c
+          LevelTeamSelectionFilterConfig-90f5c4a03fdd4b155716d3a86a669e95
+          LevelTypeDatabase-ecfc2c59ac8bab0198a7c85fed94d195
+          PerksAndHazardsConfig-1780375d1a789c4b1ca953f1ff675139
+          RoadTripConfig-5b1350cd8cbd4c3c7669226a14a98f2b
+          RoadTripCutscenesDatabase-a53736dc46d72058de9a7228baccabc3
+          WaveDatabase-f5296ca2fba18edb3be0593678cc9101
+          FILES
+          find reference/36.0.95 -type f -exec sha256sum {} + > reference/checksums.txt
+          exit "$failed"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evolved-live-36.0.95
+          path: reference/
+          retention-days: 7
