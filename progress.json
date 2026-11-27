@@ -6385,6 +6385,14 @@
             "createdAt": "2026-11-27T13:29:40.837Z",
             "replyTo": "datamine-result-candy-1795786180837-h6qrah9wz8k",
             "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795786180837_XXD4P7ZFLUI"
+          },
+          {
+            "id": "datamine-0588fd041c1f454d8fd870eae6c69a47",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "Found something in upcomingUpdates.4.releaseAt: 2026-12-22T22:00:00Z. Not sure what it means yet.",
+            "createdAt": "2026-11-27T14:00:34.552735Z",
+            "replyTo": null
           }
         ],
         "typing": [],
