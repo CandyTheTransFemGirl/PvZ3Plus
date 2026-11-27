@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'animations/**'
+      - '*.gif'
+      - '*.GIF'
       - '.github/workflows/animation-index.yml'
 permissions:
   contents: write
@@ -22,6 +24,20 @@ jobs:
           import re,json
           from pathlib import Path
           from urllib.parse import quote
+          folder=Path('animations')
+          folder.mkdir(exist_ok=True)
+          for source in sorted(Path('.').iterdir()):
+              if not source.is_file() or source.suffix.lower()!='.gif': continue
+              dest=folder/source.name
+              if dest.exists():
+                  if source.read_bytes()==dest.read_bytes():
+                      source.unlink()
+                      print('Removed identical root duplicate:',source)
+                  else:
+                      print('Filename conflict; preserved both:',source)
+              else:
+                  source.rename(dest)
+                  print('Moved:',source,'to',dest)
           mapping={}
           ranks={}
           for p in sorted(Path('animations').iterdir()):
@@ -43,7 +59,7 @@ jobs:
       - run: |
           git config user.name "PvZ3+ Animation Index"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add animations.json
+          git add -A -- animations/ animations.json ':(glob)*.gif' ':(glob)*.GIF'
           git diff --cached --quiet && exit 0
           git commit -m "Refresh Almanac animation index"
           git pull --rebase origin main
