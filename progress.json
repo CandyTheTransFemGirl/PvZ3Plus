@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 388,
+  "revision": 389,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8346,6 +8346,14 @@
           "description": "",
           "day": 1,
           "points": 50,
+          "completed": false
+        },
+        {
+          "id": "candy-1795785880531-asyzyq2khtd",
+          "title": "Unlock Turkey-pult!",
+          "description": "",
+          "day": 1,
+          "points": 500,
           "completed": false
         }
       ],
