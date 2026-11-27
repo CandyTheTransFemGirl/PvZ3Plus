@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 389,
+  "revision": 390,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -8354,6 +8354,14 @@
           "description": "",
           "day": 1,
           "points": 500,
+          "completed": false
+        },
+        {
+          "id": "candy-1795785896095-nrqr3mumll",
+          "title": "Unlock Turkey Master!",
+          "description": "",
+          "day": 1,
+          "points": 1200,
           "completed": false
         }
       ],
