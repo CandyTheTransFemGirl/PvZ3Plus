@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 365,
+  "revision": 366,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6214,6 +6214,24 @@
             "createdAt": "2026-11-27T13:14:17.942Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795785257942_BGGC19LQOYP"
+          },
+          {
+            "id": "datamine-result-candy-1795785275031-ndd97xaczgl",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_OWNERDEBUG_UPCOMING_ZOMBIE_ACCESS = Upcoming zombie access\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-27T13:14:35.031Z",
+            "replyTo": "datamine-live-candy-1795785257942-bggc19lqoyp",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795785275031_NDD97XACZGL"
+          },
+          {
+            "id": "datamine-reaction-candy-1795785275031-jhgn6powc8",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "As a longtime PvZ fan, here's what stands out: We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-27T13:14:35.031Z",
+            "replyTo": "datamine-result-candy-1795785275031-ndd97xaczgl",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795785275031_JHGN6POWC8"
           }
         ],
         "typing": [],
@@ -6353,11 +6371,6 @@
             "ca86e9e0c716092a27747f9b8e150ed3e75f92be"
           ],
           "queue": []
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795785257942-bggc19lqoyp",
-          "memberId": "generated-0-14",
-          "endsAt": "2026-11-27T13:14:33.867Z"
         }
       }
     ],
