@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 320,
+  "revision": 321,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5750,24 +5750,7 @@
             "c6d5a13e378fa48f12f81c8cf93d3bdaf60de461",
             "f606358a3fde2e113fa9afee8b0349d44c133fcd"
           ],
-          "queue": [
-            {
-              "sha": "c6d5a13e378fa48f12f81c8cf93d3bdaf60de461",
-              "at": "2026-11-27T05:24:16Z",
-              "files": [
-                "seasonal-plant-ideas.txt"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "f606358a3fde2e113fa9afee8b0349d44c133fcd",
-              "at": "2026-11-27T05:41:45Z",
-              "files": [
-                "progress.json"
-              ],
-              "clues": []
-            }
-          ]
+          "queue": []
         },
         "activeInvestigation": {
           "id": "datamine-live-candy-1795764436741-xd3scgir25",
