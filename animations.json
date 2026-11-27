@@ -18,6 +18,7 @@
   "dangerine": "./animations/Dangerine_EE.gif",
   "devastater": "./animations/Devastater%20-%20Animation_EE.gif",
   "flamethrower": "./animations/Flamethrower_EE.gif",
+  "fogmechaniczomboss": "./animations/Fog%20Mechanic%20Zomboss_EE.gif",
   "fourleafblover": "./animations/Fourleafblover_EE.gif",
   "magicbeans": "./animations/Magic%20Beans_EE.gif",
   "magicbeansidleexcited": "./animations/Magic%20Beans%20-%20Idle%20Excited_EE.gif",
@@ -29,8 +30,10 @@
   "mapnd05charactertwisterdigging": "./animations/Map%20Nd05%20Character%20Twister%20-%20Digging_EE.gif",
   "mapnd07characterzomboss": "./animations/Map%20Nd07%20Character%20Zomboss%20-%20Idle_EE.gif",
   "plantchardguard": "./animations/Plant%20Chard%20Guard_EE.gif",
+  "sulfurshroom": "./animations/Sulfurshroom%20%28Plant%29_EE.gif",
   "sunflowerseed": "./animations/sunflowerseed.gif",
   "thunderchoy": "./animations/thunderchoy.gif",
   "torchwood": "./animations/torchwood.gif",
-  "volleyballzombie": "./animations/volleyballzombie.gif"
+  "volleyballzombie": "./animations/volleyballzombie.gif",
+  "waterchestnut": "./animations/Waterchestnut_EE.gif"
 }
