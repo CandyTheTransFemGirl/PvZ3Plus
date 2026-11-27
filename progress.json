@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 410,
+  "revision": 411,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6493,6 +6493,15 @@
             "createdAt": "2026-11-27T14:43:06.763Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_318749A15D2790B278218B9B7275997C66158D4A"
+          },
+          {
+            "id": "datamine-live-candy-1795790706159-8z22w3051wy",
+            "senderId": "generated-2-5",
+            "sender": "PixelBee74",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-27T14:45:06.160Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795790706159_8Z22W3051WY"
           }
         ],
         "typing": [],
@@ -6641,6 +6650,11 @@
             "6e6ef8029410390bbb27c6b37cb867f1bfdae1b9"
           ],
           "queue": []
+        },
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795790706159-8z22w3051wy",
+          "memberId": "generated-2-5",
+          "endsAt": "2026-11-27T14:45:23.264Z"
         }
       }
     ],
