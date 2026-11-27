@@ -32,7 +32,7 @@ jobs:
               s=re.sub(r'(?:[_ -]+(?:idle|walk|walking|animation|anim|almanac))+$','',s)
               key=re.sub('[^a-z0-9]','',s)
               if not key: continue
-              rank=2 if 'idle' in p.stem.lower() else 1 if 'walk' in p.stem.lower() else 0
+              rank=30 if 'almanac' in p.stem.lower() else 20 if 'idle' in p.stem.lower() else 10 if 'walk' in p.stem.lower() else 0
               if p.stem.lower()==key: rank+=1
               if key not in ranks or rank>ranks[key]:
                   mapping[key]='./'+quote(p.as_posix(),safe='/')
