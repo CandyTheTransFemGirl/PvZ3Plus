@@ -516,4 +516,38 @@ document.getElementById('navBugReport').onclick=openBugHandling;
  }
  refresh();setInterval(refresh,1000);
 })();
+
+/* Event level authoring and published level browser */
+(()=>{
+ const button=el('button','Event Level Maker');advButton.after(button);button.hidden=!ownerCredential;
+ const lawnDefault=e=>/thanksgiving/i.test(e.title)?'Fall':e.title;
+ const open=()=>{
+ if(!ownerCredential||!data)return;
+ const events=data.activities?.events||[];if(!events.length)return alert('Create an event first.');
+ const d=el('dialog');d.className='advMaker';d.style.cssText='width:min(94vw,800px);max-height:85vh;overflow:auto;background:#172334;color:white;border-radius:12px';document.body.append(d);
+ const pick=(host,items,value)=>{const s=el('select');for(const [k,n] of items)s.add(new Option(n,k));if(value!==undefined)s.value=value;host.append(s);return s};
+ const field=(host,label,value='',type='text')=>{const l=el('label',label+' '),x=el(type==='textarea'?'textarea':'input');if(type!=='textarea')x.type=type;x.value=value;l.append(x);host.append(l);return x};
+ const btn=(host,label,fn)=>{const b=el('button',label);b.type='button';b.onclick=fn;host.append(b);return b};
+ d.append(el('h2','Event Level Maker'));const event=pick(d,events.map(e=>[e.id,e.title]));const number=field(d,'Level number',1,'number');number.min=1;const host=el('section');d.append(host);
+ const plants=rows.filter(r=>r[2]==='plants'&&!isMystery(r[0])).map(r=>[r[0],r[1]]),zombies=rows.filter(r=>r[2]==='zombies'&&!isMystery(r[0])).map(r=>[r[0],r[1]]);
+ function load(){
+ host.replaceChildren();const e=events.find(x=>x.id===event.value),old=data.eventContent?.[e.id]?.levels?.[number.value]||{};
+ const name=field(host,'Level name',old.name||'');const lawn=field(host,'Lawn (exact name)',old.lawn||lawnDefault(e));const rules=field(host,'Objectives / plant restrictions',old.rules||'','textarea');
+ const layout=field(host,'Lawn layout / preplaced plants',old.layout||'','textarea');
+ const sections={};for(const [k,label] of [['zombies','Zombie lineup'],['hazards','Hazards'],['rewards','Rewards']]){
+ host.append(el('h3',label));const list=el('div');host.append(list);sections[k]=list;
+ const add=(v={})=>{const row=el('div');row.className='advRow';list.append(row);let f={};
+ if(k==='zombies'){f.id=pick(row,zombies,v.id);f.level=field(row,'Level',v.level??1,'number');f.count=field(row,'Count',v.count??1,'number')}
+ else if(k==='hazards'){f.type=field(row,'Hazard',v.type||'Gravestone');f.count=field(row,'Count',v.count??1,'number');f.placement=field(row,'Placement',v.placement||'Random')}
+ else{f.condition=pick(row,[['firstClear','First clear'],['threeStar','First 3-star clear'],['repeatable','Every clear']],v.condition);f.type=pick(row,['coins','gems','wild','eventPoints','eventCurrency','passPoints','seeds','xp','plantUnlock','custom'].map(x=>[x,x]),v.type);f.plantId=pick(row,[['','No plant'],...plants],v.plantId);f.amount=field(row,'Amount',v.amount??1,'number');f.custom=field(row,'Custom reward',v.custom||'')}
+ row.read=()=>Object.fromEntries(Object.entries(f).map(([key,x])=>[key,x.type==='number'?Number(x.value):x.value]));btn(row,'Remove',()=>row.remove())};
+ for(const v of old[k]||[])add(v);if(k==='zombies'&&!old[k]?.length)add();btn(host,'Add '+k.slice(0,-1),()=>add());
+ }
+ const status=el('p');host.append(status);btn(host,'Publish event level',async()=>{try{const n=Number(number.value);if(!Number.isSafeInteger(n)||n<1||!lawn.value.trim())throw Error('Invalid level or lawn');const config={level:n,name:name.value.trim()||'Level '+n,lawn:lawn.value.trim(),rules:rules.value,layout:layout.value,updatedAt:new Date().toISOString()};for(const k of Object.keys(sections))config[k]=[...sections[k].children].map(x=>x.read());if(!config.zombies.length||config.zombies.some(z=>!z.id||!Number.isInteger(z.level)||z.level<1||z.level>20||!Number.isSafeInteger(z.count)||z.count<1))throw Error('Invalid zombie lineup');if(config.hazards.some(h=>!h.type.trim()||!Number.isSafeInteger(h.count)||h.count<1))throw Error('Invalid hazards');if(config.rewards.some(r=>!Number.isSafeInteger(r.amount)||r.amount<1||(['seeds','xp','plantUnlock'].includes(r.type)&&!r.plantId)||(r.type==='custom'&&!r.custom.trim())))throw Error('Invalid rewards');await mutateSave(v=>{if(!v.activities.events.some(x=>x.id===e.id))throw Error('Event no longer exists');v.eventContent??={};const st=v.eventContent[e.id]??={quests:[],shop:[],points:0,balance:0};(st.levels??={})[n]=config});status.textContent='Published '+e.title+' · Level '+n}catch(err){status.textContent=err.message}});
+ }
+ event.onchange=number.onchange=load;btn(d,'Close',()=>d.close());d.addEventListener('close',()=>d.remove());load();d.showModal();
+ };
+ button.onclick=open;setInterval(()=>{button.hidden=!ownerCredential},500);
+ const original=renderEventExtras;renderEventExtras=function(){original();if(!data)return;const e=data.activities?.events?.find(x=>x.id===selectedEventId);if(!e)return;const levels=Object.values(data.eventContent?.[e.id]?.levels||{}).sort((a,b)=>a.level-b.level);if(activityState(e)!=='Active'&&!ownerCredential)return;const panel=el('section');panel.append(el('h3','Event levels · '+lawnDefault(e)));if(!levels.length)panel.append(el('p','No levels published yet.'));for(const l of levels){const a=el('article');a.className='mailEntry';a.append(el('b',l.name+' · Level '+l.level),el('p','Lawn: '+l.lawn),el('p',l.rules||''),el('p',l.zombies.map(z=>(rows.find(r=>r[0]===z.id)?.[1]||z.id)+' ×'+z.count+' (Lv '+z.level+')').join(' · ')));panel.append(a)}social.append(panel)};
+})();
 </script></body></html>
