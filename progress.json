@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 308,
+  "revision": 309,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5563,6 +5563,15 @@
             "createdAt": "2026-11-27T04:45:22.493Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795754722493_WKYKBBJ3MV"
+          },
+          {
+            "id": "data-push-c63dbed348350c8cfd738f8dfafb70d618dc1fc2",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: QuestLoc.json. Checking what changed.",
+            "createdAt": "2026-11-27T04:46:05.530Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_C63DBED348350C8CFD738F8DFAFB70D618DC1FC2"
           }
         ],
         "typing": [],
@@ -5634,9 +5643,30 @@
             "b4b680862991ba700ac0b4ba724cd83748ed6046",
             "fccfaca03c480fcb06e62ba068e29d04177fb95a",
             "c1eee2cce06ad594a2d9890b8352bf798d0fdf9f",
-            "21341f66d131ee2133ab98750bf3a5d6f00f96ac"
+            "21341f66d131ee2133ab98750bf3a5d6f00f96ac",
+            "c63dbed348350c8cfd738f8dfafb70d618dc1fc2"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "c63dbed348350c8cfd738f8dfafb70d618dc1fc2",
+              "at": "2026-11-27T04:45:56Z",
+              "files": [
+                "QuestLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T2_UNLOCK",
+                  "value": "Unlock Turkey-pult!",
+                  "file": "QuestLoc.json"
+                },
+                {
+                  "key": "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T3_UNLOCK",
+                  "value": "Unlock Turkey Master!",
+                  "file": "QuestLoc.json"
+                }
+              ]
+            }
+          ]
         }
       }
     ],
