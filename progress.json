@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 399,
+  "revision": 400,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6367,6 +6367,24 @@
             "createdAt": "2026-11-27T13:29:27.315Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795786167315_R38LZFEB1XG"
+          },
+          {
+            "id": "datamine-result-candy-1795786180837-h6qrah9wz8k",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "ID_REALPERSON_SPROUT_ROLE = Admin\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-27T13:29:40.837Z",
+            "replyTo": "datamine-live-candy-1795786167315-r38lzfeb1xg",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795786180837_H6QRAH9WZ8K"
+          },
+          {
+            "id": "datamine-reaction-candy-1795786180837-xxd4p7zflui",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "As a longtime PvZ fan, here's what stands out: We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-27T13:29:40.837Z",
+            "replyTo": "datamine-result-candy-1795786180837-h6qrah9wz8k",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795786180837_XXD4P7ZFLUI"
           }
         ],
         "typing": [],
@@ -6506,11 +6524,6 @@
             "ca86e9e0c716092a27747f9b8e150ed3e75f92be"
           ],
           "queue": []
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795786167315-r38lzfeb1xg",
-          "memberId": "generated-2-4",
-          "endsAt": "2026-11-27T13:29:39.446Z"
         }
       }
     ],
