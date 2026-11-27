@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 343,
+  "revision": 344,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -6182,35 +6182,7 @@
             "3917f55c7cb45c5320586284f96aa6fad71632c7",
             "1db63dac812cdf6511274f55905576e090a4a997"
           ],
-          "queue": [
-            {
-              "sha": "ce5a1ca53fdf4ecaa373258effb4c5258c72c1d4",
-              "at": "2026-11-27T11:43:51Z",
-              "files": [
-                "animations/Map Nd07 Character Zomboss - Idle_EE.gif",
-                "animations/Map Nd07 Character Zomboss - Walk_EE.gif"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "3917f55c7cb45c5320586284f96aa6fad71632c7",
-              "at": "2026-11-27T11:44:12Z",
-              "files": [
-                "animations.json"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "1db63dac812cdf6511274f55905576e090a4a997",
-              "at": "2026-11-27T11:44:34Z",
-              "files": [
-                "animations/Magic Beans - Idle Excited_EE.gif",
-                "animations/Magic Beans - Idle Happy_EE.gif",
-                "animations/Magic Beans_EE.gif"
-              ],
-              "clues": []
-            }
-          ]
+          "queue": []
         }
       }
     ],
