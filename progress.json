@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 301,
+  "revision": 302,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5500,6 +5500,15 @@
             "createdAt": "2026-11-27T04:39:40.340Z",
             "replyTo": "datamine-result-candy-1795754380340-47u5af2550l",
             "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795754380340_WITYJH8AJKK"
+          },
+          {
+            "id": "datamine-live-candy-1795754565337-zvljftbyol8",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-27T04:42:45.337Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795754565337_ZVLJFTBYOL8"
           }
         ],
         "typing": [],
@@ -5571,6 +5580,11 @@
             "b4b680862991ba700ac0b4ba724cd83748ed6046"
           ],
           "queue": []
+        },
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795754565337-zvljftbyol8",
+          "memberId": "generated-0-11",
+          "endsAt": "2026-11-27T04:43:08.615Z"
         }
       }
     ],
@@ -23797,56 +23811,64 @@
       "senderId": "generated-2-4",
       "senderName": "LunarStar29",
       "body": "WAIT we're back already? My maintenance alarm hasn't even gone off.",
-      "createdAt": "2026-11-27T04:40:10.000Z"
+      "createdAt": "2026-11-27T04:40:10.000Z",
+      "bodyStringId": "ID_CHAT_THANKSGIVING_REOPEN_20261127_0"
     },
     {
       "id": "thanksgiving-reopen-20261127-1",
       "senderId": "generated-0-14",
       "senderName": "PeaCake12",
       "body": "Tofu Turkey Seed is such a funny name. I need the whole family in my collection.",
-      "createdAt": "2026-11-27T04:40:13.000Z"
+      "createdAt": "2026-11-27T04:40:13.000Z",
+      "bodyStringId": "ID_CHAT_THANKSGIVING_REOPEN_20261127_1"
     },
     {
       "id": "thanksgiving-reopen-20261127-2",
       "senderId": "generated-0-11",
       "senderName": "CloudBean18",
       "body": "Turkey-pult being Tier 2 makes me wonder what its fusion recipe is.",
-      "createdAt": "2026-11-27T04:40:16.000Z"
+      "createdAt": "2026-11-27T04:40:16.000Z",
+      "bodyStringId": "ID_CHAT_THANKSGIVING_REOPEN_20261127_2"
     },
     {
       "id": "thanksgiving-reopen-20261127-3",
       "senderId": "generated-4-0",
       "senderName": "NutBug74",
       "body": "Imagine being a zombie and getting defeated by Thanksgiving dinner.",
-      "createdAt": "2026-11-27T04:40:19.000Z"
+      "createdAt": "2026-11-27T04:40:19.000Z",
+      "bodyStringId": "ID_CHAT_THANKSGIVING_REOPEN_20261127_3"
     },
     {
       "id": "thanksgiving-reopen-20261127-4",
       "senderId": "generated-4-4",
       "senderName": "PeaPuff5",
       "body": "Anyone planning to try the turkey family in Tower once they've unlocked them?",
-      "createdAt": "2026-11-27T04:40:22.000Z"
+      "createdAt": "2026-11-27T04:40:22.000Z",
+      "bodyStringId": "ID_CHAT_THANKSGIVING_REOPEN_20261127_4"
     },
     {
       "id": "thanksgiving-reopen-20261127-5",
       "senderId": "generated-4-1",
       "senderName": "MossPop72",
       "body": "Turkey Master is Tier 3! Going to check its Almanac entry first.",
-      "createdAt": "2026-11-27T04:40:25.000Z"
+      "createdAt": "2026-11-27T04:40:25.000Z",
+      "bodyStringId": "ID_CHAT_THANKSGIVING_REOPEN_20261127_5"
     },
     {
       "id": "thanksgiving-reopen-20261127-6",
       "senderId": "generated-3-3",
       "senderName": "FrostKnight66",
       "body": "Does anyone know when the limited plants stop being obtainable?",
-      "createdAt": "2026-11-27T04:40:28.000Z"
+      "createdAt": "2026-11-27T04:40:28.000Z",
+      "bodyStringId": "ID_CHAT_THANKSGIVING_REOPEN_20261127_6"
     },
     {
       "id": "thanksgiving-reopen-20261127-7",
       "senderId": "generated-0-14",
       "senderName": "PeaCake12",
       "body": "Not yet, I'm checking the event and shop before spending anything.",
-      "createdAt": "2026-11-27T04:40:31.000Z"
+      "createdAt": "2026-11-27T04:40:31.000Z",
+      "bodyStringId": "ID_CHAT_THANKSGIVING_REOPEN_20261127_7"
     },
     {
       "id": "thanksgiving-reopen-20261127-8",
