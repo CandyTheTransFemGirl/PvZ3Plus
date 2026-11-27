@@ -5,6 +5,7 @@ import io
 import json
 import re
 import sys
+import zipfile
 from pathlib import Path
 from PIL import Image, ImageFile, ImageOps
 
@@ -22,12 +23,55 @@ def decode(path):
         im.load()
         return ImageOps.exif_transpose(im).convert("RGBA")
 
+def restore_archive(html, archive):
+    targets = {"doubleagentimp": "222-doubleagentimp", "snowmachineimp": "230-snowmachineimp"}
+    def norm(name):
+        return re.sub(r"[^a-z0-9]", "", re.sub(r"^\d+[-_]", "", Path(name).stem.lower()))
+    with zipfile.ZipFile(archive) as z:
+        for key, stem in targets.items():
+            candidates = []
+            for info in z.infolist():
+                if info.is_dir() or Path(info.filename).suffix.lower() not in EXTS:
+                    continue
+                if norm(info.filename) not in {key, "portrait"+key, key+"portrait"}:
+                    continue
+                try:
+                    data = z.read(info)
+                    with Image.open(io.BytesIO(data)) as im:
+                        im.verify()
+                    with Image.open(io.BytesIO(data)) as im:
+                        im.load()
+                        img = im.convert("RGBA")
+                    if min(img.size) >= 16:
+                        candidates.append((info.filename, img))
+                except Exception as exc:
+                    print(f"INVALID ARCHIVE IMAGE {info.filename}: {exc}")
+            if not candidates:
+                raise RuntimeError(f"No usable archive portrait for {key}")
+            name, img = candidates[0]
+            if any(other.size != img.size or other.tobytes() != img.tobytes() for _, other in candidates[1:]):
+                raise RuntimeError(f"Ambiguous archive portraits for {key}: {[n for n, _ in candidates]}")
+            dest = ASSETS / (stem + ".png")
+            temp = dest.with_suffix(".tmp")
+            img.save(temp, "PNG")
+            decode(temp)
+            temp.replace(dest)
+            html, count = re.subn(r'("' + key + r'"\s*:\s*)"\./assets/[^"]+"', lambda m: m.group(1) + json.dumps("./assets/" + dest.name), html)
+            if not count:
+                raise RuntimeError(f"Missing HTML mapping for {key}")
+            print(f"RESTORED {key} from {name}")
+    return html
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--fix", action="store_true", help="Normalize WebP/JPEG portraits to PNG and repair unambiguous missing mappings")
     parser.add_argument("--contact-sheet", type=Path, help="Write a visual review sheet of mapped portraits")
+    parser.add_argument("--restore-archive", nargs="?", type=Path, const=ROOT / "PvZ3Plus_v50_assets.zip", help="Restore the two known visually corrupted portraits from the original ZIP")
     args = parser.parse_args()
     html = HTML.read_text(encoding="utf-8")
+    if args.restore_archive:
+        html = restore_archive(html, args.restore_archive)
+        HTML.write_text(html, encoding="utf-8")
     pattern = r'"([a-zA-Z0-9_]+)"\s*:\s*"(\./assets/[^"]+)"'
     mappings = dict(re.findall(pattern, html))
     roster = set(re.findall(r'\["([^"]+)",\s*"[^"]+",\s*"zombies",\s*"[^"]+"\]', html))
