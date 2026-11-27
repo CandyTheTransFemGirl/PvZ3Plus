@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 333,
+  "revision": 334,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5834,6 +5834,42 @@
             "createdAt": "2026-11-27T09:22:46.446Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795771366443_NI99MOCPT1"
+          },
+          {
+            "id": "data-push-658ce3c9fde20b0c80e53bb4cb2bb2955153a5f3",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: animations/Bamboo Shoots_EE.gif, animations/Beat Choy_EE.gif, animations/Blockwood_EE.gif, animations/Bonk Choy_EE.gif, animations/Bopchoy (Almanac)_EE.gif, animations/Buzz Choy_EE.gif, animations/Buzz-Box_EE.gif, animations/Cab-barrage_EE.gif, animations/Cabbage-pult_EE.gif, animations/Cata-pulp_EE.gif, animations/Chainsaw Grass_EE.gif, animations/Chuck-nut_EE.gif, animations/Cold Slaw_EE.gif, animations/Dangerine_EE.gif, animations/Devastater - Animation_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T09:56:36.859Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_658CE3C9FDE20B0C80E53BB4CB2BB2955153A5F3"
+          },
+          {
+            "id": "data-push-d0ff85279fc8f7259f28925b44edb82c4950bb0f",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: Bamboo Shoots_EE.gif, Beat Choy_EE.gif, Blockwood_EE.gif, Bonk Choy_EE.gif, Bopchoy (Almanac)_EE.gif, Buzz Choy_EE.gif, Buzz-Box_EE.gif, Cab-barrage_EE.gif, Cabbage-pult_EE.gif, Cata-pulp_EE.gif, Chainsaw Grass_EE.gif, Chuck-nut_EE.gif, Cold Slaw_EE.gif, Dangerine_EE.gif, Devastater - Animation_EE.gif. Checking what changed.",
+            "createdAt": "2026-11-27T09:56:36.860Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_D0FF85279FC8F7259F28925B44EDB82C4950BB0F"
+          },
+          {
+            "id": "data-push-c73f8ec7e0fcece3255c9a669fcfd1e07b36078f",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-27T09:56:36.860Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_C73F8EC7E0FCECE3255C9A669FCFD1E07B36078F"
+          },
+          {
+            "id": "data-push-c36303a3164327f2ba517c3440d95e4b4b221c61",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: animations.json. Checking what changed.",
+            "createdAt": "2026-11-27T09:56:36.860Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_C36303A3164327F2BA517C3440D95E4B4B221C61"
           }
         ],
         "typing": [],
@@ -5928,9 +5964,74 @@
             "bbc1e7366657955715f974faacf8683c1885fa4e",
             "6a6b9660e36c8495dd5b70084cc3dcc4bbe1b501",
             "7e86a4ede0a78dfd360bf44fc877c6c02fc2cce1",
-            "5f8f2abd006a5aa3bb3ac75d4e1b6d3a8d17179f"
+            "5f8f2abd006a5aa3bb3ac75d4e1b6d3a8d17179f",
+            "658ce3c9fde20b0c80e53bb4cb2bb2955153a5f3",
+            "d0ff85279fc8f7259f28925b44edb82c4950bb0f",
+            "c73f8ec7e0fcece3255c9a669fcfd1e07b36078f",
+            "c36303a3164327f2ba517c3440d95e4b4b221c61"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "658ce3c9fde20b0c80e53bb4cb2bb2955153a5f3",
+              "at": "2026-11-27T09:49:29Z",
+              "files": [
+                "animations/Bamboo Shoots_EE.gif",
+                "animations/Beat Choy_EE.gif",
+                "animations/Blockwood_EE.gif",
+                "animations/Bonk Choy_EE.gif",
+                "animations/Bopchoy (Almanac)_EE.gif",
+                "animations/Buzz Choy_EE.gif",
+                "animations/Buzz-Box_EE.gif",
+                "animations/Cab-barrage_EE.gif",
+                "animations/Cabbage-pult_EE.gif",
+                "animations/Cata-pulp_EE.gif",
+                "animations/Chainsaw Grass_EE.gif",
+                "animations/Chuck-nut_EE.gif",
+                "animations/Cold Slaw_EE.gif",
+                "animations/Dangerine_EE.gif",
+                "animations/Devastater - Animation_EE.gif"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "d0ff85279fc8f7259f28925b44edb82c4950bb0f",
+              "at": "2026-11-27T09:53:47Z",
+              "files": [
+                "Bamboo Shoots_EE.gif",
+                "Beat Choy_EE.gif",
+                "Blockwood_EE.gif",
+                "Bonk Choy_EE.gif",
+                "Bopchoy (Almanac)_EE.gif",
+                "Buzz Choy_EE.gif",
+                "Buzz-Box_EE.gif",
+                "Cab-barrage_EE.gif",
+                "Cabbage-pult_EE.gif",
+                "Cata-pulp_EE.gif",
+                "Chainsaw Grass_EE.gif",
+                "Chuck-nut_EE.gif",
+                "Cold Slaw_EE.gif",
+                "Dangerine_EE.gif",
+                "Devastater - Animation_EE.gif"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "c73f8ec7e0fcece3255c9a669fcfd1e07b36078f",
+              "at": "2026-11-27T09:55:52Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "c36303a3164327f2ba517c3440d95e4b4b221c61",
+              "at": "2026-11-27T09:56:06Z",
+              "files": [
+                "animations.json"
+              ],
+              "clues": []
+            }
+          ]
         },
         "activeInvestigation": {
           "id": "datamine-live-candy-1795771366443-ni99mocpt1",
