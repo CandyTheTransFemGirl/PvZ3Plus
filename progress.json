@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 305,
+  "revision": 306,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5527,6 +5527,24 @@
             "createdAt": "2026-11-27T04:44:44.931Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_C1EEE2CCE06AD594A2D9890B8352BF798D0FDF9F"
+          },
+          {
+            "id": "datamine-push-result-candy-1795754697183-e05lsv2ytw",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "ID_UI_QUESTS_AND_GOALS = Quests and goals\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-27T04:44:57.183Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795754697183_E05LSV2YTW"
+          },
+          {
+            "id": "datamine-push-result-candy-1795754697183-fmz7nmt7ub8",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T1_UNLOCK = Unlock Tofu Turkey Seed!\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-27T04:44:57.183Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795754697183_FMZ7NMT7UB8"
           }
         ],
         "typing": [],
@@ -5599,27 +5617,7 @@
             "fccfaca03c480fcb06e62ba068e29d04177fb95a",
             "c1eee2cce06ad594a2d9890b8352bf798d0fdf9f"
           ],
-          "queue": [
-            {
-              "sha": "c1eee2cce06ad594a2d9890b8352bf798d0fdf9f",
-              "at": "2026-11-27T04:44:41Z",
-              "files": [
-                "QuestLoc.json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_UI_QUESTS_AND_GOALS",
-                  "value": "Quests and goals",
-                  "file": "QuestLoc.json"
-                },
-                {
-                  "key": "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T1_UNLOCK",
-                  "value": "Unlock Tofu Turkey Seed!",
-                  "file": "QuestLoc.json"
-                }
-              ]
-            }
-          ]
+          "queue": []
         }
       }
     ],
