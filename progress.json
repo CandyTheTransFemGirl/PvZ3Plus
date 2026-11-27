@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 310,
+  "revision": 311,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5581,6 +5581,15 @@
             "createdAt": "2026-11-27T04:46:10.340Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795754770340_E0W51Q77FL"
+          },
+          {
+            "id": "data-push-e05834ff340c9da2201a1a45451089fa5f8463e7",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: QuestLoc.json. Checking what changed.",
+            "createdAt": "2026-11-27T04:47:17.461Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_E05834FF340C9DA2201A1A45451089FA5F8463E7"
           }
         ],
         "typing": [],
@@ -5653,9 +5662,30 @@
             "fccfaca03c480fcb06e62ba068e29d04177fb95a",
             "c1eee2cce06ad594a2d9890b8352bf798d0fdf9f",
             "21341f66d131ee2133ab98750bf3a5d6f00f96ac",
-            "c63dbed348350c8cfd738f8dfafb70d618dc1fc2"
+            "c63dbed348350c8cfd738f8dfafb70d618dc1fc2",
+            "e05834ff340c9da2201a1a45451089fa5f8463e7"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "e05834ff340c9da2201a1a45451089fa5f8463e7",
+              "at": "2026-11-27T04:47:13Z",
+              "files": [
+                "QuestLoc.json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T3_UNLOCK",
+                  "value": "Unlock Turkey Master!",
+                  "file": "QuestLoc.json"
+                },
+                {
+                  "key": "ID_ACTIVITIES_GOALS_CANDY_THANKSGIVING_T2_VICTORY",
+                  "value": "Merge an Turkey-pult In one victorious Level",
+                  "file": "QuestLoc.json"
+                }
+              ]
+            }
+          ]
         }
       }
     ],
