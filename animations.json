@@ -34,6 +34,17 @@
   "sunflowerseed": "./animations/sunflowerseed.gif",
   "thunderchoy": "./animations/thunderchoy.gif",
   "torchwood": "./animations/torchwood.gif",
-  "volleyballzombie": "./animations/volleyballzombie.gif",
-  "waterchestnut": "./animations/Waterchestnut_EE.gif"
+  "trouthouse": "./assets/Trouthouse%20%28Almanac%29_EE.gif",
+  "volcanobrowncoat": "./assets/Volcanobrowncoat%20%28Almanac%29_EE.gif",
+  "volcanobuckethead": "./assets/Volcanobuckethead%20%28Almanac%29_EE.gif",
+  "volcanoconehead": "./assets/Volcanoconehead%20%28Almanac%29_EE.gif",
+  "volcanogarg": "./assets/Volcanogarg%20%28Almanac%29_EE.gif",
+  "volcanologist": "./assets/Volcanologist%20%28Almanac%29_EE.gif",
+  "volleyballzombie": "./assets/Volleyballzombie%20%28Almanac%29_EE.gif",
+  "waterchestnut": "./animations/Waterchestnut_EE.gif",
+  "zombee": "./assets/Zombee%20%28Almanac%29_EE.gif",
+  "zombiechicken": "./assets/Zombiechicken%20%28Almanac%29_EE.gif",
+  "zscoutimpflag": "./assets/Zscoutimpflag%20%28Almanac%29_EE.gif",
+  "zscoutimptrumpet": "./assets/Zscoutimptrumpet%20%28Almanac%29_EE.gif",
+  "zscoutleader": "./assets/Zscoutleader%20%28Almanac%29_EE.gif"
 }
