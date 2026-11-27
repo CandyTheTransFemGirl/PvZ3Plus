@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 431,
+  "revision": 432,
   "level": 13,
   "stars": 39,
   "wins": 13,
@@ -7012,69 +7012,7 @@
             "e15d8dcaf7e15828978538f8d9509c2d3fbd182c",
             "4d74b19f9b1cf2f6f6c5c2fdd9a6355d12f9f029"
           ],
-          "queue": [
-            {
-              "sha": "37da4f5f691d08357e4899779aa29f195ce40c88",
-              "at": "2026-11-27T16:48:08Z",
-              "files": [
-                "portraits.json"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "7b0c4c50ea8dd15629efc22a85964ad5fd84e359",
-              "at": "2026-11-27T16:48:11Z",
-              "files": [
-                "reference/decoded/36.0.95/unit-stats.json"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "af528c9c999d9215a4c5b06243b57df15e14f413",
-              "at": "2026-11-27T16:48:14Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "5dc748aef5a80a2247f23cdf334f7bbcf47bfdf3",
-              "at": "2026-11-27T16:49:11Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "fe64d30cc586890bcf4c9fd1fa9ac43ecd416d75",
-              "at": "2026-11-27T16:54:49Z",
-              "files": [
-                "progress.json"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "e15d8dcaf7e15828978538f8d9509c2d3fbd182c",
-              "at": "2026-11-27T17:04:45Z",
-              "files": [
-                "progress.json"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "4d74b19f9b1cf2f6f6c5c2fdd9a6355d12f9f029",
-              "at": "2026-11-27T17:05:44Z",
-              "files": [
-                "progress.json"
-              ],
-              "clues": []
-            }
-          ]
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795799166550-awftxranvue",
-          "memberId": "generated-2-5",
-          "endsAt": "2026-11-27T17:06:17.563Z"
+          "queue": []
         }
       }
     ],
