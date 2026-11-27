@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 266,
+  "revision": 267,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5135,51 +5135,7 @@
             "e443c0c111063480035aaa35730d49f5f396f519",
             "5721e71b2d1b470bb4d6719bfecec211babdb906"
           ],
-          "queue": [
-            {
-              "sha": "641ba218385c06f8c08282b2dc6b5fcadeee74c8",
-              "at": "2026-11-27T01:04:25Z",
-              "files": [
-                "ThanksGiving.zip"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "47f0b3f89b3940a8111713c9a6359c816640ad4f",
-              "at": "2026-11-27T01:06:56Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "e443c0c111063480035aaa35730d49f5f396f519",
-              "at": "2026-11-27T01:07:16Z",
-              "files": [
-                "assets/thanksgiving/T1Portrait.png",
-                "assets/thanksgiving/T1Render.png",
-                "assets/thanksgiving/T2TurkeyPultSummonRender.png",
-                "assets/thanksgiving/T3MasterSummonRender.png",
-                "assets/thanksgiving/TurkeyMasterSummonPortrait.png",
-                "assets/thanksgiving/TurkeyMasterT3Render.png",
-                "assets/thanksgiving/TurkeyMasterT3_Portrait.png",
-                "assets/thanksgiving/TurkeyPultPortrait.png",
-                "assets/thanksgiving/TurkeyPultRender.png",
-                "assets/thanksgiving/TurkeyPultT2SummonPortrait.png",
-                "assets/thanksgiving/TurkeySeedChickSummonRender.png",
-                "assets/thanksgiving/TurkeySeedSummonChickPortrait.png"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "5721e71b2d1b470bb4d6719bfecec211babdb906",
-              "at": "2026-11-27T01:09:30Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            }
-          ]
+          "queue": []
         }
       }
     ],
