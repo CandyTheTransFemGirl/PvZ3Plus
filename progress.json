@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 297,
+  "revision": 298,
   "level": 12,
   "stars": 36,
   "wins": 12,
@@ -5435,7 +5435,8 @@
             "sender": "LunarStar29",
             "body": "Checked ZombieLoc.json for the snow update. Snowy Browncoat, Snowy Buckethead, Snowy Conehead, Snowy Flag Zombie all have name strings and their group is set to Upcoming. Looks like the snow roster is being prepared, but this doesn't prove which ones will actually appear in December.",
             "createdAt": "2026-11-27T04:05:33.415Z",
-            "replyTo": null
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_SNOW_1795752333415_8SBMCL"
           },
           {
             "id": "datamine-82330179710947bd8150042a625ffc8e",
@@ -5443,7 +5444,17 @@
             "sender": "MossPop72",
             "body": "Anyone seen this? upcomingUpdates.2.releaseAt contains 2026-12-03T21:00:00Z.",
             "createdAt": "2026-11-27T04:20:40.653149Z",
-            "replyTo": null
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_82330179710947BD8150042A625FFC8E"
+          },
+          {
+            "id": "datamine-live-candy-1795754190825-rziz8tt1esi",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "I'm checking the hidden content strings and comparing them with our earlier findings.",
+            "createdAt": "2026-11-27T04:36:30.826Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795754190825_RZIZ8TT1ESI"
           }
         ],
         "typing": [],
@@ -5515,6 +5526,11 @@
             "b4b680862991ba700ac0b4ba724cd83748ed6046"
           ],
           "queue": []
+        },
+        "activeInvestigation": {
+          "id": "datamine-live-candy-1795754190825-rziz8tt1esi",
+          "memberId": "generated-2-4",
+          "endsAt": "2026-11-27T04:36:45.279Z"
         }
       }
     ],
