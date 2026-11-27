@@ -7,7 +7,7 @@ on:
       - 'reference/schema/**'
       - 'tools/evolved_decode.py'
 permissions:
-  contents: read
+  contents: write
 jobs:
   download:
     runs-on: ubuntu-latest
@@ -72,3 +72,16 @@ jobs:
           name: evolved-decoded-36.0.95
           path: decoded/
           retention-days: 7
+      - name: Publish verified reference JSON
+        if: steps.schema.outputs.ready == 'true' && success()
+        run: |
+          mkdir -p reference/decoded/36.0.95
+          cp decoded/36.0.95/*.json reference/decoded/36.0.95/
+          git config user.name "PvZ3+ reference bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reference/decoded/36.0.95
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh decoded Evolved reference databases"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
