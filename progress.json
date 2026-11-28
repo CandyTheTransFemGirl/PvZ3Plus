@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 480,
+  "revision": 481,
   "level": 13,
   "stars": 39,
   "wins": 13,
@@ -7250,56 +7250,7 @@
             "8988dc21eb8beffa55793a07d7fdbe1158609818",
             "b810c85e2a4297dd6c81dd4739fb3875acbbdbd2"
           ],
-          "queue": [
-            {
-              "sha": "a0460a4d7e6ce7f77f5bdcb17264fedd409038c4",
-              "at": "2026-11-28T09:17:52Z",
-              "files": [
-                "Origins Because You are an IDIOT"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "d4e282b1cf45056941b83325b2de116d9b099757",
-              "at": "2026-11-28T09:24:21Z",
-              "files": [
-                "Origins Because You are an IDIOT"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "05ba00e47bc90e084971c7af85e01cc55d93f3ca",
-              "at": "2026-11-28T09:26:10Z",
-              "files": [
-                "Origins Because You are an IDIOT"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "ac363d3ffcab601c5898217dcaa237f985282009",
-              "at": "2026-11-28T09:27:47Z",
-              "files": [
-                "plant-origins.json"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "8988dc21eb8beffa55793a07d7fdbe1158609818",
-              "at": "2026-11-28T09:27:54Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "b810c85e2a4297dd6c81dd4739fb3875acbbdbd2",
-              "at": "2026-11-28T09:29:31Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            }
-          ]
+          "queue": []
         }
       }
     ],
