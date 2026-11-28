@@ -14,11 +14,9 @@
     "cinderwood": 0,
     "limebomb": 0,
     "aloevera": 65,
-    "kernelseed": 0,
     "sunshroom": 0,
     "umbrellaleaf": 0,
-    "zaptail": 0,
-    "tofuturkeyseed": 25
+    "zaptail": 0
   },
   "records": {
     "cabbagepult": {
@@ -177,14 +175,6 @@
       "owned": true,
       "seen": true
     },
-    "waterspiller": {
-      "owned": true,
-      "seen": true
-    },
-    "athletebatter": {
-      "owned": true,
-      "seen": true
-    },
     "tanglekelp": {
       "owned": true,
       "seen": true
@@ -245,10 +235,6 @@
       "seen": true,
       "owned": false
     },
-    "kernelseed": {
-      "owned": true,
-      "seen": false
-    },
     "limebomb": {
       "owned": true,
       "seen": false
@@ -260,10 +246,6 @@
     "umbrellaleaf": {
       "owned": true,
       "seen": false
-    },
-    "tofuturkeyseed": {
-      "owned": true,
-      "seen": true
     }
   },
   "history": [
@@ -303,8 +285,7 @@
     "wranglekelp": 150,
     "blover": 20,
     "bopchoy": 20,
-    "blazeleaf": 160,
-    "tofuturkeyseed": 50
+    "blazeleaf": 160
   },
   "upcomingUpdates": [
     {
@@ -336,19 +317,14 @@
     {
       "id": "balancepatch1",
       "updateName": "Balance Patch 1",
-      "releaseDate": "2026-11-30",
-      "releaseTime": "17:30",
-      "releaseAt": "2026-11-30T17:30:00Z",
       "content": [
         "???"
-      ]
+      ],
+      "confirmed": false
     },
     {
       "id": "contentupdate2",
       "updateName": "Content Update 2",
-      "releaseDate": "2026-12-03",
-      "releaseTime": "21:00",
-      "releaseAt": "2026-12-03T21:00:00Z",
       "content": [
         "Lily Pad",
         "Yuzooka Tree",
@@ -358,12 +334,11 @@
         "Bungee Zombie"
       ],
       "plantCount": 10,
-      "zombieCount": 7
+      "zombieCount": 7,
+      "confirmed": false
     },
     {
       "id": "frostroot",
-      "releaseDate": "2026-12-12",
-      "releaseTime": "18:00",
       "content": [
         "Frostroot",
         "Snowy content",
@@ -374,63 +349,42 @@
         "Snow stage zombies",
         "Snow event"
       ],
-      "releaseAt": "2026-12-12T18:00:00Z",
       "zombie": "Swiss Stallion",
-      "previewAt": "2026-12-05T18:00:00Z",
-      "passStartAt": "2026-12-12T18:00:00Z",
-      "passEndAt": "2026-12-26T17:59:00Z",
       "previewOnly": true,
-      "plantObtainableAt": "2026-12-12T18:00:00Z",
-      "zombieEncounterableAt": "2026-12-12T18:00:00Z",
-      "snowEventStartAt": "2026-12-12T18:00:00Z"
+      "confirmed": false
     },
     {
       "id": "dirtsheet20261222",
       "updateName": "RC 1 — Sewer Expansion Update",
-      "releaseDate": "2026-12-22",
-      "releaseTime": "22:00",
-      "releaseAt": "2026-12-22T22:00:00Z",
       "content": [
         "Key Lye Pie (featured plant)",
         "Tire Zombie (featured zombie)",
         "1 mystery plant",
         "2 mystery Sewer zombies"
       ],
-      "confirmed": true,
       "featuredPlant": "keylyepie",
       "featuredZombie": "tirezombie",
       "plantCount": 2,
       "zombieCount": 3,
       "version": "RC 1",
-      "phase": "Release Candidate"
+      "phase": "Release Candidate",
+      "confirmed": false
     },
     {
       "id": "thunderchoy",
-      "releaseDate": "2026-12-27",
-      "releaseTime": "22:00",
       "zombie": "Strongman Zombie",
       "content": [
         "Thunder Choy",
         "Strongman Zombie"
       ],
-      "possibleReleaseTimes": [
-        "17:00",
-        "18:00",
-        "19:00"
-      ],
       "timezone": "Europe/London",
-      "releaseAt": "2026-12-27T22:00:00Z",
-      "previewAt": "2026-12-27T22:00:00Z",
-      "passStartAt": "2026-12-27T22:00:00Z",
-      "passEndAt": "2027-01-10T21:59:00Z",
       "version": "RC 2",
       "phase": "Release Candidate",
-      "updateName": "RC 2 — Thunder Choy"
+      "updateName": "RC 2 — Thunder Choy",
+      "confirmed": false
     },
     {
       "id": "cowbell",
-      "releaseDate": "2027-01-12",
-      "releaseTime": "20:00",
       "zombie": "Stealth Imp",
       "content": [
         "Cowbell",
@@ -447,82 +401,54 @@
         "Sonic-pult",
         "Boombox Wood"
       ],
-      "possibleReleaseTimes": [
-        "17:00",
-        "18:00",
-        "19:00"
-      ],
       "timezone": "Europe/London",
-      "releaseAt": "2027-01-12T20:00:00Z",
-      "previewAt": "2027-01-12T20:00:00Z",
-      "passStartAt": "2027-01-12T20:00:00Z",
-      "passEndAt": "2027-01-26T19:59:00Z",
       "version": "RC 3",
       "phase": "Release Candidate",
-      "updateName": "RC 3 — Cowbell"
+      "updateName": "RC 3 — Cowbell",
+      "confirmed": false
     },
     {
       "id": "mystery20270205",
-      "releaseDate": "2027-02-05",
-      "releaseTime": "17:00",
-      "releaseAt": "2027-02-05T17:00:00Z",
       "content": [
         "???"
       ],
-      "previewAt": "2027-02-05T17:00:00Z",
-      "passStartAt": "2027-02-05T17:00:00Z",
-      "passEndAt": null,
       "version": "1.0",
       "updateName": "Version 1.0 — The Big Update",
       "exitsBeta": false,
-      "confirmed": true,
-      "teaserDate": "2027-02-02",
-      "phase": "Full Release"
+      "phase": "Full Release",
+      "confirmed": false
     },
     {
       "id": "contentupdate3",
       "updateName": "Content Update 3",
-      "releaseDate": "2027-02-14",
-      "releaseTime": null,
-      "releaseAt": null,
       "content": [
         "???"
       ],
-      "releaseWindow": "Valentine's 2027"
+      "confirmed": false
     },
     {
       "id": "contentupdate4",
       "updateName": "Content Update 4",
-      "releaseDate": null,
-      "releaseTime": null,
-      "releaseAt": null,
       "content": [
         "???"
       ],
-      "releaseWindow": "Spring 2027"
+      "confirmed": false
     },
     {
       "id": "contentupdate5",
       "updateName": "Content Update 5",
-      "releaseDate": "2027-10-31",
-      "releaseTime": null,
-      "releaseAt": null,
       "content": [
         "???"
       ],
-      "releaseWindow": "Halloween 2027",
-      "confirmed": true
+      "confirmed": false
     },
     {
       "id": "contentupdate6",
       "updateName": "Content Update 6",
-      "releaseDate": null,
-      "releaseTime": null,
-      "releaseAt": null,
       "content": [
         "???"
       ],
-      "releaseWindow": "Thanksgiving 2027"
+      "confirmed": false
     }
   ],
   "plantPass": {
@@ -624,40 +550,9 @@
       "oneTime": true
     }
   },
-  "customRoster": [
-    {
-      "id": "waterspiller",
-      "name": "Water Spiller Zombie",
-      "type": "zombies",
-      "group": "Burbs"
-    },
-    {
-      "id": "athletebatter",
-      "name": "Athletic Batter Zombie",
-      "type": "zombies",
-      "group": "Burbs"
-    },
-    {
-      "id": "tofuturkeyseed",
-      "name": "Tofu Seed",
-      "type": "plants",
-      "group": "Tier 1"
-    },
-    {
-      "id": "turkeypult",
-      "name": "Turkey-pult",
-      "type": "plants",
-      "group": "Tier 2"
-    },
-    {
-      "id": "turkeymaster",
-      "name": "Turkey Master",
-      "type": "plants",
-      "group": "Tier 3"
-    }
-  ],
+  "customRoster": [],
   "customZombiePlan": {
-    "perZone": 2
+    "perZone": 0
   },
   "tower": {
     "furthestFloor": 0,
@@ -672,8 +567,6 @@
     }
   },
   "plantExpansionUpdate": {
-    "releaseTime": "17:00",
-    "releaseDate": "2026-12-08",
     "trigger": "After Snow-Bellista Plant Pass ends",
     "datePendingConfirmation": false,
     "rename": {
@@ -689,7 +582,7 @@
       "Diverpult"
     ],
     "additionalIssues": 2,
-    "releaseAt": "2026-12-08T17:00:00Z"
+    "confirmed": false
   },
   "mailboxRules": {
     "teaserLeadDays": [
@@ -738,65 +631,6 @@
       },
       "broadcast": true,
       "bodyStringId": "ID_CHAT_THANKSGIVING_INBOX_TEASER_V2"
-    },
-    {
-      "id": "beta16-teaser",
-      "type": "updateTeaser",
-      "version": "Beta 1.6",
-      "title": "The Big Update",
-      "deliverAt": "2027-02-02T17:00:00Z",
-      "body": "What the.. that's alot of plants! And zombies too!\nWell I cant count them but.. there's alot!\nI guess you'll have to wait and see!",
-      "recipient": "assistant-player"
-    },
-    {
-      "id": "beta11-teaser",
-      "version": "Beta 1.1",
-      "deliverAt": "2026-12-02T18:00:00Z",
-      "title": "Something chilly",
-      "body": "Brrr! Something's growing beneath the frost! I hope its roots packed a scarf.",
-      "type": "updateTeaser",
-      "read": false,
-      "recipient": "assistant-player"
-    },
-    {
-      "id": "beta12-teaser",
-      "version": "Beta 1.2",
-      "deliverAt": "2026-12-06T17:00:00Z",
-      "title": "Growing collection",
-      "body": "I counted the leaves. Then I counted them again. Then I lost count! Something big is growing in the garden.",
-      "type": "updateTeaser",
-      "read": false,
-      "recipient": "assistant-player"
-    },
-    {
-      "id": "beta13-teaser",
-      "version": "Beta 1.3",
-      "deliverAt": "2026-12-09T18:00:00Z",
-      "title": "Cold roots",
-      "body": "Ever had cold feet? Imagine having cold roots! Those zombies might want to bring a spare pair of socks.",
-      "type": "updateTeaser",
-      "read": false,
-      "recipient": "assistant-player"
-    },
-    {
-      "id": "beta14-teaser",
-      "version": "Beta 1.4",
-      "deliverAt": "2026-12-24T22:00:00Z",
-      "title": "A shocking discovery",
-      "body": "I heard thunder coming from the garden. Funny thing is, there wasn't a cloud in sight! Something's practising its punches.",
-      "type": "updateTeaser",
-      "read": false,
-      "recipient": "assistant-player"
-    },
-    {
-      "id": "beta15-teaser",
-      "version": "Beta 1.5",
-      "deliverAt": "2027-01-09T20:00:00Z",
-      "title": "More cowbell",
-      "body": "Ding! Dong! The garden's getting rather noisy. I wonder if zombies have sensitive ears?",
-      "type": "updateTeaser",
-      "read": false,
-      "recipient": "assistant-player"
     },
     {
       "id": "candy-1795643701217-rpm0n7lvkh",
@@ -8299,101 +8133,6 @@
       "burnEverySlashes": 2,
       "doubleSlashDamageCombined": true,
       "doubleSlashBothApplyBurn": true
-    },
-    "tofuturkeyseed": {
-      "hp": 300,
-      "damage": 5,
-      "attackInterval": 4,
-      "sunCost": 100,
-      "seedRecharge": 5,
-      "summons": [
-        "tofuchick"
-      ],
-      "summonsPerAttack": 1,
-      "simultaneousSummons": true,
-      "summonStats": {
-        "tofuchick": {
-          "hp": 30,
-          "dps": 35,
-          "movementSpeed": 0.8
-        },
-        "tofuturkey": {
-          "hp": 55,
-          "dps": 65,
-          "movementSpeed": 1
-        },
-        "trainedtofuturkey": {
-          "hp": 105,
-          "dps": 85,
-          "movementSpeed": 1.2
-        }
-      },
-      "summonsInheritLevelScaling": true,
-      "canDestroyThornHazards": true
-    },
-    "turkeypult": {
-      "hp": 600,
-      "damage": 10,
-      "attackInterval": 3,
-      "sunCost": null,
-      "seedRecharge": null,
-      "summons": [
-        "tofuturkey"
-      ],
-      "summonsPerAttack": 1,
-      "simultaneousSummons": true,
-      "summonStats": {
-        "tofuchick": {
-          "hp": 30,
-          "dps": 35,
-          "movementSpeed": 0.8
-        },
-        "tofuturkey": {
-          "hp": 55,
-          "dps": 65,
-          "movementSpeed": 1
-        },
-        "trainedtofuturkey": {
-          "hp": 105,
-          "dps": 85,
-          "movementSpeed": 1.2
-        }
-      },
-      "summonsInheritLevelScaling": true,
-      "canDestroyThornHazards": true
-    },
-    "turkeymaster": {
-      "hp": 1200,
-      "damage": 25,
-      "attackInterval": 2,
-      "sunCost": null,
-      "seedRecharge": null,
-      "summons": [
-        "tofuchick",
-        "tofuturkey",
-        "trainedtofuturkey"
-      ],
-      "summonsPerAttack": 3,
-      "simultaneousSummons": true,
-      "summonStats": {
-        "tofuchick": {
-          "hp": 30,
-          "dps": 35,
-          "movementSpeed": 0.8
-        },
-        "tofuturkey": {
-          "hp": 55,
-          "dps": 65,
-          "movementSpeed": 1
-        },
-        "trainedtofuturkey": {
-          "hp": 105,
-          "dps": 85,
-          "movementSpeed": 1.2
-        }
-      },
-      "summonsInheritLevelScaling": true,
-      "canDestroyThornHazards": true
     }
   },
   "achievements": [
@@ -27952,12 +27691,12 @@
   "gems": 5,
   "releaseSchedule": {
     "keylyepie": {
-      "releaseAt": "2026-12-22T22:00:00Z",
-      "updateLabel": "Sewer Expansion Update"
+      "updateLabel": "Sewer Expansion Update",
+      "confirmed": false
     },
     "tirezombie": {
-      "releaseAt": "2026-12-22T22:00:00Z",
-      "updateLabel": "Sewer Expansion Update"
+      "updateLabel": "Sewer Expansion Update",
+      "confirmed": false
     }
   },
   "adventureMaxLevel": 350,
@@ -28427,33 +28166,6 @@
     }
   },
   "hiddenReferences": {
-    "thanksgiving": {
-      "visibility": "owner-only-ui",
-      "datamineable": true,
-      "released": false,
-      "plants": [
-        {
-          "id": "tofuturkeyseed",
-          "name": "Tofu Seed",
-          "tier": 1
-        },
-        {
-          "id": "turkeypult",
-          "name": "Turkey-pult",
-          "tier": 2
-        },
-        {
-          "id": "turkeymaster",
-          "name": "Turkey Master",
-          "tier": 3
-        }
-      ],
-      "strings": {
-        "ID_THANKSGIVING_INBOX_TEASER_V2": "Seems like the turkeys are coming soon!\nStay Tuned! See you at 11:00 PM!",
-        "ID_THANKSGIVING_STORE_BUNDLE": "Thanksgiving celebration Gift Placeholder!",
-        "ID_SECRET_PLANT": "Snooping as normal I see? Heh. Expected.\n - Candy"
-      }
-    },
     "extraIdentifiers": {
       "visibility": "owner-only-ui",
       "datamineable": true,
@@ -28562,5 +28274,6 @@
       "body": "Okay Everyone. I think we can end the downtime now! Its early but the plants are ready! So go go go!",
       "createdAt": "2026-11-27T01:21:00.230Z"
     }
-  ]
+  ],
+  "universeRoster": []
 }
