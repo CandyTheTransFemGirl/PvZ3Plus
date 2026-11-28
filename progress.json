@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 455,
+  "revision": 456,
   "level": 13,
   "stars": 39,
   "wins": 13,
@@ -7013,6 +7013,24 @@
             "createdAt": "2026-11-28T08:26:40.346Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795854400346_08YCFV3GLWOJ"
+          },
+          {
+            "id": "datamine-result-candy-1795854475701-3vhey0j6nko",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_OWNERDEBUG_INVALID_ZOMBIE_LEVEL_OR_COUNT = Invalid zombie level or count\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-28T08:27:55.701Z",
+            "replyTo": "datamine-live-candy-1795854400346-08ycfv3glwoj",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795854475701_3VHEY0J6NKO"
+          },
+          {
+            "id": "datamine-reaction-candy-1795854475701-wk1hbf9lus",
+            "senderId": "generated-2-4",
+            "sender": "LunarStar29",
+            "body": "Let's connect this with the other evidence: We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-28T08:27:55.701Z",
+            "replyTo": "datamine-result-candy-1795854475701-3vhey0j6nko",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795854475701_WK1HBF9LUS"
           }
         ],
         "typing": [],
@@ -7194,11 +7212,6 @@
             "f3be75145cf49d5c06f748a00cd9c5949fe94dac"
           ],
           "queue": []
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795854400346-08ycfv3glwoj",
-          "memberId": "generated-4-1",
-          "endsAt": "2026-11-28T08:26:58.832Z"
         }
       }
     ],
