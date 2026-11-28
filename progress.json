@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 461,
+  "revision": 462,
   "level": 13,
   "stars": 39,
   "wins": 13,
@@ -7067,6 +7067,15 @@
             "createdAt": "2026-11-28T08:32:12.184Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_833A18D6802F9AFFEE08E32ADD4C759260C83761"
+          },
+          {
+            "id": "datamine-push-result-candy-1795854738843-ea7kmbg9sm",
+            "senderId": "generated-0-11",
+            "sender": "CloudBean18",
+            "body": "ID_UI_PVZ3_ALMANAC_PROGRESS = PvZ Universes Almanac\nThis is a changed localisation value, not proof of a release.",
+            "createdAt": "2026-11-28T08:32:18.843Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATAMINE_PUSH_RESULT_CANDY_1795854738843_EA7KMBG9SM"
           }
         ],
         "typing": [],
@@ -7251,32 +7260,7 @@
             "234e1e27587a31ba918e113da5da53d83b125a71",
             "833a18d6802f9affee08e32add4c759260c83761"
           ],
-          "queue": [
-            {
-              "sha": "234e1e27587a31ba918e113da5da53d83b125a71",
-              "at": "2026-11-28T08:31:02Z",
-              "files": [
-                "index.html"
-              ],
-              "clues": []
-            },
-            {
-              "sha": "833a18d6802f9affee08e32add4c759260c83761",
-              "at": "2026-11-28T08:31:40Z",
-              "files": [
-                "LocalisedStringSourceIndex.json",
-                "LocalisedStringsPvZ3+.Json",
-                "LocalisedStringsPvZ3Plus.Json"
-              ],
-              "clues": [
-                {
-                  "key": "ID_UI_PVZ3_ALMANAC_PROGRESS",
-                  "value": "PvZ Universes Almanac",
-                  "file": "LocalisedStringsPvZ3Plus.Json"
-                }
-              ]
-            }
-          ]
+          "queue": []
         }
       }
     ],
