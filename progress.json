@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 442,
+  "revision": 443,
   "level": 13,
   "stars": 39,
   "wins": 13,
@@ -28331,10 +28331,11 @@
     "staffIdentityOnly": true
   },
   "downtime": {
-    "startsAt": "2026-11-26T23:45:00Z",
-    "endsAt": "2026-11-27T04:40:00Z",
-    "reason": "Thanksgiving Update",
-    "warningId": "ID_DOWNTIME_WARNING"
+    "startsAt": "2026-11-26T23:45:00.000Z",
+    "endsAt": "2026-11-27T10:45:00.000Z",
+    "reason": "PvZ Universes 1.0",
+    "warningId": "ID_DOWNTIME_WARNING",
+    "enabled": true
   },
   "waitingChat": [
     {
