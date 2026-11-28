@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 479,
+  "revision": 480,
   "level": 13,
   "stars": 39,
   "wins": 13,
@@ -7022,6 +7022,33 @@
             "createdAt": "2026-11-28T09:13:23.384Z",
             "replyTo": "datamine-result-candy-1795857203383-aef3thn5dte",
             "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795857203384_K8PESLOHWN"
+          },
+          {
+            "id": "data-push-a0460a4d7e6ce7f77f5bdcb17264fedd409038c4",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: Origins Because You are an IDIOT. Checking what changed.",
+            "createdAt": "2026-11-28T09:29:57.866Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_A0460A4D7E6CE7F77F5BDCB17264FEDD409038C4"
+          },
+          {
+            "id": "data-push-ac363d3ffcab601c5898217dcaa237f985282009",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: plant-origins.json. Checking what changed.",
+            "createdAt": "2026-11-28T09:29:57.871Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_AC363D3FFCAB601C5898217DCAA237F985282009"
+          },
+          {
+            "id": "data-push-8988dc21eb8beffa55793a07d7fdbe1158609818",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-28T09:29:57.871Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_8988DC21EB8BEFFA55793A07D7FDBE1158609818"
           }
         ],
         "typing": [],
@@ -7215,9 +7242,64 @@
             "a368f3849dec3567d3b9f190a3ef58a128f2ee68",
             "78e383ca789424d8939003d8572ad735d689c0d0",
             "f02a2030127dc2977bfaf14279a481b775451ed6",
-            "483bc830f67bc6cab360b52aa95f0ca57f4d4360"
+            "483bc830f67bc6cab360b52aa95f0ca57f4d4360",
+            "a0460a4d7e6ce7f77f5bdcb17264fedd409038c4",
+            "d4e282b1cf45056941b83325b2de116d9b099757",
+            "05ba00e47bc90e084971c7af85e01cc55d93f3ca",
+            "ac363d3ffcab601c5898217dcaa237f985282009",
+            "8988dc21eb8beffa55793a07d7fdbe1158609818",
+            "b810c85e2a4297dd6c81dd4739fb3875acbbdbd2"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "a0460a4d7e6ce7f77f5bdcb17264fedd409038c4",
+              "at": "2026-11-28T09:17:52Z",
+              "files": [
+                "Origins Because You are an IDIOT"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "d4e282b1cf45056941b83325b2de116d9b099757",
+              "at": "2026-11-28T09:24:21Z",
+              "files": [
+                "Origins Because You are an IDIOT"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "05ba00e47bc90e084971c7af85e01cc55d93f3ca",
+              "at": "2026-11-28T09:26:10Z",
+              "files": [
+                "Origins Because You are an IDIOT"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "ac363d3ffcab601c5898217dcaa237f985282009",
+              "at": "2026-11-28T09:27:47Z",
+              "files": [
+                "plant-origins.json"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "8988dc21eb8beffa55793a07d7fdbe1158609818",
+              "at": "2026-11-28T09:27:54Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "b810c85e2a4297dd6c81dd4739fb3875acbbdbd2",
+              "at": "2026-11-28T09:29:31Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            }
+          ]
         }
       }
     ],
