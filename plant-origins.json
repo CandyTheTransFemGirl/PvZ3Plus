@@ -574,7 +574,8 @@
   "torchwood": {
     "name": "Torchwood",
     "origin": "Plants vs. Zombies",
-    "returning": true
+    "returning": true,
+    "tier": 2
   },
   "chomper": {
     "name": "Chomper",
@@ -680,5 +681,17 @@
     "name": "Threepeater",
     "origin": "Plants vs. Zombies",
     "returning": true
+  },
+  "cinderwood": {
+    "name": "Cinderwood",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 1,
+    "returning": false
+  },
+  "scorchwood": {
+    "name": "Scorchwood",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "returning": false
   }
 }
