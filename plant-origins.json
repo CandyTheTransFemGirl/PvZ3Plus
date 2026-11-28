@@ -1,0 +1,569 @@
+{
+  "peashooter": {
+    "name": "Peashooter",
+    "origin": "Plants vs. Zombies",
+    "tier": 1,
+    "inventory": true,
+    "returning": true
+  },
+  "sunflower": {
+    "name": "Sunflower",
+    "origin": "Plants vs. Zombies",
+    "tier": 1,
+    "inventory": true,
+    "returning": true
+  },
+  "wallnut": {
+    "name": "Wall-nut",
+    "origin": "Plants vs. Zombies",
+    "tier": 1,
+    "inventory": true,
+    "returning": true
+  },
+  "potatomine": {
+    "name": "Potato Mine",
+    "origin": "Plants vs. Zombies",
+    "tier": 1,
+    "inventory": true,
+    "returning": true
+  },
+  "cabbagepult": {
+    "name": "Cabbage-pult",
+    "origin": "Plants vs. Zombies",
+    "tier": 1,
+    "inventory": true,
+    "returning": true
+  },
+  "spikeweed": {
+    "name": "Spikeweed",
+    "origin": "Plants vs. Zombies",
+    "tier": 1,
+    "inventory": true,
+    "returning": true
+  },
+  "iceberglettuce": {
+    "name": "Iceberg Lettuce",
+    "origin": "Plants vs. Zombies 2",
+    "tier": 1,
+    "inventory": true,
+    "returning": true,
+    "element": "Cold"
+  },
+  "umbrellaleaf": {
+    "name": "Umbrella Leaf",
+    "origin": "Plants vs. Zombies",
+    "tier": 1,
+    "inventory": true,
+    "returning": true
+  },
+  "tanglekelp": {
+    "name": "Tangle Kelp",
+    "origin": "Plants vs. Zombies",
+    "tier": 1,
+    "inventory": true,
+    "returning": true
+  },
+  "sunshroom": {
+    "name": "Sun-Shroom",
+    "origin": "Plants vs. Zombies",
+    "tier": 1,
+    "inventory": true,
+    "returning": true
+  },
+  "puffshroom": {
+    "name": "Puff-Shroom",
+    "origin": "Plants vs. Zombies",
+    "tier": 2,
+    "inventory": true,
+    "returning": true
+  },
+  "lightningreed": {
+    "name": "Lightning Reed",
+    "origin": "Plants vs. Zombies 2",
+    "tier": 2,
+    "inventory": true,
+    "returning": true,
+    "element": "Electric"
+  },
+  "repeater": {
+    "name": "Repeater",
+    "origin": "Plants vs. Zombies",
+    "tier": 2,
+    "inventory": true,
+    "returning": true
+  },
+  "snowpea": {
+    "name": "Snow Pea",
+    "origin": "Plants vs. Zombies",
+    "tier": 2,
+    "inventory": true,
+    "returning": true,
+    "element": "Cold"
+  },
+  "bambooshoots": {
+    "name": "Bamboo Shoots",
+    "origin": "Plants vs. Zombies 3 (2019)",
+    "tier": 2,
+    "inventory": true,
+    "returning": true
+  },
+  "bonkchoy": {
+    "name": "Bonk Choy",
+    "origin": "Plants vs. Zombies 2",
+    "tier": 2,
+    "inventory": true,
+    "returning": true
+  },
+  "slingpea": {
+    "name": "Sling Pea",
+    "origin": "Plants vs. Zombies 2",
+    "tier": 2,
+    "inventory": true,
+    "returning": true
+  },
+  "tallnut": {
+    "name": "Tall-nut",
+    "origin": "Plants vs. Zombies",
+    "tier": 2,
+    "inventory": true,
+    "returning": true
+  },
+  "twinsunflower": {
+    "name": "Twin Sunflower",
+    "origin": "Plants vs. Zombies",
+    "tier": 2,
+    "inventory": true,
+    "returning": true
+  },
+  "peanut": {
+    "name": "Peanut",
+    "origin": "Plants vs. Zombies 2",
+    "tier": 2,
+    "inventory": true,
+    "returning": true
+  },
+  "explodeonut": {
+    "name": "Explode-O-Nut",
+    "origin": "Plants vs. Zombies",
+    "tier": 2,
+    "inventory": true,
+    "returning": true
+  },
+  "electricpeashooter": {
+    "name": "Electric Peashooter",
+    "origin": "Plants vs. Zombies 2",
+    "tier": 2,
+    "inventory": true,
+    "returning": true,
+    "element": "Electric"
+  },
+  "iceweed": {
+    "name": "Iceweed",
+    "origin": "Plants vs. Zombies 2",
+    "tier": 2,
+    "inventory": true,
+    "returning": true,
+    "element": "Cold"
+  },
+  "gatlingpea": {
+    "name": "Gatling Pea",
+    "origin": "Plants vs. Zombies",
+    "tier": 3,
+    "inventory": true,
+    "returning": true
+  },
+  "endurian": {
+    "name": "Endurian",
+    "origin": "Plants vs. Zombies 2",
+    "tier": 3,
+    "inventory": true,
+    "returning": true
+  },
+  "lilypad": {
+    "name": "Lily Pad",
+    "origin": "Plants vs. Zombies",
+    "tier": null,
+    "inventory": false,
+    "returning": true
+  },
+  "plantern": {
+    "name": "Plantern",
+    "origin": "Plants vs. Zombies",
+    "tier": null,
+    "inventory": false,
+    "returning": true,
+    "availability": "On specific Adventure Levels"
+  },
+  "ghostpepper": {
+    "name": "Ghost Pepper",
+    "origin": "Plants vs. Zombies 2",
+    "tier": null,
+    "inventory": false,
+    "returning": true,
+    "availability": "On specific Evolution Upgrades and during the Cards of Chaos Event"
+  },
+  "bopchoy": {
+    "name": "Bop Choy",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 1,
+    "inventory": true,
+    "returning": false
+  },
+  "zaptail": {
+    "name": "Zaptail",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 1,
+    "inventory": true,
+    "returning": false,
+    "element": "Electric"
+  },
+  "limebomb": {
+    "name": "Lime-Bomb",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 1,
+    "inventory": true,
+    "returning": false,
+    "element": "Corrosive"
+  },
+  "jumbrellaleaf": {
+    "name": "Jumbrella Leaf",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "wintergreens": {
+    "name": "Winter Greens",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false,
+    "element": "Cold"
+  },
+  "goldenyukon": {
+    "name": "Golden Yukon",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "devastater": {
+    "name": "Devastater",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "solarpea": {
+    "name": "Solar Pea",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "sawgrass": {
+    "name": "Sawgrass",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "slawslinger": {
+    "name": "Slaw Slinger",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "sunflowerseed": {
+    "name": "Sunflower Seed",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "lychee": {
+    "name": "Lychee",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "chucknut": {
+    "name": "Chuck-nut",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "prickerelweed": {
+    "name": "Prick-erel Weed",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "wranglekelp": {
+    "name": "Wrangle Kelp",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "pineneedler": {
+    "name": "Pine Needler",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "speargrass": {
+    "name": "Spear Grass",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "nippycabbage": {
+    "name": "Nippy Cabbage",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false,
+    "element": "Cold"
+  },
+  "buzzchoy": {
+    "name": "Buzz Choy",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false,
+    "element": "Electric"
+  },
+  "giantsunshroom": {
+    "name": "Giant Sun-Shroom",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "gremonade": {
+    "name": "Gremonade",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false,
+    "element": "Corrosive"
+  },
+  "coldslaw": {
+    "name": "Cold-Slaw",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false,
+    "element": "Cold"
+  },
+  "strikehorn": {
+    "name": "Strikehorn",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "tanglepult": {
+    "name": "Tangle-pult",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "cabbagevolt": {
+    "name": "Cabbage-volt",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false,
+    "element": "Electric"
+  },
+  "catapulp": {
+    "name": "Cata-Pulp",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false,
+    "element": "Corrosive"
+  },
+  "quillshot": {
+    "name": "Quillshot",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 2,
+    "inventory": true,
+    "returning": false
+  },
+  "cabbarrage": {
+    "name": "Cab-Barrage",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false
+  },
+  "manglekelp": {
+    "name": "Mangle Kelp",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false
+  },
+  "punkshocker": {
+    "name": "Punk Shocker",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false,
+    "element": "Electric"
+  },
+  "juggernut": {
+    "name": "Jugger-nut",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false
+  },
+  "numbingcabbage": {
+    "name": "Numbing Cabbage",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false,
+    "element": "Cold"
+  },
+  "snowconeifer": {
+    "name": "Snow Conifer",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false,
+    "element": "Cold"
+  },
+  "freezarsalad": {
+    "name": "Freezar Salad",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false,
+    "element": "Cold"
+  },
+  "blockwood": {
+    "name": "Blockwood",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false
+  },
+  "threepeanut": {
+    "name": "Three-Nut",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false
+  },
+  "beatchoy": {
+    "name": "Beat Choy",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false
+  },
+  "suntower": {
+    "name": "Sun Tower",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false
+  },
+  "zapture": {
+    "name": "Zapture",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false,
+    "element": "Electric"
+  },
+  "chainsawgrass": {
+    "name": "Chainsaw Grass",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false
+  },
+  "masheddestruction": {
+    "name": "Mashed Destruction",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false
+  },
+  "exploj": {
+    "name": "Expl-OJ",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false,
+    "element": "Corrosive"
+  },
+  "dangerine": {
+    "name": "Dangerine",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false,
+    "element": "Corrosive"
+  },
+  "megasunshroom": {
+    "name": "Mega Sun-Shroom",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false
+  },
+  "orangecrushroom": {
+    "name": "Orange Crush-room",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false,
+    "element": "Corrosive"
+  },
+  "tinglingpult": {
+    "name": "Tingling-pult",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false,
+    "element": "Electric"
+  },
+  "peagloo": {
+    "name": "Pea-gloo",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false,
+    "element": "Cold"
+  },
+  "quillerqueen": {
+    "name": "Quiller Queen",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false,
+    "element": "Corrosive"
+  },
+  "snowbellista": {
+    "name": "Snow-Bellista",
+    "origin": "Plants vs. Zombies 3: Evolved",
+    "tier": 3,
+    "inventory": true,
+    "returning": false,
+    "element": "Cold"
+  }
+}
