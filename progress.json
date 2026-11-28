@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 469,
+  "revision": 470,
   "level": 13,
   "stars": 39,
   "wins": 13,
@@ -6950,6 +6950,15 @@
             "createdAt": "2026-11-28T08:45:00.604Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_CD7FCBCADCCEEFB954379D614B5EF2F632F60446"
+          },
+          {
+            "id": "data-push-e19b4a1b3d6a35b7644c6e7ad286612b944d64db",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: progress.json. Checking what changed.",
+            "createdAt": "2026-11-28T08:47:03.351Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_E19B4A1B3D6A35B7644C6E7AD286612B944D64DB"
           }
         ],
         "typing": [],
@@ -7137,9 +7146,19 @@
             "3f6e1555189df6c67f375c4f5cceba1f053ca73f",
             "557336a504b9ac02e9e7ebf7cfb8d347de7a3f5a",
             "378819fe2b160d258c95a3a05f128575ffc7516a",
-            "cd7fcbcadcceefb954379d614b5ef2f632f60446"
+            "cd7fcbcadcceefb954379d614b5ef2f632f60446",
+            "e19b4a1b3d6a35b7644c6e7ad286612b944d64db"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "e19b4a1b3d6a35b7644c6e7ad286612b944d64db",
+              "at": "2026-11-28T08:46:18Z",
+              "files": [
+                "progress.json"
+              ],
+              "clues": []
+            }
+          ]
         }
       }
     ],
