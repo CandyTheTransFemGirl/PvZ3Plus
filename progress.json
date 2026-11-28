@@ -578,8 +578,7 @@
       "Inferno"
     ],
     "zombies": [
-      "Electrician",
-      "Diverpult"
+      "Electrician"
     ],
     "additionalIssues": 2,
     "confirmed": false
@@ -939,9 +938,7 @@
       "claimed": true,
       "rewards": {
         "coins": 125,
-        "seeds": {
-          "kernelseed": 25
-        }
+        "seeds": {}
       },
       "broadcast": true,
       "claimedAt": "2026-11-26T17:30:00.000Z",
@@ -1066,9 +1063,7 @@
       "claimed": true,
       "rewards": {
         "coins": 250,
-        "seeds": {
-          "tofuturkeyseed": 25
-        }
+        "seeds": {}
       },
       "broadcast": true,
       "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL",
@@ -9303,9 +9298,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -9429,9 +9422,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -9688,9 +9679,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -9814,9 +9803,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -10103,9 +10090,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -10229,9 +10214,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -10557,9 +10540,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -10683,9 +10664,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -10921,9 +10900,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -11047,9 +11024,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -11327,9 +11302,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -11453,9 +11426,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -11763,9 +11734,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -11889,9 +11858,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -12115,9 +12082,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -12241,9 +12206,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -12500,9 +12463,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -12626,9 +12587,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -12927,9 +12886,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -13053,9 +13010,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -13381,9 +13336,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -13507,9 +13460,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -13754,9 +13705,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -13880,9 +13829,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -14160,9 +14107,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -14286,9 +14231,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -14605,9 +14548,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -14731,9 +14672,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -14957,9 +14896,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -15083,9 +15020,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -15351,9 +15286,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -15477,9 +15410,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -15778,9 +15709,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -15904,9 +15833,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -16241,9 +16168,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -16367,9 +16292,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -16614,9 +16537,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -16740,9 +16661,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -17029,9 +16948,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -17155,9 +17072,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -17474,9 +17389,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -17600,9 +17513,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -17838,9 +17749,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -17964,9 +17873,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -18232,9 +18139,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -18358,9 +18263,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -18668,9 +18571,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -18794,9 +18695,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -19011,9 +18910,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -19137,9 +19034,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -19396,9 +19291,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -19522,9 +19415,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -19811,9 +19702,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -19937,9 +19826,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -20265,9 +20152,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -20391,9 +20276,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -20629,9 +20512,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -20755,9 +20636,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -21035,9 +20914,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -21161,9 +21038,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -21471,9 +21346,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -21597,9 +21470,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -21823,9 +21694,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -21949,9 +21818,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -22208,9 +22075,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -22334,9 +22199,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -22635,9 +22498,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -22761,9 +22622,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -23089,9 +22948,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -23215,9 +23072,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -23462,9 +23317,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -23588,9 +23441,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -23868,9 +23719,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -23994,9 +23843,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -24313,9 +24160,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -24439,9 +24284,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -24665,9 +24508,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -24791,9 +24632,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -25059,9 +24898,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -25185,9 +25022,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -25486,9 +25321,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -25612,9 +25445,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -25949,9 +25780,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -26075,9 +25904,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -26322,9 +26149,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -26448,9 +26273,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -26737,9 +26560,7 @@
             "claimed": false,
             "rewards": {
               "coins": 125,
-              "seeds": {
-                "kernelseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "senderName": "PvZ3+ Team",
@@ -26863,9 +26684,7 @@
             "claimed": false,
             "rewards": {
               "coins": 250,
-              "seeds": {
-                "tofuturkeyseed": 25
-              }
+              "seeds": {}
             },
             "broadcast": true,
             "bodyStringId": "ID_CHAT_CANDY_1795754957716_WZSE3657OL"
@@ -28053,14 +27872,6 @@
           "projectilesMultiplier": 2,
           "everyFifthVolley": "Continuous-fire burst"
         },
-        "kernelseed": {
-          "name": "Golden Harvest",
-          "design": "Golden husk and radiant kernels",
-          "healthMultiplier": 3,
-          "damageMultiplier": 3,
-          "sunProductionMultiplier": 3,
-          "specialMechanic": "Every fifth action creates a free kernel-themed bonus attack or production, matching its normal role."
-        },
         "bopchoy": {
           "name": "Jade Fist",
           "design": "Golden gloves and jade headband",
@@ -28166,10 +27977,6 @@
       "requiredForSimulatedCombat": true
     },
     "fusionRecipeOverrides": {
-      "kernelpult": [
-        "kernelseed",
-        "cabbagepult"
-      ],
       "kernelcorn": [
         "kernelpult",
         "kernelpult"
