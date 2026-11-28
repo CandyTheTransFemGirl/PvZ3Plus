@@ -565,5 +565,120 @@
     "inventory": true,
     "returning": false,
     "element": "Cold"
+  },
+  "kernelpult": {
+    "name": "Kernel-pult",
+    "origin": "Plants vs. Zombies",
+    "returning": true
+  },
+  "torchwood": {
+    "name": "Torchwood",
+    "origin": "Plants vs. Zombies",
+    "returning": true
+  },
+  "chomper": {
+    "name": "Chomper",
+    "origin": "Plants vs. Zombies",
+    "returning": true
+  },
+  "cherrybomb": {
+    "name": "Cherry Bomb",
+    "origin": "Plants vs. Zombies",
+    "returning": true
+  },
+  "jalapeno": {
+    "name": "Jalapeno",
+    "origin": "Plants vs. Zombies",
+    "returning": true
+  },
+  "firepeashooter": {
+    "name": "Fire Peashooter",
+    "origin": "Plants vs. Zombies 2",
+    "returning": true
+  },
+  "cattail": {
+    "name": "Cattail",
+    "origin": "Plants vs. Zombies",
+    "returning": true
+  },
+  "cactus": {
+    "name": "Cactus",
+    "origin": "Plants vs. Zombies",
+    "returning": true
+  },
+  "blover": {
+    "name": "Blover",
+    "origin": "Plants vs. Zombies 2",
+    "returning": true
+  },
+  "seashroom": {
+    "name": "Sea-Shroom",
+    "origin": "Plants vs. Zombies",
+    "returning": true
+  },
+  "primalsunflower": {
+    "name": "Primal Sunflower",
+    "origin": "Plants vs. Zombies 2",
+    "returning": true
+  },
+  "primalwallnut": {
+    "name": "Primal Wall-nut",
+    "origin": "Plants vs. Zombies 2",
+    "returning": true
+  },
+  "primalpotatomine": {
+    "name": "Primal Potato Mine",
+    "origin": "Plants vs. Zombies 2",
+    "returning": true
+  },
+  "aloevera": {
+    "name": "Aloe Vera",
+    "origin": "Plants vs. Zombies 2",
+    "returning": true
+  },
+  "celerystalker": {
+    "name": "Celery Stalker",
+    "origin": "Plants vs. Zombies 2",
+    "returning": true
+  },
+  "chardguard": {
+    "name": "Chard Guard",
+    "origin": "Plants vs. Zombies 2",
+    "returning": true
+  },
+  "hypnoshroom": {
+    "name": "Hypno-shroom",
+    "origin": "Plants vs. Zombies",
+    "returning": true
+  },
+  "chilibean": {
+    "name": "Chili Bean",
+    "origin": "Plants vs. Zombies 2",
+    "returning": true
+  },
+  "melonpult": {
+    "name": "Melon-pult",
+    "origin": "Plants vs. Zombies",
+    "returning": true
+  },
+  "snapdragon": {
+    "name": "Snapdragon",
+    "origin": "Plants vs. Zombies 2",
+    "returning": true
+  },
+  "squash": {
+    "name": "Squash",
+    "origin": "Plants vs. Zombies",
+    "returning": true
+  },
+  "sweetpotato": {
+    "name": "Sweet Potato",
+    "origin": "Plants vs. Zombies 2",
+    "returning": true
+  },
+  "threepeater": {
+    "name": "Threepeater",
+    "origin": "Plants vs. Zombies",
+    "returning": true
   }
 }
