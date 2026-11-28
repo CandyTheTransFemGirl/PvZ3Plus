@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 457,
+  "revision": 458,
   "level": 13,
   "stars": 39,
   "wins": 13,
@@ -7031,6 +7031,15 @@
             "createdAt": "2026-11-28T08:27:55.701Z",
             "replyTo": "datamine-result-candy-1795854475701-3vhey0j6nko",
             "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795854475701_WK1HBF9LUS"
+          },
+          {
+            "id": "data-push-0f26e694a65db8f702cadf12ac9e435e97550f89",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: downtime.json. Checking what changed.",
+            "createdAt": "2026-11-28T08:29:10.203Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_0F26E694A65DB8F702CADF12AC9E435E97550F89"
           }
         ],
         "typing": [],
@@ -7209,9 +7218,19 @@
             "a5f89c7efce54612ef3923785b9a2e2e0996cf16",
             "482ff0111132612e2246c406fb346c003549f81c",
             "03a551a224029cd1ebcf5c2c58550a7214a15e96",
-            "f3be75145cf49d5c06f748a00cd9c5949fe94dac"
+            "f3be75145cf49d5c06f748a00cd9c5949fe94dac",
+            "0f26e694a65db8f702cadf12ac9e435e97550f89"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "0f26e694a65db8f702cadf12ac9e435e97550f89",
+              "at": "2026-11-28T08:28:58Z",
+              "files": [
+                "downtime.json"
+              ],
+              "clues": []
+            }
+          ]
         }
       }
     ],
