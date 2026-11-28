@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 460,
+  "revision": 461,
   "level": 13,
   "stars": 39,
   "wins": 13,
@@ -7049,6 +7049,24 @@
             "createdAt": "2026-11-28T08:30:32.330Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATA_PUSH_6482129C205FE5CAED56371CE8A95E262BB63D97"
+          },
+          {
+            "id": "data-push-234e1e27587a31ba918e113da5da53d83b125a71",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: index.html. Checking what changed.",
+            "createdAt": "2026-11-28T08:32:12.184Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_234E1E27587A31BA918E113DA5DA53D83B125A71"
+          },
+          {
+            "id": "data-push-833a18d6802f9affee08e32add4c759260c83761",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "Data Push detected: LocalisedStringSourceIndex.json, LocalisedStringsPvZ3+.Json, LocalisedStringsPvZ3Plus.Json. Checking what changed.",
+            "createdAt": "2026-11-28T08:32:12.184Z",
+            "replyTo": null,
+            "bodyStringId": "ID_CHAT_DATA_PUSH_833A18D6802F9AFFEE08E32ADD4C759260C83761"
           }
         ],
         "typing": [],
@@ -7229,9 +7247,36 @@
             "03a551a224029cd1ebcf5c2c58550a7214a15e96",
             "f3be75145cf49d5c06f748a00cd9c5949fe94dac",
             "0f26e694a65db8f702cadf12ac9e435e97550f89",
-            "6482129c205fe5caed56371ce8a95e262bb63d97"
+            "6482129c205fe5caed56371ce8a95e262bb63d97",
+            "234e1e27587a31ba918e113da5da53d83b125a71",
+            "833a18d6802f9affee08e32add4c759260c83761"
           ],
-          "queue": []
+          "queue": [
+            {
+              "sha": "234e1e27587a31ba918e113da5da53d83b125a71",
+              "at": "2026-11-28T08:31:02Z",
+              "files": [
+                "index.html"
+              ],
+              "clues": []
+            },
+            {
+              "sha": "833a18d6802f9affee08e32add4c759260c83761",
+              "at": "2026-11-28T08:31:40Z",
+              "files": [
+                "LocalisedStringSourceIndex.json",
+                "LocalisedStringsPvZ3+.Json",
+                "LocalisedStringsPvZ3Plus.Json"
+              ],
+              "clues": [
+                {
+                  "key": "ID_UI_PVZ3_ALMANAC_PROGRESS",
+                  "value": "PvZ Universes Almanac",
+                  "file": "LocalisedStringsPvZ3Plus.Json"
+                }
+              ]
+            }
+          ]
         }
       }
     ],
