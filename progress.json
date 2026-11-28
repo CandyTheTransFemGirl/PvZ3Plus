@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 444,
+  "revision": 445,
   "level": 13,
   "stars": 39,
   "wins": 13,
@@ -7119,16 +7119,7 @@
             "a5f89c7efce54612ef3923785b9a2e2e0996cf16",
             "482ff0111132612e2246c406fb346c003549f81c"
           ],
-          "queue": [
-            {
-              "sha": "482ff0111132612e2246c406fb346c003549f81c",
-              "at": "2026-11-28T08:19:37Z",
-              "files": [
-                "downtime.json"
-              ],
-              "clues": []
-            }
-          ]
+          "queue": []
         }
       }
     ],
