@@ -28241,11 +28241,11 @@
     "staffIdentityOnly": true
   },
   "downtime": {
-    "startsAt": "2026-11-28T18:50:00.000Z",
-    "endsAt": "2026-11-29T01:25:00.000Z",
+    "startsAt": null,
+    "endsAt": null,
     "reason": "PvZ Universes 1.0",
     "warningId": "ID_DOWNTIME_WARNING",
-    "enabled": true
+    "enabled": false
   },
   "waitingChat": [
     {
