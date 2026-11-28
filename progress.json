@@ -1,6 +1,6 @@
 {
   "format": "PvZ3PlusAdventureV1",
-  "revision": 451,
+  "revision": 452,
   "level": 13,
   "stars": 39,
   "wins": 13,
@@ -6959,6 +6959,24 @@
             "createdAt": "2026-11-28T08:21:08.659Z",
             "replyTo": null,
             "bodyStringId": "ID_CHAT_DATAMINE_LIVE_CANDY_1795854068659_VFC52ABJFY"
+          },
+          {
+            "id": "datamine-result-candy-1795854093115-ptkm0d7tuba",
+            "senderId": "generated-4-1",
+            "sender": "MossPop72",
+            "body": "ID_OWNERDEBUG_INVALID_OR_EXPIRED_CREDENTIAL = Invalid or expired credential\nThis identifier has a stored value, but we don't know whether the content is active.",
+            "createdAt": "2026-11-28T08:21:33.116Z",
+            "replyTo": "datamine-live-candy-1795854068659-vfc52abjfy",
+            "bodyStringId": "ID_CHAT_DATAMINE_RESULT_CANDY_1795854093115_PTKM0D7TUBA"
+          },
+          {
+            "id": "datamine-reaction-candy-1795854093116-wa4mh83uqt",
+            "senderId": "generated-0-14",
+            "sender": "PeaCake12",
+            "body": "WAIT, this is interesting!! We should wait for more evidence before calling this a confirmed release.",
+            "createdAt": "2026-11-28T08:21:33.116Z",
+            "replyTo": "datamine-result-candy-1795854093115-ptkm0d7tuba",
+            "bodyStringId": "ID_CHAT_DATAMINE_REACTION_CANDY_1795854093116_WA4MH83UQT"
           }
         ],
         "typing": [],
@@ -7140,11 +7158,6 @@
             "f3be75145cf49d5c06f748a00cd9c5949fe94dac"
           ],
           "queue": []
-        },
-        "activeInvestigation": {
-          "id": "datamine-live-candy-1795854068659-vfc52abjfy",
-          "memberId": "generated-4-1",
-          "endsAt": "2026-11-28T08:21:31.846Z"
         }
       }
     ],
